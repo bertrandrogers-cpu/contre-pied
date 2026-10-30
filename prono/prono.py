@@ -5,7 +5,8 @@
   python3 prono.py run --quiet  pareil, sans envoyer de notification
   python3 prono.py backtest     rejoue la saison dernière pour vérifier ce que vaut le modèle
   python3 prono.py test-notif   envoie une notification de test sur ton téléphone
-  python3 prono.py install      lance « run » toutes les heures sur ce Mac (tâche launchd)
+  python3 prono.py sync-tennis  envoie l'historique tennis à jour sur GitHub (depuis le Mac)
+  python3 prono.py install      lance « sync-tennis » toutes les 6 h sur ce Mac (tâche launchd)
   python3 prono.py uninstall    retire cette tâche
 """
 import json
@@ -27,12 +28,36 @@ LABEL = "com.contrepied.prono"
 PLIST = os.path.expanduser(f"~/Library/LaunchAgents/{LABEL}.plist")
 
 
+def sync_tennis():
+    """Depuis le Mac : rafraîchit l'historique tennis-data et l'envoie sur GitHub, qui ne peut pas le télécharger."""
+    import datetime as dt
+    from engine import tennis_data
+    repo = os.path.dirname(data.ROOT)
+
+    def git(*args):
+        return subprocess.run(["git", "-C", repo, *args], capture_output=True, text=True)
+
+    year = dt.date.today().year
+    tennis_data.load_history(range(year - 5, year + 1))
+    # Le suivi des pronos vit sur GitHub : les copies locales ne font foi de rien.
+    git("checkout", "--", "prono/data/history.json", "prono/data/notified.json", "prono/data/backtest.json")
+    git("pull", "--rebase", "--autostash", "--quiet")
+    git("add", "prono/data/tennis")
+    if git("diff", "--cached", "--quiet").returncode == 0:
+        print("Données tennis déjà à jour.")
+        return
+    git("commit", "-m", "Mise à jour des données tennis")
+    push = git("push", "--quiet")
+    print("Données tennis envoyées sur GitHub." if push.returncode == 0 else f"Envoi impossible : {push.stderr.strip()}")
+
+
 def install():
+    """Tâche du Mac : toutes les 6 h, envoie les données tennis à GitHub (les pronos et notifs tournent chez GitHub)."""
     if "scratch-workspaces" in data.ROOT:
         sys.exit("Ce dossier est temporaire : déplace d'abord l'appli dans un dossier à toi, puis relance install.")
     log = os.path.join(data.ROOT, "data", "run.log")
-    spec = {"Label": LABEL, "ProgramArguments": [sys.executable, os.path.abspath(__file__), "run"],
-            "WorkingDirectory": data.ROOT, "StartInterval": 3600, "RunAtLoad": True,
+    spec = {"Label": LABEL, "ProgramArguments": [sys.executable, os.path.abspath(__file__), "sync-tennis"],
+            "WorkingDirectory": data.ROOT, "StartInterval": 6 * 3600, "RunAtLoad": True,
             "StandardOutPath": log, "StandardErrorPath": log}
     os.makedirs(os.path.dirname(PLIST), exist_ok=True)
     with open(PLIST, "wb") as fh:
@@ -40,7 +65,7 @@ def install():
     target = f"gui/{os.getuid()}"
     subprocess.run(["launchctl", "bootout", f"{target}/{LABEL}"], capture_output=True)
     subprocess.run(["launchctl", "bootstrap", target, PLIST], check=True)
-    print(f"Tâche installée : Contre-Pied tourne toutes les heures tant que le Mac est allumé (journal : {log}).")
+    print(f"Tâche installée : données tennis envoyées à GitHub toutes les 6 h quand le Mac est allumé (journal : {log}).")
 
 
 def uninstall():
@@ -141,6 +166,8 @@ def main(argv):
         notify.send(cfg, "Contre-Pied est branché ⚽", "Les alertes arriveront ici dès qu'une cote vaut le coup.",
                     tags=["soccer"])
         print(f"Notification envoyée sur le canal ntfy « {cfg['notify']['ntfy_topic']} ».")
+    elif cmd == "sync-tennis":
+        sync_tennis()
     elif cmd == "install":
         install()
     elif cmd == "uninstall":

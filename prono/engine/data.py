@@ -7,6 +7,7 @@ import io
 import os
 import re
 import subprocess
+import sys
 import time
 from zoneinfo import ZoneInfo
 
@@ -45,19 +46,23 @@ def http_get(url: str, timeout: int = 40) -> bytes:
     return out.stdout
 
 
-def cached_file(name: str, url: str, max_age_h: float) -> str | None:
-    """Renvoie le chemin du fichier en cache, retéléchargé s'il est plus vieux que max_age_h."""
-    path = os.path.join(CACHE_DIR, name)
+def cached_file(name: str, url: str, max_age_h: float, folder: str = CACHE_DIR) -> str | None:
+    """Renvoie le chemin du fichier en cache, retéléchargé s'il est plus vieux que max_age_h.
+
+    Si le téléchargement échoue, on garde la dernière copie connue.
+    """
+    path = os.path.join(folder, name)
     if os.path.exists(path) and time.time() - os.path.getmtime(path) < max_age_h * 3600:
         return path
-    os.makedirs(CACHE_DIR, exist_ok=True)
+    os.makedirs(folder, exist_ok=True)
     try:
         data = http_get(url)
         tmp = path + ".tmp"
         with open(tmp, "wb") as fh:
             fh.write(data)
         os.replace(tmp, path)
-    except subprocess.CalledProcessError:
+    except subprocess.CalledProcessError as e:
+        print(f"Téléchargement impossible ({url}) : {e.stderr.decode(errors='replace').strip()}", file=sys.stderr)
         if not os.path.exists(path):
             return None
     return path

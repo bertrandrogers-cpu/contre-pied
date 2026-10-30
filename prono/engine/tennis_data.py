@@ -3,13 +3,17 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import os
 import re
 import unicodedata
 import xml.etree.ElementTree as ET
 import zipfile
 
-from .data import PARIS, cached_file
+from .data import PARIS, ROOT, cached_file
 
+# tennis-data.co.uk filtre les serveurs (dont GitHub) : ses fichiers sont gardés dans le dépôt,
+# rafraîchis depuis le Mac par « prono.py sync-tennis ».
+TENNIS_DIR = os.path.join(ROOT, "data", "tennis")
 TD_BASE = "http://www.tennis-data.co.uk"
 ESPN_URL = "https://site.api.espn.com/apis/site/v2/sports/tennis/{tour}/scoreboard"
 NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
@@ -55,7 +59,9 @@ def _pair(r: dict, a: str, b: str):
 
 def _links() -> dict:
     """Le site range ses fichiers derrière un chemin qui change : on le relit sur la page de téléchargement."""
-    path = cached_file("tennis_alldata.html", f"{TD_BASE}/alldata.php", 24 * 7)
+    path = cached_file("tennis_alldata.html", f"{TD_BASE}/alldata.php", 24 * 7, TENNIS_DIR)
+    if not path:
+        raise RuntimeError("tennis-data.co.uk injoignable et aucune copie locale")
     with open(path, encoding="latin-1") as fh:
         html = fh.read()
     return {m.group(2): m.group(1) for m in re.finditer(r'href="([^"]*/(\d{4}w?)/\d{4}\.xlsx?)"', html, re.I)}
@@ -72,7 +78,7 @@ def load_history(years, refresh_h: float = 12) -> list:
             if key not in links or not links[key].endswith("xlsx"):
                 continue
             age = refresh_h if year == this_year else 24 * 365
-            path = cached_file(f"tennis_{key}.xlsx", f"{TD_BASE}/{links[key]}", age)
+            path = cached_file(f"tennis_{key}.xlsx", f"{TD_BASE}/{links[key]}", age, TENNIS_DIR)
             if path:
                 out += [m for m in (_row(r, tour) for r in read_xlsx(path)) if m]
     out.sort(key=lambda m: m["date"])
