@@ -879,5 +879,20 @@
   "uid": "solide:I1-20261101-lecce-genoa:u35",
   "kind": "solide",
   "created": "2026-10-30T22:12:39.878380+01:00"
+ },
+ {
+  "match_id": "tn-185203",
+  "match": "Alex de Minaur - Alexander Zverev",
+  "league": "ATP · Erste Bank Open",
+  "ko": "2026-10-31T16:30:00+01:00",
+  "key": "s1",
+  "label": "Alex de Minaur gagne au moins un set",
+  "p": 0.5814,
+  "odds": null,
+  "min_odds": 1.77,
+  "result": null,
+  "uid": "contre_pied:tn-185203:s1",
+  "kind": "contre_pied",
+  "created": "2026-10-30T22:18:51.284448+01:00"
  }
 ]
