@@ -1,0 +1,1224 @@
+{
+ "matches": 2057,
+ "value_bets": {
+  "0.0": {
+   "bets": 2,
+   "logloss_1x2": 0.9912226357887302,
+   "logloss_ou": 0.6771109226070502,
+   "roi": 1.27,
+   "hit": 0.5,
+   "clv": -0.09640978841379139
+  },
+  "0.2": {
+   "bets": 52,
+   "logloss_1x2": 0.9929459424490312,
+   "logloss_ou": 0.6772561789318917,
+   "roi": -0.05538461538461536,
+   "hit": 0.25,
+   "clv": -0.042586528883352015
+  },
+  "0.35": {
+   "bets": 348,
+   "logloss_1x2": 0.9954335457863555,
+   "logloss_ou": 0.6778166556835804,
+   "roi": -0.06008620689655171,
+   "hit": 0.27011494252873564,
+   "clv": -0.05317061995191261
+  },
+  "0.5": {
+   "bets": 845,
+   "logloss_1x2": 0.9988946704597343,
+   "logloss_ou": 0.6787589174623793,
+   "roi": -0.13879289940828407,
+   "hit": 0.27218934911242604,
+   "clv": -0.05943761185420153
+  },
+  "0.7": {
+   "bets": 1571,
+   "logloss_1x2": 1.0050170158758405,
+   "logloss_ou": 0.680608258711541,
+   "roi": -0.07599618077657548,
+   "hit": 0.3010821133036283,
+   "clv": -0.06292366057686587
+  },
+  "1.0": {
+   "bets": 2389,
+   "logloss_1x2": 1.0176258350559921,
+   "logloss_ou": 0.6846726033507728,
+   "roi": -0.10168271243197984,
+   "hit": 0.3097530347425701,
+   "clv": -0.06162177535479149
+  }
+ },
+ "categories": {
+  "solides": {
+   "n": 750,
+   "hit": 0.8306666666666667,
+   "expected_hit": 0.8235923836961694,
+   "priced": 240,
+   "roi": -0.02685216698372209
+  },
+  "contre_pieds": {
+   "n": 720,
+   "hit": 0.5944444444444444,
+   "expected_hit": 0.5802042487623549,
+   "priced": 535,
+   "roi": -0.0267739164539022
+  },
+  "contre_pieds_casse_series": {
+   "n": 511,
+   "hit": 0.6301369863013698,
+   "expected_hit": 0.6008922643350044,
+   "priced": 419,
+   "roi": 0.00696415726455968
+  },
+  "stats": {
+   "n": 948,
+   "hit": 0.7426160337552743,
+   "expected_hit": 0.7201921024181467,
+   "priced": 0,
+   "roi": null
+  }
+ },
+ "combos": {
+  "Le combiné béton": {
+   "n": 79,
+   "won": 57,
+   "expected_won": 47.37490697254377,
+   "avg_one_in": 1.6734751286415046
+  },
+  "Grosse chatte": {
+   "n": 79,
+   "won": 1,
+   "expected_won": 3.5369292230351395,
+   "avg_one_in": 40.7808817828735
+  },
+  "Petite chatte": {
+   "n": 64,
+   "won": 7,
+   "expected_won": 9.26260978890614,
+   "avg_one_in": 7.374792880437959
+  }
+ },
+ "naive00": {
+  "n": 62,
+  "nil_nil": 7,
+  "draws": 18,
+  "p00": 5.618571191509842,
+  "pN": 16.794673519356945,
+  "piege_n": 34,
+  "piege_o15": 26
+ },
+ "season": "2025/26",
+ "calibration_season": "2024/25",
+ "generated": "2026-10-30T20:33",
+ "validated_on_calibration": [
+  "chanceux",
+  "derby",
+  "fausse-panne",
+  "forteresse",
+  "vraie-panne"
+ ],
+ "tags_raw": {
+  "ca-va-tourner": {
+   "n": 2136,
+   "won": 927,
+   "p": 930.2275492849594,
+   "base": -0.26337567045945187,
+   "n_mkt": 1068,
+   "won_mkt": 319,
+   "p_mkt": 319.60181476375345,
+   "priced": 1068,
+   "profit": -109.59999999999997
+  },
+  "forteresse": {
+   "n": 524,
+   "won": 316,
+   "p": 300.48475074734677,
+   "base": -1.7398724124306748,
+   "n_mkt": 262,
+   "won_mkt": 124,
+   "p_mkt": 114.4481943692438,
+   "priced": 262,
+   "profit": 7.610000000000005
+  },
+  "chanceux": {
+   "n": 917,
+   "won": 575,
+   "p": 548.0906377119032,
+   "base": -1.0087279640125102,
+   "n_mkt": 0,
+   "won_mkt": 0,
+   "p_mkt": 0,
+   "priced": 0,
+   "profit": 0
+  },
+  "fausse-panne": {
+   "n": 537,
+   "won": 380,
+   "p": 353.8926627504613,
+   "base": 1.849148961044797,
+   "n_mkt": 0,
+   "won_mkt": 0,
+   "p_mkt": 0,
+   "priced": 0,
+   "profit": 0
+  },
+  "voyageur": {
+   "n": 856,
+   "won": 338,
+   "p": 342.94040015064706,
+   "base": 2.891659133047462,
+   "n_mkt": 428,
+   "won_mkt": 120,
+   "p_mkt": 110.38938087537008,
+   "priced": 428,
+   "profit": -35.969999999999985
+  },
+  "domicile-maudit": {
+   "n": 310,
+   "won": 189,
+   "p": 195.27906498937088,
+   "base": 0.7713151994118567,
+   "n_mkt": 0,
+   "won_mkt": 0,
+   "p_mkt": 0,
+   "priced": 0,
+   "profit": 0
+  },
+  "poissard": {
+   "n": 414,
+   "won": 245,
+   "p": 256.4305033441363,
+   "base": -0.46578164005828976,
+   "n_mkt": 0,
+   "won_mkt": 0,
+   "p_mkt": 0,
+   "priced": 0,
+   "profit": 0
+  },
+  "popularite": {
+   "n": 796,
+   "won": 270,
+   "p": 315.7392959096974,
+   "base": -0.4293671280869079,
+   "n_mkt": 0,
+   "won_mkt": 0,
+   "p_mkt": 0,
+   "priced": 0,
+   "profit": 0
+  },
+  "serie-trompe-oeil": {
+   "n": 425,
+   "won": 209,
+   "p": 213.6130590208981,
+   "base": -0.3195520418293047,
+   "n_mkt": 0,
+   "won_mkt": 0,
+   "p_mkt": 0,
+   "priced": 0,
+   "profit": 0
+  },
+  "argent-malin": {
+   "n": 85,
+   "won": 24,
+   "p": 34.08514306541703,
+   "base": 0.009284390137114601,
+   "n_mkt": 85,
+   "won_mkt": 24,
+   "p_mkt": 38.08130222855587,
+   "priced": 85,
+   "profit": -32.31
+  },
+  "cote-en-retard": {
+   "n": 147,
+   "won": 24,
+   "p": 37.419814180111544,
+   "base": 0.15268820305638997,
+   "n_mkt": 147,
+   "won_mkt": 24,
+   "p_mkt": 40.25498678479006,
+   "priced": 147,
+   "profit": -58.96
+  },
+  "jambes-lourdes": {
+   "n": 84,
+   "won": 50,
+   "p": 50.1306094387744,
+   "base": -0.15011307608363034,
+   "n_mkt": 0,
+   "won_mkt": 0,
+   "p_mkt": 0,
+   "priced": 0,
+   "profit": 0
+  },
+  "vraie-panne": {
+   "n": 556,
+   "won": 232,
+   "p": 236.06293057421027,
+   "base": -4.344103866171038,
+   "n_mkt": 0,
+   "won_mkt": 0,
+   "p_mkt": 0,
+   "priced": 0,
+   "profit": 0
+  },
+  "00-credible": {
+   "n": 38,
+   "won": 17,
+   "p": 23.133777932199585,
+   "base": -0.2151017930898285,
+   "n_mkt": 19,
+   "won_mkt": 9,
+   "p_mkt": 11.817549221470632,
+   "priced": 19,
+   "profit": -5.34
+  },
+  "derby": {
+   "n": 828,
+   "won": 446,
+   "p": 412.236162751345,
+   "base": -8.543677989476379,
+   "n_mkt": 138,
+   "won_mkt": 59,
+   "p_mkt": 62.17204528622776,
+   "priced": 138,
+   "profit": -18.419999999999995
+  },
+  "muraille-carton": {
+   "n": 166,
+   "won": 94,
+   "p": 104.58987023393587,
+   "base": 1.2439219485274273,
+   "n_mkt": 0,
+   "won_mkt": 0,
+   "p_mkt": 0,
+   "priced": 0,
+   "profit": 0
+  },
+  "piege-00": {
+   "n": 130,
+   "won": 78,
+   "p": 83.22115872124454,
+   "base": 0.1600170159394002,
+   "n_mkt": 0,
+   "won_mkt": 0,
+   "p_mkt": 0,
+   "priced": 0,
+   "profit": 0
+  },
+  "feu-artifice-evente": {
+   "n": 2,
+   "won": 2,
+   "p": 1.344251322366561,
+   "base": -0.0035126485360711694,
+   "n_mkt": 1,
+   "won_mkt": 1,
+   "p_mkt": 0.5454545454545455,
+   "priced": 1,
+   "profit": 0.71
+  }
+ },
+ "tags": {
+  "ca-va-tourner": {
+   "n": 2136,
+   "hit": 0.4339887640449438,
+   "expected_hit": 0.4354997889910859,
+   "lift": -0.001387721729634818,
+   "market_hit": 0.29868913857677903,
+   "market_expected": 0.29925263554658565,
+   "roi": -0.10262172284644192,
+   "priced": 1068
+  },
+  "forteresse": {
+   "n": 524,
+   "hit": 0.6030534351145038,
+   "expected_hit": 0.5734441808155473,
+   "lift": 0.03292962149825174,
+   "market_hit": 0.4732824427480916,
+   "market_expected": 0.43682516934825877,
+   "roi": 0.029045801526717575,
+   "priced": 262
+  },
+  "chanceux": {
+   "n": 917,
+   "hit": 0.6270447110141767,
+   "expected_hit": 0.5976997139715412,
+   "lift": 0.030445027537741844,
+   "market_hit": null,
+   "market_expected": null,
+   "roi": null,
+   "priced": 0
+  },
+  "fausse-panne": {
+   "n": 537,
+   "hit": 0.707635009310987,
+   "expected_hit": 0.6590179939487175,
+   "lift": 0.045173534987884394,
+   "market_hit": null,
+   "market_expected": null,
+   "roi": null,
+   "priced": 0
+  },
+  "voyageur": {
+   "n": 856,
+   "hit": 0.39485981308411217,
+   "expected_hit": 0.4006313085872045,
+   "lift": -0.009149601966932859,
+   "market_hit": 0.2803738317757009,
+   "market_expected": 0.2579191141947899,
+   "roi": -0.08404205607476632,
+   "priced": 428
+  },
+  "domicile-maudit": {
+   "n": 310,
+   "hit": 0.6096774193548387,
+   "expected_hit": 0.629932467707648,
+   "lift": -0.02274316189929915,
+   "market_hit": null,
+   "market_expected": null,
+   "roi": null,
+   "priced": 0
+  },
+  "poissard": {
+   "n": 414,
+   "hit": 0.5917874396135265,
+   "expected_hit": 0.619397351072793,
+   "lift": -0.02648483503400485,
+   "market_hit": null,
+   "market_expected": null,
+   "roi": null,
+   "priced": 0
+  },
+  "popularite": {
+   "n": 796,
+   "hit": 0.3391959798994975,
+   "expected_hit": 0.39665740692173035,
+   "lift": -0.05692202108242521,
+   "market_hit": null,
+   "market_expected": null,
+   "roi": null,
+   "priced": 0
+  },
+  "serie-trompe-oeil": {
+   "n": 425,
+   "hit": 0.49176470588235294,
+   "expected_hit": 0.5026189624021132,
+   "lift": -0.010102369362514827,
+   "market_hit": null,
+   "market_expected": null,
+   "roi": null,
+   "priced": 0
+  },
+  "argent-malin": {
+   "n": 85,
+   "hit": 0.2823529411764706,
+   "expected_hit": 0.4010016831225533,
+   "lift": -0.11875797006534286,
+   "market_hit": 0.2823529411764706,
+   "market_expected": 0.44801532033595143,
+   "roi": -0.38011764705882356,
+   "priced": 85
+  },
+  "cote-en-retard": {
+   "n": 147,
+   "hit": 0.16326530612244897,
+   "expected_hit": 0.2545565590483779,
+   "lift": -0.09232994818481588,
+   "market_hit": 0.16326530612244897,
+   "market_expected": 0.27384344751557865,
+   "roi": -0.4010884353741497,
+   "priced": 147
+  },
+  "jambes-lourdes": {
+   "n": 84,
+   "hit": 0.5952380952380952,
+   "expected_hit": 0.596792969509219,
+   "lift": 0.00023218615844322214,
+   "market_hit": null,
+   "market_expected": null,
+   "roi": null,
+   "priced": 0
+  },
+  "vraie-panne": {
+   "n": 556,
+   "hit": 0.4172661870503597,
+   "expected_hit": 0.42457361614066597,
+   "lift": 0.0005057073596416681,
+   "market_hit": null,
+   "market_expected": null,
+   "roi": null,
+   "priced": 0
+  },
+  "00-credible": {
+   "n": 38,
+   "hit": 0.4473684210526316,
+   "expected_hit": 0.6087836297947259,
+   "lift": -0.15575463523973046,
+   "market_hit": 0.47368421052631576,
+   "market_expected": 0.6219762748142438,
+   "roi": -0.2810526315789474,
+   "priced": 19
+  },
+  "derby": {
+   "n": 828,
+   "hit": 0.538647342995169,
+   "expected_hit": 0.49786976177698666,
+   "lift": 0.05109603289629396,
+   "market_hit": 0.427536231884058,
+   "market_expected": 0.45052206729150546,
+   "roi": -0.13347826086956519,
+   "priced": 138
+  },
+  "muraille-carton": {
+   "n": 166,
+   "hit": 0.5662650602409639,
+   "expected_hit": 0.6300594592405775,
+   "lift": -0.07128790471363432,
+   "market_hit": null,
+   "market_expected": null,
+   "roi": null,
+   "priced": 0
+  },
+  "piege-00": {
+   "n": 130,
+   "hit": 0.6,
+   "expected_hit": 0.6401627593941888,
+   "lift": -0.0413936595167995,
+   "market_hit": null,
+   "market_expected": null,
+   "roi": null,
+   "priced": 0
+  },
+  "feu-artifice-evente": {
+   "n": 2,
+   "hit": 1.0,
+   "expected_hit": 0.6721256611832805,
+   "lift": 0.329630663084755,
+   "market_hit": 1.0,
+   "market_expected": 0.5454545454545455,
+   "roi": 0.71,
+   "priced": 1
+  }
+ },
+ "tags_by_season": {
+  "2024/25": {
+   "ca-va-tourner": {
+    "n": 1032,
+    "hit": 0.42344961240310075,
+    "expected_hit": 0.4310880900508504,
+    "lift": -0.00731624199757596,
+    "market_hit": 0.3003875968992248,
+    "market_expected": 0.2938300058293423,
+    "roi": -0.0911240310077519,
+    "priced": 516
+   },
+   "forteresse": {
+    "n": 252,
+    "hit": 0.6031746031746031,
+    "expected_hit": 0.5651311648561119,
+    "lift": 0.04728086029013393,
+    "market_hit": 0.4603174603174603,
+    "market_expected": 0.42693696028137984,
+    "roi": 0.06984126984126986,
+    "priced": 126
+   },
+   "chanceux": {
+    "n": 445,
+    "hit": 0.6292134831460674,
+    "expected_hit": 0.5976981241305758,
+    "lift": 0.03546920767740111,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "fausse-panne": {
+    "n": 225,
+    "hit": 0.6888888888888889,
+    "expected_hit": 0.6581690524416737,
+    "lift": 0.023958411831565118,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "voyageur": {
+    "n": 416,
+    "hit": 0.3870192307692308,
+    "expected_hit": 0.399089527640217,
+    "lift": -0.021307718842628713,
+    "market_hit": 0.27884615384615385,
+    "market_expected": 0.25981210759318263,
+    "roi": -0.07629807692307687,
+    "priced": 208
+   },
+   "domicile-maudit": {
+    "n": 150,
+    "hit": 0.6,
+    "expected_hit": 0.6279389251839766,
+    "lift": -0.033699938281008,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "poissard": {
+    "n": 207,
+    "hit": 0.5942028985507246,
+    "expected_hit": 0.6200648342238592,
+    "lift": -0.021894649302445876,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "popularite": {
+    "n": 401,
+    "hit": 0.3117206982543641,
+    "expected_hit": 0.3885891571629472,
+    "lift": -0.07442866845971743,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "serie-trompe-oeil": {
+    "n": 209,
+    "hit": 0.4784688995215311,
+    "expected_hit": 0.4955527834988376,
+    "lift": -0.013651673293947255,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "argent-malin": {
+    "n": 45,
+    "hit": 0.15555555555555556,
+    "expected_hit": 0.33934027770360714,
+    "lift": -0.18326823186911737,
+    "market_hit": 0.15555555555555556,
+    "market_expected": 0.3848363566393129,
+    "roi": -0.6104444444444445,
+    "priced": 45
+   },
+   "cote-en-retard": {
+    "n": 103,
+    "hit": 0.11650485436893204,
+    "expected_hit": 0.2342431949287938,
+    "lift": -0.11896692578287917,
+    "market_hit": 0.11650485436893204,
+    "market_expected": 0.24992976569133962,
+    "roi": -0.5312621359223301,
+    "priced": 103
+   },
+   "jambes-lourdes": {
+    "n": 54,
+    "hit": 0.5740740740740741,
+    "expected_hit": 0.5908254500320953,
+    "lift": -0.012932840343719658,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "vraie-panne": {
+    "n": 268,
+    "hit": 0.4291044776119403,
+    "expected_hit": 0.42359942773162723,
+    "lift": 0.015359967609592613,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "00-credible": {
+    "n": 28,
+    "hit": 0.5,
+    "expected_hit": 0.6157826036408345,
+    "lift": -0.11070238356212322,
+    "market_hit": 0.5,
+    "market_expected": 0.6353015365667483,
+    "roi": -0.24928571428571428,
+    "priced": 14
+   },
+   "derby": {
+    "n": 372,
+    "hit": 0.5672043010752689,
+    "expected_hit": 0.5166501440201642,
+    "lift": 0.06927953284927861,
+    "market_hit": 0.5,
+    "market_expected": 0.4490848613494876,
+    "roi": 0.0024193548387097404,
+    "priced": 62
+   },
+   "muraille-carton": {
+    "n": 80,
+    "hit": 0.5375,
+    "expected_hit": 0.6485412583531354,
+    "lift": -0.1202765099675355,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "piege-00": {
+    "n": 62,
+    "hit": 0.5483870967741935,
+    "expected_hit": 0.6362204143235708,
+    "lift": -0.09195153556264916,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   }
+  },
+  "2025/26": {
+   "argent-malin": {
+    "n": 40,
+    "hit": 0.425,
+    "expected_hit": 0.4703707642188676,
+    "lift": -0.04618392553609653,
+    "market_hit": 0.425,
+    "market_expected": 0.5190916544946697,
+    "roi": -0.121,
+    "priced": 40
+   },
+   "cote-en-retard": {
+    "n": 44,
+    "hit": 0.2727272727272727,
+    "expected_hit": 0.3021082977828586,
+    "lift": -0.02997520517116766,
+    "market_hit": 0.2727272727272727,
+    "market_expected": 0.3298232026950474,
+    "roi": -0.09636363636363635,
+    "priced": 44
+   },
+   "ca-va-tourner": {
+    "n": 1104,
+    "hit": 0.4438405797101449,
+    "expected_hit": 0.43962376843521905,
+    "lift": 0.004154155912136198,
+    "market_hit": 0.2971014492753623,
+    "market_expected": 0.3043216154996609,
+    "roi": -0.11336956521739126,
+    "priced": 552
+   },
+   "chanceux": {
+    "n": 472,
+    "hit": 0.625,
+    "expected_hit": 0.597701212868214,
+    "lift": 0.0257082475331902,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "forteresse": {
+    "n": 272,
+    "hit": 0.6029411764705882,
+    "expected_hit": 0.5811459456014947,
+    "lift": 0.019633620852831463,
+    "market_hit": 0.4852941176470588,
+    "market_expected": 0.44598630421904367,
+    "roi": -0.008749999999999985,
+    "priced": 136
+   },
+   "popularite": {
+    "n": 395,
+    "hit": 0.3670886075949367,
+    "expected_hit": 0.404848212373052,
+    "lift": -0.03914944994750324,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "voyageur": {
+    "n": 440,
+    "hit": 0.4022727272727273,
+    "expected_hit": 0.40208899239162904,
+    "lift": 0.002345344897361404,
+    "market_hit": 0.2818181818181818,
+    "market_expected": 0.2561293749817641,
+    "roi": -0.09136363636363634,
+    "priced": 220
+   },
+   "domicile-maudit": {
+    "n": 160,
+    "hit": 0.61875,
+    "expected_hit": 0.6318014138235899,
+    "lift": -0.012471184041447104,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "poissard": {
+    "n": 207,
+    "hit": 0.5893719806763285,
+    "expected_hit": 0.6187298679217268,
+    "lift": -0.031075020765563826,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "muraille-carton": {
+    "n": 86,
+    "hit": 0.5930232558139535,
+    "expected_hit": 0.6128670879730819,
+    "lift": -0.025717109128609958,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "derby": {
+    "n": 456,
+    "hit": 0.5153508771929824,
+    "expected_hit": 0.4825489236312366,
+    "lift": 0.036262125039911816,
+    "market_hit": 0.3684210526315789,
+    "market_expected": 0.4516945247705201,
+    "roi": -0.2443421052631579,
+    "priced": 76
+   },
+   "fausse-panne": {
+    "n": 312,
+    "hit": 0.7211538461538461,
+    "expected_hit": 0.6596302113816818,
+    "lift": 0.06047290264869156,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "vraie-panne": {
+    "n": 288,
+    "hit": 0.40625,
+    "expected_hit": 0.42548015257685473,
+    "lift": -0.013317007039618186,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "serie-trompe-oeil": {
+    "n": 216,
+    "hit": 0.5046296296296297,
+    "expected_hit": 0.5094561447668567,
+    "lift": -0.006668089169601043,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "00-credible": {
+    "n": 10,
+    "hit": 0.3,
+    "expected_hit": 0.589186503025622,
+    "lift": -0.2819009399370307,
+    "market_hit": 0.4,
+    "market_expected": 0.5846655419072313,
+    "roi": -0.37,
+    "priced": 5
+   },
+   "piege-00": {
+    "n": 68,
+    "hit": 0.6470588235294118,
+    "expected_hit": 0.6437572504879875,
+    "lift": 0.004703227466181063,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "jambes-lourdes": {
+    "n": 30,
+    "hit": 0.6333333333333333,
+    "expected_hit": 0.6075345045680419,
+    "lift": 0.02392923386233629,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "feu-artifice-evente": {
+    "n": 2,
+    "hit": 1.0,
+    "expected_hit": 0.6721256611832805,
+    "lift": 0.329630663084755,
+    "market_hit": 1.0,
+    "market_expected": 0.5454545454545455,
+    "roi": 0.71,
+    "priced": 1
+   }
+  }
+ },
+ "tennis": {
+  "season": "2026",
+  "calibration_season": "2025",
+  "matches": 4803,
+  "coef": [
+   0.5260482454740718,
+   0.2171400046752955
+  ],
+  "calibration": {
+   "w_fav": [
+    -0.011090337363000153,
+    0.9786266488248828
+   ],
+   "st_fav": [
+    0.39254260528487017,
+    1.1386130738104618
+   ],
+   "st_dog": [
+    0.42870900701549464,
+    1.0615028654533778
+   ]
+  },
+  "reliability": {
+   "w_fav": {
+    "n": 4671,
+    "hit": 0.6553200599443374,
+    "expected_hit": 0.6491087796119778
+   },
+   "w_dog": {
+    "n": 4670,
+    "hit": 0.34475374732334046,
+    "expected_hit": 0.35096435036125756
+   },
+   "st_fav": {
+    "n": 4671,
+    "hit": 0.42731749090130594,
+    "expected_hit": 0.42784780255972005
+   },
+   "st_dog": {
+    "n": 4614,
+    "hit": 0.1931079323797139,
+    "expected_hit": 0.20089837959446008
+   },
+   "s_fav": {
+    "n": 4664,
+    "hit": 0.8085334476843911,
+    "expected_hit": 0.8011123592325311
+   },
+   "s_dog": {
+    "n": 4671,
+    "hit": 0.5726825090986941,
+    "expected_hit": 0.5721521974402797
+   },
+   "dec": {
+    "n": 4671,
+    "hit": 0.3812888032541212,
+    "expected_hit": 0.37355810037145465
+   }
+  },
+  "logloss_model": 0.5959262055339644,
+  "logloss_market": 0.5817185609917561,
+  "value_bets": {
+   "bets": 2871,
+   "roi": -0.1695576454197144
+  },
+  "categories": {
+   "solides": {
+    "n": 412,
+    "hit": 0.8907766990291263,
+    "expected_hit": 0.8891473292660269,
+    "priced": 35,
+    "roi": 0.1108571428571429
+   },
+   "contre_pieds": {
+    "n": 1161,
+    "hit": 0.661498708010336,
+    "expected_hit": 0.6569784336292762,
+    "priced": 202,
+    "roi": -0.11004950495049504
+   }
+  },
+  "combos": {
+   "Le combiné béton": {
+    "n": 40,
+    "won": 30,
+    "expected_won": 30.116539242478233,
+    "avg_one_in": 1.333006381437676
+   },
+   "Petite chatte": {
+    "n": 35,
+    "won": 7,
+    "expected_won": 5.571210902793485,
+    "avg_one_in": 6.74751685550862
+   },
+   "Grosse chatte": {
+    "n": 32,
+    "won": 0,
+    "expected_won": 0.7536333934317863,
+    "avg_one_in": 52.23689466091859
+   }
+  },
+  "validated_on_calibration": [
+   "bete-noire",
+   "chatte-tie-break",
+   "rescape",
+   "rouille"
+  ],
+  "tags_raw": {
+   "marathon": {
+    "n": 6452,
+    "won": 4109,
+    "p": 4075.2903077180786,
+    "base": 8.441010803885401,
+    "n_mkt": 3166,
+    "won_mkt": 1714,
+    "p_mkt": 1753.3882299310462,
+    "priced": 3229,
+    "profit": -273.32
+   },
+   "classement-trompeur": {
+    "n": 1182,
+    "won": 669,
+    "p": 703.6146216411269,
+    "base": 0.1668243080275821,
+    "n_mkt": 578,
+    "won_mkt": 263,
+    "p_mkt": 283.14741417113447,
+    "priced": 591,
+    "profit": -77.12
+   },
+   "chatte-tie-break": {
+    "n": 1477,
+    "won": 1073,
+    "p": 1023.0687490167948,
+    "base": 2.7548130977091483,
+    "n_mkt": 0,
+    "won_mkt": 0,
+    "p_mkt": 0,
+    "priced": 0,
+    "profit": 0
+   },
+   "pas-sa-surface": {
+    "n": 4890,
+    "won": 3245,
+    "p": 3263.4266170800965,
+    "base": 8.371531920979676,
+    "n_mkt": 0,
+    "won_mkt": 0,
+    "p_mkt": 0,
+    "priced": 0,
+    "profit": 0
+   },
+   "maudit-tie-break": {
+    "n": 5346,
+    "won": 3736,
+    "p": 3676.861423553267,
+    "base": 10.265753407560219,
+    "n_mkt": 2607,
+    "won_mkt": 1607,
+    "p_mkt": 1623.378123441848,
+    "priced": 2676,
+    "profit": -196.36999999999995
+   },
+   "rouille": {
+    "n": 2536,
+    "won": 1644,
+    "p": 1592.1514183929567,
+    "base": 4.077013874259052,
+    "n_mkt": 1231,
+    "won_mkt": 691,
+    "p_mkt": 684.6781820635308,
+    "priced": 1267,
+    "profit": -76.55000000000004
+   },
+   "specialiste": {
+    "n": 3227,
+    "won": 1971,
+    "p": 1989.370893464747,
+    "base": 3.682107510809499,
+    "n_mkt": 1534,
+    "won_mkt": 791,
+    "p_mkt": 796.6344588399611,
+    "priced": 1613,
+    "profit": -116.24000000000007
+   },
+   "gueule-de-bois": {
+    "n": 144,
+    "won": 77,
+    "p": 72.74096020889283,
+    "base": 0.08423718628809813,
+    "n_mkt": 0,
+    "won_mkt": 0,
+    "p_mkt": 0,
+    "priced": 0,
+    "profit": 0
+   },
+   "rescape": {
+    "n": 441,
+    "won": 257,
+    "p": 231.26583087899326,
+    "base": 0.1323896574339092,
+    "n_mkt": 212,
+    "won_mkt": 102,
+    "p_mkt": 97.63347719133694,
+    "priced": 220,
+    "profit": -13.830000000000005
+   },
+   "en-feu": {
+    "n": 293,
+    "won": 142,
+    "p": 152.5755092570351,
+    "base": 0.2993489067832544,
+    "n_mkt": 0,
+    "won_mkt": 0,
+    "p_mkt": 0,
+    "priced": 0,
+    "profit": 0
+   },
+   "bete-noire": {
+    "n": 162,
+    "won": 100,
+    "p": 82.44983111141872,
+    "base": -0.18253173064956998,
+    "n_mkt": 80,
+    "won_mkt": 38,
+    "p_mkt": 34.68946993794298,
+    "priced": 81,
+    "profit": 2.379999999999997
+   },
+   "fin-de-saison": {
+    "n": 230,
+    "won": 113,
+    "p": 106.11639688948256,
+    "base": 0.04719179319500983,
+    "n_mkt": 0,
+    "won_mkt": 0,
+    "p_mkt": 0,
+    "priced": 0,
+    "profit": 0
+   }
+  },
+  "tags": {
+   "marathon": {
+    "n": 6452,
+    "hit": 0.6368567885926845,
+    "expected_hit": 0.631632099770316,
+    "lift": 0.003916410644456918,
+    "market_hit": 0.5413771320277954,
+    "market_expected": 0.5538181395865591,
+    "roi": -0.08464540105295756,
+    "priced": 3229
+   },
+   "classement-trompeur": {
+    "n": 1182,
+    "hit": 0.565989847715736,
+    "expected_hit": 0.5952746375982461,
+    "lift": -0.029425927198946225,
+    "market_hit": 0.45501730103806226,
+    "market_expected": 0.4898744189812015,
+    "roi": -0.1304906937394247,
+    "priced": 591
+   },
+   "chatte-tie-break": {
+    "n": 1477,
+    "hit": 0.7264725795531483,
+    "expected_hit": 0.6926667224216619,
+    "lift": 0.03194071623933385,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "pas-sa-surface": {
+    "n": 4890,
+    "hit": 0.66359918200409,
+    "expected_hit": 0.667367406355848,
+    "lift": -0.00548019406974974,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "maudit-tie-break": {
+    "n": 5346,
+    "hit": 0.69884025439581,
+    "expected_hit": 0.6877780440615913,
+    "lift": 0.009141942207103059,
+    "market_hit": 0.6164173379363252,
+    "market_expected": 0.6226997021257568,
+    "roi": -0.07338191330343795,
+    "priced": 2676
+   },
+   "rouille": {
+    "n": 2536,
+    "hit": 0.6482649842271293,
+    "expected_hit": 0.6278199599341312,
+    "lift": 0.018837368979804533,
+    "market_hit": 0.561332250203087,
+    "market_expected": 0.5561967360386115,
+    "roi": -0.06041831097079719,
+    "priced": 1267
+   },
+   "specialiste": {
+    "n": 3227,
+    "hit": 0.610784009916331,
+    "expected_hit": 0.6164768805282761,
+    "lift": -0.006833901758771781,
+    "market_hit": 0.515645371577575,
+    "market_expected": 0.5193184216688143,
+    "roi": -0.07206447613143216,
+    "priced": 1613
+   },
+   "gueule-de-bois": {
+    "n": 144,
+    "hit": 0.5347222222222222,
+    "expected_hit": 0.5051455570062002,
+    "lift": 0.028991684755688005,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "rescape": {
+    "n": 441,
+    "hit": 0.5827664399092971,
+    "expected_hit": 0.524412314918352,
+    "lift": 0.0580539216861062,
+    "market_hit": 0.4811320754716981,
+    "market_expected": 0.4605352697704572,
+    "roi": -0.06286363636363639,
+    "priced": 220
+   },
+   "en-feu": {
+    "n": 293,
+    "hit": 0.48464163822525597,
+    "expected_hit": 0.5207355264745225,
+    "lift": -0.03711555687310017,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   },
+   "bete-noire": {
+    "n": 162,
+    "hit": 0.6172839506172839,
+    "expected_hit": 0.5089495747618439,
+    "lift": 0.10946111493352377,
+    "market_hit": 0.475,
+    "market_expected": 0.4336183742242873,
+    "roi": 0.029382716049382675,
+    "priced": 81
+   },
+   "fin-de-saison": {
+    "n": 230,
+    "hit": 0.49130434782608695,
+    "expected_hit": 0.46137563864992415,
+    "lift": 0.029723527466619267,
+    "market_hit": null,
+    "market_expected": null,
+    "roi": null,
+    "priced": 0
+   }
+  }
+ }
+}

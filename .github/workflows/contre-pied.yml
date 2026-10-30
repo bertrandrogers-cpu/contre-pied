@@ -1,0 +1,65 @@
+# Toutes les heures : données → pronos → notifs → tableau de bord publié sur GitHub Pages.
+# Le lundi matin, le backtest est relancé pour remesurer les critères.
+name: Contre-Pied
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+    - cron: "40 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: contre-pied
+  cancel-in-progress: false
+
+jobs:
+  pronos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      PUBLIC_URL: ${{ vars.PUBLIC_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache des données téléchargées
+        uses: actions/cache@v4
+        with:
+          path: prono/data/cache
+          key: donnees-${{ github.run_id }}
+          restore-keys: donnees-
+
+      - name: Backtest (le lundi, ou s'il manque)
+        if: github.event.schedule == '40 4 * * 1' || hashFiles('prono/data/backtest.json') == ''
+        run: python3 prono/prono.py backtest
+
+      - name: Pronos, tableau de bord et notifications
+        run: python3 prono/prono.py run
+
+      - name: Sauvegarde du suivi des pronos
+        run: |
+          git config user.name "contre-pied-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prono/data/history.json prono/data/notified.json prono/data/backtest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Mise à jour des pronos"
+            git pull --rebase
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: prono/out
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

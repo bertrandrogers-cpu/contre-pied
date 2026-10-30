@@ -1,0 +1,33 @@
+{
+ "sent": [
+  "combo:358fea9f74",
+  "combo:42f1b7676d",
+  "combo:74231bb53c",
+  "combo:7bf70fa73e",
+  "cp:D1-20261031-leverkusen-stuttgart:1N",
+  "cp:D1-20261101-ein-frankfurt-hamburg:1N",
+  "cp:D1-20261101-union-berlin-fc-koln:btts",
+  "cp:E0-20261031-man-city-brighton:N2",
+  "cp:E0-20261031-tottenham-crystal-palace:btts",
+  "cp:E0-20261101-liverpool-arsenal:N2",
+  "cp:F2-20261102-reims-sochaux:N2",
+  "cp:I1-20261031-udinese-roma:1N",
+  "cp:I1-20261101-como-venezia:btts",
+  "cp:I1-20261101-frosinone-torino:N2",
+  "cp:I1-20261101-lecce-genoa:1N",
+  "cp:SP1-20261101-ath-bilbao-sociedad:u25",
+  "cp:tn-185158:s1",
+  "cp:tn-185204:s2",
+  "sol:D1-20261031-bayern-munich-dortmund:12",
+  "sol:D1-20261031-m-gladbach-paderborn:h_scores",
+  "sol:D1-20261031-schalke-04-rb-leipzig:o15",
+  "sol:F1-20261101-marseille-toulouse:h_scores",
+  "sol:F1-20261101-strasbourg-auxerre:o15",
+  "sol:I1-20261101-frosinone-torino:h_scores",
+  "sol:SP1-20261031-barcelona-alaves:12",
+  "sol:SP1-20261101-getafe-sevilla:u35",
+  "sol:SP1-20261101-santander-real-madrid:12",
+  "sol:tn-185688:s2"
+ ],
+ "reminded": []
+}

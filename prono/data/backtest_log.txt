@@ -1,0 +1,79 @@
+Saison N-2 : mesure des critères…
+  Ligue 1 + Ligue 2 : 612 matchs
+  Premier League : 380 matchs
+  Liga : 380 matchs
+  Serie A : 380 matchs
+  Bundesliga : 306 matchs
+Saison N-1 : test des pronos avec les critères validés sur N-2…
+  Ligue 1 + Ligue 2 : 611 matchs
+  Premier League : 380 matchs
+  Liga : 380 matchs
+  Serie A : 380 matchs
+  Bundesliga : 306 matchs
+Tennis : calage sur la saison dernière, test sur celle en cours…
+  Tennis : poids Elo 0.53, poids classement 0.22 (calés sur 2025)
+
+=== Backtest — critères mesurés sur 2024/25, pronos joués sur 2025/26 (2057 matchs) ===
+
+Value bets classiques 1N2 et +/-2,5 selon le poids du modèle face au marché :
+  modèle   0 % | logloss 1N2 0.9912  +/-2,5 0.6771 | paris    2  ROI +127.0 %  CLV -9.6 %
+  modèle  20 % | logloss 1N2 0.9929  +/-2,5 0.6773 | paris   52  ROI -5.5 %  CLV -4.3 %
+  modèle  35 % | logloss 1N2 0.9954  +/-2,5 0.6778 | paris  348  ROI -6.0 %  CLV -5.3 %
+  modèle  50 % | logloss 1N2 0.9989  +/-2,5 0.6788 | paris  845  ROI -13.9 %  CLV -5.9 %
+  modèle  70 % | logloss 1N2 1.0050  +/-2,5 0.6806 | paris 1571  ROI -7.6 %  CLV -6.3 %
+  modèle 100 % | logloss 1N2 1.0176  +/-2,5 0.6847 | paris 2389  ROI -10.2 %  CLV -6.2 %
+
+Catégories :
+  solides                    n= 750  réussite  83.1 % (prévu  82.4 %)  ROI -2.7 % sur 240 cotés
+  contre_pieds               n= 720  réussite  59.4 % (prévu  58.0 %)  ROI -2.7 % sur 535 cotés
+  contre_pieds_casse_series  n= 511  réussite  63.0 % (prévu  60.1 %)  ROI +0.7 % sur 419 cotés
+  stats                      n= 948  réussite  74.3 % (prévu  72.0 %)  ROI — sur 0 cotés
+
+Combinés :
+  Le combiné béton   joués  79  passés 57 (prévu 47.4)  1 chance sur 2 en moyenne
+  Grosse chatte      joués  79  passés  1 (prévu 3.5)  1 chance sur 41 en moyenne
+  Petite chatte      joués  64  passés  7 (prévu 9.3)  1 chance sur 7 en moyenne
+
+Critères validés sur 2024/25 : chanceux, derby, fausse-panne, forteresse, vraie-panne
+Critères sur les deux saisons (lift = ce que le critère apporte en plus du modèle) :
+  feu-artifice-evente    n=    2  réussite 100.0 %  prévu  67.2 %  lift +33.0 pts  ROI +71.0 % (1)
+  derby                  n=  828  réussite  53.9 %  prévu  49.8 %  lift  +5.1 pts  ROI -13.3 % (138)
+  fausse-panne           n=  537  réussite  70.8 %  prévu  65.9 %  lift  +4.5 pts  ROI — (0)
+  forteresse             n=  524  réussite  60.3 %  prévu  57.3 %  lift  +3.3 pts  ROI +2.9 % (262)
+  chanceux               n=  917  réussite  62.7 %  prévu  59.8 %  lift  +3.0 pts  ROI — (0)
+  vraie-panne            n=  556  réussite  41.7 %  prévu  42.5 %  lift  +0.1 pts  ROI — (0)
+  jambes-lourdes         n=   84  réussite  59.5 %  prévu  59.7 %  lift  +0.0 pts  ROI — (0)
+  ca-va-tourner          n= 2136  réussite  43.4 %  prévu  43.5 %  lift  -0.1 pts  ROI -10.3 % (1068)
+  voyageur               n=  856  réussite  39.5 %  prévu  40.1 %  lift  -0.9 pts  ROI -8.4 % (428)
+  serie-trompe-oeil      n=  425  réussite  49.2 %  prévu  50.3 %  lift  -1.0 pts  ROI — (0)
+  domicile-maudit        n=  310  réussite  61.0 %  prévu  63.0 %  lift  -2.3 pts  ROI — (0)
+  poissard               n=  414  réussite  59.2 %  prévu  61.9 %  lift  -2.6 pts  ROI — (0)
+  piege-00               n=  130  réussite  60.0 %  prévu  64.0 %  lift  -4.1 pts  ROI — (0)
+  popularite             n=  796  réussite  33.9 %  prévu  39.7 %  lift  -5.7 pts  ROI — (0)
+  muraille-carton        n=  166  réussite  56.6 %  prévu  63.0 %  lift  -7.1 pts  ROI — (0)
+  cote-en-retard         n=  147  réussite  16.3 %  prévu  25.5 %  lift  -9.2 pts  ROI -40.1 % (147)
+  argent-malin           n=   85  réussite  28.2 %  prévu  40.1 %  lift -11.9 pts  ROI -38.0 % (85)
+  00-credible            n=   38  réussite  44.7 %  prévu  60.9 %  lift -15.6 pts  ROI -28.1 % (19)
+
+=== Tennis — modèle calé sur 2025, pronos joués sur 2026 (4803 matchs) ===
+  poids Elo 0.53, poids classement 0.22 | logloss modèle 0.5959, marché 0.5817 | vainqueur à la cote moyenne : 2871 paris, ROI -17.0 %
+  solides        n= 412  réussite  89.1 % (prévu  88.9 %)
+  contre_pieds   n=1161  réussite  66.1 % (prévu  65.7 %)
+  Le combiné béton   joués  40  passés 30 (prévu 30.1)
+  Petite chatte      joués  35  passés  7 (prévu 5.6)
+  Grosse chatte      joués  32  passés  0 (prévu 0.8)
+  Critères validés sur 2025 : bete-noire, chatte-tie-break, rescape, rouille
+  bete-noire           n=  162  réussite  61.7 %  prévu  50.9 %  lift +10.9 pts
+  rescape              n=  441  réussite  58.3 %  prévu  52.4 %  lift  +5.8 pts
+  chatte-tie-break     n= 1477  réussite  72.6 %  prévu  69.3 %  lift  +3.2 pts
+  fin-de-saison        n=  230  réussite  49.1 %  prévu  46.1 %  lift  +3.0 pts
+  gueule-de-bois       n=  144  réussite  53.5 %  prévu  50.5 %  lift  +2.9 pts
+  rouille              n= 2536  réussite  64.8 %  prévu  62.8 %  lift  +1.9 pts
+  maudit-tie-break     n= 5346  réussite  69.9 %  prévu  68.8 %  lift  +0.9 pts
+  marathon             n= 6452  réussite  63.7 %  prévu  63.2 %  lift  +0.4 pts
+  pas-sa-surface       n= 4890  réussite  66.4 %  prévu  66.7 %  lift  -0.5 pts
+  specialiste          n= 3227  réussite  61.1 %  prévu  61.6 %  lift  -0.7 pts
+  classement-trompeur  n= 1182  réussite  56.6 %  prévu  59.5 %  lift  -2.9 pts
+  en-feu               n=  293  réussite  48.5 %  prévu  52.1 %  lift  -3.7 pts
+
+Ton exemple (2 équipes en panne / matchs fermés) : 62 matchs, 0-0 réel 11.3 % (prévu 9.1 %), nuls 29.0 % ; « Piège à 0-0 » : 34 matchs, +1,5 buts 76 %

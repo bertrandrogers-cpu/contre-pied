@@ -1,0 +1,9 @@
+# Privé : canal de notifs, jetons
+prono/secrets.json
+# Régénérés à chaque passage
+prono/data/cache/
+prono/data/run.log
+prono/out/
+__pycache__/
+.claude/
+.DS_Store
