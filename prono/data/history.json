@@ -864,5 +864,20 @@
   "uid": "stat:SP1-20261031-betis-malaga:ku:5.5",
   "kind": "stat",
   "created": "2026-10-30T21:48:38.658997+01:00"
+ },
+ {
+  "match_id": "I1-20261101-lecce-genoa",
+  "match": "Lecce - Genoa",
+  "league": "Serie A",
+  "ko": "2026-11-01T18:00:00+01:00",
+  "key": "u35",
+  "label": "Moins de 3,5 buts",
+  "p": 0.8174,
+  "odds": null,
+  "min_odds": 1.26,
+  "result": null,
+  "uid": "solide:I1-20261101-lecce-genoa:u35",
+  "kind": "solide",
+  "created": "2026-10-30T22:12:39.878380+01:00"
  }
 ]
