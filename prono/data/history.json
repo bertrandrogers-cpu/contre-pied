@@ -890,7 +890,7 @@
   "p": 0.5814,
   "odds": null,
   "min_odds": 1.77,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-185203:s1",
   "kind": "contre_pied",
   "created": "2026-10-30T22:18:51.284448+01:00"
@@ -1640,5 +1640,112 @@
   "odds": 48.39,
   "result": null,
   "created": "2026-10-31T19:36:54.449877+01:00"
+ },
+ {
+  "match_id": "tn-185205",
+  "match": "Carlos Alcaraz - Alex de Minaur",
+  "league": "ATP · Erste Bank Open",
+  "ko": "2026-11-01T14:00:00+01:00",
+  "key": "s2",
+  "label": "Alex de Minaur gagne au moins un set",
+  "p": 0.5603,
+  "odds": null,
+  "min_odds": 1.84,
+  "result": null,
+  "uid": "contre_pied:tn-185205:s2",
+  "kind": "contre_pied",
+  "created": "2026-10-31T23:31:42.743536+01:00"
+ },
+ {
+  "match_id": "tn-186628",
+  "match": "Alexandra Eala - Alycia Parks",
+  "league": "WTA · Prudential Hong Kong Tennis Open",
+  "ko": "2026-11-02T06:00:00+01:00",
+  "key": "s1",
+  "label": "Alexandra Eala gagne au moins un set",
+  "p": 0.8411,
+  "odds": null,
+  "min_odds": 1.22,
+  "result": null,
+  "uid": "solide:tn-186628:s1",
+  "kind": "solide",
+  "created": "2026-10-31T23:31:42.743536+01:00"
+ },
+ {
+  "match_id": "I1-20261101-juventus-napoli",
+  "match": "Juventus - Napoli",
+  "league": "Serie A",
+  "ko": "2026-11-01T20:45:00+01:00",
+  "key": "ku:3.5",
+  "label": "Moins de 3,5 cartons",
+  "p": 0.6812,
+  "odds": null,
+  "min_odds": 1.51,
+  "result": null,
+  "uid": "stat:I1-20261101-juventus-napoli:ku:3.5",
+  "kind": "stat",
+  "created": "2026-10-31T23:31:42.743536+01:00"
+ },
+ {
+  "match_id": "F1-20261101-strasbourg-auxerre",
+  "match": "Strasbourg - Auxerre",
+  "league": "Ligue 1",
+  "ko": "2026-11-01T15:00:00+01:00",
+  "key": "ko:2.5",
+  "label": "Plus de 2,5 cartons",
+  "p": 0.6787,
+  "odds": null,
+  "min_odds": 1.52,
+  "result": null,
+  "uid": "stat:F1-20261101-strasbourg-auxerre:ko:2.5",
+  "kind": "stat",
+  "created": "2026-10-31T23:31:42.743536+01:00"
+ },
+ {
+  "uid": "combo:d067e02802",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "tn-186467",
+    "match": "Moise Kouame - Alejandro Davidovich Fokina",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-02T06:00:00+01:00",
+    "key": "s2",
+    "label": "Alejandro Davidovich Fokina gagne au moins un set",
+    "p": 0.8825,
+    "odds": null,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "tn-186617",
+    "match": "Mary Stoiana - Venus Williams",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-02T06:00:00+01:00",
+    "key": "s1",
+    "label": "Mary Stoiana gagne au moins un set",
+    "p": 0.8774,
+    "odds": null,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "tn-185689",
+    "match": "Diana Shnaider - Leylah Fernandez",
+    "league": "WTA · Toray Pan Pacific Open Tennis",
+    "ko": "2026-11-01T04:00:00+01:00",
+    "key": "s1",
+    "label": "Diana Shnaider gagne au moins un set",
+    "p": 0.8656,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   }
+  ],
+  "p": 0.67028,
+  "odds": 1.63,
+  "result": null,
+  "created": "2026-10-31T23:31:42.743536+01:00"
  }
 ]

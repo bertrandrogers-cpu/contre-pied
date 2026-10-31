@@ -9,6 +9,7 @@
   "combo:7bf70fa73e",
   "combo:7c4589cc02",
   "combo:9fbc0675f0",
+  "combo:d067e02802",
   "combo:d5889832a4",
   "combo:d62d1d53f2",
   "cp:D1-20261031-leverkusen-stuttgart:1N",
@@ -27,6 +28,7 @@
   "cp:tn-185159:s2",
   "cp:tn-185203:s1",
   "cp:tn-185204:s2",
+  "cp:tn-185205:s2",
   "cp:tn-186453:w2",
   "cp:tn-186458:s2",
   "cp:tn-186470:w2",
@@ -55,7 +57,8 @@
   "sol:tn-186468:s1",
   "sol:tn-186578:s1",
   "sol:tn-186586:s2",
-  "sol:tn-186617:s1"
+  "sol:tn-186617:s1",
+  "sol:tn-186628:s1"
  ],
  "reminded": [
   "cp:D1-20261031-leverkusen-stuttgart:1N",
