@@ -714,7 +714,7 @@
   "p": 0.7595,
   "odds": null,
   "min_odds": 1.36,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-185158:s1",
   "kind": "contre_pied",
   "created": "2026-10-30T20:33:58.500963+01:00"
@@ -729,7 +729,7 @@
   "p": 0.5707,
   "odds": null,
   "min_odds": 1.8,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-185204:s2",
   "kind": "contre_pied",
   "created": "2026-10-30T20:33:58.500963+01:00"
@@ -842,12 +842,12 @@
     "p": 0.5707,
     "odds": null,
     "min_odds": 1.8,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.0264,
   "odds": 42.75,
-  "result": null,
+  "result": "lost",
   "created": "2026-10-30T20:33:58.500963+01:00"
  },
  {
@@ -1447,5 +1447,198 @@
   "odds": 66.5,
   "result": null,
   "created": "2026-10-31T14:41:16.081425+01:00"
+ },
+ {
+  "match_id": "tn-185159",
+  "match": "Valentin Vacherot - Jiri Lehecka",
+  "league": "ATP · Swiss Indoors Basel",
+  "ko": "2026-11-01T15:30:00+01:00",
+  "key": "s2",
+  "label": "Jiri Lehecka gagne au moins un set",
+  "p": 0.7085,
+  "odds": null,
+  "min_odds": 1.45,
+  "result": null,
+  "uid": "contre_pied:tn-185159:s2",
+  "kind": "contre_pied",
+  "created": "2026-10-31T19:36:54.449877+01:00"
+ },
+ {
+  "match_id": "D1-20261101-ein-frankfurt-hamburg",
+  "match": "Ein Frankfurt - Hamburg",
+  "league": "Bundesliga",
+  "ko": "2026-11-01T17:30:00+01:00",
+  "key": "ku:5.5",
+  "label": "Moins de 5,5 cartons",
+  "p": 0.7169,
+  "odds": null,
+  "min_odds": 1.44,
+  "result": null,
+  "uid": "stat:D1-20261101-ein-frankfurt-hamburg:ku:5.5",
+  "kind": "stat",
+  "created": "2026-10-31T19:36:54.449877+01:00"
+ },
+ {
+  "match_id": "F2-20261102-reims-sochaux",
+  "match": "Reims - Sochaux",
+  "league": "Ligue 2",
+  "ko": "2026-11-02T20:45:00+01:00",
+  "key": "cu:11.5",
+  "label": "Moins de 11,5 corners",
+  "p": 0.7043,
+  "odds": null,
+  "min_odds": 1.46,
+  "result": null,
+  "uid": "stat:F2-20261102-reims-sochaux:cu:11.5",
+  "kind": "stat",
+  "created": "2026-10-31T19:36:54.449877+01:00"
+ },
+ {
+  "match_id": "D1-20261101-union-berlin-fc-koln",
+  "match": "Union Berlin - FC Koln",
+  "league": "Bundesliga",
+  "ko": "2026-11-01T15:30:00+01:00",
+  "key": "ku:5.5",
+  "label": "Moins de 5,5 cartons",
+  "p": 0.7035,
+  "odds": null,
+  "min_odds": 1.46,
+  "result": null,
+  "uid": "stat:D1-20261101-union-berlin-fc-koln:ku:5.5",
+  "kind": "stat",
+  "created": "2026-10-31T19:36:54.449877+01:00"
+ },
+ {
+  "match_id": "SP1-20261101-getafe-sevilla",
+  "match": "Getafe - Sevilla",
+  "league": "Liga",
+  "ko": "2026-11-01T14:00:00+01:00",
+  "key": "cu:9.5",
+  "label": "Moins de 9,5 corners",
+  "p": 0.7017,
+  "odds": null,
+  "min_odds": 1.47,
+  "result": null,
+  "uid": "stat:SP1-20261101-getafe-sevilla:cu:9.5",
+  "kind": "stat",
+  "created": "2026-10-31T19:36:54.449877+01:00"
+ },
+ {
+  "uid": "combo:4b0b35026f",
+  "kind": "combo",
+  "name": "Petite chatte",
+  "legs": [
+   {
+    "match_id": "tn-186453",
+    "match": "Botic Van De Zandschulp - Ugo Humbert",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-02T06:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Ugo Humbert",
+    "p": 0.5277,
+    "odds": null,
+    "min_odds": 1.95,
+    "result": null
+   },
+   {
+    "match_id": "D1-20261101-union-berlin-fc-koln",
+    "match": "Union Berlin - FC Koln",
+    "league": "Bundesliga",
+    "ko": "2026-11-01T15:30:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.6229,
+    "odds": null,
+    "min_odds": 1.65,
+    "result": null
+   },
+   {
+    "match_id": "I1-20261101-como-venezia",
+    "match": "Como - Venezia",
+    "league": "Serie A",
+    "ko": "2026-11-01T12:30:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5815,
+    "odds": null,
+    "min_odds": 1.77,
+    "result": null
+   }
+  ],
+  "p": 0.19115,
+  "odds": 5.72,
+  "result": null,
+  "created": "2026-10-31T19:36:54.449877+01:00"
+ },
+ {
+  "uid": "combo:d5889832a4",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-186582",
+    "match": "Vaishnavi Adkar - Jodie Burrage",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-02T06:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Vaishnavi Adkar",
+    "p": 0.4249,
+    "odds": null,
+    "min_odds": 2.42,
+    "result": null
+   },
+   {
+    "match_id": "tn-186589",
+    "match": "Rebecca Sramkova - Moyuka Uchijima",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-02T06:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Moyuka Uchijima",
+    "p": 0.4593,
+    "odds": null,
+    "min_odds": 2.24,
+    "result": null
+   },
+   {
+    "match_id": "SP1-20261101-ath-bilbao-sociedad",
+    "match": "Ath Bilbao - Sociedad",
+    "league": "Liga",
+    "ko": "2026-11-01T21:00:00+01:00",
+    "key": "u25",
+    "label": "Moins de 2,5 buts",
+    "p": 0.4686,
+    "odds": 2.14,
+    "min_odds": 2.2,
+    "result": null
+   },
+   {
+    "match_id": "tn-186586",
+    "match": "Katherine Hui - Janice Tjen",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-02T06:00:00+01:00",
+    "key": "s1",
+    "label": "Katherine Hui gagne au moins un set",
+    "p": 0.4834,
+    "odds": null,
+    "min_odds": 2.13,
+    "result": null
+   },
+   {
+    "match_id": "tn-186453",
+    "match": "Botic Van De Zandschulp - Ugo Humbert",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-02T06:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Ugo Humbert",
+    "p": 0.5277,
+    "odds": null,
+    "min_odds": 1.95,
+    "result": null
+   }
+  ],
+  "p": 0.02333,
+  "odds": 48.39,
+  "result": null,
+  "created": "2026-10-31T19:36:54.449877+01:00"
  }
 ]

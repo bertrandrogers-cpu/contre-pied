@@ -3,11 +3,13 @@
   "combo:02596292de",
   "combo:358fea9f74",
   "combo:42f1b7676d",
+  "combo:4b0b35026f",
   "combo:51df4a22b4",
   "combo:74231bb53c",
   "combo:7bf70fa73e",
   "combo:7c4589cc02",
   "combo:9fbc0675f0",
+  "combo:d5889832a4",
   "combo:d62d1d53f2",
   "cp:D1-20261031-leverkusen-stuttgart:1N",
   "cp:D1-20261101-ein-frankfurt-hamburg:1N",
@@ -22,6 +24,7 @@
   "cp:I1-20261101-lecce-genoa:1N",
   "cp:SP1-20261101-ath-bilbao-sociedad:u25",
   "cp:tn-185158:s1",
+  "cp:tn-185159:s2",
   "cp:tn-185203:s1",
   "cp:tn-185204:s2",
   "cp:tn-186453:w2",
@@ -59,6 +62,7 @@
   "cp:E0-20261031-man-city-brighton:N2",
   "cp:tn-185158:s1",
   "cp:tn-185203:s1",
-  "cp:tn-185204:s2"
+  "cp:tn-185204:s2",
+  "sol:SP1-20261031-barcelona-alaves:12"
  ]
 }
