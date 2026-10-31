@@ -7,6 +7,8 @@
   "combo:74231bb53c",
   "combo:7bf70fa73e",
   "combo:7c4589cc02",
+  "combo:9fbc0675f0",
+  "combo:d62d1d53f2",
   "cp:D1-20261031-leverkusen-stuttgart:1N",
   "cp:D1-20261101-ein-frankfurt-hamburg:1N",
   "cp:D1-20261101-union-berlin-fc-koln:btts",
@@ -24,8 +26,15 @@
   "cp:tn-185204:s2",
   "cp:tn-186453:w2",
   "cp:tn-186458:s2",
+  "cp:tn-186470:w2",
   "cp:tn-186473:s2",
   "cp:tn-186474:s1",
+  "cp:tn-186577:s1",
+  "cp:tn-186582:w1",
+  "cp:tn-186583:w2",
+  "cp:tn-186586:s1",
+  "cp:tn-186589:w2",
+  "cp:tn-186626:s1",
   "sol:D1-20261031-bayern-munich-dortmund:12",
   "sol:D1-20261031-m-gladbach-paderborn:h_scores",
   "sol:D1-20261031-schalke-04-rb-leipzig:o15",
@@ -37,9 +46,19 @@
   "sol:SP1-20261101-getafe-sevilla:u35",
   "sol:SP1-20261101-santander-real-madrid:12",
   "sol:tn-185688:s2",
+  "sol:tn-185689:s1",
   "sol:tn-186458:s2",
   "sol:tn-186467:s2",
-  "sol:tn-186468:s1"
+  "sol:tn-186468:s1",
+  "sol:tn-186578:s1",
+  "sol:tn-186586:s2",
+  "sol:tn-186617:s1"
  ],
- "reminded": []
+ "reminded": [
+  "cp:D1-20261031-leverkusen-stuttgart:1N",
+  "cp:E0-20261031-man-city-brighton:N2",
+  "cp:tn-185158:s1",
+  "cp:tn-185203:s1",
+  "cp:tn-185204:s2"
+ ]
 }
