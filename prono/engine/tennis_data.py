@@ -159,10 +159,14 @@ def load_espn(tour: str, refresh_h: float = 0.5) -> list:
                 st = (c.get("status") or {}).get("type") or {}
                 rnd = (c.get("round") or {}).get("displayName", "")
                 games = [[l.get("value") for l in x.get("linescores", [])] for x in comps]
+                ko = dt.datetime.fromisoformat(c["date"].replace("Z", "+00:00")).astimezone(PARIS)
+                time_valid = c.get("timeValid", True) is not False
+                if not time_valid:  # programme pas encore publié : le match reste visible jusqu'au soir
+                    ko = dt.datetime.combine(ko.date(), dt.time(20, 0), tzinfo=PARIS)
                 out.append({
                     "id": f"tn-{c['id']}", "tour": tour.upper(), "event": e.get("name", ""), "city": city,
-                    "round": rnd, "qualifying": "Qualifying" in rnd,
-                    "ko": dt.datetime.fromisoformat(c["date"].replace("Z", "+00:00")).astimezone(PARIS),
+                    "round": rnd, "qualifying": "Qualifying" in rnd, "time_tbc": not time_valid,
+                    "ko": ko,
                     "p1": names[0], "p2": names[1], "state": st.get("state"), "status": st.get("description", ""),
                     "winner": 1 if comps[0].get("winner") else 2 if comps[1].get("winner") else None,
                     "sets": [(int(a), int(b)) for a, b in zip(*games) if a is not None and b is not None],

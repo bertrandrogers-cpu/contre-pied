@@ -147,6 +147,7 @@ def analyse(fx: dict, models, hist: dict, cfg: dict, weather=None) -> dict:
 
 def _leg(m, s):
     return dict(s, match=f"{m['home']} - {m['away']}", match_id=m["id"], league=m["league"], ko=m["ko"],
+                time_tbc=m.get("time_tbc", False),
                 tag_titles=[f"{t['icon']} {t['title']}"
                             for t in sorted(m["tags"], key=lambda t: t.get("status") != "ok")
                             if t["id"] in s["tags"] and t.get("status") != "ko"])

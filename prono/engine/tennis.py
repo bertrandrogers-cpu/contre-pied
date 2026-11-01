@@ -16,6 +16,8 @@ ROUNDS_FR = {
     "Round 1": "1er tour", "Round 2": "2e tour", "Round 3": "3e tour", "Round of 16": "8e de finale",
     "Quarterfinals": "Quart de finale", "Quarterfinal": "Quart de finale", "Semifinals": "Demi-finale",
     "Semifinal": "Demi-finale", "The Final": "Finale", "Final": "Finale", "Round Robin": "Phase de poules",
+    "Qualifying 1st Round": "Qualifs, 1er tour", "Qualifying 2nd Round": "Qualifs, 2e tour",
+    "Qualifying Final": "Qualifs, dernier tour",
 }
 # Critères qui vont contre ce que le grand public croit voir (série, classement, face-à-face…).
 ANTI_NAIVE = {"chatte-tie-break", "maudit-tie-break", "en-feu", "classement-trompeur", "bete-noire",
@@ -326,25 +328,28 @@ def analyse(fx: dict, st: State, elo: Elo, cfg: dict) -> dict:
         "elo": [round(elo.rating(fx["k1"], fx["surface"])), round(elo.rating(fx["k2"], fx["surface"]))],
         "rank": [st.rank.get(fx["k1"]), st.rank.get(fx["k2"])],
         "form": ["".join("V" if e["won"] else "D" for e in st.hist.get(k, [])[-5:]) for k in (fx["k1"], fx["k2"])],
-        "tags": tags, "info": {}, "sels": sels, "date": fx["date"],
+        "tags": tags, "info": {}, "sels": sels, "date": fx["date"], "time_tbc": fx.get("time_tbc", False),
     }
 
 
 # ---------- Le moment présent ----------
 
 def _surfaces(rows: list) -> dict:
-    out = {}
+    """Lieu → {mois: surface} : à Paris, c'est la terre battue en mai et le dur indoor en novembre."""
+    out = defaultdict(dict)
     for r in rows:
-        out[td.norm(r["location"])] = surface_key(r["surface"], r["court"])
+        out[td.norm(r["location"])][r["date"].month] = surface_key(r["surface"], r["court"])
     return out
 
 
-def _surface_for(city: str, table: dict) -> str:
+def _surface_for(city: str, table: dict, month: int) -> str:
     c = td.norm(city)
-    if c in table:
-        return table[c]
     # « Santiago de Querétaro » ne doit pas tomber sur « Santiago » (Chili, terre battue).
-    return next((s for loc, s in table.items() if loc and (c.endswith(" " + loc) or loc.endswith(" " + c))), "Hard")
+    by_month = table.get(c) or next(
+        (v for loc, v in table.items() if loc and (c.endswith(" " + loc) or loc.endswith(" " + c))), None)
+    if not by_month:
+        return "Hard"
+    return by_month[min(by_month, key=lambda m: min(abs(m - month), 12 - abs(m - month)))]
 
 
 def live(cfg: dict, now: dt.datetime, log=print):
@@ -368,9 +373,9 @@ def live(cfg: dict, now: dt.datetime, log=print):
         if e["state"] == "post" and e["winner"] and e["sets"] and e["ko"].date() > last_date[e["tour"]]:
             w = e["winner"]
             sets = e["sets"] if w == 1 else [(b, a) for a, b in e["sets"]]
+            sk = _surface_for(e["city"], surfaces, e["ko"].month)
             extra.append({"tour": e["tour"], "date": e["ko"].date(), "tournament": e["event"], "location": e["city"],
-                          "court": "Indoor" if _surface_for(e["city"], surfaces) == "Indoor" else "Outdoor",
-                          "surface": "Hard" if _surface_for(e["city"], surfaces) == "Indoor" else _surface_for(e["city"], surfaces),
+                          "court": "Indoor" if sk == "Indoor" else "Outdoor", "surface": "Hard" if sk == "Indoor" else sk,
                           "round": "The Final" if e["round"] == "Final" else e["round"], "best_of": best_of(e),
                           "winner": key(e, e["p1"] if w == 1 else e["p2"]), "loser": key(e, e["p2"] if w == 1 else e["p1"]),
                           "wrank": None, "lrank": None, "sets": sets,
@@ -384,11 +389,12 @@ def live(cfg: dict, now: dt.datetime, log=print):
     horizon = now + dt.timedelta(days=cfg["horizon_days"])
     analyses = []
     for e in espn:
-        if e["state"] != "pre" or e["qualifying"] or not now < e["ko"] <= horizon:
+        if e["state"] != "pre" or not now < e["ko"] <= horizon:
             continue
         fx = {"id": e["id"], "tour": e["tour"], "event": e["event"], "tournament": e["event"], "round": e["round"],
               "ko": e["ko"], "date": e["ko"].date(), "p1": e["p1"], "p2": e["p2"], "k1": key(e, e["p1"]),
-              "k2": key(e, e["p2"]), "surface": _surface_for(e["city"], surfaces), "best_of": best_of(e)}
+              "k2": key(e, e["p2"]), "surface": _surface_for(e["city"], surfaces, e["ko"].month), "best_of": best_of(e),
+              "time_tbc": e["time_tbc"]}
         analyses.append(analyse(fx, st, elo, cfg))
     results = [{"id": e["id"], "sport": "tennis", "sets": e["sets"], "best_of": best_of(e),
                 "completed": e["state"] == "post" and e["status"] == "Final"} for e in espn if e["state"] == "post"]

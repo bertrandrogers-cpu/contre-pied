@@ -8,10 +8,10 @@ import os
 from .data import ROOT
 
 OUT_FILE = os.path.join(ROOT, "out", "index.html")
-PICK_KEYS = ("match", "match_id", "league", "ko", "key", "label", "p", "fair", "min_odds", "odds", "odds_max",
-             "edge", "stake_pct", "tags", "breaks", "lift")
+PICK_KEYS = ("match", "match_id", "league", "ko", "time_tbc", "key", "label", "p", "fair", "min_odds", "odds",
+             "odds_max", "edge", "stake_pct", "tags", "breaks", "lift")
 MATCH_KEYS = ("id", "sport", "league", "ko", "home", "away", "ref", "xg", "corners", "cards", "probs", "p_mkt",
-              "scores", "tags", "info", "round", "surface", "best_of", "tennis", "elo", "rank", "form")
+              "scores", "tags", "info", "round", "surface", "best_of", "tennis", "elo", "rank", "form", "time_tbc")
 
 
 def _default(o):
@@ -262,6 +262,16 @@ footer code{background:var(--surface-2);padding:1px 6px;border-radius:6px}
 <script id="data" type="application/json">/*__DATA__*/null</script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
+// Un match commencé disparaît de partout : liste des matchs, pronos, stats, et combinés qui l'incluent.
+function prune() {
+  const upcoming = iso => new Date(iso).getTime() > Date.now();
+  const before = D.matches.length + D.combos.length;
+  D.matches = D.matches.filter(m => upcoming(m.ko));
+  for (const k of ['contre_pieds', 'solides', 'stats']) D[k] = D[k].filter(s => upcoming(s.ko));
+  D.combos = D.combos.filter(c => c.legs.every(l => upcoming(l.ko)));
+  return D.matches.length + D.combos.length !== before;
+}
+prune();
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const nf = (x, d) => x == null ? '—' : Number(x).toLocaleString('fr-FR', {minimumFractionDigits: d, maximumFractionDigits: d});
 const fr2 = x => nf(x, 2), fr1 = x => nf(x, 1);
@@ -270,6 +280,10 @@ const sgn = (p, d = 1) => p == null ? '—' : (p >= 0 ? '+' : '−') + nf(Math.a
 const eur = x => nf(x, 2) + ' €';
 const when = iso => new Date(iso).toLocaleString('fr-FR', {weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Paris'});
 const byId = Object.fromEntries(D.matches.map(m => [m.id, m]));
+// Heure d'un match, d'un prono ou d'une sélection ; « horaire à venir » tant que le programme n'est pas publié.
+const whenOf = o => o.time_tbc
+  ? new Date(o.ko).toLocaleDateString('fr-FR', {weekday: 'short', day: '2-digit', month: '2-digit', timeZone: 'Europe/Paris'}) + ' · horaire à venir'
+  : when(o.ko);
 const sportIcon = id => byId[id] && byId[id].sport === 'tennis' ? '🎾' : '⚽';
 const TENNIS_TAGS = new Set(D.tennis_tags || []);
 
@@ -290,7 +304,7 @@ function pickCard(s, kind) {
     ? `<div class="pick__odds">Cote moyenne relevée <b>${fr2(s.odds)}</b>${s.odds_max ? ` · meilleure <b>${fr2(s.odds_max)}</b>` : ''} · value <b>${sgn(s.edge)}</b></div>`
     : `<div class="pick__odds muted">Cote non relevée : vérifie chez ton bookmaker qu'elle est au moins à ${fr2(s.min_odds)}.</div>`;
   return `<article class="card pick pick--${kind}">
-    <div class="pick__top"><span class="kicker">${sportIcon(s.match_id)} ${esc(s.league)} · ${when(s.ko)}</span><span class="badge">${badge}</span></div>
+    <div class="pick__top"><span class="kicker">${sportIcon(s.match_id)} ${esc(s.league)} · ${whenOf(s)}</span><span class="badge">${badge}</span></div>
     <div class="pick__match">${esc(s.match)}</div>
     <div class="pick__sel">${esc(s.label)}</div>
     <div class="nums">
@@ -310,7 +324,7 @@ function comboCard(c) {
     <div class="combo__head"><h3>${c.kind === 'chatte' ? '🍀' : '🧱'} ${esc(c.name)}</h3><span class="badge">${c.legs.length} sélections</span></div>
     <p class="muted">${esc(c.blurb)}</p>
     <ol class="legs">${c.legs.map(l => `<li><div><div class="leg__sel">${esc(l.label)}</div>
-      <div class="leg__match">${sportIcon(l.match_id)} ${esc(l.match)} · ${esc(l.league)} · ${when(l.ko)}</div></div>
+      <div class="leg__match">${sportIcon(l.match_id)} ${esc(l.match)} · ${esc(l.league)} · ${whenOf(l)}</div></div>
       <div class="leg__odds">${l.odds ? fr2(l.odds) : '≥ ' + fr2(l.min_odds)}</div></li>`).join('')}</ol>
     <div class="meter" role="img" aria-label="Facteur chatte"><div class="meter__fill" style="width:${w}%"></div></div>
     <div class="combo__chance"><b>Facteur chatte : 1 chance sur ${Math.round(c.one_in)}</b>, ${esc(c.chance_text.toLowerCase())}</div>
@@ -327,7 +341,7 @@ function tennisCard(m) {
   const form = f => f ? `<span class="form" title="5 derniers matchs">${f.split('').map(c => `<i class="f f--${c}">${c}</i>`).join('')}</span>` : '';
   const seg = (v, cls) => `<div class="seg seg--${cls}" style="width:${v * 100}%">${v >= 0.13 ? pct(v) : ''}</div>`;
   return `<article class="card match">
-    <div class="pick__top"><span class="kicker">🎾 ${esc(m.league)} · ${esc(m.round)} · ${when(m.ko)}</span><span class="kicker">${esc(m.surface)}</span></div>
+    <div class="pick__top"><span class="kicker">🎾 ${esc(m.league)} · ${esc(m.round)} · ${whenOf(m)}</span><span class="kicker">${esc(m.surface)}</span></div>
     <div class="teams">
       <div><span>${esc(m.home)}<small>${rank(m.rank[0])} · Elo ${m.elo[0]}</small></span>${form(m.form[0])}</div>
       <div><span>${esc(m.away)}<small>${rank(m.rank[1])} · Elo ${m.elo[1]}</small></span>${form(m.form[1])}</div>
@@ -476,7 +490,9 @@ function renderBilan() {
 const TABS = [['jouer', 'À jouer', renderJouer], ['combos', 'Combinés', renderCombos], ['stats', 'Stats à jouer', renderStats],
   ['matchs', 'Matchs', renderMatchs], ['chatte', 'Indice de chatte', renderChatte], ['bilan', 'Bilan', renderBilan]];
 
+let currentTab = 'jouer';
 function show(id) {
+  currentTab = id;
   TABS.forEach(([k, , fn]) => {
     const sec = document.getElementById('t-' + k);
     sec.hidden = k !== id;
@@ -492,12 +508,17 @@ document.getElementById('t-matchs').addEventListener('click', e => {
   const b = e.target.closest('[data-league]'); if (b && b.tagName === 'BUTTON') { leagueFilter = b.dataset.league; show('matchs'); }
 });
 
-const next = D.matches[0];
-document.getElementById('meta').textContent = `Mis à jour ${when(D.generated)} · ${D.matches.length} matchs analysés (${D.leagues.join(', ')}) · bankroll ${eur(D.bankroll)}`;
-document.getElementById('kpis').innerHTML = [
-  [D.contre_pieds.length, 'contre-pieds validés'], [D.solides.length, 'Solides (objectif 80 %)'],
-  [D.combos.length, 'combinés dont la chatte'], [next ? when(next.ko) : '—', next ? `prochain : ${next.home} – ${next.away}` : 'aucun match à venir'],
-].map(([v, l]) => `<div class="kpi"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join('');
+function header() {
+  const next = D.matches[0];
+  document.getElementById('meta').textContent = `Mis à jour ${when(D.generated)} · ${D.matches.length} matchs à venir (${D.leagues.join(', ')}, tennis) · bankroll ${eur(D.bankroll)}`;
+  document.getElementById('kpis').innerHTML = [
+    [D.contre_pieds.length, 'contre-pieds validés'], [D.solides.length, 'Solides (objectif 80 %)'],
+    [D.combos.length, 'combinés dont la chatte'], [next ? when(next.ko) : '—', next ? `prochain : ${next.home} – ${next.away}` : 'aucun match à venir'],
+  ].map(([v, l]) => `<div class="kpi"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join('');
+}
+header();
+// La page reste ouverte ? Toutes les minutes, on retire ce qui vient de commencer.
+setInterval(() => { if (prune()) { header(); show(currentTab); } }, 60000);
 document.getElementById('foot').innerHTML = `Notifications : appli gratuite <b>ntfy</b>, sur ton canal privé. Sur téléphone, « Ajouter à l'écran d'accueil » transforme cette page en appli.<br>
   Données : football-data.co.uk (résultats, xG, cotes), Open-Meteo (météo), tennis-data.co.uk et ESPN (tennis). Aucun prono n'est une certitude. Mise uniquement ce que tu peux perdre. Joueurs Info Service : 09 74 75 13 13.`;
 

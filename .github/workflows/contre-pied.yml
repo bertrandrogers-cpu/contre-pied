@@ -1,10 +1,11 @@
-# Toutes les heures : données → pronos → notifs → tableau de bord publié sur GitHub Pages.
+# Toutes les 4 heures : données → pronos → notifs (celles d'avant-match sont programmées chez ntfy
+# pour arriver 1 h avant le coup d'envoi) → tableau de bord publié sur GitHub Pages.
 # Le lundi matin, le backtest est relancé pour remesurer les critères.
 name: Contre-Pied
 
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 */4 * * *"
     - cron: "40 4 * * 1"
   workflow_dispatch:
 

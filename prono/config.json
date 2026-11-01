@@ -34,6 +34,8 @@
     "ntfy_topic": "",
     "telegram_token": "",
     "telegram_chat_id": "",
-    "remind_hours": 3
+    "match_leagues": ["F1", "E0", "D1", "SP1", "I1"],
+    "match_lead_min": 60,
+    "match_window_h": 5
   }
 }
