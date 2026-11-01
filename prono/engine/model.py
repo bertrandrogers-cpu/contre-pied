@@ -109,6 +109,10 @@ class Models:
                 weighted.append((w, m))
         self.goals = fit_ratings([(w, m["home"], m["away"], performance(m, "h", self.conv, w_xg),
                                    performance(m, "a", self.conv, w_xg)) for w, m in weighted])
+        self.shots = fit_ratings([(w, m["home"], m["away"], m["hs"], m["as"])
+                                  for w, m in weighted if m["hs"] is not None and m["as"] is not None], prior=6)
+        self.sot = fit_ratings([(w, m["home"], m["away"], m["hst"], m["ast"])
+                                for w, m in weighted if m["hst"] is not None and m["ast"] is not None], prior=6)
         self.corners = fit_ratings([(w, m["home"], m["away"], m["hc"], m["ac"])
                                     for w, m in weighted if m["hc"] is not None and m["ac"] is not None], prior=6)
         cards = [(w, m) for w, m in weighted if m["hy"] is not None and m["ay"] is not None]

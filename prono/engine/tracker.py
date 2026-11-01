@@ -33,6 +33,12 @@ def settle(key: str, m: dict):
             return None
         c = m["hc"] + m["ac"]
         return c > float(val) if kind == "co" else c < float(val)
+    if kind in ("tirs+", "tirs-", "cadres+", "cadres-"):
+        a, b = ("hs", "as") if kind.startswith("tirs") else ("hst", "ast")
+        if m[a] is None or m[b] is None:
+            return None
+        c = m[a] + m[b]
+        return c > float(val) if kind.endswith("+") else c < float(val)
     if kind in ("ko", "ku"):
         if m["hy"] is None or m["ay"] is None:
             return None

@@ -158,7 +158,50 @@ def markets(p_bo3: float, best_of: int) -> dict:
     return {"w1": w1, "w2": 1 - w1, "s1": 1 - st2, "s2": 1 - st1, "st1": st1, "st2": st2, "dec": dec}
 
 
+GPS_MEAN = 9.7  # jeux par set en moyenne sur le circuit
+GAME_LINES = {3: [17.5, 18.5, 19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5],
+              5: [31.5, 32.5, 33.5, 34.5, 35.5, 36.5, 37.5, 38.5, 39.5, 40.5, 41.5, 42.5, 43.5]}
+# Jeux par set = a + b·(habitude des deux joueurs − moyenne) + c·déséquilibre ; écart type par set : sd.
+DEFAULT_GAMES = {"a": GPS_MEAN, "b": 1.0, "c": -2.0, "sd": 2.4}
+
+
+def _phi(x: float) -> float:
+    return 0.5 * (1 + math.erf(x / math.sqrt(2)))
+
+
+def _nsets(dec: float, close: float, best_of: int) -> dict:
+    """Probabilité de chaque nombre de sets ; dec = proba d'aller au-delà du minimum (déjà calibrée)."""
+    if best_of != 5:
+        return {2: 1 - dec, 3: dec}
+    s = 0.5 + close
+    q = 1 - s
+    p4, p5 = 3 * (s ** 3 * q + q ** 3 * s), 6 * (s ** 3 * q * q + q ** 3 * s * s)
+    return {3: 1 - dec, 4: dec * p4 / (p4 + p5), 5: dec * p5 / (p4 + p5)}
+
+
+def fit_games(rows: list) -> dict:
+    """rows : (écart d'habitude, déséquilibre, nombre de sets, jeux du match). Moindres carrés sur les jeux par set."""
+    X = [[1.0, d, c] for d, c, _, _ in rows]
+    Y = [g / n for _, _, n, g in rows]
+    A = [[sum(x[i] * x[j] for x in X) for j in range(3)] for i in range(3)]
+    B = [sum(x[i] * y for x, y in zip(X, Y)) for i in range(3)]
+    for i in range(3):  # élimination de Gauss
+        for j in range(i + 1, 3):
+            f = A[j][i] / A[i][i]
+            A[j] = [a - f * b for a, b in zip(A[j], A[i])]
+            B[j] -= f * B[i]
+    sol = [0.0, 0.0, 0.0]
+    for i in (2, 1, 0):
+        sol[i] = (B[i] - sum(A[i][k] * sol[k] for k in range(i + 1, 3))) / A[i][i]
+    a, b, c = sol
+    res = [(g - n * (a + b * d + c * cl)) / math.sqrt(n) for d, cl, n, g in rows]
+    return {"a": a, "b": b, "c": c, "sd": math.sqrt(sum(r * r for r in res) / len(res))}
+
+
 def label(key: str, p1: str, p2: str, best_of: int) -> str:
+    if key.startswith("jeux"):
+        kind, val = key.split(":")
+        return f"{'Plus' if kind == 'jeux+' else 'Moins'} de {val.replace('.', ',')} jeux dans le match"
     if key == "dec":
         return "Match en 3 sets" if best_of == 3 else "Au moins 4 sets"
     name = p1 if key.endswith("1") else p2
@@ -169,6 +212,10 @@ def label(key: str, p1: str, p2: str, best_of: int) -> str:
 def settle(key: str, m: dict):
     if not m.get("completed"):
         return None
+    if key.startswith("jeux"):
+        kind, val = key.split(":")
+        total = sum(a + b for a, b in m["sets"])
+        return total > float(val) if kind == "jeux+" else total < float(val)
     n1 = sum(a > b for a, b in m["sets"])
     n2 = sum(b > a for a, b in m["sets"])
     if n1 == n2:
@@ -205,6 +252,12 @@ class State:
             self.rank[m["winner"]] = int(m["wrank"])
         if m.get("lrank"):
             self.rank[m["loser"]] = int(m["lrank"])
+
+    def gps(self, name: str, day, k: int = 20) -> float:
+        """Jeux par set dans les matchs du joueur sur 12 mois (gros serveurs : plus de jeux, plus de tie-breaks)."""
+        recent = [e for e in self.hist.get(name, []) if 0 < (day - e["date"]).days <= 365]
+        g, n = sum(e["games"] for e in recent), sum(e["nsets"] for e in recent)
+        return (g + k * GPS_MEAN) / (n + k)
 
 
 def _tag(tid, title, text, supports=(), against=()):
@@ -303,6 +356,18 @@ def analyse(fx: dict, st: State, elo: Elo, cfg: dict) -> dict:
     fav = 1 if mk["w1"] >= 0.5 else 2
     if cfg.get("tennis_cal"):
         mk = calibrate(mk, cfg["tennis_cal"], fav)
+    # Nombre de jeux : mélange « 2 sets / 3 sets » (proba du set décisif déjà calibrée) × jeux par set,
+    # qui dépendent de l'habitude des deux joueurs (gros serveurs = plus de jeux) et de leur écart de niveau.
+    s_set, bo = set_prob(p), fx["best_of"]
+    close = abs(s_set - 0.5)
+    nsets = _nsets(mk["dec"], close, bo)
+    gp = cfg.get("tennis_games") or DEFAULT_GAMES
+    dev = (st.gps(fx["k1"], fx["date"]) + st.gps(fx["k2"], fx["date"])) / 2 - GPS_MEAN
+    g_set = gp["a"] + gp["b"] * dev + gp["c"] * close
+    mu_games = sum(pn * n * g_set for n, pn in nsets.items())
+    for line in GAME_LINES[bo]:
+        po = sum(pn * (1 - _phi((line - n * g_set) / (gp["sd"] * math.sqrt(n)))) for n, pn in nsets.items())
+        mk[f"jeux+:{line}"], mk[f"jeux-:{line}"] = po, 1 - po
     tags = evaluate(fx, st, elo, mk["w1"])
     odds = fx.get("odds") or {}
     p_mkt = devig(odds["sharp"]) if odds.get("sharp") else None
@@ -316,7 +381,8 @@ def analyse(fx: dict, st: State, elo: Elo, cfg: dict) -> dict:
              "min_odds": (1 + cfg["min_edge_play"]) / prob, "odds": o,
              "odds_max": odds["max"][side] if o and odds.get("max") else None,
              "p_mkt": p_mkt[side] if p_mkt and o else None, "p_model": prob, "edge": prob * o - 1 if o else None,
-             "base_key": key if side is None else f"{key[:-1]}_{'fav' if side + 1 == fav else 'dog'}",
+             "base_key": (key.split(":")[0] if key.startswith("jeux") else key) if side is None
+             else f"{key[:-1]}_{'fav' if side + 1 == fav else 'dog'}",
              "tags": [t["id"] for t in tags if key in t["supports"]],
              "against": [t["id"] for t in tags if key in t["against"]]}
         s["breaks"] = bool(set(s["tags"]) & ANTI_NAIVE)
@@ -329,6 +395,7 @@ def analyse(fx: dict, st: State, elo: Elo, cfg: dict) -> dict:
         "rank": [st.rank.get(fx["k1"]), st.rank.get(fx["k2"])],
         "form": ["".join("V" if e["won"] else "D" for e in st.hist.get(k, [])[-5:]) for k in (fx["k1"], fx["k2"])],
         "tags": tags, "info": {}, "sels": sels, "date": fx["date"], "time_tbc": fx.get("time_tbc", False),
+        "games": mu_games, "games_feat": (dev, close),
     }
 
 
@@ -453,7 +520,30 @@ def backtest(cfg: dict, log=print) -> dict:
         for name, key in (("w_fav", f"w{f}"), ("st_fav", f"st{f}"), ("st_dog", f"st{3 - f}")):
             pairs[name].append((an["tennis"][key], int(settle(key, m))))
     cal_params = {k: fit_platt(v) for k, v in pairs.items()}
-    cfg_m = dict(cfg, tennis_coef=coef, tennis_cal=cal_params)
+    games = [(*an["games_feat"], len(m["sets"]), sum(a + b for a, b in m["sets"]))
+             for m, an in raw_records if an["date"].year == year - 1 and m["completed"]]
+    gp = fit_games(games)
+    # Les scores de tennis ont des queues plus épaisses qu'une courbe en cloche : on règle l'écart type pour que
+    # les lignes qu'on joue vraiment (proba 62-85 %) passent aussi souvent qu'annoncé sur la saison de calage.
+    feats = [(an["games_feat"], an["tennis"]["dec"], an["best_of"], sum(a + b for a, b in m["sets"]))
+             for m, an in raw_records if an["date"].year == year - 1 and m["completed"]]
+
+    def games_gap(sd):
+        gap = n = 0
+        for (dev, close), dec, bo, total in feats:
+            g_set = gp["a"] + gp["b"] * dev + gp["c"] * close
+            for line in GAME_LINES[bo]:
+                po = sum(pn * (1 - _phi((line - k * g_set) / (sd * math.sqrt(k))))
+                         for k, pn in _nsets(dec, close, bo).items())
+                p, won = (po, total > line) if po >= 0.5 else (1 - po, total < line)
+                if 0.62 <= p <= 0.85:
+                    gap += won - p
+                    n += 1
+        return abs(gap / max(n, 1))
+
+    gp["sd"] = min((gp["sd"] * k / 10 for k in range(10, 31)), key=games_gap)
+    log(f"  Tennis : jeux par set {gp['a']:.2f} + {gp['b']:.2f}×habitude {gp['c']:+.2f}×déséquilibre (écart type {gp['sd']:.2f})")
+    cfg_m = dict(cfg, tennis_coef=coef, tennis_cal=cal_params, tennis_games=gp)
     records, _ = _replay(rows, cfg_m, year - 1)
     cal = [(m, an) for m, an in records if an["date"].year == year - 1]
     test = [(m, an) for m, an in records if an["date"].year == year]
@@ -490,20 +580,21 @@ def backtest(cfg: dict, log=print) -> dict:
         by_id[an["id"]] = m
     cats, combos = defaultdict(list), defaultdict(list)
     for _, ans in sorted(weeks.items()):
-        sol, cps = picks.solides(ans, cfg1), picks.contre_pieds(ans, cfg1)
-        for name, lst in (("solides", sol), ("contre_pieds", cps)):
+        sol, cps, sts = picks.solides(ans, cfg1), picks.contre_pieds(ans, cfg1), picks.stats_a_jouer(ans, cfg1)
+        for name, lst in (("solides", sol), ("contre_pieds", cps), ("stats", sts)):
             for s in lst:
                 won = settle(s["key"], by_id[s["match_id"]])
                 if won is not None:
                     cats[name].append((s, won, s["odds"]))
-        for c in picks.combines(sol, cps, [], cfg1):
+        hell = picks.enfer(ans, cfg1)
+        for c in picks.combines(sol, cps, [], cfg1) + ([hell] if hell else []):
             res = [settle(x["key"], by_id[x["match_id"]]) for x in c["legs"]]
             if None not in res:
                 combos[c["name"]].append((all(res), c["p"], c["one_in"]))
     raw = bt.merge_raw(raw_cal, bt.tag_study(test))
     return {
         "season": str(year), "calibration_season": str(year - 1), "matches": len(test),
-        "coef": coef, "calibration": cal_params,
+        "coef": coef, "calibration": cal_params, "games": gp,
         "reliability": {k: {"n": v[0], "hit": v[1] / v[0], "expected_hit": v[2] / v[0]} for k, v in reliab.items()},
         "logloss_model": lm / max(len(test), 1), "logloss_market": lk / max(n, 1),
         "value_bets": {"bets": len(bets), "roi": sum(bets) / len(bets) if bets else None},

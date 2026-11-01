@@ -9,8 +9,11 @@ from .data import LEAGUES
 # Tags qui contredisent une lecture naïve des séries en cours : ce sont eux qui font les « contre-pieds ».
 ANTI_NAIVE = {"fausse-panne", "muraille-carton", "serie-trompe-oeil", "ca-va-tourner", "chanceux", "poissard",
               "piege-00", "feu-artifice-evente", "popularite"}
-CORNER_LINES = [7.5, 8.5, 9.5, 10.5, 11.5, 12.5]
-CARD_LINES = [2.5, 3.5, 4.5, 5.5, 6.5]
+SHOT_LINES = [19.5, 20.5, 21.5, 22.5, 23.5, 24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5]
+SOT_LINES = [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5]
+# Marchés de stats : jamais dans les Solides ni les contre-pieds, ils ont leur propre rubrique.
+STAT_PREFIXES = ("cs:", "co:", "cu:", "ko:", "ku:", "tirs", "cadres", "jeux")
+STAT_FAMILIES = (("tirs+", "tirs-"), ("cadres+", "cadres-"), ("jeux+", "jeux-"))
 
 
 def label(key: str, h: str, a: str) -> str:
@@ -26,7 +29,9 @@ def label(key: str, h: str, a: str) -> str:
     kind, val = key.split(":")
     line = val.replace(".", ",")
     return {"cs": f"Score exact {val}", "co": f"Plus de {line} corners", "cu": f"Moins de {line} corners",
-            "ko": f"Plus de {line} cartons", "ku": f"Moins de {line} cartons"}[kind]
+            "ko": f"Plus de {line} cartons", "ku": f"Moins de {line} cartons",
+            "tirs+": f"Plus de {line} tirs", "tirs-": f"Moins de {line} tirs",
+            "cadres+": f"Plus de {line} tirs cadrés", "cadres-": f"Moins de {line} tirs cadrés"}[kind]
 
 
 def _tag_hits(sel_key: str, tag_key: str) -> bool:
@@ -87,9 +92,8 @@ def analyse(fx: dict, models, hist: dict, cfg: dict, weather=None) -> dict:
     mk = model.markets(model.score_matrix(lhf, laf))
     _market_tags(fx, p_mkt, mk_model, tags)
 
-    ch, ca = models.corners.expect(h, a)
-    kh, ka = models.cards.expect(h, a)
-    mu_c, mu_k = (ch + ca) * adj["corners"], (kh + ka) * adj["cards"]
+    mu_shots = sum(models.shots.expect(h, a))
+    mu_sot = sum(models.sot.expect(h, a))
 
     mkt_p = {}
     if p_mkt:
@@ -111,14 +115,14 @@ def analyse(fx: dict, models, hist: dict, cfg: dict, weather=None) -> dict:
     probs = {k: v for k, v in mk.items() if k != "scores"}
     probs.update({f"cs:{s}": p for s, p in mk["scores"][:3]})
     probs["cs:0-0"] = model.score_matrix(lhf, laf)[0][0]
-    if models.corners.att:
-        for line in CORNER_LINES:
-            po = model.over_prob(mu_c, line, cfg["corners_dispersion"])
-            probs[f"co:{line}"], probs[f"cu:{line}"] = po, 1 - po
-    if models.cards.att:
-        for line in CARD_LINES:
-            po = model.over_prob(mu_k, line, cfg["cards_dispersion"])
-            probs[f"ko:{line}"], probs[f"ku:{line}"] = po, 1 - po
+    if models.shots.att:
+        for line in SHOT_LINES:
+            po = model.over_prob(mu_shots, line, cfg["shots_dispersion"])
+            probs[f"tirs+:{line}"], probs[f"tirs-:{line}"] = po, 1 - po
+    if models.sot.att:
+        for line in SOT_LINES:
+            po = model.over_prob(mu_sot, line, cfg["sot_dispersion"])
+            probs[f"cadres+:{line}"], probs[f"cadres-:{line}"] = po, 1 - po
 
     sels = []
     for key, p in probs.items():
@@ -136,7 +140,7 @@ def analyse(fx: dict, models, hist: dict, cfg: dict, weather=None) -> dict:
     return {
         "id": fx["id"], "div": fx["div"], "league": LEAGUES.get(fx["div"], fx["div"]), "ko": fx["ko"],
         "home": h, "away": a, "ref": fx.get("ref"), "xg": (lhf, laf), "xg_model": (lh, la),
-        "corners": mu_c, "cards": mu_k, "probs": {k: probs[k] for k in ("1", "N", "2", "o25", "btts")},
+        "shots": mu_shots, "sot": mu_sot, "probs": {k: probs[k] for k in ("1", "N", "2", "o25", "btts")},
         "pm": {k: mk_model[k] for k in ("1", "N", "2", "o25")},
         "p_mkt": p_mkt, "p_mkt_ou": p_mkt_ou, "odds": od, "scores": mk["scores"][:3],
         "tags": tags, "info": info, "sels": sels,
@@ -194,7 +198,7 @@ def contre_pieds(analyses: list, cfg: dict) -> list:
         cands = []
         for s in m["sels"]:
             good = [lifts[t] for t in s["tags"] if t in lifts]
-            if not good or s["against"] or s["key"].startswith(("co:", "cu:", "ko:", "ku:", "cs:")):
+            if not good or s["against"] or s["key"].startswith(STAT_PREFIXES):
                 continue
             lift = max(good)
             p = min(0.97, s["p"] + 0.5 * lift)
@@ -216,7 +220,7 @@ def solides(analyses: list, cfg: dict) -> list:
     out = []
     for m in analyses:
         cands = [s for s in m["sels"] if cfg["solide_min_p"] <= s["p"] <= 0.93 and not s["against"]
-                 and (s["edge"] is None or s["edge"] >= -0.06) and not s["key"].startswith(("cs:", "co:", "cu:", "ko:", "ku:"))]
+                 and (s["edge"] is None or s["edge"] >= -0.06) and not s["key"].startswith(STAT_PREFIXES)]
         if cands:
             best = max(cands, key=lambda s: (s["fair"], len(s["tags"])))
             out.append(dict(_leg(m, best), stake_pct=cfg["stake_solide_pct"]))
@@ -227,7 +231,7 @@ def stats_a_jouer(analyses: list, cfg: dict) -> list:
     out = []
     for m in analyses:
         picks = []
-        for prefix in (("co:", "cu:"), ("ko:", "ku:")):
+        for prefix in STAT_FAMILIES:
             c = [s for s in m["sels"] if s["key"].startswith(prefix) and 0.62 <= s["p"] <= 0.85 and not s["against"]]
             if c:
                 picks.append(max(c, key=lambda s: (len(s["tags"]), s["fair"])))
@@ -293,6 +297,29 @@ def combines(sol: list, cps: list, stats: list, cfg: dict) -> list:
         out.append(_combo("Grosse chatte", "chatte", legs, cfg["stake_chatte_pct"] / 2,
                           "Le ticket qui défie les stats : chaque sélection casse une série que tout le monde croit."))
     return out
+
+
+def enfer(analyses: list, cfg: dict):
+    """Le combiné de l'enfer : une petite cote par match, chacune au-dessus de 82 %, sur 24 matchs.
+
+    Par match, on garde la sélection la mieux payée qui reste au-dessus du seuil (le maxi booster),
+    puis les 24 meilleures cotes. Chaque jambe passe souvent ; les 24 ensemble, très rarement.
+    """
+    legs = []
+    for m in analyses:
+        cands = [s for s in m["sels"] if cfg["enfer_min_p"] < s["p"] <= 0.97 and not s["against"]
+                 and not s["key"].startswith(STAT_PREFIXES)]
+        if cands:
+            legs.append(_leg(m, max(cands, key=lambda s: s["fair"])))
+    legs = sorted(legs, key=lambda s: -s["fair"])[:cfg["enfer_legs"]]
+    if len(legs) < cfg["enfer_min_legs"]:
+        return None
+    c = _combo("Le combiné de l'enfer", "enfer", sorted(legs, key=lambda s: s["ko"]), cfg["stake_enfer_pct"],
+               f"{len(legs)} petites cotes, chacune au-dessus de {cfg['enfer_min_p'] * 100:.0f} %. Une par une, elles "
+               f"passent presque toujours. Toutes ensemble, c'est l'enfer.")
+    # On affiche la cote juste : ton site paiera moins, car sa marge se multiplie à chaque sélection.
+    c["odds"], c["priced"] = c["fair"], False
+    return c
 
 
 def chatte_rows(hist: dict, teams: dict, now) -> list:

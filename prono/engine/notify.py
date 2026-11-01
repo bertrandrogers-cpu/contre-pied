@@ -124,8 +124,9 @@ def dispatch(cfg: dict, rep: dict, now: dt.datetime, log=print):
             continue
         legs = "\n".join(f"• {x['label']}\n   {_icon(x)} {x['match']}" for x in c["legs"])
         body = f"{legs}\n1 chance sur {c['one_in']:.0f} · mise {_num(bank * c['stake_pct'])} €"
-        msgs.append((f"{c['name']} · cote ≥ {_num(c['odds'])}", body, 3,
-                     ["four_leaf_clover" if c["kind"] == "chatte" else "bricks"], [_uid("combo", c)], now))
+        odds = f"cote juste ≈ {_num(c['odds'], 0)}" if c["kind"] == "enfer" else f"cote ≥ {_num(c['odds'])}"
+        msgs.append((f"{c['name']} · {odds}", body, 3,
+                     [{"chatte": "four_leaf_clover", "enfer": "fire"}.get(c["kind"], "bricks")], [_uid("combo", c)], now))
 
     for title, body, prio, tags, uids, at in msgs:
         later = at - now > dt.timedelta(minutes=1)

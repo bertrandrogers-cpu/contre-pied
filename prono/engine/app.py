@@ -28,7 +28,7 @@ def run(cfg: dict, send_notifs: bool = True, log=print) -> dict:
     if bt:
         tn = bt.get("tennis") or {}
         cfg = dict(cfg, tag_stats=dict(bt["tags_raw"], **tn.get("tags_raw", {})),
-                   tennis_coef=tn.get("coef"), tennis_cal=tn.get("calibration"))
+                   tennis_coef=tn.get("coef"), tennis_cal=tn.get("calibration"), tennis_games=tn.get("games"))
     else:
         log("Pas encore de backtest : lance « python3 prono.py backtest » pour activer les contre-pieds.")
     status = _tag_status(cfg, bt)
@@ -76,6 +76,9 @@ def run(cfg: dict, send_notifs: bool = True, log=print) -> dict:
     cps = picks.contre_pieds(analyses, cfg)
     sts = picks.stats_a_jouer(analyses, cfg)
     combos = picks.combines(sol, cps, sts, cfg)
+    hell = picks.enfer(analyses, cfg)
+    if hell:
+        combos.append(hell)
     log(f"{len(cps)} contre-pieds, {len(sol)} solides, {len(sts)} stats à jouer, {len(combos)} combinés")
 
     items = tracker.load()

@@ -10,7 +10,7 @@ from .data import ROOT
 OUT_FILE = os.path.join(ROOT, "out", "index.html")
 PICK_KEYS = ("match", "match_id", "league", "ko", "time_tbc", "key", "label", "p", "fair", "min_odds", "odds",
              "odds_max", "edge", "stake_pct", "tags", "breaks", "lift")
-MATCH_KEYS = ("id", "sport", "league", "ko", "home", "away", "ref", "xg", "corners", "cards", "probs", "p_mkt",
+MATCH_KEYS = ("id", "sport", "league", "ko", "home", "away", "ref", "xg", "shots", "sot", "games", "probs", "p_mkt",
               "scores", "tags", "info", "round", "surface", "best_of", "tennis", "elo", "rank", "form", "time_tbc")
 
 
@@ -175,6 +175,7 @@ h3{font:700 22px/1.15 var(--display);margin:0;letter-spacing:.2px}
 .st--ko{color:var(--rose)}
 .tag--ko .tag__t{text-decoration:line-through;text-decoration-color:var(--rose);opacity:.75}
 .combo--chatte{border-color:color-mix(in srgb,var(--gold) 45%,var(--line))}
+.combo--enfer{border-color:color-mix(in srgb,var(--rose) 55%,var(--line))}
 .combo__head{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .combo p{margin:6px 0 10px}
 .legs{list-style:none;padding:0;margin:0 0 14px;display:grid;gap:6px;counter-reset:leg}
@@ -321,7 +322,7 @@ function pickCard(s, kind) {
 function comboCard(c) {
   const w = Math.max(4, Math.min(100, Math.log10(Math.max(c.one_in, 1)) / Math.log10(1000) * 100));
   return `<article class="card combo combo--${c.kind}">
-    <div class="combo__head"><h3>${c.kind === 'chatte' ? '🍀' : '🧱'} ${esc(c.name)}</h3><span class="badge">${c.legs.length} sélections</span></div>
+    <div class="combo__head"><h3>${({chatte: '🍀', enfer: '🔥'})[c.kind] || '🧱'} ${esc(c.name)}</h3><span class="badge">${c.legs.length} sélections</span></div>
     <p class="muted">${esc(c.blurb)}</p>
     <ol class="legs">${c.legs.map(l => `<li><div><div class="leg__sel">${esc(l.label)}</div>
       <div class="leg__match">${sportIcon(l.match_id)} ${esc(l.match)} · ${esc(l.league)} · ${whenOf(l)}</div></div>
@@ -329,7 +330,7 @@ function comboCard(c) {
     <div class="meter" role="img" aria-label="Facteur chatte"><div class="meter__fill" style="width:${w}%"></div></div>
     <div class="combo__chance"><b>Facteur chatte : 1 chance sur ${Math.round(c.one_in)}</b>, ${esc(c.chance_text.toLowerCase())}</div>
     <div class="nums nums--3">
-      <div><b>${c.priced ? '' : '≥ '}${fr2(c.odds)}</b><span>cote totale${c.priced ? '' : ' à viser'}</span></div>
+      <div><b>${c.kind === 'enfer' ? '≈ ' : c.priced ? '' : '≥ '}${fr2(c.odds)}</b><span>${c.kind === 'enfer' ? 'cote juste (ton site paiera moins)' : 'cote totale' + (c.priced ? '' : ' à viser')}</span></div>
       <div><b>${pct(c.p, 1)}</b><span>proba de passer</span></div>
       <div class="hl"><b>${eur(D.bankroll * c.stake_pct)}</b><span>mise conseillée</span></div>
     </div>
@@ -349,7 +350,7 @@ function tennisCard(m) {
     <div class="bar">${seg(t.w1, 'h')}${seg(t.w2, 'a')}</div>
     <div class="sub">Nos probas de victoire : ${esc(m.home)} ${pct(t.w1)} · ${esc(m.away)} ${pct(t.w2)}</div>
     <div class="facts">
-      <span>Au moins un set : ${pct(t.s1)} / ${pct(t.s2)}</span><span>Sans perdre de set : ${pct(t.st1)} / ${pct(t.st2)}</span>
+      <span>Au moins un set : ${pct(t.s1)} / ${pct(t.s2)}</span><span>Sans perdre de set : ${pct(t.st1)} / ${pct(t.st2)}</span><span>🎾 ≈ ${fr1(m.games)} jeux dans le match</span>
       <span>${m.best_of === 5 ? 'Au moins 4 sets' : 'Match en 3 sets'} : ${pct(t.dec)}</span>
     </div>
     ${m.tags.length ? `<ul class="tags">${m.tags.map(tagItem).join('')}</ul>` : ''}
@@ -369,7 +370,7 @@ function matchCard(m) {
     <div class="sub">Nos probas ${pct(p['1'])} / ${pct(p['N'])} / ${pct(p['2'])}${mk ? ` · marché ${pct(mk[0])} / ${pct(mk[1])} / ${pct(mk[2])}` : ''}</div>
     <div class="facts">
       <span>⚽ xG ${fr2(m.xg[0])} – ${fr2(m.xg[1])}</span><span>+2,5 buts ${pct(p.o25)}</span><span>Les 2 marquent ${pct(p.btts)}</span>
-      <span>🚩 ${fr1(m.corners)} corners</span><span>🟨 ${fr1(m.cards)} cartons</span>
+      <span>🎯 ${fr1(m.shots)} tirs</span><span>🥅 ${fr1(m.sot)} tirs cadrés</span>
       <span>Scores : ${m.scores.map(s => `${s[0]} (${pct(s[1])})`).join(', ')}</span>${w}
     </div>
     ${m.tags.length ? `<ul class="tags">${m.tags.map(tagItem).join('')}</ul>` : ''}
@@ -396,7 +397,7 @@ function renderCombos() {
 
 function renderStats() {
   return `<h2>📊 Stats à jouer</h2>
-    <p class="lead">Corners et cartons : des marchés que les bookmakers soignent moins. Le modèle donne la cote juste. Si ton site paie plus que « joue à partir de », c'est là que se cache la value.</p>
+    <p class="lead">Tirs et tirs cadrés en foot, nombre de jeux en tennis : des marchés que les bookmakers soignent moins. Le modèle donne la cote juste. Si ton site paie plus que « joue à partir de », c'est là que se cache la value.</p>
     ${grid(D.stats, s => pickCard(s, 'stat')) || empty('Aucune ligne intéressante pour le moment.')}`;
 }
 
