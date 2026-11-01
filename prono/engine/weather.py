@@ -28,6 +28,17 @@ CITY = {
     "Werder Bremen": "Bremen", "Union Berlin": "Berlin", "Hertha": "Berlin", "FC Koln": "Köln",
     "Hoffenheim": "Sinsheim", "Freiburg": "Freiburg im Breisgau", "Heidenheim": "Heidenheim an der Brenz",
     "St Pauli": "Hamburg", "Schalke 04": "Gelsenkirchen", "Fortuna Dusseldorf": "Düsseldorf",
+    "Sp Lisbon": "Lisboa", "Benfica": "Lisboa", "Casa Pia": "Lisboa", "Estrela": "Amadora", "Sp Braga": "Braga",
+    "Guimaraes": "Guimarães", "Galatasaray": "Istanbul", "Fenerbahce": "Istanbul", "Besiktas": "Istanbul",
+    "Kasimpasa": "Istanbul", "Eyupspor": "Istanbul", "Buyuksehyr": "Istanbul", "Goztep": "Izmir",
+    "PSV Eindhoven": "Eindhoven", "Ajax": "Amsterdam", "Feyenoord": "Rotterdam", "Sparta Rotterdam": "Rotterdam",
+    "Excelsior": "Rotterdam", "AZ Alkmaar": "Alkmaar", "Twente": "Enschede", "For Sittard": "Sittard",
+    "Go Ahead Eagles": "Deventer", "Club Brugge": "Brugge", "Cercle Brugge": "Brugge", "Anderlecht": "Brussels",
+    "St. Gilloise": "Saint-Gilles", "Standard": "Liège", "Antwerp": "Antwerpen", "Oud-Heverlee Leuven": "Leuven",
+    "St Truiden": "Sint-Truiden", "RAAL La Louviere": "La Louvière", "Olympiakos": "Piraeus",
+    "PAOK": "Thessaloniki", "Aris": "Thessaloniki", "AEK": "Athens", "Panathinaikos": "Athens",
+    "Celtic": "Glasgow", "Rangers": "Glasgow", "Hearts": "Edinburgh", "Hibernian": "Edinburgh",
+    "Dundee United": "Dundee", "St Mirren": "Paisley", "St Johnstone": "Perth",
 }
 GEO_FILE = os.path.join(CACHE_DIR, "geo.json")
 
@@ -65,7 +76,7 @@ def locate(team: str, div: str):
 
 def at_kickoff(team: str, div: str, ko: dt.datetime):
     """{'rain': mm/h, 'wind': km/h, 'temp': °C} à l'heure du match, ou None si trop loin / indisponible."""
-    if not 0 <= (ko - dt.datetime.now(ko.tzinfo)).days <= 6:
+    if not 0 <= (ko - dt.datetime.now(ko.tzinfo)).days <= 2:  # au-delà, la prévision ne vaut pas grand-chose
         return None
     pos = locate(team, div)
     if not pos:

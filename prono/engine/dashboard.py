@@ -176,6 +176,7 @@ h3{font:700 22px/1.15 var(--display);margin:0;letter-spacing:.2px}
 .tag--ko .tag__t{text-decoration:line-through;text-decoration-color:var(--rose);opacity:.75}
 .combo--chatte{border-color:color-mix(in srgb,var(--gold) 45%,var(--line))}
 .combo--enfer{border-color:color-mix(in srgb,var(--rose) 55%,var(--line))}
+.combo--mille{border-color:color-mix(in srgb,var(--gold) 70%,var(--line))}
 .combo__head{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .combo p{margin:6px 0 10px}
 .legs{list-style:none;padding:0;margin:0 0 14px;display:grid;gap:6px;counter-reset:leg}
@@ -322,7 +323,7 @@ function pickCard(s, kind) {
 function comboCard(c) {
   const w = Math.max(4, Math.min(100, Math.log10(Math.max(c.one_in, 1)) / Math.log10(1000) * 100));
   return `<article class="card combo combo--${c.kind}">
-    <div class="combo__head"><h3>${({chatte: '🍀', enfer: '🔥'})[c.kind] || '🧱'} ${esc(c.name)}</h3><span class="badge">${c.legs.length} sélections</span></div>
+    <div class="combo__head"><h3>${({chatte: '🍀', enfer: '🔥', mille: '🎰'})[c.kind] || '🧱'} ${esc(c.name)}</h3><span class="badge">${c.legs.length} sélections</span></div>
     <p class="muted">${esc(c.blurb)}</p>
     <ol class="legs">${c.legs.map(l => `<li><div><div class="leg__sel">${esc(l.label)}</div>
       <div class="leg__match">${sportIcon(l.match_id)} ${esc(l.match)} · ${esc(l.league)} · ${whenOf(l)}</div></div>
@@ -330,7 +331,7 @@ function comboCard(c) {
     <div class="meter" role="img" aria-label="Facteur chatte"><div class="meter__fill" style="width:${w}%"></div></div>
     <div class="combo__chance"><b>Facteur chatte : 1 chance sur ${Math.round(c.one_in)}</b>, ${esc(c.chance_text.toLowerCase())}</div>
     <div class="nums nums--3">
-      <div><b>${c.kind === 'enfer' ? '≈ ' : c.priced ? '' : '≥ '}${fr2(c.odds)}</b><span>${c.kind === 'enfer' ? 'cote juste (ton site paiera moins)' : 'cote totale' + (c.priced ? '' : ' à viser')}</span></div>
+      <div><b>${c.kind === 'enfer' || c.kind === 'mille' ? '≈ ' : c.priced ? '' : '≥ '}${fr2(c.odds)}</b><span>${c.kind === 'enfer' || c.kind === 'mille' ? 'cote juste (ton site paiera moins)' : 'cote totale' + (c.priced ? '' : ' à viser')}</span></div>
       <div><b>${pct(c.p, 1)}</b><span>proba de passer</span></div>
       <div class="hl"><b>${eur(D.bankroll * c.stake_pct)}</b><span>mise conseillée</span></div>
     </div>

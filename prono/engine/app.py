@@ -76,9 +76,9 @@ def run(cfg: dict, send_notifs: bool = True, log=print) -> dict:
     cps = picks.contre_pieds(analyses, cfg)
     sts = picks.stats_a_jouer(analyses, cfg)
     combos = picks.combines(sol, cps, sts, cfg)
-    hell = picks.enfer(analyses, cfg)
-    if hell:
-        combos.append(hell)
+    for extra in (picks.enfer(analyses, cfg), picks.ticket(cps, analyses, cfg)):
+        if extra:
+            combos.append(extra)
     log(f"{len(cps)} contre-pieds, {len(sol)} solides, {len(sts)} stats à jouer, {len(combos)} combinés")
 
     items = tracker.load()

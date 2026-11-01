@@ -39,6 +39,13 @@ _D = [
     ("Hamburg", "Werder Bremen", "Nordderby"), ("FC Koln", "M'gladbach", "Rheinderby"),
     ("Hamburg", "St Pauli", "Derby de Hambourg"), ("Union Berlin", "Hertha", "Derby de Berlin"),
     ("Leverkusen", "FC Koln", "Derby rhénan"),
+    ("Benfica", "Sp Lisbon", "Derby de Lisbonne"), ("Porto", "Benfica", "O Clássico"),
+    ("Porto", "Sp Lisbon", "Clássico"), ("Galatasaray", "Fenerbahce", "Derby intercontinental"),
+    ("Besiktas", "Galatasaray", "Derby d'Istanbul"), ("Besiktas", "Fenerbahce", "Derby d'Istanbul"),
+    ("Ajax", "Feyenoord", "De Klassieker"), ("PSV Eindhoven", "Ajax", "De Topper"),
+    ("Celtic", "Rangers", "Old Firm"), ("Hearts", "Hibernian", "Derby d'Édimbourg"),
+    ("Olympiakos", "Panathinaikos", "Derby des ennemis éternels"), ("Club Brugge", "Anderlecht", "Topper belge"),
+    ("Club Brugge", "Cercle Brugge", "Derby de Bruges"),
 ]
 DERBIES = {frozenset((a, b)): name for a, b, name in _D}
 TAG_INFO = {

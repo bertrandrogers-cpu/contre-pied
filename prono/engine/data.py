@@ -18,15 +18,24 @@ UK = ZoneInfo("Europe/London")
 PARIS = ZoneInfo("Europe/Paris")
 
 LEAGUES = {
-    "F1": "Ligue 1", "F2": "Ligue 2", "E0": "Premier League", "E1": "Championship",
-    "SP1": "Liga", "SP2": "Liga 2", "I1": "Serie A", "I2": "Serie B",
+    "F1": "Ligue 1", "F2": "Ligue 2", "E0": "Premier League", "E1": "Championship", "E2": "League One",
+    "E3": "League Two", "SP1": "Liga", "SP2": "Liga 2", "I1": "Serie A", "I2": "Serie B",
     "D1": "Bundesliga", "D2": "2. Bundesliga", "N1": "Eredivisie", "P1": "Liga Portugal",
-    "B1": "Pro League", "T1": "Süper Lig", "SC0": "Scottish Prem.", "G1": "Super League GR",
+    "B1": "Pro League", "T1": "Süper Lig", "SC0": "Premiership (Écosse)", "SC1": "Championship (Écosse)",
+    "G1": "Super League (Grèce)",
+    "AUT": "Bundesliga (Autriche)", "SWZ": "Super League (Suisse)", "DNK": "Superliga (Danemark)",
+    "POL": "Ekstraklasa", "ROU": "Liga 1 (Roumanie)", "RUS": "Premier League (Russie)", "SWE": "Allsvenskan",
+    "NOR": "Eliteserien", "FIN": "Veikkausliiga", "IRL": "Premier Division (Irlande)",
 }
 COUNTRY = {"F": "FR", "E": "GB", "SP": "ES", "I": "IT", "D": "DE", "N": "NL", "P": "PT",
-           "B": "BE", "T": "TR", "SC": "GB", "G": "GR"}
-# Une division est toujours modélisée avec sa voisine : les promus et relégués gardent une note.
-FAMILIES = [["F1", "F2"], ["E0", "E1"], ["SP1", "SP2"], ["I1", "I2"], ["D1", "D2"]]
+           "B": "BE", "T": "TR", "SC": "GB", "G": "GR", "AUT": "AT", "SWZ": "CH", "DNK": "DK", "POL": "PL",
+           "ROU": "RO", "RUS": "RU", "SWE": "SE", "NOR": "NO", "FIN": "FI", "IRL": "IE"}
+# Championnats publiés dans un autre format (un fichier par pays, cotes de clôture, sans stats de tirs).
+NEW_LEAGUES = {"AUT": "Austria", "SWZ": "Switzerland", "DNK": "Denmark", "POL": "Poland", "ROU": "Romania",
+               "RUS": "Russia", "SWE": "Sweden", "NOR": "Norway", "FIN": "Finland", "IRL": "Ireland"}
+CODE_OF_COUNTRY = {v: k for k, v in NEW_LEAGUES.items()}
+# Une division est toujours modélisée avec ses voisines : les promus et relégués gardent une note.
+FAMILIES = [["F1", "F2"], ["E0", "E1", "E2", "E3"], ["SP1", "SP2"], ["I1", "I2"], ["D1", "D2"], ["SC0", "SC1"]]
 
 
 def family(div: str) -> list:
@@ -119,9 +128,12 @@ def parse_csv(path: str) -> list:
     out = []
     for row in csv.DictReader(io.StringIO(text)):
         row = {(k or "").strip(): v for k, v in row.items()}
-        home, away = (row.get("HomeTeam") or "").strip(), (row.get("AwayTeam") or "").strip()
+        # Deux formats : « HomeTeam/FTHG/Div » (grands championnats) et « Home/HG/Country » (les autres).
+        home = (row.get("HomeTeam") or row.get("Home") or "").strip()
+        away = (row.get("AwayTeam") or row.get("Away") or "").strip()
+        div = (row.get("Div") or "").strip() or CODE_OF_COUNTRY.get((row.get("Country") or "").strip(), "")
         day = _parse_date(row.get("Date") or "")
-        if not home or not away or not day:
+        if not home or not away or not day or not div:
             continue
         hhmm = (row.get("Time") or "15:00").strip() or "15:00"
         try:
@@ -130,11 +142,11 @@ def parse_csv(path: str) -> list:
             t = dt.time(15, 0)
         # Les horaires du fichier sont à l'heure anglaise.
         ko = dt.datetime.combine(day, t, tzinfo=UK).astimezone(PARIS)
-        div = row.get("Div", "").strip()
         m = {
             "div": div, "date": day, "ko": ko, "home": home, "away": away,
             "id": f"{div}-{day:%Y%m%d}-{slug(home)}-{slug(away)}",
-            "hg": _num(row, "FTHG"), "ag": _num(row, "FTAG"),
+            # Pas de « ou » ici : un score de 0 est une vraie valeur, pas une case vide.
+            "hg": _num(row, "FTHG" if "FTHG" in row else "HG"), "ag": _num(row, "FTAG" if "FTAG" in row else "AG"),
             "hxg": _num(row, "HxG"), "axg": _num(row, "AxG"),
             "hs": _num(row, "HS"), "as": _num(row, "AS"),
             "hst": _num(row, "HST"), "ast": _num(row, "AST"),
@@ -143,8 +155,10 @@ def parse_csv(path: str) -> list:
             "hr": _num(row, "HR"), "ar": _num(row, "AR"),
             "ref": (row.get("Referee") or "").strip() or None,
             "odds": {
-                "avg": _triple(row, "Avg"), "max": _triple(row, "Max"),
-                "sharp": _first(_triple(row, "BFE"), _triple(row, "PS")),
+                # Dans l'historique des « autres » championnats, seules les cotes de clôture existent.
+                "avg": _first(_triple(row, "Avg"), _triple(row, "AvgC")),
+                "max": _first(_triple(row, "Max"), _triple(row, "MaxC")),
+                "sharp": _first(_triple(row, "BFE"), _triple(row, "PS"), _triple(row, "PSC"), _triple(row, "BFEC")),
                 "ou_avg": _pair(row, "Avg"), "ou_max": _pair(row, "Max"),
                 "ou_sharp": _first(_pair(row, "BFE"), _pair(row, "P")),
                 "c_avg": _triple(row, "AvgC"), "c_ou_avg": _pair(row, "AvgC"),
@@ -160,14 +174,28 @@ def load_results(divs: list, seasons: list, refresh_h: float = 12) -> list:
     matches = []
     for season in seasons:
         for div in divs:
+            if div in NEW_LEAGUES:
+                continue
             age = refresh_h if season == current else 24 * 365
             path = cached_file(f"{season}_{div}.csv", f"{BASE_URL}/mmz4281/{season}/{div}.csv", age)
             if path:
                 matches += [m for m in parse_csv(path) if m["hg"] is not None]
+    # Format « un fichier par pays, toutes saisons » : on garde à partir du 1er janvier de la plus ancienne saison
+    # (certains de ces championnats se jouent sur l'année civile).
+    since = dt.date(2000 + int(min(seasons)[:2]), 1, 1)
+    for div in divs:
+        if div in NEW_LEAGUES:
+            path = cached_file(f"new_{div}.csv", f"{BASE_URL}/new/{div}.csv", refresh_h)
+            if path:
+                matches += [m for m in parse_csv(path) if m["hg"] is not None and m["date"] >= since]
     matches.sort(key=lambda m: m["ko"])
     return matches
 
 
 def load_fixtures(refresh_h: float = 3) -> list:
-    path = cached_file("fixtures.csv", f"{BASE_URL}/fixtures.csv", refresh_h)
-    return parse_csv(path) if path else []
+    out = []
+    for name in ("fixtures.csv", "new_league_fixtures.csv"):
+        path = cached_file(name, f"{BASE_URL}/{name}", refresh_h)
+        if path:
+            out += parse_csv(path)
+    return out

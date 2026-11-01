@@ -322,6 +322,42 @@ def enfer(analyses: list, cfg: dict):
     return c
 
 
+def ticket(cps: list, analyses: list, cfg: dict):
+    """Le ticket à 1000. À cote juste, 1000 = 1 chance sur 1000, qu'on l'atteigne avec 4 matchs ou avec 40 :
+    chaque match en plus n'ajoute que la marge du bookmaker. On prend donc le moins de matchs possible,
+    d'abord les contre-pieds validés (ceux qui ont battu le modèle), puis les favoris les plus nets."""
+    target = cfg["ticket_target"]
+    favs = []
+    for m in analyses:
+        cands = [s for s in m["sels"] if s["key"] in ("1", "2", "w1", "w2") and 0.45 <= s["p"] <= 0.75
+                 and not s["against"]]
+        if cands:
+            favs.append(_leg(m, max(cands, key=lambda s: s["p"])))
+    pool = sorted(cps, key=lambda s: -s["fair"]) + sorted(favs, key=lambda s: -s["p"])
+    legs, used, odds = [], set(), 1.0
+    for i, s in enumerate(pool):
+        if s["match_id"] in used or s["fair"] < 1.3:
+            continue
+        if odds * s["fair"] >= target:
+            # Dernière sélection : la plus petite cote qui suffit à passer la barre.
+            last = min((x for x in pool[i:] if x["match_id"] not in used and odds * x["fair"] >= target),
+                       key=lambda x: x["fair"])
+            legs.append(last)
+            odds *= last["fair"]
+            break
+        legs.append(s)
+        used.add(s["match_id"])
+        odds *= s["fair"]
+    if odds < target:
+        return None
+    c = _combo(f"Le ticket à {target:.0f}", "mille", sorted(legs, key=lambda s: s["ko"]), cfg["stake_ticket_pct"],
+               f"{len(legs)} sélections pour franchir {target:.0f}. À cote juste, c'est 1 chance sur {odds:.0f}, "
+               f"quel que soit le nombre de matchs : chaque match en plus n'ajoute que la marge du bookmaker. "
+               f"On en prend donc le moins possible, contre-pieds validés d'abord.")
+    c["odds"], c["priced"] = c["fair"], False
+    return c
+
+
 def chatte_rows(hist: dict, teams: dict, now) -> list:
     """Indice de chatte de chaque équipe : positif = plus de points que son jeu n'en méritait."""
     rows = []

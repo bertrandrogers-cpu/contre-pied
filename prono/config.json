@@ -1,11 +1,8 @@
 {
   "leagues": [
-    "F1",
-    "F2",
-    "E0",
-    "SP1",
-    "I1",
-    "D1"
+    "F1", "F2", "E0", "E1", "E2", "E3", "SP1", "SP2", "I1", "I2", "D1", "D2",
+    "SC0", "SC1", "N1", "B1", "P1", "T1", "G1",
+    "AUT", "SWZ", "DNK", "POL", "ROU", "RUS", "SWE", "NOR", "FIN", "IRL"
   ],
   "bankroll": 100,
   "horizon_days": 4,
@@ -15,8 +12,8 @@
   "xg_weight": 0.6,
   "alpha_1x2": 0.35,
   "alpha_ou": 0.35,
-  "shots_dispersion": 1.3,
-  "sot_dispersion": 1.2,
+  "shots_dispersion": 1.6,
+  "sot_dispersion": 1.45,
   "ref_prior_matches": 25,
   "edge_min": 0.04,
   "min_edge_play": 0.03,
@@ -34,6 +31,8 @@
   "enfer_min_legs": 12,
   "enfer_min_p": 0.82,
   "stake_enfer_pct": 0.002,
+  "ticket_target": 1000,
+  "stake_ticket_pct": 0.001,
   "notify": {
     "ntfy_topic": "",
     "telegram_token": "",
