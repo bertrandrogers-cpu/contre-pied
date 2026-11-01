@@ -12,6 +12,7 @@ Saison N-1 : test des pronos avec les critères validés sur N-2…
   Bundesliga : 306 matchs
 Tennis : calage sur la saison dernière, test sur celle en cours…
   Tennis : poids Elo 0.53, poids classement 0.22 (calés sur 2025)
+  Tennis : jeux par set 9.86 + 1.13×habitude -1.33×déséquilibre (écart type 4.19)
 
 === Backtest — critères mesurés sur 2024/25, pronos joués sur 2025/26 (2057 matchs) ===
 
@@ -25,19 +26,19 @@ Value bets classiques 1N2 et +/-2,5 selon le poids du modèle face au marché :
 
 Catégories :
   solides                    n= 750  réussite  83.1 % (prévu  82.4 %)  ROI -2.7 % sur 240 cotés
-  contre_pieds               n= 720  réussite  59.4 % (prévu  58.0 %)  ROI -2.7 % sur 535 cotés
-  contre_pieds_casse_series  n= 511  réussite  63.0 % (prévu  60.1 %)  ROI +0.7 % sur 419 cotés
-  stats                      n= 948  réussite  74.3 % (prévu  72.0 %)  ROI — sur 0 cotés
+  contre_pieds               n= 685  réussite  61.2 % (prévu  58.6 %)  ROI -0.1 % sur 499 cotés
+  contre_pieds_casse_series  n= 520  réussite  63.3 % (prévu  60.2 %)  ROI +1.0 % sur 428 cotés
+  stats                      n= 948  réussite  66.8 % (prévu  67.4 %)  ROI — sur 0 cotés
 
 Combinés :
   Le combiné béton   joués  79  passés 57 (prévu 47.4)  1 chance sur 2 en moyenne
-  Grosse chatte      joués  79  passés  1 (prévu 3.5)  1 chance sur 41 en moyenne
-  Petite chatte      joués  64  passés  7 (prévu 9.3)  1 chance sur 7 en moyenne
+  Grosse chatte      joués  79  passés  3 (prévu 3.4)  1 chance sur 38 en moyenne
+  Petite chatte      joués  64  passés  7 (prévu 9.2)  1 chance sur 7 en moyenne
+  Le combiné de l'enfer joués  43  passés  4 (prévu 3.4)  1 chance sur 16 en moyenne
 
-Critères validés sur 2024/25 : chanceux, derby, fausse-panne, forteresse, vraie-panne
+Critères validés sur 2024/25 : chanceux, fausse-panne, forteresse, vraie-panne
 Critères sur les deux saisons (lift = ce que le critère apporte en plus du modèle) :
   feu-artifice-evente    n=    2  réussite 100.0 %  prévu  67.2 %  lift +33.0 pts  ROI +71.0 % (1)
-  derby                  n=  828  réussite  53.9 %  prévu  49.8 %  lift  +5.1 pts  ROI -13.3 % (138)
   fausse-panne           n=  537  réussite  70.8 %  prévu  65.9 %  lift  +4.5 pts  ROI — (0)
   forteresse             n=  524  réussite  60.3 %  prévu  57.3 %  lift  +3.3 pts  ROI +2.9 % (262)
   chanceux               n=  917  réussite  62.7 %  prévu  59.8 %  lift  +3.0 pts  ROI — (0)
@@ -48,6 +49,7 @@ Critères sur les deux saisons (lift = ce que le critère apporte en plus du mod
   serie-trompe-oeil      n=  425  réussite  49.2 %  prévu  50.3 %  lift  -1.0 pts  ROI — (0)
   domicile-maudit        n=  310  réussite  61.0 %  prévu  63.0 %  lift  -2.3 pts  ROI — (0)
   poissard               n=  414  réussite  59.2 %  prévu  61.9 %  lift  -2.6 pts  ROI — (0)
+  derby                  n=  138  réussite  42.8 %  prévu  46.0 %  lift  -2.7 pts  ROI -13.3 % (138)
   piege-00               n=  130  réussite  60.0 %  prévu  64.0 %  lift  -4.1 pts  ROI — (0)
   popularite             n=  796  réussite  33.9 %  prévu  39.7 %  lift  -5.7 pts  ROI — (0)
   muraille-carton        n=  166  réussite  56.6 %  prévu  63.0 %  lift  -7.1 pts  ROI — (0)
@@ -59,9 +61,11 @@ Critères sur les deux saisons (lift = ce que le critère apporte en plus du mod
   poids Elo 0.53, poids classement 0.22 | logloss modèle 0.5959, marché 0.5817 | vainqueur à la cote moyenne : 2871 paris, ROI -17.0 %
   solides        n= 412  réussite  89.1 % (prévu  88.9 %)
   contre_pieds   n=1161  réussite  66.1 % (prévu  65.7 %)
+  stats          n= 501  réussite  65.3 % (prévu  65.1 %)
   Le combiné béton   joués  40  passés 30 (prévu 30.1)
   Petite chatte      joués  35  passés  7 (prévu 5.6)
   Grosse chatte      joués  32  passés  0 (prévu 0.8)
+  Le combiné de l'enfer joués  27  passés  2 (prévu 1.0)
   Critères validés sur 2025 : bete-noire, chatte-tie-break, rescape, rouille
   bete-noire           n=  162  réussite  61.7 %  prévu  50.9 %  lift +10.9 pts
   rescape              n=  441  réussite  58.3 %  prévu  52.4 %  lift  +5.8 pts
