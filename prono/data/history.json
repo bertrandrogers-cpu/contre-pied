@@ -9,7 +9,7 @@
   "p": 0.6229,
   "odds": null,
   "min_odds": 1.65,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:D1-20261101-union-berlin-fc-koln:btts",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -24,7 +24,7 @@
   "p": 0.5858,
   "odds": null,
   "min_odds": 1.76,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:E0-20261031-tottenham-crystal-palace:btts",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -39,7 +39,7 @@
   "p": 0.5815,
   "odds": null,
   "min_odds": 1.77,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:I1-20261101-como-venezia:btts",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -54,7 +54,7 @@
   "p": 0.7131,
   "odds": null,
   "min_odds": 1.44,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:F2-20261030-metz-pau-fc:1N",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -69,7 +69,7 @@
   "p": 0.808,
   "odds": null,
   "min_odds": 1.27,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:D1-20261101-ein-frankfurt-hamburg:1N",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -84,7 +84,7 @@
   "p": 0.709,
   "odds": null,
   "min_odds": 1.45,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:E0-20261101-liverpool-arsenal:N2",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -99,7 +99,7 @@
   "p": 0.6174,
   "odds": null,
   "min_odds": 1.67,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:I1-20261101-lecce-genoa:1N",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -129,7 +129,7 @@
   "p": 0.5319,
   "odds": null,
   "min_odds": 1.94,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:I1-20261101-frosinone-torino:N2",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -144,7 +144,7 @@
   "p": 0.4514,
   "odds": null,
   "min_odds": 2.28,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:E0-20261031-man-city-brighton:N2",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -159,7 +159,7 @@
   "p": 0.4111,
   "odds": null,
   "min_odds": 2.51,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:I1-20261031-udinese-roma:1N",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -174,7 +174,7 @@
   "p": 0.4686,
   "odds": 2.14,
   "min_odds": 2.2,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:SP1-20261101-ath-bilbao-sociedad:u25",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -189,7 +189,7 @@
   "p": 0.7671,
   "odds": null,
   "min_odds": 1.34,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:D1-20261031-leverkusen-stuttgart:1N",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -204,7 +204,7 @@
   "p": 0.8829,
   "odds": null,
   "min_odds": 1.17,
-  "result": null,
+  "result": "won",
   "uid": "solide:SP1-20261031-barcelona-alaves:12",
   "kind": "solide",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -219,7 +219,7 @@
   "p": 0.8621,
   "odds": null,
   "min_odds": 1.19,
-  "result": null,
+  "result": "won",
   "uid": "solide:I1-20261101-frosinone-torino:h_scores",
   "kind": "solide",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -234,7 +234,7 @@
   "p": 0.8517,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "lost",
   "uid": "solide:SP1-20261101-getafe-sevilla:u35",
   "kind": "solide",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -249,7 +249,7 @@
   "p": 0.8498,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:F1-20261101-marseille-toulouse:h_scores",
   "kind": "solide",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -264,7 +264,7 @@
   "p": 0.8393,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:SP1-20261101-santander-real-madrid:12",
   "kind": "solide",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -279,7 +279,7 @@
   "p": 0.8386,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "lost",
   "uid": "solide:D1-20261031-m-gladbach-paderborn:h_scores",
   "kind": "solide",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -294,7 +294,7 @@
   "p": 0.8385,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:F1-20261101-strasbourg-auxerre:o15",
   "kind": "solide",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -309,7 +309,7 @@
   "p": 0.83,
   "odds": null,
   "min_odds": 1.24,
-  "result": null,
+  "result": "won",
   "uid": "solide:F2-20261030-nantes-clermont:1N",
   "kind": "solide",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -339,7 +339,7 @@
   "p": 0.7362,
   "odds": null,
   "min_odds": 1.4,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP1-20261101-ath-bilbao-sociedad:ko:3.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -354,7 +354,7 @@
   "p": 0.7259,
   "odds": null,
   "min_odds": 1.42,
-  "result": null,
+  "result": "won",
   "uid": "stat:I1-20261031-milan-inter:ko:2.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -369,7 +369,7 @@
   "p": 0.7122,
   "odds": null,
   "min_odds": 1.45,
-  "result": null,
+  "result": "lost",
   "uid": "stat:F1-20261030-lille-lens:ko:3.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -384,7 +384,7 @@
   "p": 0.7098,
   "odds": null,
   "min_odds": 1.45,
-  "result": null,
+  "result": "won",
   "uid": "stat:D1-20261031-bayern-munich-dortmund:ko:2.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -399,7 +399,7 @@
   "p": 0.7425,
   "odds": null,
   "min_odds": 1.39,
-  "result": null,
+  "result": "won",
   "uid": "stat:F1-20261101-marseille-toulouse:ku:5.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -414,7 +414,7 @@
   "p": 0.7412,
   "odds": null,
   "min_odds": 1.39,
-  "result": null,
+  "result": "won",
   "uid": "stat:D1-20261031-leverkusen-stuttgart:ko:2.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -429,7 +429,7 @@
   "p": 0.7411,
   "odds": null,
   "min_odds": 1.39,
-  "result": null,
+  "result": "lost",
   "uid": "stat:I1-20261101-lazio-cagliari:ku:5.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -444,7 +444,7 @@
   "p": 0.7404,
   "odds": null,
   "min_odds": 1.39,
-  "result": null,
+  "result": "lost",
   "uid": "stat:D1-20261030-elversberg-mainz:ku:5.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -459,7 +459,7 @@
   "p": 0.7385,
   "odds": null,
   "min_odds": 1.39,
-  "result": null,
+  "result": "won",
   "uid": "stat:F1-20261101-paris-fc-monaco:ko:2.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -474,7 +474,7 @@
   "p": 0.7341,
   "odds": null,
   "min_odds": 1.4,
-  "result": null,
+  "result": "won",
   "uid": "stat:F2-20261030-metz-pau-fc:ko:2.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -489,7 +489,7 @@
   "p": 0.7279,
   "odds": null,
   "min_odds": 1.42,
-  "result": null,
+  "result": "won",
   "uid": "stat:F2-20261030-laval-boulogne:ku:5.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -509,7 +509,7 @@
     "p": 0.8829,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261101-frosinone-torino",
@@ -521,7 +521,7 @@
     "p": 0.8621,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP1-20261101-getafe-sevilla",
@@ -533,12 +533,12 @@
     "p": 0.8517,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.64822,
   "odds": 1.69,
-  "result": null,
+  "result": "lost",
   "created": "2026-10-30T19:33:02.237966+01:00"
  },
  {
@@ -556,7 +556,7 @@
     "p": 0.6229,
     "odds": null,
     "min_odds": 1.65,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261031-tottenham-crystal-palace",
@@ -568,7 +568,7 @@
     "p": 0.5858,
     "odds": null,
     "min_odds": 1.76,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "I1-20261101-como-venezia",
@@ -580,12 +580,12 @@
     "p": 0.5815,
     "odds": null,
     "min_odds": 1.77,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.21217,
   "odds": 5.15,
-  "result": null,
+  "result": "lost",
   "created": "2026-10-30T19:33:02.237966+01:00"
  },
  {
@@ -603,7 +603,7 @@
     "p": 0.4111,
     "odds": null,
     "min_odds": 2.51,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "E0-20261031-man-city-brighton",
@@ -615,7 +615,7 @@
     "p": 0.4514,
     "odds": null,
     "min_odds": 2.28,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP1-20261101-ath-bilbao-sociedad",
@@ -627,7 +627,7 @@
     "p": 0.4686,
     "odds": 2.14,
     "min_odds": 2.2,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "I1-20261101-frosinone-torino",
@@ -639,7 +639,7 @@
     "p": 0.5319,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "I1-20261101-como-venezia",
@@ -651,12 +651,12 @@
     "p": 0.5815,
     "odds": null,
     "min_odds": 1.77,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.0269,
   "odds": 41.96,
-  "result": null,
+  "result": "lost",
   "created": "2026-10-30T19:33:02.237966+01:00"
  },
  {
@@ -669,7 +669,7 @@
   "p": 0.8243,
   "odds": null,
   "min_odds": 1.25,
-  "result": null,
+  "result": "lost",
   "uid": "solide:D1-20261031-bayern-munich-dortmund:12",
   "kind": "solide",
   "created": "2026-10-30T20:07:16.175059+01:00"
@@ -684,7 +684,7 @@
   "p": 0.724,
   "odds": null,
   "min_odds": 1.42,
-  "result": null,
+  "result": "lost",
   "uid": "stat:F1-20261031-troyes-le-mans:ku:5.5",
   "kind": "stat",
   "created": "2026-10-30T20:07:16.175059+01:00"
@@ -759,7 +759,7 @@
   "p": 0.8212,
   "odds": null,
   "min_odds": 1.25,
-  "result": null,
+  "result": "won",
   "uid": "solide:D1-20261031-schalke-04-rb-leipzig:o15",
   "kind": "solide",
   "created": "2026-10-30T20:33:58.500963+01:00"
@@ -774,7 +774,7 @@
   "p": 0.7197,
   "odds": null,
   "min_odds": 1.43,
-  "result": null,
+  "result": "lost",
   "uid": "stat:E0-20261031-hull-ipswich:ku:5.5",
   "kind": "stat",
   "created": "2026-10-30T20:33:58.500963+01:00"
@@ -860,7 +860,7 @@
   "p": 0.7193,
   "odds": null,
   "min_odds": 1.43,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP1-20261031-betis-malaga:ku:5.5",
   "kind": "stat",
   "created": "2026-10-30T21:48:38.658997+01:00"
@@ -875,7 +875,7 @@
   "p": 0.8174,
   "odds": null,
   "min_odds": 1.26,
-  "result": null,
+  "result": "won",
   "uid": "solide:I1-20261101-lecce-genoa:u35",
   "kind": "solide",
   "created": "2026-10-30T22:12:39.878380+01:00"
@@ -995,7 +995,7 @@
   "p": 0.843,
   "odds": null,
   "min_odds": 1.22,
-  "result": null,
+  "result": "won",
   "uid": "solide:tn-186468:s1",
   "kind": "solide",
   "created": "2026-10-31T08:02:16.412248+01:00"
@@ -1015,7 +1015,7 @@
     "p": 0.8829,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186467",
@@ -1039,7 +1039,7 @@
     "p": 0.8621,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.67165,
@@ -1074,7 +1074,7 @@
     "p": 0.6229,
     "odds": null,
     "min_odds": 1.65,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261031-tottenham-crystal-palace",
@@ -1086,12 +1086,12 @@
     "p": 0.5858,
     "odds": null,
     "min_odds": 1.76,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.19255,
   "odds": 5.68,
-  "result": null,
+  "result": "lost",
   "created": "2026-10-31T08:02:16.412248+01:00"
  },
  {
@@ -1109,7 +1109,7 @@
     "p": 0.4111,
     "odds": null,
     "min_odds": 2.51,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "E0-20261031-man-city-brighton",
@@ -1121,7 +1121,7 @@
     "p": 0.4514,
     "odds": null,
     "min_odds": 2.28,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP1-20261101-ath-bilbao-sociedad",
@@ -1133,7 +1133,7 @@
     "p": 0.4686,
     "odds": 2.14,
     "min_odds": 2.2,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186453",
@@ -1157,12 +1157,12 @@
     "p": 0.5319,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.02441,
   "odds": 46.23,
-  "result": null,
+  "result": "lost",
   "created": "2026-10-31T08:02:16.412248+01:00"
  },
  {
@@ -1345,7 +1345,7 @@
     "p": 0.8829,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186467",
@@ -1392,7 +1392,7 @@
     "p": 0.4111,
     "odds": null,
     "min_odds": 2.51,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186582",
@@ -1416,7 +1416,7 @@
     "p": 0.4514,
     "odds": null,
     "min_odds": 2.28,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186589",
@@ -1440,12 +1440,12 @@
     "p": 0.4686,
     "odds": 2.14,
     "min_odds": 2.2,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.01697,
   "odds": 66.5,
-  "result": null,
+  "result": "lost",
   "created": "2026-10-31T14:41:16.081425+01:00"
  },
  {
@@ -1473,7 +1473,7 @@
   "p": 0.7169,
   "odds": null,
   "min_odds": 1.44,
-  "result": null,
+  "result": "lost",
   "uid": "stat:D1-20261101-ein-frankfurt-hamburg:ku:5.5",
   "kind": "stat",
   "created": "2026-10-31T19:36:54.449877+01:00"
@@ -1503,7 +1503,7 @@
   "p": 0.7035,
   "odds": null,
   "min_odds": 1.46,
-  "result": null,
+  "result": "lost",
   "uid": "stat:D1-20261101-union-berlin-fc-koln:ku:5.5",
   "kind": "stat",
   "created": "2026-10-31T19:36:54.449877+01:00"
@@ -1518,7 +1518,7 @@
   "p": 0.7017,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP1-20261101-getafe-sevilla:cu:9.5",
   "kind": "stat",
   "created": "2026-10-31T19:36:54.449877+01:00"
@@ -1550,7 +1550,7 @@
     "p": 0.6229,
     "odds": null,
     "min_odds": 1.65,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261101-como-venezia",
@@ -1562,12 +1562,12 @@
     "p": 0.5815,
     "odds": null,
     "min_odds": 1.77,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.19115,
   "odds": 5.72,
-  "result": null,
+  "result": "lost",
   "created": "2026-10-31T19:36:54.449877+01:00"
  },
  {
@@ -1609,7 +1609,7 @@
     "p": 0.4686,
     "odds": 2.14,
     "min_odds": 2.2,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186586",
@@ -1638,7 +1638,7 @@
   ],
   "p": 0.02333,
   "odds": 48.39,
-  "result": null,
+  "result": "lost",
   "created": "2026-10-31T19:36:54.449877+01:00"
  },
  {
@@ -1681,7 +1681,7 @@
   "p": 0.6812,
   "odds": null,
   "min_odds": 1.51,
-  "result": null,
+  "result": "lost",
   "uid": "stat:I1-20261101-juventus-napoli:ku:3.5",
   "kind": "stat",
   "created": "2026-10-31T23:31:42.743536+01:00"
@@ -1696,7 +1696,7 @@
   "p": 0.6787,
   "odds": null,
   "min_odds": 1.52,
-  "result": null,
+  "result": "won",
   "uid": "stat:F1-20261101-strasbourg-auxerre:ko:2.5",
   "kind": "stat",
   "created": "2026-10-31T23:31:42.743536+01:00"
@@ -1885,7 +1885,7 @@
     "p": 0.6229,
     "odds": null,
     "min_odds": 1.65,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261101-como-venezia",
@@ -1897,7 +1897,7 @@
     "p": 0.5816,
     "odds": null,
     "min_odds": 1.77,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186586",
@@ -1914,7 +1914,7 @@
   ],
   "p": 0.17512,
   "odds": 6.24,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T09:06:51.939175+01:00"
  },
  {
@@ -1956,7 +1956,7 @@
     "p": 0.4686,
     "odds": 2.14,
     "min_odds": 2.2,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186661",
@@ -1985,7 +1985,7 @@
   ],
   "p": 0.02076,
   "odds": 54.36,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T09:06:51.939175+01:00"
  },
  {
@@ -2013,7 +2013,7 @@
   "p": 0.7002,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "won",
   "uid": "stat:I1-20261101-frosinone-torino:cadres-:12.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2028,7 +2028,7 @@
   "p": 0.6798,
   "odds": null,
   "min_odds": 1.52,
-  "result": null,
+  "result": "lost",
   "uid": "stat:I1-20261101-juventus-napoli:cadres+:6.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2043,7 +2043,7 @@
   "p": 0.6776,
   "odds": null,
   "min_odds": 1.52,
-  "result": null,
+  "result": "won",
   "uid": "stat:E0-20261101-liverpool-arsenal:cadres-:8.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2058,7 +2058,7 @@
   "p": 0.6757,
   "odds": null,
   "min_odds": 1.52,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP1-20261101-santander-real-madrid:tirs+:26.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2103,7 +2103,7 @@
   "p": 0.67,
   "odds": null,
   "min_odds": 1.54,
-  "result": null,
+  "result": "won",
   "uid": "stat:F1-20261101-marseille-toulouse:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2118,7 +2118,7 @@
   "p": 0.6683,
   "odds": null,
   "min_odds": 1.54,
-  "result": null,
+  "result": "lost",
   "uid": "stat:E0-20261101-liverpool-arsenal:tirs-:26.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2133,7 +2133,7 @@
   "p": 0.6664,
   "odds": null,
   "min_odds": 1.55,
-  "result": null,
+  "result": "won",
   "uid": "stat:F1-20261101-paris-fc-monaco:cadres+:6.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2163,7 +2163,7 @@
   "p": 0.6653,
   "odds": null,
   "min_odds": 1.55,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP1-20261101-elche-valencia:tirs-:26.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2231,12 +2231,12 @@
     "p": 0.5319,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.02357,
   "odds": 49.19,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T09:41:04.017187+01:00"
  },
  {
@@ -2254,7 +2254,7 @@
     "p": 0.8478,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SP1-20261101-getafe-sevilla",
@@ -2266,7 +2266,7 @@
     "p": 0.8516,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "F1-20261101-strasbourg-auxerre",
@@ -2278,7 +2278,7 @@
     "p": 0.8385,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261101-lazio-cagliari",
@@ -2290,7 +2290,7 @@
     "p": 0.8401,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261101-frosinone-torino",
@@ -2302,7 +2302,7 @@
     "p": 0.8621,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP1-20261101-santander-real-madrid",
@@ -2314,7 +2314,7 @@
     "p": 0.8393,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "F1-20261101-lyon-angers",
@@ -2326,7 +2326,7 @@
     "p": 0.8242,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "D1-20261101-ein-frankfurt-hamburg",
@@ -2338,7 +2338,7 @@
     "p": 0.8543,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "F1-20261101-marseille-toulouse",
@@ -2350,7 +2350,7 @@
     "p": 0.8497,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186620",
@@ -2487,7 +2487,7 @@
   ],
   "p": 0.03654,
   "odds": 27.37,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T09:41:04.017187+01:00"
  },
  {
@@ -2515,7 +2515,7 @@
   "p": 0.8682,
   "odds": null,
   "min_odds": 1.19,
-  "result": null,
+  "result": "won",
   "uid": "solide:N1-20261101-groningen-sparta-rotterdam:o15",
   "kind": "solide",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2560,7 +2560,7 @@
   "p": 0.7069,
   "odds": null,
   "min_odds": 1.46,
-  "result": null,
+  "result": "won",
   "uid": "stat:I1-20261101-lazio-cagliari:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2575,7 +2575,7 @@
   "p": 0.7054,
   "odds": null,
   "min_odds": 1.46,
-  "result": null,
+  "result": "lost",
   "uid": "stat:T1-20261101-buyuksehyr-samsunspor:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2590,7 +2590,7 @@
   "p": 0.7024,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261101-eldense-granada:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2605,7 +2605,7 @@
   "p": 0.7011,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "won",
   "uid": "stat:I1-20261101-como-venezia:cadres-:11.5",
   "kind": "stat",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2635,7 +2635,7 @@
   "p": 0.7006,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "won",
   "uid": "stat:D1-20261101-union-berlin-fc-koln:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2650,7 +2650,7 @@
   "p": 0.6931,
   "odds": null,
   "min_odds": 1.49,
-  "result": null,
+  "result": "won",
   "uid": "stat:B1-20261101-cercle-brugge-antwerp:cadres+:8.5",
   "kind": "stat",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2665,7 +2665,7 @@
   "p": 0.69,
   "odds": null,
   "min_odds": 1.49,
-  "result": null,
+  "result": "won",
   "uid": "stat:N1-20261101-groningen-sparta-rotterdam:cadres+:8.5",
   "kind": "stat",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2680,7 +2680,7 @@
   "p": 0.6892,
   "odds": null,
   "min_odds": 1.49,
-  "result": null,
+  "result": "won",
   "uid": "stat:F1-20261101-strasbourg-auxerre:cadres-:11.5",
   "kind": "stat",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2695,7 +2695,7 @@
   "p": 0.6861,
   "odds": null,
   "min_odds": 1.5,
-  "result": null,
+  "result": "lost",
   "uid": "stat:D1-20261101-ein-frankfurt-hamburg:cadres-:11.5",
   "kind": "stat",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2833,7 +2833,7 @@
     "p": 0.832,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "B1-20261101-cercle-brugge-antwerp",
@@ -2845,7 +2845,7 @@
     "p": 0.8258,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "D2-20261101-hannover-dresden",
@@ -2857,7 +2857,7 @@
     "p": 0.8302,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "T1-20261101-trabzonspor-gaziantep",
@@ -2869,7 +2869,7 @@
     "p": 0.8213,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SC0-20261101-falkirk-celtic",
@@ -2881,7 +2881,7 @@
     "p": 0.8324,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "NOR-20261101-brann-molde",
@@ -2905,7 +2905,7 @@
     "p": 0.8309,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261101-excelsior-twente",
@@ -2917,7 +2917,7 @@
     "p": 0.8311,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "B1-20261101-st-truiden-oud-heverlee-leuven",
@@ -2929,7 +2929,7 @@
     "p": 0.8309,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "ROU-20261101-univ-craiova-fc-botosani",
@@ -2953,7 +2953,7 @@
     "p": 0.8228,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SWZ-20261101-lugano-basel",
@@ -2989,7 +2989,7 @@
     "p": 0.8256,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "F1-20261101-lyon-angers",
@@ -3001,7 +3001,7 @@
     "p": 0.8242,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I2-20261101-verona-carrarese",
@@ -3013,7 +3013,7 @@
     "p": 0.8313,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "G1-20261101-paok-asteras-tripolis",
@@ -3025,7 +3025,7 @@
     "p": 0.8282,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I2-20261101-palermo-vicenza",
@@ -3037,7 +3037,7 @@
     "p": 0.8302,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "FIN-20261102-vps-hjk",
@@ -3114,7 +3114,7 @@
   ],
   "p": 0.01047,
   "odds": 95.54,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T10:14:40.064484+01:00"
  },
  {
@@ -3312,7 +3312,7 @@
   "p": 0.6763,
   "odds": null,
   "min_odds": 1.52,
-  "result": null,
+  "result": "lost",
   "uid": "stat:P1-20261101-maritimo-santa-clara:cadres-:8.5",
   "kind": "stat",
   "created": "2026-11-01T16:16:22.569055+01:00"
@@ -3357,7 +3357,7 @@
   "p": 0.6652,
   "odds": null,
   "min_odds": 1.55,
-  "result": null,
+  "result": "won",
   "uid": "stat:G1-20261101-paok-asteras-tripolis:cadres+:6.5",
   "kind": "stat",
   "created": "2026-11-01T16:16:22.569055+01:00"
@@ -3372,7 +3372,7 @@
   "p": 0.6649,
   "odds": null,
   "min_odds": 1.55,
-  "result": null,
+  "result": "lost",
   "uid": "stat:I2-20261101-verona-carrarese:cadres-:8.5",
   "kind": "stat",
   "created": "2026-11-01T16:16:22.569055+01:00"
@@ -3387,7 +3387,7 @@
   "p": 0.6594,
   "odds": null,
   "min_odds": 1.56,
-  "result": null,
+  "result": "lost",
   "uid": "stat:P1-20261101-sp-braga-famalicao:cadres+:5.5",
   "kind": "stat",
   "created": "2026-11-01T16:16:22.569055+01:00"
@@ -3402,7 +3402,7 @@
   "p": 0.6577,
   "odds": null,
   "min_odds": 1.57,
-  "result": null,
+  "result": "won",
   "uid": "stat:F1-20261101-marseille-toulouse:cadres+:7.5",
   "kind": "stat",
   "created": "2026-11-01T16:16:22.569055+01:00"
@@ -3780,7 +3780,7 @@
     "p": 0.7452,
     "odds": 1.27,
     "min_odds": 1.38,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186589",
@@ -5942,5 +5942,544 @@
   "odds": 1006.87,
   "result": null,
   "created": "2026-11-02T13:55:25.927852+01:00"
+ },
+ {
+  "match_id": "tn-186491",
+  "match": "Tomas Machac - Arthur Fils",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-04T20:00:00+01:00",
+  "key": "s1",
+  "label": "Tomas Machac gagne au moins un set",
+  "p": 0.5447,
+  "odds": null,
+  "min_odds": 1.89,
+  "result": null,
+  "uid": "contre_pied:tn-186491:s1",
+  "kind": "contre_pied",
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "match_id": "tn-186477",
+  "match": "Cameron Norrie - Ben Shelton",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-03T19:00:00+01:00",
+  "key": "s1",
+  "label": "Cameron Norrie gagne au moins un set",
+  "p": 0.4819,
+  "odds": null,
+  "min_odds": 2.14,
+  "result": null,
+  "uid": "contre_pied:tn-186477:s1",
+  "kind": "contre_pied",
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "match_id": "tn-186477",
+  "match": "Cameron Norrie - Ben Shelton",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-03T19:00:00+01:00",
+  "key": "s2",
+  "label": "Ben Shelton gagne au moins un set",
+  "p": 0.8546,
+  "odds": null,
+  "min_odds": 1.21,
+  "result": null,
+  "uid": "solide:tn-186477:s2",
+  "kind": "solide",
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "match_id": "P1-20261102-gil-vicente-guimaraes",
+  "match": "Gil Vicente - Guimaraes",
+  "league": "Liga Portugal",
+  "ko": "2026-11-02T21:15:00+01:00",
+  "key": "cadres-:8.5",
+  "label": "Moins de 8,5 tirs cadrés",
+  "p": 0.6477,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:P1-20261102-gil-vicente-guimaraes:cadres-:8.5",
+  "kind": "stat",
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "match_id": "tn-186621",
+  "match": "Maya Joint - Maddison Inglis",
+  "league": "WTA · Prudential Hong Kong Tennis Open",
+  "ko": "2026-11-03T08:30:00+01:00",
+  "key": "jeux-:25.5",
+  "label": "Moins de 25,5 jeux dans le match",
+  "p": 0.6474,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:tn-186621:jeux-:25.5",
+  "kind": "stat",
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "match_id": "tn-186670",
+  "match": "Martyna Kubka - Darja Suvirdjonkova",
+  "league": "WTA · Angola Ladies Open",
+  "ko": "2026-11-03T10:00:00+01:00",
+  "key": "jeux-:25.5",
+  "label": "Moins de 25,5 jeux dans le match",
+  "p": 0.6472,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:tn-186670:jeux-:25.5",
+  "kind": "stat",
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "match_id": "tn-186484",
+  "match": "Rafael Jodar - Casper Ruud",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-03T20:30:00+01:00",
+  "key": "jeux-:25.5",
+  "label": "Moins de 25,5 jeux dans le match",
+  "p": 0.6468,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:tn-186484:jeux-:25.5",
+  "kind": "stat",
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "match_id": "tn-186715",
+  "match": "Yuliana Lizarazo - Laura Samson",
+  "league": "WTA · Reto Win Tennis Cali Open",
+  "ko": "2026-11-02T20:00:00+01:00",
+  "key": "jeux-:25.5",
+  "label": "Moins de 25,5 jeux dans le match",
+  "p": 0.6468,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:tn-186715:jeux-:25.5",
+  "kind": "stat",
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "match_id": "tn-186579",
+  "match": "Polina Kudermetova - Viktoria Morvayova",
+  "league": "WTA · Chennai Open",
+  "ko": "2026-11-03T08:00:00+01:00",
+  "key": "jeux-:25.5",
+  "label": "Moins de 25,5 jeux dans le match",
+  "p": 0.6466,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:tn-186579:jeux-:25.5",
+  "kind": "stat",
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "uid": "combo:afe2f6c67f",
+  "kind": "combo",
+  "name": "Petite chatte",
+  "legs": [
+   {
+    "match_id": "tn-186586",
+    "match": "Katherine Hui - Janice Tjen",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T08:00:00+01:00",
+    "key": "s1",
+    "label": "Katherine Hui gagne au moins un set",
+    "p": 0.5126,
+    "odds": null,
+    "min_odds": 2.01,
+    "result": null
+   },
+   {
+    "match_id": "tn-186491",
+    "match": "Tomas Machac - Arthur Fils",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s1",
+    "label": "Tomas Machac gagne au moins un set",
+    "p": 0.5447,
+    "odds": null,
+    "min_odds": 1.89,
+    "result": null
+   },
+   {
+    "match_id": "tn-186483",
+    "match": "Daniil Medvedev - Ignacio Buse",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s2",
+    "label": "Ignacio Buse gagne au moins un set",
+    "p": 0.5252,
+    "odds": null,
+    "min_odds": 1.96,
+    "result": null
+   }
+  ],
+  "p": 0.14667,
+  "odds": 7.45,
+  "result": null,
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "uid": "combo:38e20704b3",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-186669",
+    "match": "Farah Heddar - Anna Blinkova",
+    "league": "WTA · Angola Ladies Open",
+    "ko": "2026-11-03T16:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Farah Heddar",
+    "p": 0.4093,
+    "odds": null,
+    "min_odds": 2.52,
+    "result": null
+   },
+   {
+    "match_id": "tn-186710",
+    "match": "Laura Pigossi - Julia Grabher",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Laura Pigossi",
+    "p": 0.4159,
+    "odds": null,
+    "min_odds": 2.48,
+    "result": null
+   },
+   {
+    "match_id": "tn-186707",
+    "match": "Alice Tubello - Rebeka Masarova",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alice Tubello",
+    "p": 0.4195,
+    "odds": null,
+    "min_odds": 2.46,
+    "result": null
+   },
+   {
+    "match_id": "tn-186708",
+    "match": "Julia Riera - Valentina Mediorreal Arias",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Valentina Mediorreal Arias",
+    "p": 0.4229,
+    "odds": null,
+    "min_odds": 2.44,
+    "result": null
+   },
+   {
+    "match_id": "tn-186582",
+    "match": "Vaishnavi Adkar - Jodie Burrage",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T09:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Vaishnavi Adkar",
+    "p": 0.4249,
+    "odds": null,
+    "min_odds": 2.42,
+    "result": null
+   }
+  ],
+  "p": 0.01283,
+  "odds": 90.34,
+  "result": null,
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "uid": "combo:ffdc8e4245",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "I1-20261102-atalanta-parma",
+    "match": "Atalanta - Parma",
+    "league": "Serie A",
+    "ko": "2026-11-02T20:45:00+01:00",
+    "key": "1N",
+    "label": "Atalanta ou nul",
+    "p": 0.8352,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261102-mallorca-cadiz",
+    "match": "Mallorca - Cadiz",
+    "league": "Liga 2",
+    "ko": "2026-11-02T21:00:00+01:00",
+    "key": "h_scores",
+    "label": "Mallorca marque",
+    "p": 0.8441,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "P1-20261102-benfica-alverca",
+    "match": "Benfica - Alverca",
+    "league": "Liga Portugal",
+    "ko": "2026-11-02T21:15:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8509,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-186586",
+    "match": "Katherine Hui - Janice Tjen",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T08:00:00+01:00",
+    "key": "s2",
+    "label": "Janice Tjen gagne au moins un set",
+    "p": 0.8368,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "tn-186619",
+    "match": "Maria Timofeeva - Sorana Cirstea",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-03T08:30:00+01:00",
+    "key": "s2",
+    "label": "Sorana Cirstea gagne au moins un set",
+    "p": 0.8291,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "tn-186628",
+    "match": "Alexandra Eala - Alycia Parks",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-03T11:30:00+01:00",
+    "key": "s1",
+    "label": "Alexandra Eala gagne au moins un set",
+    "p": 0.8557,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "tn-186467",
+    "match": "Moise Kouame - Alejandro Davidovich Fokina",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T12:30:00+01:00",
+    "key": "s2",
+    "label": "Alejandro Davidovich Fokina gagne au moins un set",
+    "p": 0.878,
+    "odds": null,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "tn-186615",
+    "match": "Paula Badosa - Elena Pridankina",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-03T13:00:00+01:00",
+    "key": "s1",
+    "label": "Paula Badosa gagne au moins un set",
+    "p": 0.8747,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   },
+   {
+    "match_id": "tn-186458",
+    "match": "Valentin Vacherot - Novak Djokovic",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T14:00:00+01:00",
+    "key": "s2",
+    "label": "Novak Djokovic gagne au moins un set",
+    "p": 0.8987,
+    "odds": null,
+    "min_odds": 1.15,
+    "result": null
+   },
+   {
+    "match_id": "SWE-20261103-sirius-halmstad",
+    "match": "Sirius - Halmstad",
+    "league": "Allsvenskan",
+    "ko": "2026-11-03T19:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8242,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "tn-186477",
+    "match": "Cameron Norrie - Ben Shelton",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T19:00:00+01:00",
+    "key": "s2",
+    "label": "Ben Shelton gagne au moins un set",
+    "p": 0.8546,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-186483",
+    "match": "Daniil Medvedev - Ignacio Buse",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s1",
+    "label": "Daniil Medvedev gagne au moins un set",
+    "p": 0.8282,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "tn-186478",
+    "match": "Lorenzo Musetti - Alexander Zverev",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s2",
+    "label": "Alexander Zverev gagne au moins un set",
+    "p": 0.8499,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   }
+  ],
+  "p": 0.12188,
+  "odds": 8.2,
+  "result": null,
+  "created": "2026-11-02T19:30:15.125827+01:00"
+ },
+ {
+  "uid": "combo:b5210bdf78",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186453",
+    "match": "Botic Van De Zandschulp - Ugo Humbert",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-02T20:30:00+01:00",
+    "key": "s2",
+    "label": "Ugo Humbert gagne au moins un set",
+    "p": 0.7867,
+    "odds": null,
+    "min_odds": 1.31,
+    "result": null
+   },
+   {
+    "match_id": "tn-186581",
+    "match": "Teodora Kostovic - Oksana Selekhmeteva",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T06:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Teodora Kostovic",
+    "p": 0.4348,
+    "odds": null,
+    "min_odds": 2.37,
+    "result": null
+   },
+   {
+    "match_id": "tn-186579",
+    "match": "Polina Kudermetova - Viktoria Morvayova",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T08:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Viktoria Morvayova",
+    "p": 0.4295,
+    "odds": null,
+    "min_odds": 2.4,
+    "result": null
+   },
+   {
+    "match_id": "tn-186582",
+    "match": "Vaishnavi Adkar - Jodie Burrage",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T09:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Vaishnavi Adkar",
+    "p": 0.4249,
+    "odds": null,
+    "min_odds": 2.42,
+    "result": null
+   },
+   {
+    "match_id": "tn-186578",
+    "match": "Lucrezia Stefanini - Rada Zolotareva",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T09:30:00+01:00",
+    "key": "w2",
+    "label": "Victoire Rada Zolotareva",
+    "p": 0.4394,
+    "odds": null,
+    "min_odds": 2.34,
+    "result": null
+   },
+   {
+    "match_id": "tn-186669",
+    "match": "Farah Heddar - Anna Blinkova",
+    "league": "WTA · Angola Ladies Open",
+    "ko": "2026-11-03T16:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Farah Heddar",
+    "p": 0.4093,
+    "odds": null,
+    "min_odds": 2.52,
+    "result": null
+   },
+   {
+    "match_id": "tn-186710",
+    "match": "Laura Pigossi - Julia Grabher",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Laura Pigossi",
+    "p": 0.4159,
+    "odds": null,
+    "min_odds": 2.48,
+    "result": null
+   },
+   {
+    "match_id": "tn-186707",
+    "match": "Alice Tubello - Rebeka Masarova",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alice Tubello",
+    "p": 0.4195,
+    "odds": null,
+    "min_odds": 2.46,
+    "result": null
+   },
+   {
+    "match_id": "tn-186708",
+    "match": "Julia Riera - Valentina Mediorreal Arias",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Valentina Mediorreal Arias",
+    "p": 0.4229,
+    "odds": null,
+    "min_odds": 2.44,
+    "result": null
+   }
+  ],
+  "p": 0.00083,
+  "odds": 1207.12,
+  "result": null,
+  "created": "2026-11-02T19:30:15.125827+01:00"
  }
 ]
