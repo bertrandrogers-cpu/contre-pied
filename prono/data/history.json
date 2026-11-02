@@ -1280,7 +1280,7 @@
   "p": 0.8774,
   "odds": null,
   "min_odds": 1.17,
-  "result": null,
+  "result": "won",
   "uid": "solide:tn-186617:s1",
   "kind": "solide",
   "created": "2026-10-31T14:41:16.081425+01:00"
@@ -1369,7 +1369,7 @@
     "p": 0.8774,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.68362,
@@ -1728,7 +1728,7 @@
     "p": 0.8774,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-185689",
@@ -1818,7 +1818,7 @@
   "p": 0.846,
   "odds": null,
   "min_odds": 1.22,
-  "result": null,
+  "result": "won",
   "uid": "solide:tn-186620:s1",
   "kind": "solide",
   "created": "2026-11-01T09:06:51.939175+01:00"
@@ -1850,7 +1850,7 @@
     "p": 0.8774,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186615",
@@ -2362,7 +2362,7 @@
     "p": 0.846,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186617",
@@ -2374,7 +2374,7 @@
     "p": 0.8774,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261102-sassuolo-fiorentina",
@@ -3613,7 +3613,7 @@
     "p": 0.8277,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "FIN-20261102-vps-hjk",
@@ -3750,7 +3750,7 @@
   ],
   "p": 0.01134,
   "odds": 88.21,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T16:16:22.569055+01:00"
  },
  {
@@ -4047,7 +4047,7 @@
   "p": 0.6523,
   "odds": null,
   "min_odds": 1.58,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-187366:jeux+:18.5",
   "kind": "stat",
   "created": "2026-11-01T21:35:26.480376+01:00"
@@ -4204,7 +4204,7 @@
     "p": 0.846,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187366",
@@ -4216,7 +4216,7 @@
     "p": 0.8277,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186617",
@@ -4228,7 +4228,7 @@
     "p": 0.8774,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "FIN-20261102-vps-hjk",
@@ -4449,7 +4449,7 @@
   ],
   "p": 0.02585,
   "odds": 38.68,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T21:35:26.480376+01:00"
  },
  {
@@ -4632,7 +4632,7 @@
   "p": 0.6546,
   "odds": null,
   "min_odds": 1.57,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-186462:s1",
   "kind": "contre_pied",
   "created": "2026-11-02T07:22:02.990371+01:00"
@@ -4692,7 +4692,7 @@
   "p": 0.7747,
   "odds": null,
   "min_odds": 1.33,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-186617:w1",
   "kind": "contre_pied",
   "created": "2026-11-02T07:22:02.990371+01:00"
@@ -5085,7 +5085,7 @@
     "p": 0.8483,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187366",
@@ -5097,7 +5097,7 @@
     "p": 0.8277,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186617",
@@ -5109,7 +5109,7 @@
     "p": 0.8759,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "FIN-20261102-vps-hjk",
@@ -5318,7 +5318,7 @@
   ],
   "p": 0.03444,
   "odds": 29.03,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-02T07:22:02.990371+01:00"
  },
  {
@@ -5427,5 +5427,520 @@
   "odds": 1008.94,
   "result": null,
   "created": "2026-11-02T07:22:02.990371+01:00"
+ },
+ {
+  "match_id": "tn-186483",
+  "match": "Daniil Medvedev - Ignacio Buse",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-04T20:00:00+01:00",
+  "key": "s2",
+  "label": "Ignacio Buse gagne au moins un set",
+  "p": 0.5252,
+  "odds": null,
+  "min_odds": 1.96,
+  "result": null,
+  "uid": "contre_pied:tn-186483:s2",
+  "kind": "contre_pied",
+  "created": "2026-11-02T13:55:25.927852+01:00"
+ },
+ {
+  "match_id": "tn-186478",
+  "match": "Lorenzo Musetti - Alexander Zverev",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-04T20:00:00+01:00",
+  "key": "s1",
+  "label": "Lorenzo Musetti gagne au moins un set",
+  "p": 0.4899,
+  "odds": null,
+  "min_odds": 2.1,
+  "result": null,
+  "uid": "contre_pied:tn-186478:s1",
+  "kind": "contre_pied",
+  "created": "2026-11-02T13:55:25.927852+01:00"
+ },
+ {
+  "match_id": "tn-186478",
+  "match": "Lorenzo Musetti - Alexander Zverev",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-04T20:00:00+01:00",
+  "key": "s2",
+  "label": "Alexander Zverev gagne au moins un set",
+  "p": 0.8499,
+  "odds": null,
+  "min_odds": 1.21,
+  "result": null,
+  "uid": "solide:tn-186478:s2",
+  "kind": "solide",
+  "created": "2026-11-02T13:55:25.927852+01:00"
+ },
+ {
+  "match_id": "tn-186483",
+  "match": "Daniil Medvedev - Ignacio Buse",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-04T20:00:00+01:00",
+  "key": "s1",
+  "label": "Daniil Medvedev gagne au moins un set",
+  "p": 0.8282,
+  "odds": null,
+  "min_odds": 1.24,
+  "result": null,
+  "uid": "solide:tn-186483:s1",
+  "kind": "solide",
+  "created": "2026-11-02T13:55:25.927852+01:00"
+ },
+ {
+  "match_id": "T1-20261102-genclerbirligi-alanyaspor",
+  "match": "Genclerbirligi - Alanyaspor",
+  "league": "Süper Lig",
+  "ko": "2026-11-02T18:00:00+01:00",
+  "key": "cadres-:9.5",
+  "label": "Moins de 9,5 tirs cadrés",
+  "p": 0.6485,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:T1-20261102-genclerbirligi-alanyaspor:cadres-:9.5",
+  "kind": "stat",
+  "created": "2026-11-02T13:55:25.927852+01:00"
+ },
+ {
+  "uid": "combo:0a839e4390",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "tn-186467",
+    "match": "Moise Kouame - Alejandro Davidovich Fokina",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "s2",
+    "label": "Alejandro Davidovich Fokina gagne au moins un set",
+    "p": 0.878,
+    "odds": null,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "tn-186615",
+    "match": "Paula Badosa - Elena Pridankina",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-03T13:00:00+01:00",
+    "key": "s1",
+    "label": "Paula Badosa gagne au moins un set",
+    "p": 0.8747,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   },
+   {
+    "match_id": "tn-186628",
+    "match": "Alexandra Eala - Alycia Parks",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-03T11:30:00+01:00",
+    "key": "s1",
+    "label": "Alexandra Eala gagne au moins un set",
+    "p": 0.8557,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   }
+  ],
+  "p": 0.6572,
+  "odds": 1.66,
+  "result": null,
+  "created": "2026-11-02T13:55:25.927852+01:00"
+ },
+ {
+  "uid": "combo:4d6b9528b7",
+  "kind": "combo",
+  "name": "Petite chatte",
+  "legs": [
+   {
+    "match_id": "tn-186466",
+    "match": "Karen Khachanov - Denis Shapovalov",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-02T19:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Karen Khachanov",
+    "p": 0.538,
+    "odds": null,
+    "min_odds": 1.91,
+    "result": null
+   },
+   {
+    "match_id": "tn-186586",
+    "match": "Katherine Hui - Janice Tjen",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "s1",
+    "label": "Katherine Hui gagne au moins un set",
+    "p": 0.5126,
+    "odds": null,
+    "min_odds": 2.01,
+    "result": null
+   },
+   {
+    "match_id": "tn-186483",
+    "match": "Daniil Medvedev - Ignacio Buse",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s2",
+    "label": "Ignacio Buse gagne au moins un set",
+    "p": 0.5252,
+    "odds": null,
+    "min_odds": 1.96,
+    "result": null
+   }
+  ],
+  "p": 0.14485,
+  "odds": 7.54,
+  "result": null,
+  "created": "2026-11-02T13:55:25.927852+01:00"
+ },
+ {
+  "uid": "combo:15cf7afec7",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "FIN-20261102-vps-hjk",
+    "match": "VPS - HJK",
+    "league": "Veikkausliiga",
+    "ko": "2026-11-02T17:00:00+01:00",
+    "key": "N2",
+    "label": "HJK ou nul",
+    "p": 0.8244,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "FIN-20261102-inter-turku-gnistan",
+    "match": "Inter Turku - Gnistan",
+    "league": "Veikkausliiga",
+    "ko": "2026-11-02T17:00:00+01:00",
+    "key": "1N",
+    "label": "Inter Turku ou nul",
+    "p": 0.85,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "POL-20261102-radomiak-radom-slask-wroclaw",
+    "match": "Radomiak Radom - Slask Wroclaw",
+    "league": "Ekstraklasa",
+    "ko": "2026-11-02T18:00:00+01:00",
+    "key": "h_scores",
+    "label": "Radomiak Radom marque",
+    "p": 0.8232,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "POL-20261102-zaglebie-korona-kielce",
+    "match": "Zaglebie - Korona Kielce",
+    "league": "Ekstraklasa",
+    "ko": "2026-11-02T18:00:00+01:00",
+    "key": "u35",
+    "label": "Moins de 3,5 buts",
+    "p": 0.835,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "I1-20261102-sassuolo-fiorentina",
+    "match": "Sassuolo - Fiorentina",
+    "league": "Serie A",
+    "ko": "2026-11-02T18:30:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8261,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "DNK-20261102-sonderjyske-fc-copenhagen",
+    "match": "Sonderjyske - FC Copenhagen",
+    "league": "Superliga (Danemark)",
+    "ko": "2026-11-02T19:00:00+01:00",
+    "key": "h_scores",
+    "label": "Sonderjyske marque",
+    "p": 0.8409,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "ROU-20261102-u-cluj-fcsb",
+    "match": "U. Cluj - FCSB",
+    "league": "Liga 1 (Roumanie)",
+    "ko": "2026-11-02T19:30:00+01:00",
+    "key": "h_scores",
+    "label": "U. Cluj marque",
+    "p": 0.8269,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "I1-20261102-atalanta-parma",
+    "match": "Atalanta - Parma",
+    "league": "Serie A",
+    "ko": "2026-11-02T20:45:00+01:00",
+    "key": "1N",
+    "label": "Atalanta ou nul",
+    "p": 0.8348,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261102-mallorca-cadiz",
+    "match": "Mallorca - Cadiz",
+    "league": "Liga 2",
+    "ko": "2026-11-02T21:00:00+01:00",
+    "key": "h_scores",
+    "label": "Mallorca marque",
+    "p": 0.8437,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "P1-20261102-benfica-alverca",
+    "match": "Benfica - Alverca",
+    "league": "Liga Portugal",
+    "ko": "2026-11-02T21:15:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8511,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-186619",
+    "match": "Maria Timofeeva - Sorana Cirstea",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-03T08:30:00+01:00",
+    "key": "s2",
+    "label": "Sorana Cirstea gagne au moins un set",
+    "p": 0.8291,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "tn-186628",
+    "match": "Alexandra Eala - Alycia Parks",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-03T11:30:00+01:00",
+    "key": "s1",
+    "label": "Alexandra Eala gagne au moins un set",
+    "p": 0.8557,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "tn-186615",
+    "match": "Paula Badosa - Elena Pridankina",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-03T13:00:00+01:00",
+    "key": "s1",
+    "label": "Paula Badosa gagne au moins un set",
+    "p": 0.8747,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   },
+   {
+    "match_id": "SWE-20261103-sirius-halmstad",
+    "match": "Sirius - Halmstad",
+    "league": "Allsvenskan",
+    "ko": "2026-11-03T19:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8242,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "tn-186586",
+    "match": "Katherine Hui - Janice Tjen",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "s2",
+    "label": "Janice Tjen gagne au moins un set",
+    "p": 0.8368,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "tn-186467",
+    "match": "Moise Kouame - Alejandro Davidovich Fokina",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "s2",
+    "label": "Alejandro Davidovich Fokina gagne au moins un set",
+    "p": 0.878,
+    "odds": null,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "tn-186458",
+    "match": "Valentin Vacherot - Novak Djokovic",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "s2",
+    "label": "Novak Djokovic gagne au moins un set",
+    "p": 0.8987,
+    "odds": null,
+    "min_odds": 1.15,
+    "result": null
+   },
+   {
+    "match_id": "tn-186483",
+    "match": "Daniil Medvedev - Ignacio Buse",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s1",
+    "label": "Daniil Medvedev gagne au moins un set",
+    "p": 0.8282,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "tn-186478",
+    "match": "Lorenzo Musetti - Alexander Zverev",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s2",
+    "label": "Alexander Zverev gagne au moins un set",
+    "p": 0.8499,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   }
+  ],
+  "p": 0.03942,
+  "odds": 25.37,
+  "result": null,
+  "created": "2026-11-02T13:55:25.927852+01:00"
+ },
+ {
+  "uid": "combo:ab6df16003",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186711",
+    "match": "Lucia Bronzetti - Leolia Jeanjean",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-02T17:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Leolia Jeanjean",
+    "p": 0.4101,
+    "odds": null,
+    "min_odds": 2.51,
+    "result": null
+   },
+   {
+    "match_id": "tn-186669",
+    "match": "Farah Heddar - Anna Blinkova",
+    "league": "WTA · Angola Ladies Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Farah Heddar",
+    "p": 0.4093,
+    "odds": null,
+    "min_odds": 2.52,
+    "result": null
+   },
+   {
+    "match_id": "tn-186710",
+    "match": "Laura Pigossi - Julia Grabher",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Laura Pigossi",
+    "p": 0.4159,
+    "odds": null,
+    "min_odds": 2.48,
+    "result": null
+   },
+   {
+    "match_id": "tn-186707",
+    "match": "Alice Tubello - Rebeka Masarova",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alice Tubello",
+    "p": 0.4195,
+    "odds": null,
+    "min_odds": 2.46,
+    "result": null
+   },
+   {
+    "match_id": "tn-186708",
+    "match": "Julia Riera - Valentina Mediorreal Arias",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Valentina Mediorreal Arias",
+    "p": 0.4229,
+    "odds": null,
+    "min_odds": 2.44,
+    "result": null
+   },
+   {
+    "match_id": "tn-186582",
+    "match": "Vaishnavi Adkar - Jodie Burrage",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Vaishnavi Adkar",
+    "p": 0.4249,
+    "odds": null,
+    "min_odds": 2.42,
+    "result": null
+   },
+   {
+    "match_id": "tn-186579",
+    "match": "Polina Kudermetova - Viktoria Morvayova",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Viktoria Morvayova",
+    "p": 0.4295,
+    "odds": null,
+    "min_odds": 2.4,
+    "result": null
+   },
+   {
+    "match_id": "tn-186578",
+    "match": "Lucrezia Stefanini - Rada Zolotareva",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Rada Zolotareva",
+    "p": 0.4394,
+    "odds": null,
+    "min_odds": 2.34,
+    "result": null
+   }
+  ],
+  "p": 0.00099,
+  "odds": 1006.87,
+  "result": null,
+  "created": "2026-11-02T13:55:25.927852+01:00"
  }
 ]
