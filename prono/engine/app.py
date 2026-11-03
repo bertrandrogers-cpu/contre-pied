@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 
-from . import backtest, criteria, dashboard, data, model, notify, picks, tennis, tracker, weather
+from . import backtest, criteria, cups, dashboard, data, model, notify, picks, tennis, tracker, weather
 
 
 def _tag_status(cfg: dict, bt: dict | None) -> dict:
@@ -43,12 +43,13 @@ def run(cfg: dict, send_notifs: bool = True, log=print) -> dict:
     for d in cfg["leagues"]:
         if data.family(d) not in fams:
             fams.append(data.family(d))
-    analyses, results, board = [], [], []
+    analyses, results, board, all_hist = [], [], [], {}
     for fam in fams:
         res = data.load_results(fam, seasons)
         results += res
         models = model.Models(res, now, cfg)
         hist = criteria.build_history(res, models.conv)
+        all_hist.update(hist)
         for f in fixtures:
             if f["div"] in fam:
                 w = weather.at_kickoff(f["home"], f["div"], f["ko"]) if cfg.get("weather") else None
@@ -65,6 +66,12 @@ def run(cfg: dict, send_notifs: bool = True, log=print) -> dict:
             results += t_res
         except Exception as e:  # une source tennis en panne ne doit pas bloquer le foot
             log(f"Tennis indisponible : {e}")
+    try:  # coupes d'Europe : cotes du marché + nos critères pour les clubs qu'on connaît
+        c_an, c_res = cups.live(cfg, now, all_hist, all_hist.keys(), log)
+        analyses += c_an
+        results += c_res
+    except Exception as e:
+        log(f"Coupes d'Europe indisponibles : {e}")
     analyses.sort(key=lambda a: a["ko"])
     for an in analyses:
         for t in an["tags"]:

@@ -371,7 +371,7 @@ function matchCard(m) {
     <div class="sub">Nos probas ${pct(p['1'])} / ${pct(p['N'])} / ${pct(p['2'])}${mk ? ` · marché ${pct(mk[0])} / ${pct(mk[1])} / ${pct(mk[2])}` : ''}</div>
     <div class="facts">
       <span>⚽ xG ${fr2(m.xg[0])} – ${fr2(m.xg[1])}</span><span>+2,5 buts ${pct(p.o25)}</span><span>Les 2 marquent ${pct(p.btts)}</span>
-      <span>🎯 ${fr1(m.shots)} tirs</span><span>🥅 ${fr1(m.sot)} tirs cadrés</span>
+      ${m.shots ? `<span>🎯 ${fr1(m.shots)} tirs</span><span>🥅 ${fr1(m.sot)} tirs cadrés</span>` : ''}
       <span>Scores : ${m.scores.map(s => `${s[0]} (${pct(s[1])})`).join(', ')}</span>${w}
     </div>
     ${m.tags.length ? `<ul class="tags">${m.tags.map(tagItem).join('')}</ul>` : ''}
@@ -512,7 +512,7 @@ document.getElementById('t-matchs').addEventListener('click', e => {
 
 function header() {
   const next = D.matches[0];
-  document.getElementById('meta').textContent = `Mis à jour ${when(D.generated)} · ${D.matches.length} matchs à venir (${D.leagues.join(', ')}, tennis) · bankroll ${eur(D.bankroll)}`;
+  document.getElementById('meta').textContent = `Mis à jour ${when(D.generated)} · ${D.matches.length} matchs à venir (${D.leagues.length} championnats, coupes d'Europe, tennis) · bankroll ${eur(D.bankroll)}`;
   document.getElementById('kpis').innerHTML = [
     [D.contre_pieds.length, 'contre-pieds validés'], [D.solides.length, 'Solides (objectif 80 %)'],
     [D.combos.length, 'combinés dont la chatte'], [next ? when(next.ko) : '—', next ? `prochain : ${next.home} – ${next.away}` : 'aucun match à venir'],

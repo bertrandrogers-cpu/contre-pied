@@ -195,7 +195,7 @@ def markets(M: list) -> dict:
     }
 
 
-def _quick(lh: float, la: float):
+def _quick(lh: float, la: float, line: float = 2.5):
     p1 = p2 = under = 0.0
     for i, row in enumerate(score_matrix(lh, la, kmax=8)):
         for j, v in enumerate(row):
@@ -203,15 +203,15 @@ def _quick(lh: float, la: float):
                 p1 += v
             elif j > i:
                 p2 += v
-            if i + j <= 2:
+            if i + j < line:
                 under += v
     return p1, p2, 1 - under
 
 
-def fit_lambdas(t1: float, t2: float, to25=None, start=(1.4, 1.1)):
-    """Buts attendus (dom, ext) qui reproduisent les probabilités visées (1, 2, +2,5)."""
+def fit_lambdas(t1: float, t2: float, to25=None, start=(1.4, 1.1), line: float = 2.5):
+    """Buts attendus (dom, ext) qui reproduisent les probabilités visées (1, 2, plus de `line` buts)."""
     def resid(x):
-        p1, p2, po = _quick(*x)
+        p1, p2, po = _quick(*x, line)
         r = [p1 - t1, p2 - t2]
         if to25 is not None:
             r.append(po - to25)
