@@ -114,7 +114,7 @@
   "p": 0.593,
   "odds": null,
   "min_odds": 1.74,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:F2-20261102-reims-sochaux:N2",
   "kind": "contre_pied",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -324,7 +324,7 @@
   "p": 0.7411,
   "odds": null,
   "min_odds": 1.39,
-  "result": null,
+  "result": "lost",
   "uid": "stat:F1-20261102-lorient-brest:ko:2.5",
   "kind": "stat",
   "created": "2026-10-30T19:33:02.237966+01:00"
@@ -699,7 +699,7 @@
   "p": 0.7204,
   "odds": null,
   "min_odds": 1.43,
-  "result": null,
+  "result": "won",
   "uid": "stat:F2-20261102-red-star-nancy:ku:5.5",
   "kind": "stat",
   "created": "2026-10-30T20:07:16.175059+01:00"
@@ -950,7 +950,7 @@
   "p": 0.6914,
   "odds": null,
   "min_odds": 1.49,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-186474:s1",
   "kind": "contre_pied",
   "created": "2026-10-31T08:02:16.412248+01:00"
@@ -1488,7 +1488,7 @@
   "p": 0.7043,
   "odds": null,
   "min_odds": 1.46,
-  "result": null,
+  "result": "lost",
   "uid": "stat:F2-20261102-reims-sochaux:cu:11.5",
   "kind": "stat",
   "created": "2026-10-31T19:36:54.449877+01:00"
@@ -1998,7 +1998,7 @@
   "p": 0.7149,
   "odds": null,
   "min_odds": 1.44,
-  "result": null,
+  "result": "won",
   "uid": "stat:I1-20261102-sassuolo-fiorentina:cadres-:11.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2073,7 +2073,7 @@
   "p": 0.6724,
   "odds": null,
   "min_odds": 1.53,
-  "result": null,
+  "result": "won",
   "uid": "stat:F2-20261102-red-star-nancy:tirs-:25.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2088,7 +2088,7 @@
   "p": 0.6707,
   "odds": null,
   "min_odds": 1.54,
-  "result": null,
+  "result": "lost",
   "uid": "stat:F2-20261102-reims-sochaux:cadres+:7.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2148,7 +2148,7 @@
   "p": 0.6655,
   "odds": null,
   "min_odds": 1.55,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP1-20261102-la-coruna-osasuna:cadres+:6.5",
   "kind": "stat",
   "created": "2026-11-01T09:41:04.017187+01:00"
@@ -2500,7 +2500,7 @@
   "p": 0.5299,
   "odds": null,
   "min_odds": 1.94,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:T1-20261102-genclerbirligi-alanyaspor:btts",
   "kind": "contre_pied",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2530,7 +2530,7 @@
   "p": 0.8578,
   "odds": null,
   "min_odds": 1.2,
-  "result": null,
+  "result": "lost",
   "uid": "solide:SWE-20261101-hacken-goteborg:o15",
   "kind": "solide",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2545,7 +2545,7 @@
   "p": 0.8526,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:DNK-20261101-odense-silkeborg:o15",
   "kind": "solide",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2620,7 +2620,7 @@
   "p": 0.7011,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "won",
   "uid": "stat:E0-20261102-newcastle-everton:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-01T10:14:40.064484+01:00"
@@ -2810,12 +2810,12 @@
     "p": 0.5299,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.02348,
   "odds": 49.38,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T10:14:40.064484+01:00"
  },
  {
@@ -3282,7 +3282,7 @@
   "p": 0.8512,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "lost",
   "uid": "solide:NOR-20261101-valerenga-tromso:a_scores",
   "kind": "solide",
   "created": "2026-11-01T16:16:22.569055+01:00"
@@ -3297,7 +3297,7 @@
   "p": 0.8511,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:P1-20261102-benfica-alverca:12",
   "kind": "solide",
   "created": "2026-11-01T16:16:22.569055+01:00"
@@ -3327,7 +3327,7 @@
   "p": 0.669,
   "odds": null,
   "min_odds": 1.54,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261102-valladolid-leganes:cadres+:6.5",
   "kind": "stat",
   "created": "2026-11-01T16:16:22.569055+01:00"
@@ -3342,7 +3342,7 @@
   "p": 0.6674,
   "odds": null,
   "min_odds": 1.54,
-  "result": null,
+  "result": "lost",
   "uid": "stat:SP2-20261102-oviedo-las-palmas:cadres-:9.5",
   "kind": "stat",
   "created": "2026-11-01T16:16:22.569055+01:00"
@@ -3434,7 +3434,7 @@
     "p": 0.5299,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186470",
@@ -3451,7 +3451,7 @@
   ],
   "p": 0.15952,
   "odds": 6.85,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T16:16:22.569055+01:00"
  },
  {
@@ -3768,7 +3768,7 @@
     "p": 0.7304,
     "odds": 1.35,
     "min_odds": 1.41,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "G1-20261101-paok-asteras-tripolis",
@@ -3804,7 +3804,7 @@
     "p": 0.5299,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186470",
@@ -3840,7 +3840,7 @@
     "p": 0.7299,
     "odds": null,
     "min_odds": 1.41,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SWE-20261103-sirius-halmstad",
@@ -3929,7 +3929,7 @@
   ],
   "p": 0.00076,
   "odds": 1315.35,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T16:16:22.569055+01:00"
  },
  {
@@ -4002,7 +4002,7 @@
   "p": 0.8437,
   "odds": null,
   "min_odds": 1.22,
-  "result": null,
+  "result": "won",
   "uid": "solide:SP2-20261102-mallorca-cadiz:h_scores",
   "kind": "solide",
   "created": "2026-11-01T21:35:26.480376+01:00"
@@ -4017,7 +4017,7 @@
   "p": 0.835,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:POL-20261102-zaglebie-korona-kielce:u35",
   "kind": "solide",
   "created": "2026-11-01T21:35:26.480376+01:00"
@@ -4032,7 +4032,7 @@
   "p": 0.6574,
   "odds": null,
   "min_odds": 1.57,
-  "result": null,
+  "result": "won",
   "uid": "stat:F2-20261102-red-star-nancy:tirs+:20.5",
   "kind": "stat",
   "created": "2026-11-01T21:35:26.480376+01:00"
@@ -4077,7 +4077,7 @@
   "p": 0.6522,
   "odds": null,
   "min_odds": 1.58,
-  "result": null,
+  "result": "won",
   "uid": "stat:P1-20261102-gil-vicente-guimaraes:tirs-:26.5",
   "kind": "stat",
   "created": "2026-11-01T21:35:26.480376+01:00"
@@ -4092,7 +4092,7 @@
   "p": 0.6512,
   "odds": null,
   "min_odds": 1.58,
-  "result": null,
+  "result": "won",
   "uid": "stat:P1-20261102-benfica-alverca:cadres+:7.5",
   "kind": "stat",
   "created": "2026-11-01T21:35:26.480376+01:00"
@@ -4107,7 +4107,7 @@
   "p": 0.6509,
   "odds": null,
   "min_odds": 1.58,
-  "result": null,
+  "result": "lost",
   "uid": "stat:SP1-20261102-la-coruna-osasuna:tirs-:26.5",
   "kind": "stat",
   "created": "2026-11-01T21:35:26.480376+01:00"
@@ -4122,7 +4122,7 @@
   "p": 0.6502,
   "odds": null,
   "min_odds": 1.58,
-  "result": null,
+  "result": "won",
   "uid": "stat:T1-20261102-genclerbirligi-alanyaspor:tirs-:27.5",
   "kind": "stat",
   "created": "2026-11-01T21:35:26.480376+01:00"
@@ -4137,7 +4137,7 @@
   "p": 0.6496,
   "odds": null,
   "min_odds": 1.59,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261102-oviedo-las-palmas:tirs+:21.5",
   "kind": "stat",
   "created": "2026-11-01T21:35:26.480376+01:00"
@@ -4479,7 +4479,7 @@
     "p": 0.5299,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186717",
@@ -4604,7 +4604,7 @@
   ],
   "p": 0.0009,
   "odds": 1115.74,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-01T21:35:26.480376+01:00"
  },
  {
@@ -4991,12 +4991,12 @@
     "p": 0.5299,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.14613,
   "odds": 7.48,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-02T07:22:02.990371+01:00"
  },
  {
@@ -5498,7 +5498,7 @@
   "p": 0.6485,
   "odds": null,
   "min_odds": 1.59,
-  "result": null,
+  "result": "lost",
   "uid": "stat:T1-20261102-genclerbirligi-alanyaspor:cadres-:9.5",
   "kind": "stat",
   "created": "2026-11-02T13:55:25.927852+01:00"
@@ -5612,7 +5612,7 @@
     "p": 0.8244,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "FIN-20261102-inter-turku-gnistan",
@@ -5624,7 +5624,7 @@
     "p": 0.85,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261102-radomiak-radom-slask-wroclaw",
@@ -5636,7 +5636,7 @@
     "p": 0.8232,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261102-zaglebie-korona-kielce",
@@ -5648,7 +5648,7 @@
     "p": 0.835,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261102-sassuolo-fiorentina",
@@ -5660,7 +5660,7 @@
     "p": 0.8261,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "DNK-20261102-sonderjyske-fc-copenhagen",
@@ -5672,7 +5672,7 @@
     "p": 0.8409,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "ROU-20261102-u-cluj-fcsb",
@@ -5684,7 +5684,7 @@
     "p": 0.8269,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261102-atalanta-parma",
@@ -5696,7 +5696,7 @@
     "p": 0.8348,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SP2-20261102-mallorca-cadiz",
@@ -5708,7 +5708,7 @@
     "p": 0.8437,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261102-benfica-alverca",
@@ -5720,7 +5720,7 @@
     "p": 0.8511,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186619",
@@ -5833,7 +5833,7 @@
   ],
   "p": 0.03942,
   "odds": 25.37,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-02T13:55:25.927852+01:00"
  },
  {
@@ -5998,7 +5998,7 @@
   "p": 0.6477,
   "odds": null,
   "min_odds": 1.59,
-  "result": null,
+  "result": "won",
   "uid": "stat:P1-20261102-gil-vicente-guimaraes:cadres-:8.5",
   "kind": "stat",
   "created": "2026-11-02T19:30:15.125827+01:00"
@@ -6211,7 +6211,7 @@
     "p": 0.8352,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SP2-20261102-mallorca-cadiz",
@@ -6223,7 +6223,7 @@
     "p": 0.8441,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261102-benfica-alverca",
@@ -6235,7 +6235,7 @@
     "p": 0.8509,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186586",
@@ -6360,7 +6360,7 @@
   ],
   "p": 0.12188,
   "odds": 8.2,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-02T19:30:15.125827+01:00"
  },
  {
@@ -7140,5 +7140,750 @@
   "odds": 1005.42,
   "result": null,
   "created": "2026-11-03T03:25:44.828528+01:00"
+ },
+ {
+  "match_id": "tn-186486",
+  "match": "Frances Tiafoe - Quentin Halys",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-04T20:00:00+01:00",
+  "key": "s1",
+  "label": "Frances Tiafoe gagne au moins un set",
+  "p": 0.8449,
+  "odds": null,
+  "min_odds": 1.22,
+  "result": null,
+  "uid": "contre_pied:tn-186486:s1",
+  "kind": "contre_pied",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E1-20261104-wrexham-middlesbrough",
+  "match": "Wrexham - Middlesbrough",
+  "league": "Championship",
+  "ko": "2026-11-04T20:45:00+01:00",
+  "key": "btts",
+  "label": "Les deux équipes marquent",
+  "p": 0.6104,
+  "odds": null,
+  "min_odds": 1.69,
+  "result": null,
+  "uid": "contre_pied:E1-20261104-wrexham-middlesbrough:btts",
+  "kind": "contre_pied",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "SWE-20261103-sirius-halmstad",
+  "match": "Sirius - Halmstad",
+  "league": "Allsvenskan",
+  "ko": "2026-11-03T19:00:00+01:00",
+  "key": "12",
+  "label": "Pas de match nul",
+  "p": 0.829,
+  "odds": null,
+  "min_odds": 1.24,
+  "result": null,
+  "uid": "solide:SWE-20261103-sirius-halmstad:12",
+  "kind": "solide",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "tn-186486",
+  "match": "Frances Tiafoe - Quentin Halys",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-04T20:00:00+01:00",
+  "key": "s1",
+  "label": "Frances Tiafoe gagne au moins un set",
+  "p": 0.8289,
+  "odds": null,
+  "min_odds": 1.24,
+  "result": null,
+  "uid": "solide:tn-186486:s1",
+  "kind": "solide",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E2-20261103-huddersfield-luton",
+  "match": "Huddersfield - Luton",
+  "league": "League One",
+  "ko": "2026-11-03T20:45:00+01:00",
+  "key": "o15",
+  "label": "Plus de 1,5 buts",
+  "p": 0.8273,
+  "odds": null,
+  "min_odds": 1.25,
+  "result": null,
+  "uid": "solide:E2-20261103-huddersfield-luton:o15",
+  "kind": "solide",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "tn-186457",
+  "match": "Taylor Fritz - Benjamin Bonzi",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-03T15:30:00+01:00",
+  "key": "s1",
+  "label": "Taylor Fritz gagne au moins un set",
+  "p": 0.8266,
+  "odds": null,
+  "min_odds": 1.25,
+  "result": null,
+  "uid": "solide:tn-186457:s1",
+  "kind": "solide",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E1-20261104-cardiff-west-ham",
+  "match": "Cardiff - West Ham",
+  "league": "Championship",
+  "ko": "2026-11-04T20:45:00+01:00",
+  "key": "cadres-:12.5",
+  "label": "Moins de 12,5 tirs cadrés",
+  "p": 0.681,
+  "odds": null,
+  "min_odds": 1.51,
+  "result": null,
+  "uid": "stat:E1-20261104-cardiff-west-ham:cadres-:12.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E2-20261103-wigan-mansfield",
+  "match": "Wigan - Mansfield",
+  "league": "League One",
+  "ko": "2026-11-03T20:45:00+01:00",
+  "key": "cadres+:5.5",
+  "label": "Plus de 5,5 tirs cadrés",
+  "p": 0.6753,
+  "odds": null,
+  "min_odds": 1.53,
+  "result": null,
+  "uid": "stat:E2-20261103-wigan-mansfield:cadres+:5.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E1-20261104-cardiff-west-ham",
+  "match": "Cardiff - West Ham",
+  "league": "Championship",
+  "ko": "2026-11-04T20:45:00+01:00",
+  "key": "tirs+:26.5",
+  "label": "Plus de 26,5 tirs",
+  "p": 0.6736,
+  "odds": null,
+  "min_odds": 1.53,
+  "result": null,
+  "uid": "stat:E1-20261104-cardiff-west-ham:tirs+:26.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E3-20261103-northampton-oldham",
+  "match": "Northampton - Oldham",
+  "league": "League Two",
+  "ko": "2026-11-03T20:45:00+01:00",
+  "key": "cadres-:8.5",
+  "label": "Moins de 8,5 tirs cadrés",
+  "p": 0.6701,
+  "odds": null,
+  "min_odds": 1.54,
+  "result": null,
+  "uid": "stat:E3-20261103-northampton-oldham:cadres-:8.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E1-20261103-portsmouth-swansea",
+  "match": "Portsmouth - Swansea",
+  "league": "Championship",
+  "ko": "2026-11-03T20:45:00+01:00",
+  "key": "cadres-:8.5",
+  "label": "Moins de 8,5 tirs cadrés",
+  "p": 0.6692,
+  "odds": null,
+  "min_odds": 1.54,
+  "result": null,
+  "uid": "stat:E1-20261103-portsmouth-swansea:cadres-:8.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "B1-20261104-kortrijk-kv-mechelen",
+  "match": "Kortrijk - KV Mechelen",
+  "league": "Pro League",
+  "ko": "2026-11-04T20:30:00+01:00",
+  "key": "cadres-:9.5",
+  "label": "Moins de 9,5 tirs cadrés",
+  "p": 0.66,
+  "odds": null,
+  "min_odds": 1.56,
+  "result": null,
+  "uid": "stat:B1-20261104-kortrijk-kv-mechelen:cadres-:9.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E1-20261103-qpr-burnley",
+  "match": "QPR - Burnley",
+  "league": "Championship",
+  "ko": "2026-11-03T20:45:00+01:00",
+  "key": "cadres-:10.5",
+  "label": "Moins de 10,5 tirs cadrés",
+  "p": 0.6588,
+  "odds": null,
+  "min_odds": 1.56,
+  "result": null,
+  "uid": "stat:E1-20261103-qpr-burnley:cadres-:10.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E2-20261104-oxford-utd-reading",
+  "match": "Oxford Utd - Reading",
+  "league": "League One",
+  "ko": "2026-11-04T20:45:00+01:00",
+  "key": "cadres+:6.5",
+  "label": "Plus de 6,5 tirs cadrés",
+  "p": 0.6584,
+  "odds": null,
+  "min_odds": 1.56,
+  "result": null,
+  "uid": "stat:E2-20261104-oxford-utd-reading:cadres+:6.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E1-20261103-west-brom-southampton",
+  "match": "West Brom - Southampton",
+  "league": "Championship",
+  "ko": "2026-11-03T21:00:00+01:00",
+  "key": "cadres+:6.5",
+  "label": "Plus de 6,5 tirs cadrés",
+  "p": 0.6575,
+  "odds": null,
+  "min_odds": 1.57,
+  "result": null,
+  "uid": "stat:E1-20261103-west-brom-southampton:cadres+:6.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "tn-186473",
+  "match": "Learner Tien - Adolfo Daniel Vallejo",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-03T13:05:00+01:00",
+  "key": "jeux+:18.5",
+  "label": "Plus de 18,5 jeux dans le match",
+  "p": 0.6566,
+  "odds": null,
+  "min_odds": 1.57,
+  "result": null,
+  "uid": "stat:tn-186473:jeux+:18.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E2-20261103-wigan-mansfield",
+  "match": "Wigan - Mansfield",
+  "league": "League One",
+  "ko": "2026-11-03T20:45:00+01:00",
+  "key": "tirs-:26.5",
+  "label": "Moins de 26,5 tirs",
+  "p": 0.6547,
+  "odds": null,
+  "min_odds": 1.57,
+  "result": null,
+  "uid": "stat:E2-20261103-wigan-mansfield:tirs-:26.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "match_id": "E1-20261104-wrexham-middlesbrough",
+  "match": "Wrexham - Middlesbrough",
+  "league": "Championship",
+  "ko": "2026-11-04T20:45:00+01:00",
+  "key": "cadres-:9.5",
+  "label": "Moins de 9,5 tirs cadrés",
+  "p": 0.6514,
+  "odds": null,
+  "min_odds": 1.58,
+  "result": null,
+  "uid": "stat:E1-20261104-wrexham-middlesbrough:cadres-:9.5",
+  "kind": "stat",
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "uid": "combo:472ca72c1d",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "tn-186483",
+    "match": "Daniil Medvedev - Ignacio Buse",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s1",
+    "label": "Daniil Medvedev gagne au moins un set",
+    "p": 0.86,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "tn-186478",
+    "match": "Lorenzo Musetti - Alexander Zverev",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s2",
+    "label": "Alexander Zverev gagne au moins un set",
+    "p": 0.8538,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-186720",
+    "match": "Renata Zarazua - Katrina Scott",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T17:00:00+01:00",
+    "key": "s1",
+    "label": "Renata Zarazua gagne au moins un set",
+    "p": 0.8518,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   }
+  ],
+  "p": 0.62541,
+  "odds": 1.75,
+  "result": null,
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "uid": "combo:4e9f3c5dd9",
+  "kind": "combo",
+  "name": "Petite chatte",
+  "legs": [
+   {
+    "match_id": "tn-186491",
+    "match": "Tomas Machac - Arthur Fils",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s1",
+    "label": "Tomas Machac gagne au moins un set",
+    "p": 0.5056,
+    "odds": null,
+    "min_odds": 2.04,
+    "result": null
+   },
+   {
+    "match_id": "tn-186473",
+    "match": "Learner Tien - Adolfo Daniel Vallejo",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T13:05:00+01:00",
+    "key": "s2",
+    "label": "Adolfo Daniel Vallejo gagne au moins un set",
+    "p": 0.3978,
+    "odds": null,
+    "min_odds": 2.59,
+    "result": null
+   },
+   {
+    "match_id": "tn-186477",
+    "match": "Cameron Norrie - Ben Shelton",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T19:00:00+01:00",
+    "key": "s1",
+    "label": "Cameron Norrie gagne au moins un set",
+    "p": 0.5095,
+    "odds": null,
+    "min_odds": 2.02,
+    "result": null
+   }
+  ],
+  "p": 0.10248,
+  "odds": 10.66,
+  "result": null,
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "uid": "combo:024c4dfa57",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-186473",
+    "match": "Learner Tien - Adolfo Daniel Vallejo",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T13:05:00+01:00",
+    "key": "s2",
+    "label": "Adolfo Daniel Vallejo gagne au moins un set",
+    "p": 0.3978,
+    "odds": null,
+    "min_odds": 2.59,
+    "result": null
+   },
+   {
+    "match_id": "tn-186669",
+    "match": "Farah Heddar - Anna Blinkova",
+    "league": "WTA · Angola Ladies Open",
+    "ko": "2026-11-03T16:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Farah Heddar",
+    "p": 0.4093,
+    "odds": null,
+    "min_odds": 2.52,
+    "result": null
+   },
+   {
+    "match_id": "tn-186710",
+    "match": "Laura Pigossi - Julia Grabher",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Laura Pigossi",
+    "p": 0.4159,
+    "odds": null,
+    "min_odds": 2.48,
+    "result": null
+   },
+   {
+    "match_id": "tn-186707",
+    "match": "Alice Tubello - Rebeka Masarova",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T18:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alice Tubello",
+    "p": 0.4195,
+    "odds": null,
+    "min_odds": 2.46,
+    "result": null
+   },
+   {
+    "match_id": "tn-186708",
+    "match": "Julia Riera - Valentina Mediorreal Arias",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T23:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Valentina Mediorreal Arias",
+    "p": 0.4229,
+    "odds": null,
+    "min_odds": 2.44,
+    "result": null
+   }
+  ],
+  "p": 0.01202,
+  "odds": 96.48,
+  "result": null,
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "uid": "combo:2916962590",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "tn-186473",
+    "match": "Learner Tien - Adolfo Daniel Vallejo",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T13:05:00+01:00",
+    "key": "s1",
+    "label": "Learner Tien gagne au moins un set",
+    "p": 0.8997,
+    "odds": null,
+    "min_odds": 1.14,
+    "result": null
+   },
+   {
+    "match_id": "tn-186467",
+    "match": "Moise Kouame - Nuno Borges",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T13:10:00+01:00",
+    "key": "s2",
+    "label": "Nuno Borges gagne au moins un set",
+    "p": 0.8347,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "tn-186458",
+    "match": "Valentin Vacherot - Novak Djokovic",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T15:00:00+01:00",
+    "key": "s2",
+    "label": "Novak Djokovic gagne au moins un set",
+    "p": 0.8252,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "tn-186457",
+    "match": "Taylor Fritz - Benjamin Bonzi",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T15:30:00+01:00",
+    "key": "s1",
+    "label": "Taylor Fritz gagne au moins un set",
+    "p": 0.8266,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "tn-186720",
+    "match": "Renata Zarazua - Katrina Scott",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T17:00:00+01:00",
+    "key": "s1",
+    "label": "Renata Zarazua gagne au moins un set",
+    "p": 0.8518,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "SWE-20261103-sirius-halmstad",
+    "match": "Sirius - Halmstad",
+    "league": "Allsvenskan",
+    "ko": "2026-11-03T19:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.829,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "tn-186477",
+    "match": "Cameron Norrie - Ben Shelton",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T19:00:00+01:00",
+    "key": "s2",
+    "label": "Ben Shelton gagne au moins un set",
+    "p": 0.8381,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "E1-20261103-qpr-burnley",
+    "match": "QPR - Burnley",
+    "league": "Championship",
+    "ko": "2026-11-03T20:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8266,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "E2-20261103-huddersfield-luton",
+    "match": "Huddersfield - Luton",
+    "league": "League One",
+    "ko": "2026-11-03T20:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8273,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "tn-186486",
+    "match": "Frances Tiafoe - Quentin Halys",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s1",
+    "label": "Frances Tiafoe gagne au moins un set",
+    "p": 0.8289,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "tn-186491",
+    "match": "Tomas Machac - Arthur Fils",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s2",
+    "label": "Arthur Fils gagne au moins un set",
+    "p": 0.849,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-186478",
+    "match": "Lorenzo Musetti - Alexander Zverev",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s2",
+    "label": "Alexander Zverev gagne au moins un set",
+    "p": 0.8538,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-186483",
+    "match": "Daniil Medvedev - Ignacio Buse",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s1",
+    "label": "Daniil Medvedev gagne au moins un set",
+    "p": 0.86,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "E1-20261104-wrexham-middlesbrough",
+    "match": "Wrexham - Middlesbrough",
+    "league": "Championship",
+    "ko": "2026-11-04T20:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8201,
+    "odds": null,
+    "min_odds": 1.26,
+    "result": null
+   },
+   {
+    "match_id": "E1-20261104-cardiff-west-ham",
+    "match": "Cardiff - West Ham",
+    "league": "Championship",
+    "ko": "2026-11-04T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Cardiff marque",
+    "p": 0.8259,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   }
+  ],
+  "p": 0.07256,
+  "odds": 13.78,
+  "result": null,
+  "created": "2026-11-03T13:00:46.496842+01:00"
+ },
+ {
+  "uid": "combo:e8433c8848",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186473",
+    "match": "Learner Tien - Adolfo Daniel Vallejo",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-03T13:05:00+01:00",
+    "key": "s2",
+    "label": "Adolfo Daniel Vallejo gagne au moins un set",
+    "p": 0.3978,
+    "odds": null,
+    "min_odds": 2.59,
+    "result": null
+   },
+   {
+    "match_id": "tn-186669",
+    "match": "Farah Heddar - Anna Blinkova",
+    "league": "WTA · Angola Ladies Open",
+    "ko": "2026-11-03T16:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Farah Heddar",
+    "p": 0.4093,
+    "odds": null,
+    "min_odds": 2.52,
+    "result": null
+   },
+   {
+    "match_id": "tn-186707",
+    "match": "Alice Tubello - Rebeka Masarova",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T18:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alice Tubello",
+    "p": 0.4195,
+    "odds": null,
+    "min_odds": 2.46,
+    "result": null
+   },
+   {
+    "match_id": "SWE-20261103-sirius-halmstad",
+    "match": "Sirius - Halmstad",
+    "league": "Allsvenskan",
+    "ko": "2026-11-03T19:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Sirius",
+    "p": 0.7316,
+    "odds": 1.28,
+    "min_odds": 1.41,
+    "result": null
+   },
+   {
+    "match_id": "tn-186710",
+    "match": "Laura Pigossi - Julia Grabher",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Laura Pigossi",
+    "p": 0.4159,
+    "odds": null,
+    "min_odds": 2.48,
+    "result": null
+   },
+   {
+    "match_id": "tn-186708",
+    "match": "Julia Riera - Valentina Mediorreal Arias",
+    "league": "WTA · Reto Win Tennis Cali Open",
+    "ko": "2026-11-03T23:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Valentina Mediorreal Arias",
+    "p": 0.4229,
+    "odds": null,
+    "min_odds": 2.44,
+    "result": null
+   },
+   {
+    "match_id": "tn-186661",
+    "match": "Kristina Kroitor - Suzan Lamens",
+    "league": "WTA · Angola Ladies Open",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Kristina Kroitor",
+    "p": 0.4697,
+    "odds": null,
+    "min_odds": 2.19,
+    "result": null
+   },
+   {
+    "match_id": "tn-186483",
+    "match": "Daniil Medvedev - Ignacio Buse",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s2",
+    "label": "Ignacio Buse gagne au moins un set",
+    "p": 0.4725,
+    "odds": null,
+    "min_odds": 2.18,
+    "result": null
+   },
+   {
+    "match_id": "tn-186478",
+    "match": "Lorenzo Musetti - Alexander Zverev",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-04T20:00:00+01:00",
+    "key": "s1",
+    "label": "Lorenzo Musetti gagne au moins un set",
+    "p": 0.4833,
+    "odds": null,
+    "min_odds": 2.13,
+    "result": null
+   }
+  ],
+  "p": 0.00094,
+  "odds": 1060.45,
+  "result": null,
+  "created": "2026-11-03T13:00:46.496842+01:00"
  }
 ]
