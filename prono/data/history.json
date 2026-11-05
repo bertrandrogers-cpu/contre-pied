@@ -5953,7 +5953,7 @@
   "p": 0.5447,
   "odds": null,
   "min_odds": 1.89,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-186491:s1",
   "kind": "contre_pied",
   "created": "2026-11-02T19:30:15.125827+01:00"
@@ -6537,7 +6537,7 @@
   "p": 0.849,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:tn-186491:s2",
   "kind": "solide",
   "created": "2026-11-03T03:25:44.828528+01:00"
@@ -7941,7 +7941,7 @@
   "p": 0.3536,
   "odds": null,
   "min_odds": 2.91,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-186480:s2",
   "kind": "contre_pied",
   "created": "2026-11-03T20:34:54.717953+01:00"
@@ -8001,7 +8001,7 @@
   "p": 0.8358,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:tn-186480:w1",
   "kind": "solide",
   "created": "2026-11-03T20:34:54.717953+01:00"
@@ -8031,7 +8031,7 @@
   "p": 0.6588,
   "odds": null,
   "min_odds": 1.56,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186480:jeux-:24.5",
   "kind": "stat",
   "created": "2026-11-03T20:34:54.717953+01:00"
@@ -8113,7 +8113,7 @@
     "p": 0.5056,
     "odds": null,
     "min_odds": 2.04,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186479",
@@ -8142,7 +8142,7 @@
   ],
   "p": 0.12683,
   "odds": 8.62,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-03T20:34:54.717953+01:00"
  },
  {
@@ -8611,7 +8611,7 @@
   "p": 0.8463,
   "odds": null,
   "min_odds": 1.22,
-  "result": null,
+  "result": "won",
   "uid": "solide:UCL-20261104-dortmund-betis:o15",
   "kind": "solide",
   "created": "2026-11-03T21:13:54.773077+01:00"
@@ -9227,7 +9227,7 @@
     "p": 0.3536,
     "odds": null,
     "min_odds": 2.91,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186481",
@@ -9280,7 +9280,7 @@
   ],
   "p": 0.01641,
   "odds": 70.63,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-04T01:40:39.660188+01:00"
  },
  {
@@ -9738,7 +9738,7 @@
   "p": 0.8457,
   "odds": null,
   "min_odds": 1.22,
-  "result": null,
+  "result": "won",
   "uid": "solide:UCL-20261104-slavia-prague-arsenal:12",
   "kind": "solide",
   "created": "2026-11-04T13:15:55.956310+01:00"
@@ -9803,7 +9803,7 @@
     "p": 0.5056,
     "odds": null,
     "min_odds": 2.04,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186478",
@@ -9832,7 +9832,7 @@
   ],
   "p": 0.11546,
   "odds": 9.46,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-04T13:15:55.956310+01:00"
  },
  {
@@ -9850,7 +9850,7 @@
     "p": 0.3536,
     "odds": null,
     "min_odds": 2.91,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186497",
@@ -9903,7 +9903,7 @@
   ],
   "p": 0.01485,
   "odds": 78.07,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-04T13:15:55.956310+01:00"
  },
  {
@@ -10256,7 +10256,7 @@
     "p": 0.3536,
     "odds": null,
     "min_odds": 2.91,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186491",
@@ -10268,7 +10268,7 @@
     "p": 0.5056,
     "odds": null,
     "min_odds": 2.04,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "E1-20261104-wrexham-middlesbrough",
@@ -10345,7 +10345,7 @@
   ],
   "p": 0.00085,
   "odds": 1176.66,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-04T13:15:55.956310+01:00"
  },
  {
@@ -10433,7 +10433,7 @@
   "p": 0.8398,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UCL-20261104-lens-como:o15",
   "kind": "solide",
   "created": "2026-11-04T20:55:21.794316+01:00"
@@ -10665,7 +10665,7 @@
     "p": 0.5056,
     "odds": null,
     "min_odds": 2.04,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186497",
@@ -10694,7 +10694,7 @@
   ],
   "p": 0.12566,
   "odds": 8.7,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-04T20:55:21.794316+01:00"
  },
  {
@@ -10724,7 +10724,7 @@
     "p": 0.5056,
     "odds": null,
     "min_odds": 2.04,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261105-az-alkmaar-juventus",
@@ -10765,7 +10765,7 @@
   ],
   "p": 0.04852,
   "odds": 23.89,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-04T20:55:21.794316+01:00"
  },
  {
@@ -10783,7 +10783,7 @@
     "p": 0.827,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261104-slavia-prague-arsenal",
@@ -10795,7 +10795,7 @@
     "p": 0.8272,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261104-lens-como",
@@ -10807,7 +10807,7 @@
     "p": 0.8398,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186491",
@@ -10819,7 +10819,7 @@
     "p": 0.849,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186639",
@@ -11082,7 +11082,7 @@
     "p": 0.5056,
     "odds": null,
     "min_odds": 2.04,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186640",
@@ -11267,7 +11267,714 @@
   ],
   "p": 0.00083,
   "odds": 1208.88,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-04T20:55:21.794316+01:00"
+ },
+ {
+  "match_id": "tn-186503",
+  "match": "Taylor Fritz - Arthur Fils",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-05T20:30:00+01:00",
+  "key": "s1",
+  "label": "Taylor Fritz gagne au moins un set",
+  "p": 0.7012,
+  "odds": null,
+  "min_odds": 1.47,
+  "result": null,
+  "uid": "contre_pied:tn-186503:s1",
+  "kind": "contre_pied",
+  "created": "2026-11-05T01:55:55.123786+01:00"
+ },
+ {
+  "match_id": "tn-186502",
+  "match": "Carlos Alcaraz - Matteo Berrettini",
+  "league": "ATP · Rolex Paris Masters",
+  "ko": "2026-11-05T19:00:00+01:00",
+  "key": "w1",
+  "label": "Victoire Carlos Alcaraz",
+  "p": 0.8481,
+  "odds": null,
+  "min_odds": 1.21,
+  "result": null,
+  "uid": "solide:tn-186502:w1",
+  "kind": "solide",
+  "created": "2026-11-05T01:55:55.123786+01:00"
+ },
+ {
+  "match_id": "UECL-20261105-twente-pafos",
+  "match": "Twente - Pafos",
+  "league": "Ligue Conférence",
+  "ko": "2026-11-05T21:00:00+01:00",
+  "key": "12",
+  "label": "Pas de match nul",
+  "p": 0.8289,
+  "odds": null,
+  "min_odds": 1.24,
+  "result": null,
+  "uid": "solide:UECL-20261105-twente-pafos:12",
+  "kind": "solide",
+  "created": "2026-11-05T01:55:55.123786+01:00"
+ },
+ {
+  "match_id": "tn-186727",
+  "match": "Renata Zarazua - Julia Riera",
+  "league": "WTA · Reto Win Tennis Cali Open",
+  "ko": "2026-11-05T18:00:00+01:00",
+  "key": "jeux+:18.5",
+  "label": "Plus de 18,5 jeux dans le match",
+  "p": 0.6453,
+  "odds": null,
+  "min_odds": 1.6,
+  "result": null,
+  "uid": "stat:tn-186727:jeux+:18.5",
+  "kind": "stat",
+  "created": "2026-11-05T01:55:55.123786+01:00"
+ },
+ {
+  "match_id": "tn-186729",
+  "match": "Bianca Andreescu - Luisina Giovannini",
+  "league": "WTA · Reto Win Tennis Cali Open",
+  "ko": "2026-11-05T20:00:00+01:00",
+  "key": "jeux+:19.5",
+  "label": "Plus de 19,5 jeux dans le match",
+  "p": 0.6368,
+  "odds": null,
+  "min_odds": 1.62,
+  "result": null,
+  "uid": "stat:tn-186729:jeux+:19.5",
+  "kind": "stat",
+  "created": "2026-11-05T01:55:55.123786+01:00"
+ },
+ {
+  "uid": "combo:c9edc2ea12",
+  "kind": "combo",
+  "name": "Petite chatte",
+  "legs": [
+   {
+    "match_id": "tn-186497",
+    "match": "Arthur Rinderknech - Ben Shelton",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-05T12:30:00+01:00",
+    "key": "s1",
+    "label": "Arthur Rinderknech gagne au moins un set",
+    "p": 0.4249,
+    "odds": null,
+    "min_odds": 2.42,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-celta-st-gilloise",
+    "match": "Celta - St. Gilloise",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5849,
+    "odds": null,
+    "min_odds": 1.76,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-az-alkmaar-juventus",
+    "match": "AZ Alkmaar - Juventus",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5768,
+    "odds": null,
+    "min_odds": 1.79,
+    "result": null
+   }
+  ],
+  "p": 0.14336,
+  "odds": 7.62,
+  "result": null,
+  "created": "2026-11-05T01:55:55.123786+01:00"
+ },
+ {
+  "uid": "combo:d77f5a921b",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-186497",
+    "match": "Arthur Rinderknech - Ben Shelton",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-05T12:30:00+01:00",
+    "key": "s1",
+    "label": "Arthur Rinderknech gagne au moins un set",
+    "p": 0.4249,
+    "odds": null,
+    "min_odds": 2.42,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-az-alkmaar-juventus",
+    "match": "AZ Alkmaar - Juventus",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5768,
+    "odds": null,
+    "min_odds": 1.79,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-celta-st-gilloise",
+    "match": "Celta - St. Gilloise",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5849,
+    "odds": null,
+    "min_odds": 1.76,
+    "result": null
+   },
+   {
+    "match_id": "tn-186592",
+    "match": "Polina Kudermetova - Janice Tjen",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-06T20:00:00+01:00",
+    "key": "s1",
+    "label": "Polina Kudermetova gagne au moins un set",
+    "p": 0.6711,
+    "odds": null,
+    "min_odds": 1.53,
+    "result": null
+   },
+   {
+    "match_id": "tn-186503",
+    "match": "Taylor Fritz - Arthur Fils",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-05T20:30:00+01:00",
+    "key": "s1",
+    "label": "Taylor Fritz gagne au moins un set",
+    "p": 0.7012,
+    "odds": null,
+    "min_odds": 1.47,
+    "result": null
+   }
+  ],
+  "p": 0.06746,
+  "odds": 17.19,
+  "result": null,
+  "created": "2026-11-05T01:55:55.123786+01:00"
+ },
+ {
+  "uid": "combo:91374714e9",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "tn-186639",
+    "match": "Zeynep Sonmez - Mika Stojsavljevic",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-05T08:30:00+01:00",
+    "key": "s1",
+    "label": "Zeynep Sonmez gagne au moins un set",
+    "p": 0.8335,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "tn-186496",
+    "match": "Quentin Halys - Tommy Paul",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-05T11:00:00+01:00",
+    "key": "s2",
+    "label": "Tommy Paul gagne au moins un set",
+    "p": 0.8543,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-186641",
+    "match": "Mary Stoiana - Sorana Cirstea",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-05T13:00:00+01:00",
+    "key": "s2",
+    "label": "Sorana Cirstea gagne au moins un set",
+    "p": 0.8618,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "tn-186499",
+    "match": "Luca Van Assche - Lorenzo Musetti",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-05T14:00:00+01:00",
+    "key": "s2",
+    "label": "Lorenzo Musetti gagne au moins un set",
+    "p": 0.8276,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-anderlecht-salzburg",
+    "match": "Anderlecht - Salzburg",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8208,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-lillestrom-viktoria-plzen",
+    "match": "Lillestrom - Viktoria Plzen",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "a_scores",
+    "label": "Viktoria Plzen marque",
+    "p": 0.8242,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-thun-hearts",
+    "match": "Thun - Hearts",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "h_scores",
+    "label": "Thun marque",
+    "p": 0.8253,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-nijmegen-omonia-nicosia",
+    "match": "Nijmegen - Omonia Nicosia",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8258,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-sparta-prague-bournemouth",
+    "match": "Sparta Prague - Bournemouth",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8273,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-kups-gent",
+    "match": "KuPS - Gent",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "a_scores",
+    "label": "Gent marque",
+    "p": 0.8275,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-milan-ferencvaros",
+    "match": "Milan - Ferencvaros",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.84,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-sociedad-lyon",
+    "match": "Sociedad - Lyon",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8415,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-trabzonspor-freiburg",
+    "match": "Trabzonspor - Freiburg",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8442,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-crystal-palace-hoffenheim",
+    "match": "Crystal Palace - Hoffenheim",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8503,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-186502",
+    "match": "Carlos Alcaraz - Matteo Berrettini",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-05T19:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Carlos Alcaraz",
+    "p": 0.8481,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-twente-pafos",
+    "match": "Twente - Pafos",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8289,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-celtic-besiktas",
+    "match": "Celtic - Besiktas",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "a_scores",
+    "label": "Besiktas marque",
+    "p": 0.8308,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-sturm-graz-nk-celje",
+    "match": "Sturm Graz - NK Celje",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "1N",
+    "label": "Sturm Graz ou nul",
+    "p": 0.8311,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-getafe-brighton",
+    "match": "Getafe - Brighton",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "a_scores",
+    "label": "Brighton marque",
+    "p": 0.8367,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-sint-truidense-brann",
+    "match": "Sint-Truidense - Brann",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8401,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-monaco-fc-nordsj-lland",
+    "match": "Monaco - FC Nordsjælland",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "1N",
+    "label": "Monaco ou nul",
+    "p": 0.8536,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-sunderland-dinamo-zagreb",
+    "match": "Sunderland - Dinamo Zagreb",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "1N",
+    "label": "Sunderland ou nul",
+    "p": 0.859,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-panathinaikos-cska-sofia",
+    "match": "Panathinaikos - CSKA Sofia",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "1N",
+    "label": "Panathinaikos ou nul",
+    "p": 0.8596,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-csu-craiova-egnatia",
+    "match": "CSU Craiova - Egnatia",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "1N",
+    "label": "CSU Craiova ou nul",
+    "p": 0.8679,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   }
+  ],
+  "p": 0.01518,
+  "odds": 65.89,
+  "result": null,
+  "created": "2026-11-05T01:55:55.123786+01:00"
+ },
+ {
+  "uid": "combo:52c7bea142",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186640",
+    "match": "Alexandra Shubladze - Elena Pridankina",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-05T07:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alexandra Shubladze",
+    "p": 0.6506,
+    "odds": null,
+    "min_odds": 1.58,
+    "result": null
+   },
+   {
+    "match_id": "tn-186639",
+    "match": "Zeynep Sonmez - Mika Stojsavljevic",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-05T08:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Zeynep Sonmez",
+    "p": 0.7019,
+    "odds": null,
+    "min_odds": 1.47,
+    "result": null
+   },
+   {
+    "match_id": "tn-186496",
+    "match": "Quentin Halys - Tommy Paul",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-05T11:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Tommy Paul",
+    "p": 0.7323,
+    "odds": null,
+    "min_odds": 1.41,
+    "result": null
+   },
+   {
+    "match_id": "tn-186630",
+    "match": "Alexandra Eala - Tereza Valentova",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-05T11:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alexandra Eala",
+    "p": 0.6737,
+    "odds": null,
+    "min_odds": 1.53,
+    "result": null
+   },
+   {
+    "match_id": "tn-186497",
+    "match": "Arthur Rinderknech - Ben Shelton",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-05T12:30:00+01:00",
+    "key": "s1",
+    "label": "Arthur Rinderknech gagne au moins un set",
+    "p": 0.4249,
+    "odds": null,
+    "min_odds": 2.42,
+    "result": null
+   },
+   {
+    "match_id": "tn-186641",
+    "match": "Mary Stoiana - Sorana Cirstea",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-05T13:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Sorana Cirstea",
+    "p": 0.7437,
+    "odds": null,
+    "min_odds": 1.38,
+    "result": null
+   },
+   {
+    "match_id": "tn-186499",
+    "match": "Luca Van Assche - Lorenzo Musetti",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-05T14:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Lorenzo Musetti",
+    "p": 0.6934,
+    "odds": null,
+    "min_odds": 1.49,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-milan-ferencvaros",
+    "match": "Milan - Ferencvaros",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T18:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Milan",
+    "p": 0.7021,
+    "odds": 1.3571428571428572,
+    "min_odds": 1.47,
+    "result": null
+   },
+   {
+    "match_id": "tn-186503",
+    "match": "Taylor Fritz - Arthur Fils",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-05T20:30:00+01:00",
+    "key": "s1",
+    "label": "Taylor Fritz gagne au moins un set",
+    "p": 0.7012,
+    "odds": null,
+    "min_odds": 1.47,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-az-alkmaar-juventus",
+    "match": "AZ Alkmaar - Juventus",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5768,
+    "odds": null,
+    "min_odds": 1.79,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-celta-st-gilloise",
+    "match": "Celta - St. Gilloise",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5849,
+    "odds": null,
+    "min_odds": 1.76,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-twente-pafos",
+    "match": "Twente - Pafos",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Twente",
+    "p": 0.7201,
+    "odds": 1.3225806451612903,
+    "min_odds": 1.43,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-leverkusen-marseille",
+    "match": "Leverkusen - Marseille",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Leverkusen",
+    "p": 0.6876,
+    "odds": 1.3773584905660377,
+    "min_odds": 1.5,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-monaco-fc-nordsj-lland",
+    "match": "Monaco - FC Nordsjælland",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Monaco",
+    "p": 0.6618,
+    "odds": 1.4444444444444444,
+    "min_odds": 1.56,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261105-csu-craiova-egnatia",
+    "match": "CSU Craiova - Egnatia",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire CSU Craiova",
+    "p": 0.6536,
+    "odds": 1.4545454545454546,
+    "min_odds": 1.58,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261105-sunderland-dinamo-zagreb",
+    "match": "Sunderland - Dinamo Zagreb",
+    "league": "Ligue Europa",
+    "ko": "2026-11-05T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Sunderland",
+    "p": 0.6448,
+    "odds": 1.4761904761904763,
+    "min_odds": 1.6,
+    "result": null
+   },
+   {
+    "match_id": "tn-186592",
+    "match": "Polina Kudermetova - Janice Tjen",
+    "league": "WTA · Chennai Open",
+    "ko": "2026-11-06T20:00:00+01:00",
+    "key": "s1",
+    "label": "Polina Kudermetova gagne au moins un set",
+    "p": 0.6711,
+    "odds": null,
+    "min_odds": 1.53,
+    "result": null
+   }
+  ],
+  "p": 0.00076,
+  "odds": 1315.68,
+  "result": null,
+  "created": "2026-11-05T01:55:55.123786+01:00"
  }
 ]
