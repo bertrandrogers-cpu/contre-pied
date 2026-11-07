@@ -13536,7 +13536,7 @@
   "p": 0.5981,
   "odds": null,
   "min_odds": 1.72,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-186594:s1",
   "kind": "contre_pied",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -14038,7 +14038,7 @@
     "p": 0.5981,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186492",
@@ -14067,7 +14067,7 @@
   ],
   "p": 0.18252,
   "odds": 5.99,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-06T16:59:29.185188+01:00"
  },
  {
@@ -14133,12 +14133,12 @@
     "p": 0.5981,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.04712,
   "odds": 24.6,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-06T16:59:29.185188+01:00"
  },
  {
@@ -14503,7 +14503,7 @@
     "p": 0.5981,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "FIN-20261108-hjk-ac-oulu",
@@ -14628,7 +14628,7 @@
   ],
   "p": 0.00081,
   "odds": 1230.32,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-06T16:59:29.185188+01:00"
  },
  {
@@ -14768,7 +14768,7 @@
     "p": 0.5981,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186504",
@@ -14797,7 +14797,7 @@
   ],
   "p": 0.15848,
   "odds": 6.9,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-06T22:35:32.190752+01:00"
  },
  {
@@ -14863,12 +14863,12 @@
     "p": 0.5981,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.0443,
   "odds": 26.17,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-06T22:35:32.190752+01:00"
  },
  {
@@ -15185,7 +15185,7 @@
     "p": 0.5981,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186504",
@@ -15358,7 +15358,7 @@
   ],
   "p": 0.00079,
   "odds": 1271.15,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-06T22:35:32.190752+01:00"
  },
  {
@@ -15371,7 +15371,7 @@
   "p": 0.6425,
   "odds": null,
   "min_odds": 1.6,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-187446:s1",
   "kind": "contre_pied",
   "created": "2026-11-07T07:10:18.294493+01:00"
@@ -15386,7 +15386,7 @@
   "p": 0.6025,
   "odds": null,
   "min_odds": 1.71,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-187447:s2",
   "kind": "contre_pied",
   "created": "2026-11-07T07:10:18.294493+01:00"
@@ -15446,7 +15446,7 @@
   "p": 0.6935,
   "odds": null,
   "min_odds": 1.49,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-187452:w2",
   "kind": "contre_pied",
   "created": "2026-11-07T07:10:18.294493+01:00"
@@ -15543,7 +15543,7 @@
     "p": 0.6025,
     "odds": null,
     "min_odds": 1.71,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186594",
@@ -15555,7 +15555,7 @@
     "p": 0.5981,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187450",
@@ -15572,7 +15572,7 @@
   ],
   "p": 0.19046,
   "odds": 5.74,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-07T07:10:18.294493+01:00"
  },
  {
@@ -15661,7 +15661,7 @@
     "p": 0.8211,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP1-20261107-malaga-santander",
@@ -15960,7 +15960,7 @@
     "p": 0.6025,
     "odds": null,
     "min_odds": 1.71,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186594",
@@ -15972,7 +15972,7 @@
     "p": 0.5981,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187449",
@@ -16085,7 +16085,752 @@
   ],
   "p": 0.00097,
   "odds": 1028.01,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-07T07:10:18.294493+01:00"
+ },
+ {
+  "match_id": "tn-186535",
+  "match": "Yannick Hanfmann - Alex Michelsen",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-09T20:00:00+01:00",
+  "key": "s2",
+  "label": "Alex Michelsen gagne au moins un set",
+  "p": 0.7755,
+  "odds": null,
+  "min_odds": 1.33,
+  "result": null,
+  "uid": "contre_pied:tn-186535:s2",
+  "kind": "contre_pied",
+  "created": "2026-11-07T15:57:02.040579+01:00"
+ },
+ {
+  "match_id": "tn-186534",
+  "match": "Juan Manuel Cerundolo - Elias Ymer",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-08T16:00:00+01:00",
+  "key": "w1",
+  "label": "Victoire Juan Manuel Cerundolo",
+  "p": 0.5461,
+  "odds": null,
+  "min_odds": 1.89,
+  "result": null,
+  "uid": "contre_pied:tn-186534:w1",
+  "kind": "contre_pied",
+  "created": "2026-11-07T15:57:02.040579+01:00"
+ },
+ {
+  "match_id": "tn-186642",
+  "match": "Alexandra Eala - Claire Liu",
+  "league": "WTA · Prudential Hong Kong Tennis Open",
+  "ko": "2026-11-08T09:00:00+01:00",
+  "key": "s1",
+  "label": "Alexandra Eala gagne au moins un set",
+  "p": 0.8618,
+  "odds": null,
+  "min_odds": 1.2,
+  "result": null,
+  "uid": "solide:tn-186642:s1",
+  "kind": "solide",
+  "created": "2026-11-07T15:57:02.040579+01:00"
+ },
+ {
+  "match_id": "E0-20261108-man-united-aston-villa",
+  "match": "Man United - Aston Villa",
+  "league": "Premier League",
+  "ko": "2026-11-08T17:30:00+01:00",
+  "key": "cadres-:11.5",
+  "label": "Moins de 11,5 tirs cadrés",
+  "p": 0.6964,
+  "odds": null,
+  "min_odds": 1.48,
+  "result": null,
+  "uid": "stat:E0-20261108-man-united-aston-villa:cadres-:11.5",
+  "kind": "stat",
+  "created": "2026-11-07T15:57:02.040579+01:00"
+ },
+ {
+  "match_id": "F1-20261107-paris-sg-troyes",
+  "match": "Paris SG - Troyes",
+  "league": "Ligue 1",
+  "ko": "2026-11-07T21:05:00+01:00",
+  "key": "cadres-:11.5",
+  "label": "Moins de 11,5 tirs cadrés",
+  "p": 0.6963,
+  "odds": null,
+  "min_odds": 1.48,
+  "result": null,
+  "uid": "stat:F1-20261107-paris-sg-troyes:cadres-:11.5",
+  "kind": "stat",
+  "created": "2026-11-07T15:57:02.040579+01:00"
+ },
+ {
+  "match_id": "N1-20261108-twente-ajax",
+  "match": "Twente - Ajax",
+  "league": "Eredivisie",
+  "ko": "2026-11-08T14:30:00+01:00",
+  "key": "cadres+:8.5",
+  "label": "Plus de 8,5 tirs cadrés",
+  "p": 0.6915,
+  "odds": null,
+  "min_odds": 1.49,
+  "result": null,
+  "uid": "stat:N1-20261108-twente-ajax:cadres+:8.5",
+  "kind": "stat",
+  "created": "2026-11-07T15:57:02.040579+01:00"
+ },
+ {
+  "uid": "combo:c201723eb6",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "tn-186505",
+    "match": "Carlos Alcaraz - Casper Ruud",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-07T17:00:00+01:00",
+    "key": "s1",
+    "label": "Carlos Alcaraz gagne au moins un set",
+    "p": 0.8788,
+    "odds": null,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "SC0-20261108-celtic-kilmarnock",
+    "match": "Celtic - Kilmarnock",
+    "league": "Premiership (Écosse)",
+    "ko": "2026-11-08T17:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8716,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   },
+   {
+    "match_id": "F1-20261107-paris-sg-troyes",
+    "match": "Paris SG - Troyes",
+    "league": "Ligue 1",
+    "ko": "2026-11-07T21:05:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8639,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   }
+  ],
+  "p": 0.66169,
+  "odds": 1.65,
+  "result": null,
+  "created": "2026-11-07T15:57:02.040579+01:00"
+ },
+ {
+  "uid": "combo:878194d4e7",
+  "kind": "combo",
+  "name": "Petite chatte",
+  "legs": [
+   {
+    "match_id": "tn-186505",
+    "match": "Carlos Alcaraz - Casper Ruud",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-07T17:00:00+01:00",
+    "key": "s2",
+    "label": "Casper Ruud gagne au moins un set",
+    "p": 0.4383,
+    "odds": null,
+    "min_odds": 2.35,
+    "result": null
+   },
+   {
+    "match_id": "P1-20261108-estoril-maritimo",
+    "match": "Estoril - Maritimo",
+    "league": "Liga Portugal",
+    "ko": "2026-11-08T16:30:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5756,
+    "odds": null,
+    "min_odds": 1.79,
+    "result": null
+   },
+   {
+    "match_id": "SP1-20261108-celta-levante",
+    "match": "Celta - Levante",
+    "league": "Liga",
+    "ko": "2026-11-08T18:30:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5342,
+    "odds": null,
+    "min_odds": 1.93,
+    "result": null
+   }
+  ],
+  "p": 0.13477,
+  "odds": 8.11,
+  "result": null,
+  "created": "2026-11-07T15:57:02.040579+01:00"
+ },
+ {
+  "uid": "combo:1d9e938b2c",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-186505",
+    "match": "Carlos Alcaraz - Casper Ruud",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-07T17:00:00+01:00",
+    "key": "s2",
+    "label": "Casper Ruud gagne au moins un set",
+    "p": 0.4383,
+    "odds": null,
+    "min_odds": 2.35,
+    "result": null
+   },
+   {
+    "match_id": "F1-20261108-le-havre-lorient",
+    "match": "Le Havre - Lorient",
+    "league": "Ligue 1",
+    "ko": "2026-11-08T17:15:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5234,
+    "odds": null,
+    "min_odds": 1.97,
+    "result": null
+   },
+   {
+    "match_id": "SP1-20261108-celta-levante",
+    "match": "Celta - Levante",
+    "league": "Liga",
+    "ko": "2026-11-08T18:30:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5342,
+    "odds": null,
+    "min_odds": 1.93,
+    "result": null
+   },
+   {
+    "match_id": "tn-186534",
+    "match": "Juan Manuel Cerundolo - Elias Ymer",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-08T16:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Juan Manuel Cerundolo",
+    "p": 0.5461,
+    "odds": null,
+    "min_odds": 1.89,
+    "result": null
+   },
+   {
+    "match_id": "P1-20261108-estoril-maritimo",
+    "match": "Estoril - Maritimo",
+    "league": "Liga Portugal",
+    "ko": "2026-11-08T16:30:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5756,
+    "odds": null,
+    "min_odds": 1.79,
+    "result": null
+   }
+  ],
+  "p": 0.03852,
+  "odds": 30.1,
+  "result": null,
+  "created": "2026-11-07T15:57:02.040579+01:00"
+ },
+ {
+  "uid": "combo:7819015478",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "E1-20261107-preston-southampton",
+    "match": "Preston - Southampton",
+    "league": "Championship",
+    "ko": "2026-11-07T16:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8238,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "E1-20261107-qpr-lincoln",
+    "match": "QPR - Lincoln",
+    "league": "Championship",
+    "ko": "2026-11-07T16:00:00+01:00",
+    "key": "h_scores",
+    "label": "QPR marque",
+    "p": 0.8246,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "SWZ-20261107-vaduz-sion",
+    "match": "Vaduz - Sion",
+    "league": "Super League (Suisse)",
+    "ko": "2026-11-07T18:00:00+01:00",
+    "key": "h_scores",
+    "label": "Vaduz marque",
+    "p": 0.8267,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261107-cordoba-ceuta",
+    "match": "Cordoba - Ceuta",
+    "league": "Liga 2",
+    "ko": "2026-11-07T18:30:00+01:00",
+    "key": "1N",
+    "label": "Cordoba ou nul",
+    "p": 0.8254,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "E0-20261107-nott-m-forest-man-city",
+    "match": "Nott'm Forest - Man City",
+    "league": "Premier League",
+    "ko": "2026-11-07T18:30:00+01:00",
+    "key": "a_scores",
+    "label": "Man City marque",
+    "p": 0.8267,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "POL-20261107-widzew-lodz-pogon-szczecin",
+    "match": "Widzew Lodz - Pogon Szczecin",
+    "league": "Ekstraklasa",
+    "ko": "2026-11-07T20:15:00+01:00",
+    "key": "u35",
+    "label": "Moins de 3,5 buts",
+    "p": 0.8227,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "B1-20261107-antwerp-lommel-sk",
+    "match": "Antwerp - Lommel SK",
+    "league": "Pro League",
+    "ko": "2026-11-07T20:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.82,
+    "odds": null,
+    "min_odds": 1.26,
+    "result": null
+   },
+   {
+    "match_id": "I1-20261107-roma-sassuolo",
+    "match": "Roma - Sassuolo",
+    "league": "Serie A",
+    "ko": "2026-11-07T20:45:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8256,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "N1-20261107-excelsior-go-ahead-eagles",
+    "match": "Excelsior - Go Ahead Eagles",
+    "league": "Eredivisie",
+    "ko": "2026-11-07T21:00:00+01:00",
+    "key": "a_scores",
+    "label": "Go Ahead Eagles marque",
+    "p": 0.8242,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "SP1-20261107-valencia-real-madrid",
+    "match": "Valencia - Real Madrid",
+    "league": "Liga",
+    "ko": "2026-11-07T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8298,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "FIN-20261108-kups-inter-turku",
+    "match": "KuPS - Inter Turku",
+    "league": "Veikkausliiga",
+    "ko": "2026-11-08T14:00:00+01:00",
+    "key": "u35",
+    "label": "Moins de 3,5 buts",
+    "p": 0.8228,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "N1-20261108-twente-ajax",
+    "match": "Twente - Ajax",
+    "league": "Eredivisie",
+    "ko": "2026-11-08T14:30:00+01:00",
+    "key": "h_scores",
+    "label": "Twente marque",
+    "p": 0.8281,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "E0-20261108-crystal-palace-liverpool",
+    "match": "Crystal Palace - Liverpool",
+    "league": "Premier League",
+    "ko": "2026-11-08T15:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8204,
+    "odds": null,
+    "min_odds": 1.26,
+    "result": null
+   },
+   {
+    "match_id": "E0-20261108-brighton-brentford",
+    "match": "Brighton - Brentford",
+    "league": "Premier League",
+    "ko": "2026-11-08T15:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8243,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "SC0-20261108-hearts-falkirk",
+    "match": "Hearts - Falkirk",
+    "league": "Premiership (Écosse)",
+    "ko": "2026-11-08T16:00:00+01:00",
+    "key": "1N",
+    "label": "Hearts ou nul",
+    "p": 0.8225,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "SP1-20261108-sociedad-vallecano",
+    "match": "Sociedad - Vallecano",
+    "league": "Liga",
+    "ko": "2026-11-08T16:15:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8302,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "SWE-20261108-kalmar-sirius",
+    "match": "Kalmar - Sirius",
+    "league": "Allsvenskan",
+    "ko": "2026-11-08T16:30:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8305,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "T1-20261108-alanyaspor-trabzonspor",
+    "match": "Alanyaspor - Trabzonspor",
+    "league": "Süper Lig",
+    "ko": "2026-11-08T16:30:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8316,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "N1-20261108-cambuur-psv-eindhoven",
+    "match": "Cambuur - PSV Eindhoven",
+    "league": "Eredivisie",
+    "ko": "2026-11-08T16:45:00+01:00",
+    "key": "N2",
+    "label": "PSV Eindhoven ou nul",
+    "p": 0.8322,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "NOR-20261108-hamkam-sarpsborg-08",
+    "match": "HamKam - Sarpsborg 08",
+    "league": "Eliteserien",
+    "ko": "2026-11-08T17:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8211,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "F1-20261108-le-mans-monaco",
+    "match": "Le Mans - Monaco",
+    "league": "Ligue 1",
+    "ko": "2026-11-08T17:15:00+01:00",
+    "key": "a_scores",
+    "label": "Monaco marque",
+    "p": 0.8208,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "B1-20261108-st-gilloise-genk",
+    "match": "St. Gilloise - Genk",
+    "league": "Pro League",
+    "ko": "2026-11-08T18:30:00+01:00",
+    "key": "1N",
+    "label": "St. Gilloise ou nul",
+    "p": 0.8235,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "P1-20261108-guimaraes-porto",
+    "match": "Guimaraes - Porto",
+    "league": "Liga Portugal",
+    "ko": "2026-11-08T19:00:00+01:00",
+    "key": "a_scores",
+    "label": "Porto marque",
+    "p": 0.8204,
+    "odds": null,
+    "min_odds": 1.26,
+    "result": null
+   },
+   {
+    "match_id": "P1-20261108-estrela-benfica",
+    "match": "Estrela - Benfica",
+    "league": "Liga Portugal",
+    "ko": "2026-11-08T21:30:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8321,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   }
+  ],
+  "p": 0.01,
+  "odds": 100.02,
+  "result": null,
+  "created": "2026-11-07T15:57:02.040579+01:00"
+ },
+ {
+  "uid": "combo:b8ff50d2bc",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186505",
+    "match": "Carlos Alcaraz - Casper Ruud",
+    "league": "ATP · Rolex Paris Masters",
+    "ko": "2026-11-07T17:00:00+01:00",
+    "key": "s2",
+    "label": "Casper Ruud gagne au moins un set",
+    "p": 0.4383,
+    "odds": null,
+    "min_odds": 2.35,
+    "result": null
+   },
+   {
+    "match_id": "tn-186642",
+    "match": "Alexandra Eala - Claire Liu",
+    "league": "WTA · Prudential Hong Kong Tennis Open",
+    "ko": "2026-11-08T09:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alexandra Eala",
+    "p": 0.7437,
+    "odds": null,
+    "min_odds": 1.39,
+    "result": null
+   },
+   {
+    "match_id": "FIN-20261108-hjk-ac-oulu",
+    "match": "HJK - AC Oulu",
+    "league": "Veikkausliiga",
+    "ko": "2026-11-08T14:00:00+01:00",
+    "key": "1",
+    "label": "Victoire HJK",
+    "p": 0.7424,
+    "odds": 1.13,
+    "min_odds": 1.39,
+    "result": null
+   },
+   {
+    "match_id": "SWE-20261108-halmstad-djurgarden",
+    "match": "Halmstad - Djurgarden",
+    "league": "Allsvenskan",
+    "ko": "2026-11-08T14:00:00+01:00",
+    "key": "2",
+    "label": "Victoire Djurgarden",
+    "p": 0.6922,
+    "odds": 1.35,
+    "min_odds": 1.49,
+    "result": null
+   },
+   {
+    "match_id": "tn-186534",
+    "match": "Juan Manuel Cerundolo - Elias Ymer",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-08T16:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Juan Manuel Cerundolo",
+    "p": 0.5461,
+    "odds": null,
+    "min_odds": 1.89,
+    "result": null
+   },
+   {
+    "match_id": "P1-20261108-estoril-maritimo",
+    "match": "Estoril - Maritimo",
+    "league": "Liga Portugal",
+    "ko": "2026-11-08T16:30:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5756,
+    "odds": null,
+    "min_odds": 1.79,
+    "result": null
+   },
+   {
+    "match_id": "N1-20261108-az-alkmaar-groningen",
+    "match": "AZ Alkmaar - Groningen",
+    "league": "Eredivisie",
+    "ko": "2026-11-08T16:45:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.6499,
+    "odds": null,
+    "min_odds": 1.58,
+    "result": null
+   },
+   {
+    "match_id": "N1-20261108-cambuur-psv-eindhoven",
+    "match": "Cambuur - PSV Eindhoven",
+    "league": "Eredivisie",
+    "ko": "2026-11-08T16:45:00+01:00",
+    "key": "2",
+    "label": "Victoire PSV Eindhoven",
+    "p": 0.6482,
+    "odds": 1.36,
+    "min_odds": 1.59,
+    "result": null
+   },
+   {
+    "match_id": "F1-20261108-le-havre-lorient",
+    "match": "Le Havre - Lorient",
+    "league": "Ligue 1",
+    "ko": "2026-11-08T17:15:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5234,
+    "odds": null,
+    "min_odds": 1.97,
+    "result": null
+   },
+   {
+    "match_id": "E0-20261108-man-united-aston-villa",
+    "match": "Man United - Aston Villa",
+    "league": "Premier League",
+    "ko": "2026-11-08T17:30:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.6463,
+    "odds": null,
+    "min_odds": 1.59,
+    "result": null
+   },
+   {
+    "match_id": "DNK-20261108-midtjylland-sonderjyske",
+    "match": "Midtjylland - Sonderjyske",
+    "league": "Superliga (Danemark)",
+    "ko": "2026-11-08T18:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Midtjylland",
+    "p": 0.7311,
+    "odds": 1.31,
+    "min_odds": 1.41,
+    "result": null
+   },
+   {
+    "match_id": "SP1-20261108-celta-levante",
+    "match": "Celta - Levante",
+    "league": "Liga",
+    "ko": "2026-11-08T18:30:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5342,
+    "odds": null,
+    "min_odds": 1.93,
+    "result": null
+   },
+   {
+    "match_id": "SP1-20261108-villarreal-getafe",
+    "match": "Villarreal - Getafe",
+    "league": "Liga",
+    "ko": "2026-11-08T18:30:00+01:00",
+    "key": "1",
+    "label": "Victoire Villarreal",
+    "p": 0.649,
+    "odds": 1.42,
+    "min_odds": 1.59,
+    "result": null
+   },
+   {
+    "match_id": "POL-20261108-lech-poznan-zaglebie",
+    "match": "Lech Poznan - Zaglebie",
+    "league": "Ekstraklasa",
+    "ko": "2026-11-08T20:15:00+01:00",
+    "key": "1",
+    "label": "Victoire Lech Poznan",
+    "p": 0.6492,
+    "odds": 1.43,
+    "min_odds": 1.59,
+    "result": null
+   },
+   {
+    "match_id": "tn-186530",
+    "match": "Max Dahlin - Tomas Martin Etcheverry",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-09T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Tomas Martin Etcheverry",
+    "p": 0.7317,
+    "odds": null,
+    "min_odds": 1.41,
+    "result": null
+   }
+  ],
+  "p": 0.0009,
+  "odds": 1107.06,
+  "result": null,
+  "created": "2026-11-07T15:57:02.040579+01:00"
  }
 ]
