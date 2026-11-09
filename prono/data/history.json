@@ -17735,7 +17735,7 @@
   "p": 0.5496,
   "odds": null,
   "min_odds": 1.87,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-187373:w1",
   "kind": "contre_pied",
   "created": "2026-11-08T07:16:25.992390+01:00"
@@ -17795,7 +17795,7 @@
   "p": 0.7019,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-187374:s1",
   "kind": "contre_pied",
   "created": "2026-11-08T07:16:25.992390+01:00"
@@ -17976,7 +17976,7 @@
     "p": 0.5496,
     "odds": null,
     "min_odds": 1.87,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.09739,
@@ -19358,7 +19358,7 @@
   "p": 0.6447,
   "odds": null,
   "min_odds": 1.6,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-187374:jeux-:24.5",
   "kind": "stat",
   "created": "2026-11-08T21:33:54.332055+01:00"
@@ -19721,5 +19721,246 @@
   "odds": 1003.1,
   "result": null,
   "created": "2026-11-08T21:33:54.332055+01:00"
+ },
+ {
+  "match_id": "tn-186526",
+  "match": "Aleksandr Shevchenko - Luca Van Assche",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-10T20:00:00+01:00",
+  "key": "w2",
+  "label": "Victoire Luca Van Assche",
+  "p": 0.6008,
+  "odds": null,
+  "min_odds": 1.71,
+  "result": null,
+  "uid": "contre_pied:tn-186526:w2",
+  "kind": "contre_pied",
+  "created": "2026-11-09T07:48:49.093922+01:00"
+ },
+ {
+  "match_id": "tn-186536",
+  "match": "Ugo Humbert - Adolfo Daniel Vallejo",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-09T14:30:00+01:00",
+  "key": "s1",
+  "label": "Ugo Humbert gagne au moins un set",
+  "p": 0.8768,
+  "odds": null,
+  "min_odds": 1.17,
+  "result": null,
+  "uid": "solide:tn-186536:s1",
+  "kind": "solide",
+  "created": "2026-11-09T07:48:49.093922+01:00"
+ },
+ {
+  "match_id": "tn-186537",
+  "match": "Borna Gojo - Tomas Machac",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-09T14:00:00+01:00",
+  "key": "s2",
+  "label": "Tomas Machac gagne au moins un set",
+  "p": 0.795,
+  "odds": null,
+  "min_odds": 1.3,
+  "result": null,
+  "uid": "solide:tn-186537:s2",
+  "kind": "solide",
+  "created": "2026-11-09T07:48:49.093922+01:00"
+ },
+ {
+  "match_id": "tn-186744",
+  "match": "Dalila Jakupovic - Laura Pigossi",
+  "league": "WTA · DIRECTV Open Presentado por Compesar",
+  "ko": "2026-11-09T16:00:00+01:00",
+  "key": "jeux+:19.5",
+  "label": "Plus de 19,5 jeux dans le match",
+  "p": 0.6429,
+  "odds": null,
+  "min_odds": 1.6,
+  "result": null,
+  "uid": "stat:tn-186744:jeux+:19.5",
+  "kind": "stat",
+  "created": "2026-11-09T07:48:49.093922+01:00"
+ },
+ {
+  "match_id": "tn-186759",
+  "match": "Valentina Mediorreal Arias - Maria Lourdes Carle",
+  "league": "WTA · DIRECTV Open Presentado por Compesar",
+  "ko": "2026-11-10T20:00:00+01:00",
+  "key": "jeux+:19.5",
+  "label": "Plus de 19,5 jeux dans le match",
+  "p": 0.6408,
+  "odds": null,
+  "min_odds": 1.61,
+  "result": null,
+  "uid": "stat:tn-186759:jeux+:19.5",
+  "kind": "stat",
+  "created": "2026-11-09T07:48:49.093922+01:00"
+ },
+ {
+  "uid": "combo:994538fec1",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "tn-186536",
+    "match": "Ugo Humbert - Adolfo Daniel Vallejo",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-09T14:30:00+01:00",
+    "key": "s1",
+    "label": "Ugo Humbert gagne au moins un set",
+    "p": 0.8768,
+    "odds": null,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "tn-186530",
+    "match": "Max Dahlin - Tomas Martin Etcheverry",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-09T18:00:00+01:00",
+    "key": "s2",
+    "label": "Tomas Martin Etcheverry gagne au moins un set",
+    "p": 0.852,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-186748",
+    "match": "Andrea Lazaro Garcia - Katrina Scott",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T20:00:00+01:00",
+    "key": "s1",
+    "label": "Andrea Lazaro Garcia gagne au moins un set",
+    "p": 0.8238,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   }
+  ],
+  "p": 0.61538,
+  "odds": 1.78,
+  "result": null,
+  "created": "2026-11-09T07:48:49.093922+01:00"
+ },
+ {
+  "uid": "combo:796c052675",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186753",
+    "match": "Luisina Giovannini - Tatjana Maria",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-09T16:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Luisina Giovannini",
+    "p": 0.4429,
+    "odds": null,
+    "min_odds": 2.33,
+    "result": null
+   },
+   {
+    "match_id": "tn-186750",
+    "match": "Veronika Erjavec - Elizabeth Mandlik",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-09T17:30:00+01:00",
+    "key": "w2",
+    "label": "Victoire Elizabeth Mandlik",
+    "p": 0.4344,
+    "odds": null,
+    "min_odds": 2.37,
+    "result": null
+   },
+   {
+    "match_id": "tn-187381",
+    "match": "Karolina Muchova - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-09T21:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Karolina Muchova",
+    "p": 0.4051,
+    "odds": null,
+    "min_odds": 2.54,
+    "result": null
+   },
+   {
+    "match_id": "tn-186751",
+    "match": "Julia Riera - Alice Tubello",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Alice Tubello",
+    "p": 0.4589,
+    "odds": null,
+    "min_odds": 2.24,
+    "result": null
+   },
+   {
+    "match_id": "tn-186745",
+    "match": "Rebeka Masarova - Bianca Andreescu",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Bianca Andreescu",
+    "p": 0.4617,
+    "odds": null,
+    "min_odds": 2.23,
+    "result": null
+   },
+   {
+    "match_id": "tn-186752",
+    "match": "Julieta Pareja - Lucia Bronzetti",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Julieta Pareja",
+    "p": 0.4781,
+    "odds": null,
+    "min_odds": 2.15,
+    "result": null
+   },
+   {
+    "match_id": "tn-186747",
+    "match": "Leyre Romero Gormaz - Carole Monnet",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Carole Monnet",
+    "p": 0.5057,
+    "odds": null,
+    "min_odds": 2.04,
+    "result": null
+   },
+   {
+    "match_id": "tn-187376",
+    "match": "Linda Noskova - Jessica Pegula",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-11T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Linda Noskova",
+    "p": 0.4374,
+    "odds": null,
+    "min_odds": 2.35,
+    "result": null
+   },
+   {
+    "match_id": "tn-187378",
+    "match": "Mirra Andreeva - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-11T20:00:00+01:00",
+    "key": "s1",
+    "label": "Mirra Andreeva gagne au moins un set",
+    "p": 0.5696,
+    "odds": null,
+    "min_odds": 1.81,
+    "result": null
+   }
+  ],
+  "p": 0.00099,
+  "odds": 1005.09,
+  "result": null,
+  "created": "2026-11-09T07:48:49.093922+01:00"
  }
 ]
