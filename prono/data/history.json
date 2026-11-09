@@ -13551,7 +13551,7 @@
   "p": 0.6499,
   "odds": null,
   "min_odds": 1.58,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:N1-20261108-az-alkmaar-groningen:btts",
   "kind": "contre_pied",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13566,7 +13566,7 @@
   "p": 0.6464,
   "odds": null,
   "min_odds": 1.59,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:E0-20261108-man-united-aston-villa:btts",
   "kind": "contre_pied",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13581,7 +13581,7 @@
   "p": 0.6233,
   "odds": null,
   "min_odds": 1.65,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:F1-20261106-toulouse-strasbourg:btts",
   "kind": "contre_pied",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13596,7 +13596,7 @@
   "p": 0.6009,
   "odds": null,
   "min_odds": 1.71,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:I1-20261106-venezia-udinese:btts",
   "kind": "contre_pied",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13626,7 +13626,7 @@
   "p": 0.5342,
   "odds": null,
   "min_odds": 1.93,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:SP1-20261108-celta-levante:btts",
   "kind": "contre_pied",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13641,7 +13641,7 @@
   "p": 0.5233,
   "odds": null,
   "min_odds": 1.97,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:F1-20261108-le-havre-lorient:btts",
   "kind": "contre_pied",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13656,7 +13656,7 @@
   "p": 0.8716,
   "odds": null,
   "min_odds": 1.18,
-  "result": null,
+  "result": "won",
   "uid": "solide:SC0-20261108-celtic-kilmarnock:12",
   "kind": "solide",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13671,7 +13671,7 @@
   "p": 0.8639,
   "odds": null,
   "min_odds": 1.19,
-  "result": null,
+  "result": "won",
   "uid": "solide:F1-20261107-paris-sg-troyes:12",
   "kind": "solide",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13686,7 +13686,7 @@
   "p": 0.8621,
   "odds": null,
   "min_odds": 1.19,
-  "result": null,
+  "result": "won",
   "uid": "solide:SC1-20261107-queens-park-partick:a_scores",
   "kind": "solide",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13701,7 +13701,7 @@
   "p": 0.8613,
   "odds": null,
   "min_odds": 1.2,
-  "result": null,
+  "result": "lost",
   "uid": "solide:P1-20261107-sp-lisbon-moreirense:o15",
   "kind": "solide",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13716,7 +13716,7 @@
   "p": 0.8609,
   "odds": null,
   "min_odds": 1.2,
-  "result": null,
+  "result": "won",
   "uid": "solide:E1-20261107-cardiff-burnley:o15",
   "kind": "solide",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13731,7 +13731,7 @@
   "p": 0.8608,
   "odds": null,
   "min_odds": 1.2,
-  "result": null,
+  "result": "won",
   "uid": "solide:B1-20261108-gent-kortrijk:h_scores",
   "kind": "solide",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13746,7 +13746,7 @@
   "p": 0.8591,
   "odds": null,
   "min_odds": 1.2,
-  "result": null,
+  "result": "lost",
   "uid": "solide:D2-20261106-braunschweig-cottbus:h_scores",
   "kind": "solide",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13761,7 +13761,7 @@
   "p": 0.8586,
   "odds": null,
   "min_odds": 1.2,
-  "result": null,
+  "result": "won",
   "uid": "solide:N1-20261108-heerenveen-feyenoord:o15",
   "kind": "solide",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13791,7 +13791,7 @@
   "p": 0.8539,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:G1-20261108-iraklis-panathinaikos:a_scores",
   "kind": "solide",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13806,7 +13806,7 @@
   "p": 0.8068,
   "odds": null,
   "min_odds": 1.28,
-  "result": null,
+  "result": "won",
   "uid": "stat:SC1-20261107-arbroath-ayr:tirs-:19.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13821,7 +13821,7 @@
   "p": 0.7333,
   "odds": null,
   "min_odds": 1.4,
-  "result": null,
+  "result": "won",
   "uid": "stat:SC1-20261106-raith-rvs-dunfermline:tirs-:19.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13836,7 +13836,7 @@
   "p": 0.7196,
   "odds": null,
   "min_odds": 1.43,
-  "result": null,
+  "result": "lost",
   "uid": "stat:SC1-20261107-morton-stenhousemuir:cadres-:9.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13851,7 +13851,7 @@
   "p": 0.7191,
   "odds": null,
   "min_odds": 1.43,
-  "result": null,
+  "result": "won",
   "uid": "stat:I2-20261107-pisa-sudtirol:cadres-:9.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13866,7 +13866,7 @@
   "p": 0.7189,
   "odds": null,
   "min_odds": 1.43,
-  "result": null,
+  "result": "won",
   "uid": "stat:F2-20261106-nancy-sochaux:cadres-:9.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13881,7 +13881,7 @@
   "p": 0.7144,
   "odds": null,
   "min_odds": 1.44,
-  "result": null,
+  "result": "lost",
   "uid": "stat:SP2-20261107-leganes-albacete:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13896,7 +13896,7 @@
   "p": 0.7123,
   "odds": null,
   "min_odds": 1.45,
-  "result": null,
+  "result": "won",
   "uid": "stat:B1-20261108-st-gilloise-genk:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13911,7 +13911,7 @@
   "p": 0.7089,
   "odds": null,
   "min_odds": 1.45,
-  "result": null,
+  "result": "lost",
   "uid": "stat:F2-20261106-dunkerque-guingamp:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13926,7 +13926,7 @@
   "p": 0.7083,
   "odds": null,
   "min_odds": 1.45,
-  "result": null,
+  "result": "won",
   "uid": "stat:I2-20261107-cesena-catanzaro:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13941,7 +13941,7 @@
   "p": 0.7057,
   "odds": null,
   "min_odds": 1.46,
-  "result": null,
+  "result": "won",
   "uid": "stat:I1-20261108-inter-como:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13956,7 +13956,7 @@
   "p": 0.7035,
   "odds": null,
   "min_odds": 1.46,
-  "result": null,
+  "result": "won",
   "uid": "stat:T1-20261107-galatasaray-amedspor:cadres+:7.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13971,7 +13971,7 @@
   "p": 0.7035,
   "odds": null,
   "min_odds": 1.46,
-  "result": null,
+  "result": "won",
   "uid": "stat:D1-20261108-fc-koln-leverkusen:cadres+:7.5",
   "kind": "stat",
   "created": "2026-11-06T16:59:29.185188+01:00"
@@ -13991,7 +13991,7 @@
     "p": 0.8716,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "F1-20261107-paris-sg-troyes",
@@ -14003,7 +14003,7 @@
     "p": 0.8639,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SC1-20261107-queens-park-partick",
@@ -14015,12 +14015,12 @@
     "p": 0.8621,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.64919,
   "odds": 1.68,
-  "result": null,
+  "result": "won",
   "created": "2026-11-06T16:59:29.185188+01:00"
  },
  {
@@ -14156,7 +14156,7 @@
     "p": 0.8239,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "F2-20261106-montpellier-metz",
@@ -14168,7 +14168,7 @@
     "p": 0.8247,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP1-20261107-malaga-santander",
@@ -14180,7 +14180,7 @@
     "p": 0.8233,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP2-20261107-burgos-celta-b",
@@ -14192,7 +14192,7 @@
     "p": 0.8257,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261107-slask-wroclaw-piast-gliwice",
@@ -14216,7 +14216,7 @@
     "p": 0.8261,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "D1-20261107-paderborn-ein-frankfurt",
@@ -14228,7 +14228,7 @@
     "p": 0.8235,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E1-20261107-preston-southampton",
@@ -14240,7 +14240,7 @@
     "p": 0.8238,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "E1-20261107-qpr-lincoln",
@@ -14252,7 +14252,7 @@
     "p": 0.8246,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SWZ-20261107-vaduz-sion",
@@ -14276,7 +14276,7 @@
     "p": 0.8254,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261107-nott-m-forest-man-city",
@@ -14288,7 +14288,7 @@
     "p": 0.8267,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261107-widzew-lodz-pogon-szczecin",
@@ -14312,7 +14312,7 @@
     "p": 0.82,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261107-roma-sassuolo",
@@ -14324,7 +14324,7 @@
     "p": 0.8256,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261107-excelsior-go-ahead-eagles",
@@ -14336,7 +14336,7 @@
     "p": 0.8242,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "FIN-20261108-kups-inter-turku",
@@ -14360,7 +14360,7 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261108-brighton-brentford",
@@ -14372,7 +14372,7 @@
     "p": 0.8243,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SC0-20261108-hearts-falkirk",
@@ -14384,7 +14384,7 @@
     "p": 0.8225,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "NOR-20261108-hamkam-sarpsborg-08",
@@ -14408,7 +14408,7 @@
     "p": 0.8208,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "B1-20261108-st-gilloise-genk",
@@ -14420,7 +14420,7 @@
     "p": 0.8235,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261108-guimaraes-porto",
@@ -14432,12 +14432,12 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.00945,
   "odds": 105.83,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-06T16:59:29.185188+01:00"
  },
  {
@@ -14671,7 +14671,7 @@
   "p": 0.703,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "lost",
   "uid": "stat:SC0-20261107-st-mirren-rangers:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-06T22:35:32.190752+01:00"
@@ -14686,7 +14686,7 @@
   "p": 0.6991,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "won",
   "uid": "stat:D1-20261107-rb-leipzig-augsburg:cadres+:9.5",
   "kind": "stat",
   "created": "2026-11-06T22:35:32.190752+01:00"
@@ -14701,7 +14701,7 @@
   "p": 0.699,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP1-20261108-ath-madrid-barcelona:cadres-:11.5",
   "kind": "stat",
   "created": "2026-11-06T22:35:32.190752+01:00"
@@ -14721,7 +14721,7 @@
     "p": 0.8716,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186504",
@@ -14745,12 +14745,12 @@
     "p": 0.8639,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.65277,
   "odds": 1.67,
-  "result": null,
+  "result": "won",
   "created": "2026-11-06T22:35:32.190752+01:00"
  },
  {
@@ -14886,7 +14886,7 @@
     "p": 0.8233,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP2-20261107-burgos-celta-b",
@@ -14898,7 +14898,7 @@
     "p": 0.8257,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261107-slask-wroclaw-piast-gliwice",
@@ -14922,7 +14922,7 @@
     "p": 0.8261,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "D1-20261107-paderborn-ein-frankfurt",
@@ -14934,7 +14934,7 @@
     "p": 0.8235,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E1-20261107-preston-southampton",
@@ -14946,7 +14946,7 @@
     "p": 0.8238,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "E1-20261107-qpr-lincoln",
@@ -14958,7 +14958,7 @@
     "p": 0.8246,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "NOR-20261107-kristiansund-valerenga",
@@ -14994,7 +14994,7 @@
     "p": 0.8254,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261107-nott-m-forest-man-city",
@@ -15006,7 +15006,7 @@
     "p": 0.8267,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261107-widzew-lodz-pogon-szczecin",
@@ -15030,7 +15030,7 @@
     "p": 0.82,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261107-roma-sassuolo",
@@ -15042,7 +15042,7 @@
     "p": 0.8256,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261107-excelsior-go-ahead-eagles",
@@ -15054,7 +15054,7 @@
     "p": 0.8242,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "FIN-20261108-kups-inter-turku",
@@ -15078,7 +15078,7 @@
     "p": 0.8281,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261108-crystal-palace-liverpool",
@@ -15090,7 +15090,7 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261108-brighton-brentford",
@@ -15102,7 +15102,7 @@
     "p": 0.8243,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SC0-20261108-hearts-falkirk",
@@ -15114,7 +15114,7 @@
     "p": 0.8225,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "NOR-20261108-hamkam-sarpsborg-08",
@@ -15138,7 +15138,7 @@
     "p": 0.8208,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "B1-20261108-st-gilloise-genk",
@@ -15150,7 +15150,7 @@
     "p": 0.8235,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261108-guimaraes-porto",
@@ -15162,12 +15162,12 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.00952,
   "odds": 105.09,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-06T22:35:32.190752+01:00"
  },
  {
@@ -15508,7 +15508,7 @@
     "p": 0.8716,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186504",
@@ -15525,7 +15525,7 @@
   ],
   "p": 0.66396,
   "odds": 1.65,
-  "result": null,
+  "result": "won",
   "created": "2026-11-07T07:10:18.294493+01:00"
  },
  {
@@ -15673,7 +15673,7 @@
     "p": 0.8233,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP2-20261107-burgos-celta-b",
@@ -15685,7 +15685,7 @@
     "p": 0.8257,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261107-slask-wroclaw-piast-gliwice",
@@ -15709,7 +15709,7 @@
     "p": 0.826,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "D1-20261107-paderborn-ein-frankfurt",
@@ -15721,7 +15721,7 @@
     "p": 0.8235,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187450",
@@ -15745,7 +15745,7 @@
     "p": 0.8238,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "E1-20261107-qpr-lincoln",
@@ -15757,7 +15757,7 @@
     "p": 0.8246,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SWZ-20261107-vaduz-sion",
@@ -15781,7 +15781,7 @@
     "p": 0.8254,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261107-nott-m-forest-man-city",
@@ -15793,7 +15793,7 @@
     "p": 0.8267,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261107-widzew-lodz-pogon-szczecin",
@@ -15817,7 +15817,7 @@
     "p": 0.82,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261107-roma-sassuolo",
@@ -15829,7 +15829,7 @@
     "p": 0.8256,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261107-excelsior-go-ahead-eagles",
@@ -15841,7 +15841,7 @@
     "p": 0.8242,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "FIN-20261108-kups-inter-turku",
@@ -15865,7 +15865,7 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261108-brighton-brentford",
@@ -15877,7 +15877,7 @@
     "p": 0.8243,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SC0-20261108-hearts-falkirk",
@@ -15889,7 +15889,7 @@
     "p": 0.8225,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "NOR-20261108-hamkam-sarpsborg-08",
@@ -15913,7 +15913,7 @@
     "p": 0.8208,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "B1-20261108-st-gilloise-genk",
@@ -15925,7 +15925,7 @@
     "p": 0.8235,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261108-guimaraes-porto",
@@ -15937,12 +15937,12 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.00944,
   "odds": 105.95,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-07T07:10:18.294493+01:00"
  },
  {
@@ -16098,7 +16098,7 @@
   "p": 0.7755,
   "odds": null,
   "min_odds": 1.33,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-186535:s2",
   "kind": "contre_pied",
   "created": "2026-11-07T15:57:02.040579+01:00"
@@ -16143,7 +16143,7 @@
   "p": 0.6964,
   "odds": null,
   "min_odds": 1.48,
-  "result": null,
+  "result": "lost",
   "uid": "stat:E0-20261108-man-united-aston-villa:cadres-:11.5",
   "kind": "stat",
   "created": "2026-11-07T15:57:02.040579+01:00"
@@ -16158,7 +16158,7 @@
   "p": 0.6963,
   "odds": null,
   "min_odds": 1.48,
-  "result": null,
+  "result": "won",
   "uid": "stat:F1-20261107-paris-sg-troyes:cadres-:11.5",
   "kind": "stat",
   "created": "2026-11-07T15:57:02.040579+01:00"
@@ -16173,7 +16173,7 @@
   "p": 0.6915,
   "odds": null,
   "min_odds": 1.49,
-  "result": null,
+  "result": "lost",
   "uid": "stat:N1-20261108-twente-ajax:cadres+:8.5",
   "kind": "stat",
   "created": "2026-11-07T15:57:02.040579+01:00"
@@ -16205,7 +16205,7 @@
     "p": 0.8716,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "F1-20261107-paris-sg-troyes",
@@ -16217,12 +16217,12 @@
     "p": 0.8639,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.66169,
   "odds": 1.65,
-  "result": null,
+  "result": "won",
   "created": "2026-11-07T15:57:02.040579+01:00"
  },
  {
@@ -16358,7 +16358,7 @@
     "p": 0.8238,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "E1-20261107-qpr-lincoln",
@@ -16370,7 +16370,7 @@
     "p": 0.8246,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SWZ-20261107-vaduz-sion",
@@ -16394,7 +16394,7 @@
     "p": 0.8254,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261107-nott-m-forest-man-city",
@@ -16406,7 +16406,7 @@
     "p": 0.8267,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261107-widzew-lodz-pogon-szczecin",
@@ -16430,7 +16430,7 @@
     "p": 0.82,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261107-roma-sassuolo",
@@ -16442,7 +16442,7 @@
     "p": 0.8256,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261107-excelsior-go-ahead-eagles",
@@ -16454,7 +16454,7 @@
     "p": 0.8242,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP1-20261107-valencia-real-madrid",
@@ -16466,7 +16466,7 @@
     "p": 0.8298,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "FIN-20261108-kups-inter-turku",
@@ -16490,7 +16490,7 @@
     "p": 0.8281,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261108-crystal-palace-liverpool",
@@ -16502,7 +16502,7 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261108-brighton-brentford",
@@ -16514,7 +16514,7 @@
     "p": 0.8243,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SC0-20261108-hearts-falkirk",
@@ -16526,7 +16526,7 @@
     "p": 0.8225,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SP1-20261108-sociedad-vallecano",
@@ -16538,7 +16538,7 @@
     "p": 0.8302,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SWE-20261108-kalmar-sirius",
@@ -16562,7 +16562,7 @@
     "p": 0.8316,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261108-cambuur-psv-eindhoven",
@@ -16574,7 +16574,7 @@
     "p": 0.8322,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "NOR-20261108-hamkam-sarpsborg-08",
@@ -16598,7 +16598,7 @@
     "p": 0.8208,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "B1-20261108-st-gilloise-genk",
@@ -16610,7 +16610,7 @@
     "p": 0.8235,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261108-guimaraes-porto",
@@ -16622,7 +16622,7 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261108-estrela-benfica",
@@ -16634,12 +16634,12 @@
     "p": 0.8321,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.01,
   "odds": 100.02,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-07T15:57:02.040579+01:00"
  },
  {
@@ -16843,7 +16843,7 @@
   "p": 0.6788,
   "odds": null,
   "min_odds": 1.52,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-186598:s1",
   "kind": "contre_pied",
   "created": "2026-11-07T21:17:27.667422+01:00"
@@ -16903,7 +16903,7 @@
   "p": 0.855,
   "odds": null,
   "min_odds": 1.2,
-  "result": null,
+  "result": "won",
   "uid": "solide:SP1-20261108-villarreal-getafe:h_scores",
   "kind": "solide",
   "created": "2026-11-07T21:17:27.667422+01:00"
@@ -16963,7 +16963,7 @@
   "p": 0.6874,
   "odds": null,
   "min_odds": 1.5,
-  "result": null,
+  "result": "won",
   "uid": "stat:T1-20261108-besiktas-genclerbirligi:cadres-:12.5",
   "kind": "stat",
   "created": "2026-11-07T21:17:27.667422+01:00"
@@ -16978,7 +16978,7 @@
   "p": 0.6873,
   "odds": null,
   "min_odds": 1.5,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261108-girona-almeria:cadres-:11.5",
   "kind": "stat",
   "created": "2026-11-07T21:17:27.667422+01:00"
@@ -16993,7 +16993,7 @@
   "p": 0.6822,
   "odds": null,
   "min_odds": 1.51,
-  "result": null,
+  "result": "won",
   "uid": "stat:P1-20261108-santa-clara-gil-vicente:cadres-:7.5",
   "kind": "stat",
   "created": "2026-11-07T21:17:27.667422+01:00"
@@ -17008,7 +17008,7 @@
   "p": 0.6817,
   "odds": null,
   "min_odds": 1.51,
-  "result": null,
+  "result": "won",
   "uid": "stat:D2-20261108-heidenheim-hannover:cadres-:12.5",
   "kind": "stat",
   "created": "2026-11-07T21:17:27.667422+01:00"
@@ -17023,7 +17023,7 @@
   "p": 0.6737,
   "odds": null,
   "min_odds": 1.53,
-  "result": null,
+  "result": "won",
   "uid": "stat:G1-20261108-iraklis-panathinaikos:cadres-:8.5",
   "kind": "stat",
   "created": "2026-11-07T21:17:27.667422+01:00"
@@ -17220,7 +17220,7 @@
     "p": 0.8352,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "FIN-20261108-kups-inter-turku",
@@ -17244,7 +17244,7 @@
     "p": 0.8324,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "FIN-20261108-hjk-ac-oulu",
@@ -17268,7 +17268,7 @@
     "p": 0.8281,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261108-crystal-palace-liverpool",
@@ -17280,7 +17280,7 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261108-brighton-brentford",
@@ -17292,7 +17292,7 @@
     "p": 0.8243,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I1-20261108-monza-atalanta",
@@ -17304,7 +17304,7 @@
     "p": 0.8325,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SC0-20261108-hearts-falkirk",
@@ -17316,7 +17316,7 @@
     "p": 0.8225,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "G1-20261108-aek-levadeiakos",
@@ -17328,7 +17328,7 @@
     "p": 0.836,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP1-20261108-sociedad-vallecano",
@@ -17340,7 +17340,7 @@
     "p": 0.8302,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SWE-20261108-kalmar-sirius",
@@ -17364,7 +17364,7 @@
     "p": 0.8316,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261108-cambuur-psv-eindhoven",
@@ -17376,7 +17376,7 @@
     "p": 0.8322,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "NOR-20261108-hamkam-sarpsborg-08",
@@ -17400,7 +17400,7 @@
     "p": 0.8208,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261108-man-united-aston-villa",
@@ -17412,7 +17412,7 @@
     "p": 0.8343,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "B1-20261108-st-gilloise-genk",
@@ -17424,7 +17424,7 @@
     "p": 0.8235,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261108-guimaraes-porto",
@@ -17436,7 +17436,7 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "B1-20261108-st-truiden-waregem",
@@ -17448,7 +17448,7 @@
     "p": 0.8384,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "D1-20261108-hoffenheim-schalke-04",
@@ -17460,7 +17460,7 @@
     "p": 0.8362,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "G1-20261108-olympiakos-paok",
@@ -17472,7 +17472,7 @@
     "p": 0.8351,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261108-estrela-benfica",
@@ -17484,12 +17484,12 @@
     "p": 0.8321,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.01136,
   "odds": 88.05,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-07T21:17:27.667422+01:00"
  },
  {
@@ -17885,7 +17885,7 @@
   "p": 0.8479,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:I1-20261108-inter-como:o15",
   "kind": "solide",
   "created": "2026-11-08T07:16:25.992390+01:00"
@@ -18023,7 +18023,7 @@
     "p": 0.5234,
     "odds": null,
     "min_odds": 1.97,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SP1-20261108-celta-levante",
@@ -18035,7 +18035,7 @@
     "p": 0.5342,
     "odds": null,
     "min_odds": 1.93,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186534",
@@ -18052,7 +18052,7 @@
   ],
   "p": 0.02705,
   "odds": 42.85,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-08T07:16:25.992390+01:00"
  },
  {
@@ -18208,7 +18208,7 @@
   "p": 0.8452,
   "odds": null,
   "min_odds": 1.22,
-  "result": null,
+  "result": "won",
   "uid": "solide:T1-20261108-besiktas-genclerbirligi:12",
   "kind": "solide",
   "created": "2026-11-08T16:20:50.981081+01:00"
@@ -18238,7 +18238,7 @@
   "p": 0.8433,
   "odds": null,
   "min_odds": 1.22,
-  "result": null,
+  "result": "won",
   "uid": "solide:F1-20261108-lens-marseille:h_scores",
   "kind": "solide",
   "created": "2026-11-08T16:20:50.981081+01:00"
@@ -18268,7 +18268,7 @@
   "p": 0.6693,
   "odds": null,
   "min_odds": 1.54,
-  "result": null,
+  "result": "won",
   "uid": "stat:G1-20261108-olympiakos-paok:cadres+:6.5",
   "kind": "stat",
   "created": "2026-11-08T16:20:50.981081+01:00"
@@ -18283,7 +18283,7 @@
   "p": 0.6687,
   "odds": null,
   "min_odds": 1.54,
-  "result": null,
+  "result": "won",
   "uid": "stat:G1-20261108-ofi-crete-atromitos:cadres-:9.5",
   "kind": "stat",
   "created": "2026-11-08T16:20:50.981081+01:00"
@@ -18298,7 +18298,7 @@
   "p": 0.6646,
   "odds": null,
   "min_odds": 1.55,
-  "result": null,
+  "result": "lost",
   "uid": "stat:I2-20261108-carrarese-sampdoria:cadres+:5.5",
   "kind": "stat",
   "created": "2026-11-08T16:20:50.981081+01:00"
@@ -18318,7 +18318,7 @@
     "p": 0.8716,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "NOR-20261108-viking-kfum-oslo",
@@ -18342,7 +18342,7 @@
     "p": 0.855,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.63862,
@@ -18377,7 +18377,7 @@
     "p": 0.5342,
     "odds": null,
     "min_odds": 1.93,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "F1-20261108-le-havre-lorient",
@@ -18389,12 +18389,12 @@
     "p": 0.5234,
     "odds": null,
     "min_odds": 1.97,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.16094,
   "odds": 6.79,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-08T16:20:50.981081+01:00"
  },
  {
@@ -18412,7 +18412,7 @@
     "p": 0.5234,
     "odds": null,
     "min_odds": 1.97,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SP1-20261108-celta-levante",
@@ -18424,7 +18424,7 @@
     "p": 0.5342,
     "odds": null,
     "min_odds": 1.93,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186534",
@@ -18460,12 +18460,12 @@
     "p": 0.6463,
     "odds": null,
     "min_odds": 1.59,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.0568,
   "odds": 20.41,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-08T16:20:50.981081+01:00"
  },
  {
@@ -18495,7 +18495,7 @@
     "p": 0.8315,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SWZ-20261108-thun-basel",
@@ -18543,7 +18543,7 @@
     "p": 0.8538,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261108-cambuur-psv-eindhoven",
@@ -18555,7 +18555,7 @@
     "p": 0.8322,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "NOR-20261108-hamkam-sarpsborg-08",
@@ -18579,7 +18579,7 @@
     "p": 0.8208,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E0-20261108-man-united-aston-villa",
@@ -18591,7 +18591,7 @@
     "p": 0.8343,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "DNK-20261108-midtjylland-sonderjyske",
@@ -18615,7 +18615,7 @@
     "p": 0.8479,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "B1-20261108-st-gilloise-genk",
@@ -18627,7 +18627,7 @@
     "p": 0.8234,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261108-guimaraes-porto",
@@ -18639,7 +18639,7 @@
     "p": 0.8204,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "T1-20261108-besiktas-genclerbirligi",
@@ -18651,7 +18651,7 @@
     "p": 0.8452,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "B1-20261108-st-truiden-waregem",
@@ -18663,7 +18663,7 @@
     "p": 0.8384,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "D1-20261108-hoffenheim-schalke-04",
@@ -18675,7 +18675,7 @@
     "p": 0.8362,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "G1-20261108-olympiakos-paok",
@@ -18687,7 +18687,7 @@
     "p": 0.8351,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261108-utrecht-nijmegen",
@@ -18699,7 +18699,7 @@
     "p": 0.8527,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261108-lech-poznan-zaglebie",
@@ -18723,7 +18723,7 @@
     "p": 0.8433,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261108-estrela-benfica",
@@ -18735,7 +18735,7 @@
     "p": 0.8321,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "P1-20261108-rio-ave-sp-braga",
@@ -18747,7 +18747,7 @@
     "p": 0.8426,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186530",
@@ -18806,7 +18806,7 @@
     "p": 0.6788,
     "odds": null,
     "min_odds": 1.52,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261108-az-alkmaar-groningen",
@@ -18818,7 +18818,7 @@
     "p": 0.6499,
     "odds": null,
     "min_odds": 1.58,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "N1-20261108-cambuur-psv-eindhoven",
@@ -18830,7 +18830,7 @@
     "p": 0.6482,
     "odds": 1.36,
     "min_odds": 1.59,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "F1-20261108-le-havre-lorient",
@@ -18842,7 +18842,7 @@
     "p": 0.5234,
     "odds": null,
     "min_odds": 1.97,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "E0-20261108-man-united-aston-villa",
@@ -18854,7 +18854,7 @@
     "p": 0.6463,
     "odds": null,
     "min_odds": 1.59,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "D1-20261108-freiburg-union-berlin",
@@ -18866,7 +18866,7 @@
     "p": 0.6442,
     "odds": 1.49,
     "min_odds": 1.6,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "DNK-20261108-midtjylland-sonderjyske",
@@ -18890,7 +18890,7 @@
     "p": 0.5342,
     "odds": null,
     "min_odds": 1.93,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "SP1-20261108-villarreal-getafe",
@@ -18902,7 +18902,7 @@
     "p": 0.6521,
     "odds": 1.42,
     "min_odds": 1.58,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "POL-20261108-lech-poznan-zaglebie",
@@ -18926,7 +18926,7 @@
     "p": 0.6114,
     "odds": 1.52,
     "min_odds": 1.68,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186535",
@@ -18938,7 +18938,7 @@
     "p": 0.6005,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186530",
@@ -18955,7 +18955,7 @@
   ],
   "p": 0.00087,
   "odds": 1149.66,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-08T16:20:50.981081+01:00"
  },
  {
@@ -19962,5 +19962,184 @@
   "odds": 1005.09,
   "result": null,
   "created": "2026-11-09T07:48:49.093922+01:00"
+ },
+ {
+  "match_id": "tn-186526",
+  "match": "Aleksandr Shevchenko - Adrian Mannarino",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-10T13:00:00+01:00",
+  "key": "s1",
+  "label": "Aleksandr Shevchenko gagne au moins un set",
+  "p": 0.6487,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "contre_pied:tn-186526:s1",
+  "kind": "contre_pied",
+  "created": "2026-11-09T14:25:24.642840+01:00"
+ },
+ {
+  "match_id": "tn-186545",
+  "match": "Cameron Norrie - Taylor Fritz",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-11T20:00:00+01:00",
+  "key": "s2",
+  "label": "Taylor Fritz gagne au moins un set",
+  "p": 0.8172,
+  "odds": null,
+  "min_odds": 1.26,
+  "result": null,
+  "uid": "solide:tn-186545:s2",
+  "kind": "solide",
+  "created": "2026-11-09T14:25:24.642840+01:00"
+ },
+ {
+  "match_id": "tn-186541",
+  "match": "Juan Manuel Cerundolo - Alex Michelsen",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-10T13:00:00+01:00",
+  "key": "s2",
+  "label": "Alex Michelsen gagne au moins un set",
+  "p": 0.8125,
+  "odds": null,
+  "min_odds": 1.27,
+  "result": null,
+  "uid": "solide:tn-186541:s2",
+  "kind": "solide",
+  "created": "2026-11-09T14:25:24.642840+01:00"
+ },
+ {
+  "match_id": "tn-186752",
+  "match": "Julieta Pareja - Lucia Bronzetti",
+  "league": "WTA · DIRECTV Open Presentado por Compesar",
+  "ko": "2026-11-10T20:00:00+01:00",
+  "key": "jeux-:25.5",
+  "label": "Moins de 25,5 jeux dans le match",
+  "p": 0.6399,
+  "odds": null,
+  "min_odds": 1.61,
+  "result": null,
+  "uid": "stat:tn-186752:jeux-:25.5",
+  "kind": "stat",
+  "created": "2026-11-09T14:25:24.642840+01:00"
+ },
+ {
+  "uid": "combo:22843748f7",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186753",
+    "match": "Luisina Giovannini - Tatjana Maria",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-09T16:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Luisina Giovannini",
+    "p": 0.4432,
+    "odds": null,
+    "min_odds": 2.32,
+    "result": null
+   },
+   {
+    "match_id": "tn-186750",
+    "match": "Veronika Erjavec - Elizabeth Mandlik",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-09T17:30:00+01:00",
+    "key": "w2",
+    "label": "Victoire Elizabeth Mandlik",
+    "p": 0.4347,
+    "odds": null,
+    "min_odds": 2.37,
+    "result": null
+   },
+   {
+    "match_id": "tn-187381",
+    "match": "Karolina Muchova - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-09T21:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Karolina Muchova",
+    "p": 0.4068,
+    "odds": null,
+    "min_odds": 2.53,
+    "result": null
+   },
+   {
+    "match_id": "tn-186751",
+    "match": "Julia Riera - Alice Tubello",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Alice Tubello",
+    "p": 0.4591,
+    "odds": null,
+    "min_odds": 2.24,
+    "result": null
+   },
+   {
+    "match_id": "tn-186745",
+    "match": "Rebeka Masarova - Bianca Andreescu",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Bianca Andreescu",
+    "p": 0.462,
+    "odds": null,
+    "min_odds": 2.23,
+    "result": null
+   },
+   {
+    "match_id": "tn-186752",
+    "match": "Julieta Pareja - Lucia Bronzetti",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Julieta Pareja",
+    "p": 0.4784,
+    "odds": null,
+    "min_odds": 2.15,
+    "result": null
+   },
+   {
+    "match_id": "tn-186747",
+    "match": "Leyre Romero Gormaz - Carole Monnet",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Carole Monnet",
+    "p": 0.506,
+    "odds": null,
+    "min_odds": 2.04,
+    "result": null
+   },
+   {
+    "match_id": "tn-187376",
+    "match": "Linda Noskova - Jessica Pegula",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-11T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Linda Noskova",
+    "p": 0.4391,
+    "odds": null,
+    "min_odds": 2.35,
+    "result": null
+   },
+   {
+    "match_id": "tn-187379",
+    "match": "Elina Svitolina - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-11T20:00:00+01:00",
+    "key": "s1",
+    "label": "Elina Svitolina gagne au moins un set",
+    "p": 0.5629,
+    "odds": null,
+    "min_odds": 1.83,
+    "result": null
+   }
+  ],
+  "p": 0.00099,
+  "odds": 1005.55,
+  "result": null,
+  "created": "2026-11-09T14:25:24.642840+01:00"
  }
 ]
