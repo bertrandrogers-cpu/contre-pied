@@ -20773,5 +20773,163 @@
   "odds": 1026.27,
   "result": null,
   "created": "2026-11-10T03:46:36.091233+01:00"
+ },
+ {
+  "match_id": "tn-186751",
+  "match": "Julia Riera - Alice Tubello",
+  "league": "WTA · DIRECTV Open Presentado por Compesar",
+  "ko": "2026-11-10T16:00:00+01:00",
+  "key": "jeux+:19.5",
+  "label": "Plus de 19,5 jeux dans le match",
+  "p": 0.6374,
+  "odds": null,
+  "min_odds": 1.62,
+  "result": null,
+  "uid": "stat:tn-186751:jeux+:19.5",
+  "kind": "stat",
+  "created": "2026-11-10T13:44:58.198515+01:00"
+ },
+ {
+  "uid": "combo:c28cf955be",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186751",
+    "match": "Julia Riera - Alice Tubello",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T16:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Alice Tubello",
+    "p": 0.4591,
+    "odds": null,
+    "min_odds": 2.24,
+    "result": null
+   },
+   {
+    "match_id": "tn-186752",
+    "match": "Julieta Pareja - Lucia Bronzetti",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T16:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Julieta Pareja",
+    "p": 0.4784,
+    "odds": null,
+    "min_odds": 2.15,
+    "result": null
+   },
+   {
+    "match_id": "tn-186747",
+    "match": "Leyre Romero Gormaz - Carole Monnet",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T16:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Carole Monnet",
+    "p": 0.506,
+    "odds": null,
+    "min_odds": 2.04,
+    "result": null
+   },
+   {
+    "match_id": "tn-186745",
+    "match": "Rebeka Masarova - Bianca Andreescu",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T17:30:00+01:00",
+    "key": "w2",
+    "label": "Victoire Bianca Andreescu",
+    "p": 0.462,
+    "odds": null,
+    "min_odds": 2.23,
+    "result": null
+   },
+   {
+    "match_id": "tn-186759",
+    "match": "Valentina Mediorreal Arias - Maria Lourdes Carle",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-10T19:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Valentina Mediorreal Arias",
+    "p": 0.523,
+    "odds": null,
+    "min_odds": 1.97,
+    "result": null
+   },
+   {
+    "match_id": "tn-187372",
+    "match": "Jessica Pegula - Marta Kostyuk",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-10T21:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Jessica Pegula",
+    "p": 0.6677,
+    "odds": null,
+    "min_odds": 1.54,
+    "result": null
+   },
+   {
+    "match_id": "tn-187375",
+    "match": "Linda Noskova - Coco Gauff",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-10T22:30:00+01:00",
+    "key": "s1",
+    "label": "Linda Noskova gagne au moins un set",
+    "p": 0.589,
+    "odds": null,
+    "min_odds": 1.75,
+    "result": null
+   },
+   {
+    "match_id": "tn-187378",
+    "match": "Mirra Andreeva - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-11T22:30:00+01:00",
+    "key": "s1",
+    "label": "Mirra Andreeva gagne au moins un set",
+    "p": 0.5758,
+    "odds": null,
+    "min_odds": 1.79,
+    "result": null
+   },
+   {
+    "match_id": "tn-187376",
+    "match": "Linda Noskova - Jessica Pegula",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-12T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Linda Noskova",
+    "p": 0.4391,
+    "odds": null,
+    "min_odds": 2.35,
+    "result": null
+   },
+   {
+    "match_id": "tn-187379",
+    "match": "Elina Svitolina - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-12T20:00:00+01:00",
+    "key": "s1",
+    "label": "Elina Svitolina gagne au moins un set",
+    "p": 0.5462,
+    "odds": null,
+    "min_odds": 1.89,
+    "result": null
+   },
+   {
+    "match_id": "tn-187371",
+    "match": "Coco Gauff - Marta Kostyuk",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-12T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Coco Gauff",
+    "p": 0.6836,
+    "odds": null,
+    "min_odds": 1.51,
+    "result": null
+   }
+  ],
+  "p": 0.001,
+  "odds": 1003.31,
+  "result": null,
+  "created": "2026-11-10T13:44:58.198515+01:00"
  }
 ]
