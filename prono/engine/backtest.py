@@ -172,7 +172,7 @@ def evaluate(records: list, cfg: dict) -> dict:
                     cats[name].append((s, won, _approx_odds(s, m)))
                     if name == "contre_pieds" and s["breaks"]:
                         cats["contre_pieds_casse_series"].append((s, won, _approx_odds(s, m)))
-        extras = [x for x in (picks.enfer(ans, cfg), picks.ticket(cps, ans, cfg)) if x]
+        extras = [x for x in (picks.enfer(ans, cfg), picks.ticket(cps, ans, cfg), picks.coup_du_jour(cps, ans, cfg)) if x]
         for c in picks.combines(sol, cps, sts, cfg) + extras:
             res = [settle(leg["key"], by_id[leg["match_id"]]) for leg in c["legs"]]
             if None not in res:

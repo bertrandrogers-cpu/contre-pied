@@ -73,10 +73,10 @@ def record(items: list, kind: str, picks: list, now: dt.datetime):
     """Ajoute les pronos jamais vus. La première cote vue est conservée (c'est celle qu'on t'a notifiée)."""
     known = {i["uid"] for i in items}
     for s in picks:
-        uid = f"{kind}:{s['id']}" if kind == "combo" else f"{kind}:{s['match_id']}:{s['key']}"
+        uid = f"{kind}:{s['id']}" if kind in ("combo", "coup") else f"{kind}:{s['match_id']}:{s['key']}"
         if uid in known:
             continue
-        if kind == "combo":
+        if kind in ("combo", "coup"):
             rec = {"uid": uid, "kind": kind, "name": s["name"], "legs": [_leg_record(x) for x in s["legs"]],
                    "p": round(s["p"], 5), "odds": round(s["odds"], 2), "result": None}
         else:
@@ -91,13 +91,13 @@ def settle_all(items: list, results: list):
     for it in items:
         if it["result"] is not None:
             continue
-        legs = it["legs"] if it["kind"] == "combo" else [it]
+        legs = it["legs"] if it["kind"] in ("combo", "coup") else [it]
         for leg in legs:
             if leg["result"] is None and leg["match_id"] in by_id:
                 won = settle(leg["key"], by_id[leg["match_id"]])
                 if won is not None:
                     leg["result"] = "won" if won else "lost"
-        if it["kind"] == "combo":
+        if it["kind"] in ("combo", "coup"):
             res = [leg["result"] for leg in legs]
             if "lost" in res:
                 it["result"] = "lost"

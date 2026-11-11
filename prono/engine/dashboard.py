@@ -32,6 +32,7 @@ def write(rep: dict) -> str:
         solides=[_pick(s) for s in rep["solides"]],
         stats=[_pick(s) for s in rep["stats"]],
         combos=[dict(c, legs=[_pick(x) for x in c["legs"]]) for c in rep["combos"]],
+        coup=dict(rep["coup"], legs=[_pick(x) for x in rep["coup"]["legs"]]) if rep.get("coup") else None,
         matches=[{k: m.get(k) for k in MATCH_KEYS} for m in rep["matches"]],
     )
     blob = json.dumps(payload, default=_default, ensure_ascii=False).replace("</", "<\\/")
@@ -175,6 +176,12 @@ h3{font:700 22px/1.15 var(--display);margin:0;letter-spacing:.2px}
 .st--ko{color:var(--rose)}
 .tag--ko .tag__t{text-decoration:line-through;text-decoration-color:var(--rose);opacity:.75}
 .combo--chatte{border-color:color-mix(in srgb,var(--gold) 45%,var(--line))}
+.coup{border:2px solid var(--lime);margin-bottom:30px}
+.coup h2{margin-top:0}
+.why{list-style:none;padding:0;margin:4px 0 14px;display:grid;gap:8px}
+.why li{background:var(--lime-bg);border-radius:10px;padding:9px 12px}
+.why b{display:block}
+.why span{font-size:13.5px;color:var(--muted)}
 .combo--enfer{border-color:color-mix(in srgb,var(--rose) 55%,var(--line))}
 .combo--mille{border-color:color-mix(in srgb,var(--gold) 70%,var(--line))}
 .combo__head{display:flex;justify-content:space-between;align-items:center;gap:8px}
@@ -271,6 +278,7 @@ function prune() {
   D.matches = D.matches.filter(m => upcoming(m.ko));
   for (const k of ['contre_pieds', 'solides', 'stats']) D[k] = D[k].filter(s => upcoming(s.ko));
   D.combos = D.combos.filter(c => c.legs.every(l => upcoming(l.ko)));
+  if (D.coup && !D.coup.legs.every(l => upcoming(l.ko))) D.coup = null;
   return D.matches.length + D.combos.length !== before;
 }
 prune();
@@ -381,13 +389,34 @@ function matchCard(m) {
 const empty = txt => `<div class="empty">${txt}</div>`;
 const grid = (items, fn, cls = '') => items.length ? `<div class="grid ${cls}">${items.map(fn).join('')}</div>` : '';
 
+function coupCard(c) {
+  const min = c.legs.reduce((a, l) => a * l.min_odds, 1);
+  return `<article class="card coup">
+    <h2>🎯 La grosse cote du jour</h2>
+    <p class="lead">${esc(c.blurb)}</p>
+    <ol class="legs">${c.legs.map(l => `<li><div><div class="leg__sel">${esc(l.label)}</div>
+      <div class="leg__match">${sportIcon(l.match_id)} ${esc(l.match)} · ${esc(l.league)} · ${whenOf(l)}</div></div>
+      <div class="leg__odds">≥ ${fr2(l.min_odds)}</div></li>`).join('')}</ol>
+    <h3 style="margin:4px 0 6px">Pourquoi on la joue</h3>
+    <ul class="why">${(c.reasons || []).map(r => `<li><b>${r.icon} ${esc(r.title)}</b><span>${esc(r.text)}</span>
+      ${r.record ? `<span><br>Bilan de ce critère : ${pct(r.record.hit)} réussi pour ${pct(r.record.expected_hit)} prévu, sur ${r.record.n} cas.</span>` : ''}</li>`).join('')}</ul>
+    <div class="nums">
+      <div><b>≈ ${fr2(c.fair)}</b><span>cote juste</span></div>
+      <div><b>${pct(c.p)}</b><span>vraie proba</span></div>
+      <div class="hl"><b>≥ ${fr2(min)}</b><span>joue à partir de</span></div>
+      <div><b>${eur(D.bankroll * c.stake_pct)}</b><span>mise conseillée</span></div>
+    </div>
+  </article>`;
+}
+
 function renderJouer() {
-  return `<h2>🎯 Les contre-pieds</h2>
-    <p class="lead">Les paris qui vont contre ce que la série en cours fait croire. Chacun s'appuie sur un critère qui a visé plus juste que le modèle sur deux saisons.</p>
-    ${grid(D.contre_pieds, s => pickCard(s, 'cp')) || empty("Aucun contre-pied validé sur les prochains jours. Ça arrive : mieux vaut rien que n'importe quoi.")}
+  return `${D.coup ? coupCard(D.coup) : empty("Pas de grosse cote aujourd'hui : aucun critère validé ne se déclenche sur les matchs des 36 prochaines heures. Mieux vaut rien que n'importe quoi.")}
     <h2>🔒 Les Solides</h2>
     <p class="lead">L'objectif des 80 %. Ils passent souvent, mais à petite cote : ne les joue que si ta cote est au moins à « joue à partir de ».</p>
-    ${grid(D.solides, s => pickCard(s, 'sol')) || empty('Aucun Solide pour le moment.')}`;
+    ${grid(D.solides, s => pickCard(s, 'sol')) || empty('Aucun Solide pour le moment.')}
+    <h2>🎯 Les contre-pieds</h2>
+    <p class="lead">Les paris qui vont contre ce que la série en cours fait croire. Chacun s'appuie sur un critère qui a visé plus juste que le modèle sur deux saisons.</p>
+    ${grid(D.contre_pieds, s => pickCard(s, 'cp')) || empty("Aucun contre-pied validé sur les prochains jours. Ça arrive : mieux vaut rien que n'importe quoi.")}`;
 }
 
 function renderCombos() {
@@ -430,7 +459,7 @@ function renderChatte() {
     </div>`;
 }
 
-const KIND = {contre_pied: 'Contre-pieds', solide: 'Solides', stat: 'Stats à jouer', combo: 'Combinés'};
+const KIND = {coup: 'Grosse cote du jour', contre_pied: 'Contre-pieds', solide: 'Solides', stat: 'Stats à jouer', combo: 'Combinés'};
 function renderBilan() {
   const b = D.backtest;
   let html = '<h2>🧪 Le bilan</h2>';
@@ -485,7 +514,7 @@ function renderBilan() {
     : empty("Les premiers pronos se régleront après les matchs de ce week-end.");
   const hist = (D.history || []).slice().reverse().slice(0, 30);
   if (hist.length) html += `<div class="tbl"><table><thead><tr><th></th><th>Prono</th><th>Match</th><th class="r">Proba</th><th class="r">Cote</th></tr></thead><tbody>
-    ${hist.map(h => `<tr><td>${h.result === 'won' ? '✅' : h.result === 'lost' ? '❌' : '⏳'}</td><td>${esc(h.kind === 'combo' ? h.name : h.label)}</td><td class="muted">${esc(h.kind === 'combo' ? h.legs.length + ' sélections' : h.match)}</td><td class="r">${pct(h.p, h.kind === 'combo' ? 1 : 0)}</td><td class="r">${fr2(h.odds || h.min_odds)}</td></tr>`).join('')}</tbody></table></div>`;
+    ${hist.map(h => ({...h, kind: h.kind === 'coup' ? 'combo' : h.kind})).map(h => `<tr><td>${h.result === 'won' ? '✅' : h.result === 'lost' ? '❌' : '⏳'}</td><td>${esc(h.kind === 'combo' ? h.name : h.label)}</td><td class="muted">${esc(h.kind === 'combo' ? h.legs.length + ' sélections' : h.match)}</td><td class="r">${pct(h.p, h.kind === 'combo' ? 1 : 0)}</td><td class="r">${fr2(h.odds || h.min_odds)}</td></tr>`).join('')}</tbody></table></div>`;
   return html;
 }
 

@@ -90,7 +90,9 @@ def run(cfg: dict, send_notifs: bool = True, log=print) -> dict:
 
     items = tracker.load()
     tracker.settle_all(items, results)
-    for kind, lst in (("contre_pied", cps), ("solide", sol), ("stat", sts), ("combo", combos)):
+    coup = picks.coup_du_jour(cps, analyses, cfg, now)
+    for kind, lst in (("contre_pied", cps), ("solide", sol), ("stat", sts), ("combo", combos),
+                      ("coup", [coup] if coup else [])):
         tracker.record(items, kind, lst, now)
     tracker.save(items)
 
@@ -98,7 +100,7 @@ def run(cfg: dict, send_notifs: bool = True, log=print) -> dict:
     rep = {
         "generated": now, "bankroll": cfg["bankroll"],
         "leagues": [data.LEAGUES.get(d, d) for d in cfg["leagues"]],
-        "matches": analyses, "solides": sol, "contre_pieds": cps, "stats": sts, "combos": combos,
+        "matches": analyses, "solides": sol, "contre_pieds": cps, "stats": sts, "combos": combos, "coup": coup,
         "chatte": {"lucky": board[:10], "unlucky": board[::-1][:10]},
         "tracking": tracker.summary(items), "history": items[-80:],
         "backtest": dict({k: v for k, v in bt.items() if k not in ("tags_raw", "tennis")},

@@ -586,7 +586,7 @@ def backtest(cfg: dict, log=print) -> dict:
                 won = settle(s["key"], by_id[s["match_id"]])
                 if won is not None:
                     cats[name].append((s, won, s["odds"]))
-        extras = [x for x in (picks.enfer(ans, cfg1), picks.ticket(cps, ans, cfg1)) if x]
+        extras = [x for x in (picks.enfer(ans, cfg1), picks.ticket(cps, ans, cfg1), picks.coup_du_jour(cps, ans, cfg1)) if x]
         for c in picks.combines(sol, cps, [], cfg1) + extras:
             res = [settle(x["key"], by_id[x["match_id"]]) for x in c["legs"]]
             if None not in res:

@@ -33,11 +33,14 @@
   "stake_enfer_pct": 0.002,
   "ticket_target": 1000,
   "stake_ticket_pct": 0.001,
+  "coup_min_single": 2.5,
+  "coup_min_total": 3.0,
+  "stake_coup_pct": 0.01,
   "notify": {
     "ntfy_topic": "",
     "telegram_token": "",
     "telegram_chat_id": "",
-    "match_leagues": ["F1", "E0", "D1", "SP1", "I1", "UCL"],
+    "match_leagues": ["F1", "E0", "D1", "SP1", "I1", "UCL", "UNL"],
     "match_lead_min": 60,
     "match_window_h": 5
   }

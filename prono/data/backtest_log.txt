@@ -67,6 +67,7 @@ Combinés :
   Le combiné de l'enfer joués  65  passés  0 (prévu 1.9)  1 chance sur 71 en moyenne
   Le ticket à 1000   joués  60  passés  0 (prévu 0.0)  1 chance sur 1303 en moyenne
   Grosse chatte      joués  85  passés  6 (prévu 7.9)  1 chance sur 17 en moyenne
+  La grosse cote du jour joués  48  passés 13 (prévu 12.9)  1 chance sur 4 en moyenne
   Petite chatte      joués  38  passés  8 (prévu 6.4)  1 chance sur 6 en moyenne
 
 Critères validés sur 2024/25 : derby, fausse-panne
@@ -90,28 +91,29 @@ Critères sur les deux saisons (lift = ce que le critère apporte en plus du mod
   popularite             n=  798  réussite  34.1 %  prévu  39.7 %  lift  -5.6 pts  ROI — (0)
   00-credible            n=  134  réussite  47.8 %  prévu  62.6 %  lift -13.8 pts  ROI -30.0 % (44)
 
-=== Tennis — modèle calé sur 2025, pronos joués sur 2026 (4803 matchs) ===
-  poids Elo 0.53, poids classement 0.22 | logloss modèle 0.5959, marché 0.5817 | vainqueur à la cote moyenne : 2871 paris, ROI -17.0 %
-  solides        n= 412  réussite  89.1 % (prévu  88.9 %)
-  contre_pieds   n=1161  réussite  66.1 % (prévu  65.7 %)
-  stats          n= 501  réussite  65.3 % (prévu  65.1 %)
-  Le combiné béton   joués  40  passés 30 (prévu 30.1)
-  Petite chatte      joués  35  passés  7 (prévu 5.6)
-  Grosse chatte      joués  32  passés  0 (prévu 0.8)
-  Le combiné de l'enfer joués  27  passés  2 (prévu 1.0)
-  Le ticket à 1000   joués  29  passés  0 (prévu 0.0)
+=== Tennis — modèle calé sur 2025, pronos joués sur 2026 (5037 matchs) ===
+  poids Elo 0.53, poids classement 0.22 | logloss modèle 0.5967, marché 0.5829 | vainqueur à la cote moyenne : 3005 paris, ROI -16.5 %
+  solides        n= 431  réussite  88.6 % (prévu  88.9 %)
+  contre_pieds   n=1209  réussite  66.5 % (prévu  65.8 %)
+  stats          n= 525  réussite  65.5 % (prévu  65.1 %)
+  Le combiné béton   joués  42  passés 31 (prévu 31.6)
+  Petite chatte      joués  37  passés  7 (prévu 5.8)
+  Grosse chatte      joués  34  passés  0 (prévu 0.8)
+  La grosse cote du jour joués  45  passés 14 (prévu 15.3)
+  Le combiné de l'enfer joués  29  passés  2 (prévu 1.0)
+  Le ticket à 1000   joués  31  passés  0 (prévu 0.0)
   Critères validés sur 2025 : bete-noire, chatte-tie-break, rescape, rouille
-  bete-noire           n=  162  réussite  61.7 %  prévu  50.9 %  lift +10.9 pts
-  rescape              n=  441  réussite  58.3 %  prévu  52.4 %  lift  +5.8 pts
-  chatte-tie-break     n= 1477  réussite  72.6 %  prévu  69.3 %  lift  +3.2 pts
-  fin-de-saison        n=  230  réussite  49.1 %  prévu  46.1 %  lift  +3.0 pts
-  gueule-de-bois       n=  144  réussite  53.5 %  prévu  50.5 %  lift  +2.9 pts
-  rouille              n= 2536  réussite  64.8 %  prévu  62.8 %  lift  +1.9 pts
-  maudit-tie-break     n= 5346  réussite  69.9 %  prévu  68.8 %  lift  +0.9 pts
-  marathon             n= 6452  réussite  63.7 %  prévu  63.2 %  lift  +0.4 pts
-  pas-sa-surface       n= 4890  réussite  66.4 %  prévu  66.7 %  lift  -0.5 pts
-  specialiste          n= 3227  réussite  61.1 %  prévu  61.6 %  lift  -0.7 pts
-  classement-trompeur  n= 1182  réussite  56.6 %  prévu  59.5 %  lift  -2.9 pts
-  en-feu               n=  293  réussite  48.5 %  prévu  52.1 %  lift  -3.7 pts
+  bete-noire           n=  164  réussite  62.2 %  prévu  51.0 %  lift +11.3 pts
+  rescape              n=  449  réussite  58.1 %  prévu  52.4 %  lift  +5.7 pts
+  chatte-tie-break     n= 1514  réussite  72.8 %  prévu  69.3 %  lift  +3.3 pts
+  fin-de-saison        n=  265  réussite  49.1 %  prévu  46.1 %  lift  +2.9 pts
+  gueule-de-bois       n=  151  réussite  53.0 %  prévu  50.8 %  lift  +2.1 pts
+  rouille              n= 2564  réussite  64.9 %  prévu  62.8 %  lift  +1.9 pts
+  maudit-tie-break     n= 5500  réussite  69.8 %  prévu  68.7 %  lift  +0.9 pts
+  marathon             n= 6610  réussite  63.6 %  prévu  63.1 %  lift  +0.4 pts
+  pas-sa-surface       n= 5002  réussite  66.4 %  prévu  66.7 %  lift  -0.6 pts
+  specialiste          n= 3287  réussite  61.0 %  prévu  61.6 %  lift  -0.7 pts
+  classement-trompeur  n= 1226  réussite  57.3 %  prévu  59.5 %  lift  -2.3 pts
+  en-feu               n=  296  réussite  48.3 %  prévu  52.1 %  lift  -4.0 pts
 
 Ton exemple (2 équipes en panne / matchs fermés) : 252 matchs, 0-0 réel 6.3 % (prévu 9.6 %), nuls 25.8 % ; « Piège à 0-0 » : 120 matchs, +1,5 buts 78 %

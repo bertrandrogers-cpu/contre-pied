@@ -1,6 +1,7 @@
 """Assemble tout : probabilités finales, sélections, catégories (Solides, Contre-pieds, Stats) et combinés."""
 from __future__ import annotations
 
+import datetime as dt
 import hashlib
 
 from . import criteria, model
@@ -355,6 +356,39 @@ def ticket(cps: list, analyses: list, cfg: dict):
                f"quel que soit le nombre de matchs : chaque match en plus n'ajoute que la marge du bookmaker. "
                f"On en prend donc le moins possible, contre-pieds validés d'abord.")
     c["odds"], c["priced"] = c["fair"], False
+    return c
+
+
+def coup_du_jour(cps: list, analyses: list, cfg: dict, now=None):
+    """La grosse cote du jour : le pari (ou le duo) qui s'appuie sur le critère le plus solide du moment.
+
+    On part des contre-pieds, dont les critères ont été validés sur une saison que le modèle n'avait pas vue,
+    on prend les plus prouvés (lift) parmi les matchs des 36 prochaines heures, puis la cote :
+    un seul match s'il paie au moins `coup_min_single`, sinon on ajoute les suivants jusqu'à
+    `coup_min_total`, sans dépasser 3 matchs (chaque match en plus empile la marge du bookmaker).
+    """
+    soon = [s for s in cps if now is None or s["ko"] <= now + dt.timedelta(hours=36)] or cps
+    pool = sorted(soon, key=lambda s: (-s["lift"], -s["fair"]))
+    singles = [s for s in pool if s["fair"] >= cfg["coup_min_single"]]
+    legs = singles[:1]
+    if not legs:
+        odds = 1.0
+        for s in pool:
+            if all(s["match_id"] != x["match_id"] for x in legs):
+                legs.append(s)
+                odds *= s["fair"]
+            if odds >= cfg["coup_min_total"] or len(legs) == 3:
+                break
+        if len(legs) < 2:
+            return None
+    c = _combo("La grosse cote du jour", "coup", legs, cfg["stake_coup_pct"],
+               "Le pari qui s'appuie sur le critère le plus solide du moment, validé sur une saison "
+               "que le modèle n'avait pas vue. Notre meilleure carte du jour, pas une certitude.")
+    by_id = {m["id"]: m for m in analyses}
+    c["reasons"] = [{"match": s["match"], "icon": t["icon"], "title": t["title"], "text": t["text"],
+                     "record": t.get("record")}
+                    for s in legs for t in (by_id.get(s["match_id"]) or {}).get("tags", [])
+                    if t["id"] in s["tags"] and t.get("status") == "ok"]
     return c
 
 

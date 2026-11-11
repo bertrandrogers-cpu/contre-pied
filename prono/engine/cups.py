@@ -13,8 +13,10 @@ from . import model, picks
 from .data import PARIS, cached_file, slug
 from .tennis_data import norm
 
-CUPS = {"UCL": ("uefa.champions", "Ligue des champions"), "UEL": ("uefa.europa", "Ligue Europa"),
-        "UECL": ("uefa.europa.conf", "Ligue Conférence")}
+# (flux ESPN, nom affiché, clubs ?) : pour les sélections nationales, on ne cherche pas dans nos noms de clubs.
+CUPS = {"UCL": ("uefa.champions", "Ligue des champions", True), "UEL": ("uefa.europa", "Ligue Europa", True),
+        "UECL": ("uefa.europa.conf", "Ligue Conférence", True), "UNL": ("uefa.nations", "Ligue des nations", False),
+        "AMI": ("fifa.friendly", "Matchs amicaux internationaux", False)}
 # ESPN accepte un jour ou un mois entier (AAAAMM), pas une période : on demande le ou les mois concernés.
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard?dates={month}"
 # Noms ESPN → noms de nos championnats, quand la ressemblance ne suffit pas.
@@ -117,7 +119,7 @@ def live(cfg: dict, now: dt.datetime, hist: dict, names, log=print):
     horizon = now + dt.timedelta(days=cfg["horizon_days"])
     analyses, results, skipped = [], [], 0
     months = sorted({f"{d:%Y%m}" for d in (start, end)})
-    for div, (espn, title) in CUPS.items():
+    for div, (espn, title, clubs) in CUPS.items():
         events = {}
         for month in months:
             path = cached_file(f"espn_{espn}_{month}.json", ESPN.format(slug=espn, month=month), 0.5)
@@ -130,7 +132,7 @@ def live(cfg: dict, now: dt.datetime, hist: dict, names, log=print):
             if set(teams) != {"home", "away"}:
                 continue
             raw = {s: teams[s]["team"]["displayName"] for s in ("home", "away")}
-            home, away = (index.find(raw[s]) or raw[s] for s in ("home", "away"))
+            home, away = ((index.find(raw[s]) if clubs else None) or raw[s] for s in ("home", "away"))
             ko = dt.datetime.fromisoformat(e["date"].replace("Z", "+00:00")).astimezone(PARIS)
             mid = f"{div}-{ko:%Y%m%d}-{slug(home)}-{slug(away)}"
             state = c["status"]["type"]["state"]
@@ -159,5 +161,5 @@ def live(cfg: dict, now: dt.datetime, hist: dict, names, log=print):
             an = picks.analyse(fx, CupModels(lam), hist, cfg)
             an["league"] = title
             analyses.append(an)
-    log(f"Coupes d'Europe : {len(analyses)} matchs à venir avec cotes ({skipped} sans cote, laissés de côté)")
+    log(f"Coupes d'Europe et sélections : {len(analyses)} matchs à venir avec cotes ({skipped} sans cote, laissés de côté)")
     return analyses, results

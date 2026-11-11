@@ -119,6 +119,13 @@ def dispatch(cfg: dict, rep: dict, now: dt.datetime, log=print):
     if sol:
         msgs.append(("Les Solides (objectif 80 %)", "\n".join(_short(s) for s in sol), 3, ["lock"],
                      [_uid("sol", s) for s in sol], now))
+    coup = rep.get("coup")
+    if coup and _uid("combo", coup) not in sent:
+        legs = "\n".join(f"• {x['label']} (≥ {_num(x['min_odds'])})\n   {_icon(x)} {x['match']} · {_when(x['ko'], x.get('time_tbc'))}"
+                         for x in coup["legs"])
+        why = "\n".join(f"{r['icon']} {r['title']}" for r in coup.get("reasons", [])[:2])
+        body = f"{legs}\n{why}\nProba {coup['p'] * 100:.0f} % · mise {_num(bank * coup['stake_pct'])} €"
+        msgs.append((f"La grosse cote du jour · ≈ {_num(coup['fair'])}", body, 4, ["dart"], [_uid("combo", coup)], now))
     for c in rep["combos"]:
         if _uid("combo", c) in sent:
             continue
