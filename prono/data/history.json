@@ -17810,7 +17810,7 @@
   "p": 0.5891,
   "odds": null,
   "min_odds": 1.75,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-187375:s1",
   "kind": "contre_pied",
   "created": "2026-11-08T07:16:25.992390+01:00"
@@ -19013,7 +19013,7 @@
   "p": 0.5228,
   "odds": null,
   "min_odds": 1.97,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-186759:w1",
   "kind": "contre_pied",
   "created": "2026-11-08T21:33:54.332055+01:00"
@@ -19253,7 +19253,7 @@
   "p": 0.7846,
   "odds": null,
   "min_odds": 1.31,
-  "result": null,
+  "result": "lost",
   "uid": "solide:tn-187375:s2",
   "kind": "solide",
   "created": "2026-11-08T21:33:54.332055+01:00"
@@ -19283,7 +19283,7 @@
   "p": 0.6482,
   "odds": null,
   "min_odds": 1.59,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-187375:jeux-:24.5",
   "kind": "stat",
   "created": "2026-11-08T21:33:54.332055+01:00"
@@ -19792,7 +19792,7 @@
   "p": 0.6408,
   "odds": null,
   "min_odds": 1.61,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186759:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-09T07:48:49.093922+01:00"
@@ -20540,7 +20540,7 @@
     "p": 0.589,
     "odds": null,
     "min_odds": 1.75,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187378",
@@ -21192,7 +21192,7 @@
     "p": 0.589,
     "odds": null,
     "min_odds": 1.75,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.04499,
@@ -21215,7 +21215,7 @@
     "p": 0.589,
     "odds": null,
     "min_odds": 1.75,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186540",
@@ -21390,5 +21390,329 @@
   "odds": 1373.05,
   "result": null,
   "created": "2026-11-10T22:50:17.390670+01:00"
+ },
+ {
+  "match_id": "tn-186538",
+  "match": "Casper Ruud - Aleksandr Shevchenko",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-11T18:00:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6279,
+  "odds": null,
+  "min_odds": 1.64,
+  "result": null,
+  "uid": "stat:tn-186538:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-11T07:41:05.246148+01:00"
+ },
+ {
+  "uid": "combo:8da8ee630c",
+  "kind": "combo",
+  "name": "Petite chatte",
+  "legs": [
+   {
+    "match_id": "tn-187376",
+    "match": "Linda Noskova - Jessica Pegula",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-12T22:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Linda Noskova",
+    "p": 0.4502,
+    "odds": null,
+    "min_odds": 2.29,
+    "result": null
+   },
+   {
+    "match_id": "tn-187378",
+    "match": "Mirra Andreeva - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-11T22:30:00+01:00",
+    "key": "s1",
+    "label": "Mirra Andreeva gagne au moins un set",
+    "p": 0.5758,
+    "odds": null,
+    "min_odds": 1.79,
+    "result": null
+   },
+   {
+    "match_id": "tn-187371",
+    "match": "Coco Gauff - Marta Kostyuk",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-12T21:00:00+01:00",
+    "key": "s2",
+    "label": "Marta Kostyuk gagne au moins un set",
+    "p": 0.5735,
+    "odds": null,
+    "min_odds": 1.8,
+    "result": null
+   }
+  ],
+  "p": 0.14864,
+  "odds": 7.35,
+  "result": null,
+  "created": "2026-11-11T07:41:05.246148+01:00"
+ },
+ {
+  "uid": "combo:b8e0e3f5b0",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-187376",
+    "match": "Linda Noskova - Jessica Pegula",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-12T22:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Linda Noskova",
+    "p": 0.4502,
+    "odds": null,
+    "min_odds": 2.29,
+    "result": null
+   },
+   {
+    "match_id": "tn-187379",
+    "match": "Elina Svitolina - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-13T20:00:00+01:00",
+    "key": "s1",
+    "label": "Elina Svitolina gagne au moins un set",
+    "p": 0.5462,
+    "odds": null,
+    "min_odds": 1.89,
+    "result": null
+   },
+   {
+    "match_id": "tn-187371",
+    "match": "Coco Gauff - Marta Kostyuk",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-12T21:00:00+01:00",
+    "key": "s2",
+    "label": "Marta Kostyuk gagne au moins un set",
+    "p": 0.5735,
+    "odds": null,
+    "min_odds": 1.8,
+    "result": null
+   },
+   {
+    "match_id": "tn-187378",
+    "match": "Mirra Andreeva - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-11T22:30:00+01:00",
+    "key": "s1",
+    "label": "Mirra Andreeva gagne au moins un set",
+    "p": 0.5758,
+    "odds": null,
+    "min_odds": 1.79,
+    "result": null
+   },
+   {
+    "match_id": "tn-187385",
+    "match": "Karolina Muchova - Elina Svitolina",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-11T21:00:00+01:00",
+    "key": "s2",
+    "label": "Elina Svitolina gagne au moins un set",
+    "p": 0.7065,
+    "odds": null,
+    "min_odds": 1.46,
+    "result": null
+   }
+  ],
+  "p": 0.05736,
+  "odds": 20.21,
+  "result": null,
+  "created": "2026-11-11T07:41:05.246148+01:00"
+ },
+ {
+  "uid": "combo:4a356e1f0f",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186540",
+    "match": "Alejandro Tabilo - Lorenzo Sonego",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-11T13:00:00+01:00",
+    "key": "s1",
+    "label": "Alejandro Tabilo gagne au moins un set",
+    "p": 0.7491,
+    "odds": null,
+    "min_odds": 1.38,
+    "result": null
+   },
+   {
+    "match_id": "tn-186545",
+    "match": "Cameron Norrie - Taylor Fritz",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-11T14:30:00+01:00",
+    "key": "w2",
+    "label": "Victoire Taylor Fritz",
+    "p": 0.6786,
+    "odds": null,
+    "min_odds": 1.52,
+    "result": null
+   },
+   {
+    "match_id": "tn-186542",
+    "match": "Ugo Humbert - Borna Gojo",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-11T16:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Ugo Humbert",
+    "p": 0.7187,
+    "odds": null,
+    "min_odds": 1.43,
+    "result": null
+   },
+   {
+    "match_id": "tn-186766",
+    "match": "Carole Monnet - Polona Hercog",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-11T16:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Carole Monnet",
+    "p": 0.5522,
+    "odds": null,
+    "min_odds": 1.87,
+    "result": null
+   },
+   {
+    "match_id": "tn-186761",
+    "match": "Elizabeth Mandlik - Lucia Bronzetti",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-11T17:30:00+01:00",
+    "key": "w2",
+    "label": "Victoire Lucia Bronzetti",
+    "p": 0.6315,
+    "odds": null,
+    "min_odds": 1.63,
+    "result": null
+   },
+   {
+    "match_id": "tn-186538",
+    "match": "Casper Ruud - Aleksandr Shevchenko",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-11T18:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Casper Ruud",
+    "p": 0.7208,
+    "odds": null,
+    "min_odds": 1.43,
+    "result": null
+   },
+   {
+    "match_id": "tn-186765",
+    "match": "Laura Pigossi - Bianca Andreescu",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-11T19:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Bianca Andreescu",
+    "p": 0.6035,
+    "odds": null,
+    "min_odds": 1.71,
+    "result": null
+   },
+   {
+    "match_id": "tn-186764",
+    "match": "Marina Bassols Ribera - Maria Lourdes Carle",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-11T19:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Marina Bassols Ribera",
+    "p": 0.5638,
+    "odds": null,
+    "min_odds": 1.83,
+    "result": null
+   },
+   {
+    "match_id": "tn-186544",
+    "match": "Holger Rune - Miomir Kecmanovic",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-11T19:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Holger Rune",
+    "p": 0.5845,
+    "odds": null,
+    "min_odds": 1.76,
+    "result": null
+   },
+   {
+    "match_id": "tn-187385",
+    "match": "Karolina Muchova - Elina Svitolina",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-11T21:00:00+01:00",
+    "key": "s2",
+    "label": "Elina Svitolina gagne au moins un set",
+    "p": 0.7065,
+    "odds": null,
+    "min_odds": 1.46,
+    "result": null
+   },
+   {
+    "match_id": "tn-187378",
+    "match": "Mirra Andreeva - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-11T22:30:00+01:00",
+    "key": "s1",
+    "label": "Mirra Andreeva gagne au moins un set",
+    "p": 0.5758,
+    "odds": null,
+    "min_odds": 1.79,
+    "result": null
+   },
+   {
+    "match_id": "tn-187371",
+    "match": "Coco Gauff - Marta Kostyuk",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-12T21:00:00+01:00",
+    "key": "s2",
+    "label": "Marta Kostyuk gagne au moins un set",
+    "p": 0.5735,
+    "odds": null,
+    "min_odds": 1.8,
+    "result": null
+   },
+   {
+    "match_id": "tn-187376",
+    "match": "Linda Noskova - Jessica Pegula",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-12T22:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Linda Noskova",
+    "p": 0.4502,
+    "odds": null,
+    "min_odds": 2.29,
+    "result": null
+   },
+   {
+    "match_id": "tn-187379",
+    "match": "Elina Svitolina - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-13T20:00:00+01:00",
+    "key": "s1",
+    "label": "Elina Svitolina gagne au moins un set",
+    "p": 0.5462,
+    "odds": null,
+    "min_odds": 1.89,
+    "result": null
+   },
+   {
+    "match_id": "tn-187384",
+    "match": "Karolina Muchova - Mirra Andreeva",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-13T20:00:00+01:00",
+    "key": "s2",
+    "label": "Mirra Andreeva gagne au moins un set",
+    "p": 0.7074,
+    "odds": null,
+    "min_odds": 1.46,
+    "result": null
+   }
+  ],
+  "p": 0.00074,
+  "odds": 1349.42,
+  "result": null,
+  "created": "2026-11-11T07:41:05.246148+01:00"
  }
 ]
