@@ -17705,7 +17705,7 @@
   "p": 0.4374,
   "odds": null,
   "min_odds": 2.35,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-187376:w1",
   "kind": "contre_pied",
   "created": "2026-11-08T07:16:25.992390+01:00"
@@ -17855,7 +17855,7 @@
   "p": 0.6842,
   "odds": null,
   "min_odds": 1.51,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-187371:w1",
   "kind": "contre_pied",
   "created": "2026-11-08T07:16:25.992390+01:00"
@@ -19178,7 +19178,7 @@
   "p": 0.8003,
   "odds": null,
   "min_odds": 1.29,
-  "result": null,
+  "result": "won",
   "uid": "solide:tn-187371:s1",
   "kind": "solide",
   "created": "2026-11-08T21:33:54.332055+01:00"
@@ -19373,7 +19373,7 @@
   "p": 0.6443,
   "odds": null,
   "min_odds": 1.6,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-187376:jeux-:24.5",
   "kind": "stat",
   "created": "2026-11-08T21:33:54.332055+01:00"
@@ -20528,7 +20528,7 @@
     "p": 0.4391,
     "odds": null,
     "min_odds": 2.35,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187375",
@@ -20557,7 +20557,7 @@
   ],
   "p": 0.14892,
   "odds": 7.34,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-10T03:46:36.091233+01:00"
  },
  {
@@ -20957,7 +20957,7 @@
   "p": 0.5603,
   "odds": null,
   "min_odds": 1.84,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-187371:s2",
   "kind": "contre_pied",
   "created": "2026-11-10T22:50:17.390670+01:00"
@@ -21144,7 +21144,7 @@
     "p": 0.4335,
     "odds": null,
     "min_odds": 2.38,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187379",
@@ -21168,7 +21168,7 @@
     "p": 0.5603,
     "odds": null,
     "min_odds": 1.84,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187378",
@@ -21197,7 +21197,7 @@
   ],
   "p": 0.04499,
   "odds": 25.77,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-10T22:50:17.390670+01:00"
  },
  {
@@ -21421,7 +21421,7 @@
     "p": 0.4502,
     "odds": null,
     "min_odds": 2.29,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187378",
@@ -21445,12 +21445,12 @@
     "p": 0.5735,
     "odds": null,
     "min_odds": 1.8,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.14864,
   "odds": 7.35,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-11T07:41:05.246148+01:00"
  },
  {
@@ -21468,7 +21468,7 @@
     "p": 0.4502,
     "odds": null,
     "min_odds": 2.29,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187379",
@@ -21492,7 +21492,7 @@
     "p": 0.5735,
     "odds": null,
     "min_odds": 1.8,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187378",
@@ -21521,7 +21521,7 @@
   ],
   "p": 0.05736,
   "odds": 20.21,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-11T07:41:05.246148+01:00"
  },
  {
@@ -21740,7 +21740,7 @@
   "p": 0.8534,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:UNL-20261112-t-rkiye-belgium:o15",
   "kind": "solide",
   "created": "2026-11-11T08:43:31.741260+01:00"
@@ -21755,7 +21755,7 @@
   "p": 0.8502,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:UNL-20261112-czechia-spain:12",
   "kind": "solide",
   "created": "2026-11-11T08:43:31.741260+01:00"
@@ -21785,7 +21785,7 @@
   "p": 0.8361,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UNL-20261112-england-croatia:12",
   "kind": "solide",
   "created": "2026-11-11T08:43:31.741260+01:00"
@@ -21862,7 +21862,7 @@
     "p": 0.8534,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-czechia-spain",
@@ -21874,12 +21874,12 @@
     "p": 0.8502,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.62057,
   "odds": 1.61,
-  "result": null,
+  "result": "won",
   "created": "2026-11-11T08:43:31.741260+01:00"
  },
  {
@@ -21933,7 +21933,7 @@
     "p": 0.8534,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-england-croatia",
@@ -21945,7 +21945,7 @@
     "p": 0.8361,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-italy-france",
@@ -21957,7 +21957,7 @@
     "p": 0.8479,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-czechia-spain",
@@ -21969,7 +21969,7 @@
     "p": 0.8502,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-montenegro-latvia",
@@ -21981,7 +21981,7 @@
     "p": 0.8861,
     "odds": null,
     "min_odds": 1.16,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261113-netherlands-greece",
@@ -22462,7 +22462,7 @@
   "p": 0.6427,
   "odds": null,
   "min_odds": 1.6,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186550:jeux+:20.5",
   "kind": "stat",
   "created": "2026-11-11T17:18:06.784626+01:00"
@@ -22477,7 +22477,7 @@
   "p": 0.6298,
   "odds": null,
   "min_odds": 1.64,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186549:jeux+:20.5",
   "kind": "stat",
   "created": "2026-11-11T17:18:06.784626+01:00"
@@ -22554,7 +22554,7 @@
     "p": 0.8534,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-czechia-spain",
@@ -22566,7 +22566,7 @@
     "p": 0.8507,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.62374,
@@ -22613,7 +22613,7 @@
     "p": 0.8534,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261112-malta-eswatini",
@@ -22625,7 +22625,7 @@
     "p": 0.8422,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-italy-france",
@@ -22637,7 +22637,7 @@
     "p": 0.8243,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-england-croatia",
@@ -22649,7 +22649,7 @@
     "p": 0.8373,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-czechia-spain",
@@ -22661,7 +22661,7 @@
     "p": 0.8507,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-montenegro-latvia",
@@ -22673,7 +22673,7 @@
     "p": 0.8879,
     "odds": null,
     "min_odds": 1.16,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261113-andorra-gibraltar",
@@ -23103,7 +23103,7 @@
     "p": 0.4501,
     "odds": null,
     "min_odds": 2.29,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187385",
@@ -23120,7 +23120,7 @@
   ],
   "p": 0.31806,
   "odds": 3.34,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-11T17:18:06.784626+01:00"
  },
  {
@@ -23148,7 +23148,7 @@
   "p": 0.6385,
   "odds": null,
   "min_odds": 1.61,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186771:jeux-:25.5",
   "kind": "stat",
   "created": "2026-11-12T02:55:51.905523+01:00"
@@ -23193,7 +23193,7 @@
   "p": 0.6245,
   "odds": null,
   "min_odds": 1.65,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186769:jeux-:24.5",
   "kind": "stat",
   "created": "2026-11-12T02:55:51.905523+01:00"
@@ -23208,7 +23208,7 @@
   "p": 0.6219,
   "odds": null,
   "min_odds": 1.66,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-187371:jeux-:23.5",
   "kind": "stat",
   "created": "2026-11-12T02:55:51.905523+01:00"
@@ -23223,7 +23223,7 @@
   "p": 0.621,
   "odds": null,
   "min_odds": 1.66,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186770:jeux-:24.5",
   "kind": "stat",
   "created": "2026-11-12T02:55:51.905523+01:00"
@@ -23238,7 +23238,7 @@
   "p": 0.6205,
   "odds": null,
   "min_odds": 1.66,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-186548:jeux-:25.5",
   "kind": "stat",
   "created": "2026-11-12T02:55:51.905523+01:00"
@@ -23270,7 +23270,7 @@
     "p": 0.8493,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-t-rkiye-belgium",
@@ -23282,7 +23282,7 @@
     "p": 0.8491,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.61953,
@@ -23305,7 +23305,7 @@
     "p": 0.4501,
     "odds": null,
     "min_odds": 2.29,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187371",
@@ -23317,7 +23317,7 @@
     "p": 0.5735,
     "odds": null,
     "min_odds": 1.8,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187379",
@@ -23334,7 +23334,7 @@
   ],
   "p": 0.14721,
   "odds": 7.42,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-12T02:55:51.905523+01:00"
  },
  {
@@ -23352,7 +23352,7 @@
     "p": 0.4501,
     "odds": null,
     "min_odds": 2.29,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187379",
@@ -23376,7 +23376,7 @@
     "p": 0.5735,
     "odds": null,
     "min_odds": 1.8,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186550",
@@ -23388,7 +23388,7 @@
     "p": 0.6427,
     "odds": null,
     "min_odds": 1.6,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187384",
@@ -23405,7 +23405,7 @@
   ],
   "p": 0.06078,
   "odds": 19.07,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-12T02:55:51.905523+01:00"
  },
  {
@@ -23435,7 +23435,7 @@
     "p": 0.8491,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186551",
@@ -23459,7 +23459,7 @@
     "p": 0.8439,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-italy-france",
@@ -23471,7 +23471,7 @@
     "p": 0.828,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-england-croatia",
@@ -23483,7 +23483,7 @@
     "p": 0.8373,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-czechia-spain",
@@ -23495,7 +23495,7 @@
     "p": 0.8493,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-montenegro-latvia",
@@ -23507,7 +23507,7 @@
     "p": 0.8849,
     "odds": null,
     "min_odds": 1.16,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261113-andorra-gibraltar",
@@ -23734,7 +23734,7 @@
     "p": 0.6391,
     "odds": null,
     "min_odds": 1.61,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186769",
@@ -23746,7 +23746,7 @@
     "p": 0.6176,
     "odds": null,
     "min_odds": 1.67,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186551",
@@ -23770,7 +23770,7 @@
     "p": 0.7467,
     "odds": 1.2352941176470589,
     "min_odds": 1.38,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-montenegro-latvia",
@@ -23782,7 +23782,7 @@
     "p": 0.7206,
     "odds": 1.2777777777777777,
     "min_odds": 1.43,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187371",
@@ -23794,7 +23794,7 @@
     "p": 0.5735,
     "odds": null,
     "min_odds": 1.8,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187376",
@@ -23806,7 +23806,7 @@
     "p": 0.4501,
     "odds": null,
     "min_odds": 2.29,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UNL-20261113-serbia-germany",
@@ -23919,7 +23919,7 @@
   ],
   "p": 0.00066,
   "odds": 1511.85,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-12T02:55:51.905523+01:00"
  },
  {
@@ -23937,7 +23937,7 @@
     "p": 0.4501,
     "odds": null,
     "min_odds": 2.29,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187371",
@@ -23949,12 +23949,12 @@
     "p": 0.5735,
     "odds": null,
     "min_odds": 1.8,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.25815,
   "odds": 4.11,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-12T02:55:51.905523+01:00"
  },
  {
@@ -23982,7 +23982,7 @@
   "p": 0.8647,
   "odds": null,
   "min_odds": 1.19,
-  "result": null,
+  "result": "won",
   "uid": "solide:UNL-20261112-albania-finland:u35",
   "kind": "solide",
   "created": "2026-11-12T13:52:49.600486+01:00"
@@ -23997,7 +23997,7 @@
   "p": 0.8573,
   "odds": null,
   "min_odds": 1.2,
-  "result": null,
+  "result": "won",
   "uid": "solide:UNL-20261112-t-rkiye-belgium:a_scores",
   "kind": "solide",
   "created": "2026-11-12T13:52:49.600486+01:00"
@@ -24029,7 +24029,7 @@
     "p": 0.8647,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261114-colombia-chile",
@@ -24064,7 +24064,7 @@
     "p": 0.8573,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261112-malta-eswatini",
@@ -24076,7 +24076,7 @@
     "p": 0.8301,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186551",
@@ -24100,7 +24100,7 @@
     "p": 0.8201,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-england-croatia",
@@ -24112,7 +24112,7 @@
     "p": 0.8259,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-czechia-spain",
@@ -24124,7 +24124,7 @@
     "p": 0.8418,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-albania-finland",
@@ -24136,7 +24136,7 @@
     "p": 0.8647,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261113-slovenia-switzerland",
@@ -24363,7 +24363,7 @@
     "p": 0.6391,
     "odds": null,
     "min_odds": 1.61,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186769",
@@ -24375,7 +24375,7 @@
     "p": 0.6176,
     "odds": null,
     "min_odds": 1.67,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186551",
@@ -24399,7 +24399,7 @@
     "p": 0.6323,
     "odds": 1.4878048780487805,
     "min_odds": 1.63,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UNL-20261112-england-croatia",
@@ -24411,7 +24411,7 @@
     "p": 0.7213,
     "odds": 1.2777777777777777,
     "min_odds": 1.43,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261112-montenegro-latvia",
@@ -24423,7 +24423,7 @@
     "p": 0.7202,
     "odds": 1.2777777777777777,
     "min_odds": 1.43,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187371",
@@ -24435,7 +24435,7 @@
     "p": 0.5735,
     "odds": null,
     "min_odds": 1.8,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187376",
@@ -24447,7 +24447,7 @@
     "p": 0.4501,
     "odds": null,
     "min_odds": 2.29,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UNL-20261113-serbia-germany",
@@ -24560,7 +24560,7 @@
   ],
   "p": 0.00067,
   "odds": 1502.47,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-12T13:52:49.600486+01:00"
  },
  {
@@ -24578,7 +24578,7 @@
     "p": 0.4501,
     "odds": null,
     "min_odds": 2.29,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187384",
@@ -24595,7 +24595,800 @@
   ],
   "p": 0.32977,
   "odds": 3.22,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-12T13:52:49.600486+01:00"
+ },
+ {
+  "match_id": "tn-186547",
+  "match": "Lorenzo Musetti - Taylor Fritz",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-13T17:00:00+01:00",
+  "key": "w1",
+  "label": "Victoire Lorenzo Musetti",
+  "p": 0.4994,
+  "odds": null,
+  "min_odds": 2.06,
+  "result": null,
+  "uid": "contre_pied:tn-186547:w1",
+  "kind": "contre_pied",
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "match_id": "AMI-20261113-singapore-paraguay",
+  "match": "Singapore - Paraguay",
+  "league": "Matchs amicaux internationaux",
+  "ko": "2026-11-13T13:00:00+01:00",
+  "key": "o15",
+  "label": "Plus de 1,5 buts",
+  "p": 0.8912,
+  "odds": null,
+  "min_odds": 1.16,
+  "result": null,
+  "uid": "solide:AMI-20261113-singapore-paraguay:o15",
+  "kind": "solide",
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "match_id": "UNL-20261115-france-t-rkiye",
+  "match": "France - Türkiye",
+  "league": "Ligue des nations",
+  "ko": "2026-11-15T20:45:00+01:00",
+  "key": "12",
+  "label": "Pas de match nul",
+  "p": 0.865,
+  "odds": null,
+  "min_odds": 1.19,
+  "result": null,
+  "uid": "solide:UNL-20261115-france-t-rkiye:12",
+  "kind": "solide",
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "match_id": "UNL-20261113-luxembourg-estonia",
+  "match": "Luxembourg - Estonia",
+  "league": "Ligue des nations",
+  "ko": "2026-11-13T20:45:00+01:00",
+  "key": "u35",
+  "label": "Moins de 3,5 buts",
+  "p": 0.8421,
+  "odds": null,
+  "min_odds": 1.22,
+  "result": null,
+  "uid": "solide:UNL-20261113-luxembourg-estonia:u35",
+  "kind": "solide",
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "match_id": "AMI-20261114-argentina-uruguay",
+  "match": "Argentina - Uruguay",
+  "league": "Matchs amicaux internationaux",
+  "ko": "2026-11-14T00:00:00+01:00",
+  "key": "h_scores",
+  "label": "Argentina marque",
+  "p": 0.826,
+  "odds": null,
+  "min_odds": 1.25,
+  "result": null,
+  "uid": "solide:AMI-20261114-argentina-uruguay:h_scores",
+  "kind": "solide",
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "match_id": "AMI-20261114-peru-bolivia",
+  "match": "Peru - Bolivia",
+  "league": "Matchs amicaux internationaux",
+  "ko": "2026-11-14T02:00:00+01:00",
+  "key": "h_scores",
+  "label": "Peru marque",
+  "p": 0.8235,
+  "odds": null,
+  "min_odds": 1.25,
+  "result": null,
+  "uid": "solide:AMI-20261114-peru-bolivia:h_scores",
+  "kind": "solide",
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "match_id": "tn-186547",
+  "match": "Lorenzo Musetti - Taylor Fritz",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-13T17:00:00+01:00",
+  "key": "jeux-:26.5",
+  "label": "Moins de 26,5 jeux dans le match",
+  "p": 0.6342,
+  "odds": null,
+  "min_odds": 1.62,
+  "result": null,
+  "uid": "stat:tn-186547:jeux-:26.5",
+  "kind": "stat",
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "match_id": "tn-186773",
+  "match": "Elizabeth Mandlik - Laura Samson",
+  "league": "WTA · DIRECTV Open Presentado por Compesar",
+  "ko": "2026-11-13T16:00:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6316,
+  "odds": null,
+  "min_odds": 1.63,
+  "result": null,
+  "uid": "stat:tn-186773:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "match_id": "tn-186546",
+  "match": "Thiago Agustin Tirante - Alejandro Tabilo",
+  "league": "ATP · Bybit Stockholm Open",
+  "ko": "2026-11-13T14:00:00+01:00",
+  "key": "jeux+:20.5",
+  "label": "Plus de 20,5 jeux dans le match",
+  "p": 0.6301,
+  "odds": null,
+  "min_odds": 1.63,
+  "result": null,
+  "uid": "stat:tn-186546:jeux+:20.5",
+  "kind": "stat",
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "match_id": "tn-186774",
+  "match": "Bianca Andreescu - Polona Hercog",
+  "league": "WTA · DIRECTV Open Presentado por Compesar",
+  "ko": "2026-11-13T17:30:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6244,
+  "odds": null,
+  "min_odds": 1.65,
+  "result": null,
+  "uid": "stat:tn-186774:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "uid": "combo:57feda24b2",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "AMI-20261113-singapore-paraguay",
+    "match": "Singapore - Paraguay",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-13T13:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8912,
+    "odds": null,
+    "min_odds": 1.16,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261115-france-t-rkiye",
+    "match": "France - Türkiye",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T20:45:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.865,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-andorra-gibraltar",
+    "match": "Andorra - Gibraltar",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "1N",
+    "label": "Andorra ou nul",
+    "p": 0.857,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   }
+  ],
+  "p": 0.66069,
+  "odds": 1.65,
+  "result": null,
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "uid": "combo:4b6f97d480",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-186547",
+    "match": "Lorenzo Musetti - Taylor Fritz",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-13T17:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Lorenzo Musetti",
+    "p": 0.4994,
+    "odds": null,
+    "min_odds": 2.06,
+    "result": null
+   },
+   {
+    "match_id": "tn-187379",
+    "match": "Elina Svitolina - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-13T22:30:00+01:00",
+    "key": "s1",
+    "label": "Elina Svitolina gagne au moins un set",
+    "p": 0.5703,
+    "odds": null,
+    "min_odds": 1.81,
+    "result": null
+   },
+   {
+    "match_id": "tn-187384",
+    "match": "Karolina Muchova - Mirra Andreeva",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-13T21:00:00+01:00",
+    "key": "jeux-:24.5",
+    "label": "Moins de 24,5 jeux dans le match",
+    "p": 0.6424,
+    "odds": null,
+    "min_odds": 1.6,
+    "result": null
+   },
+   {
+    "match_id": "tn-186773",
+    "match": "Elizabeth Mandlik - Laura Samson",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-13T16:00:00+01:00",
+    "key": "jeux-:24.5",
+    "label": "Moins de 24,5 jeux dans le match",
+    "p": 0.6316,
+    "odds": null,
+    "min_odds": 1.63,
+    "result": null
+   },
+   {
+    "match_id": "tn-186546",
+    "match": "Thiago Agustin Tirante - Alejandro Tabilo",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-13T14:00:00+01:00",
+    "key": "jeux+:20.5",
+    "label": "Plus de 20,5 jeux dans le match",
+    "p": 0.6301,
+    "odds": null,
+    "min_odds": 1.63,
+    "result": null
+   }
+  ],
+  "p": 0.07281,
+  "odds": 15.92,
+  "result": null,
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "uid": "combo:ce2cec6421",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "AMI-20261113-singapore-paraguay",
+    "match": "Singapore - Paraguay",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-13T13:00:00+01:00",
+    "key": "2",
+    "label": "Victoire Paraguay",
+    "p": 0.8831,
+    "odds": 1.0625,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-slovenia-switzerland",
+    "match": "Slovenia - Switzerland",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "N2",
+    "label": "Switzerland ou nul",
+    "p": 0.824,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-serbia-germany",
+    "match": "Serbia - Germany",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8308,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-luxembourg-estonia",
+    "match": "Luxembourg - Estonia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "u35",
+    "label": "Moins de 3,5 buts",
+    "p": 0.8421,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-scotland-north-macedonia",
+    "match": "Scotland - North Macedonia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8435,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-andorra-gibraltar",
+    "match": "Andorra - Gibraltar",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "1N",
+    "label": "Andorra ou nul",
+    "p": 0.857,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-netherlands-greece",
+    "match": "Netherlands - Greece",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Netherlands marque",
+    "p": 0.8665,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-liechtenstein-azerbaijan",
+    "match": "Liechtenstein - Azerbaijan",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "a_scores",
+    "label": "Azerbaijan marque",
+    "p": 0.8673,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-slovakia-faroe-islands",
+    "match": "Slovakia - Faroe Islands",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Slovakia marque",
+    "p": 0.8723,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261114-argentina-uruguay",
+    "match": "Argentina - Uruguay",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-14T00:00:00+01:00",
+    "key": "h_scores",
+    "label": "Argentina marque",
+    "p": 0.826,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261114-ecuador-costa-rica",
+    "match": "Ecuador - Costa Rica",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-14T01:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8289,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261114-colombia-chile",
+    "match": "Colombia - Chile",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-14T01:00:00+01:00",
+    "key": "h_scores",
+    "label": "Colombia marque",
+    "p": 0.8641,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261114-peru-bolivia",
+    "match": "Peru - Bolivia",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-14T02:00:00+01:00",
+    "key": "h_scores",
+    "label": "Peru marque",
+    "p": 0.8235,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261114-japan-brazil",
+    "match": "Japan - Brazil",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-14T11:15:00+01:00",
+    "key": "a_scores",
+    "label": "Brazil marque",
+    "p": 0.8282,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-norway-wales",
+    "match": "Norway - Wales",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T18:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.845,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-romania-poland",
+    "match": "Romania - Poland",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "a_scores",
+    "label": "Poland marque",
+    "p": 0.8261,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-austria-republic-of-ireland",
+    "match": "Austria - Republic of Ireland",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "1N",
+    "label": "Austria ou nul",
+    "p": 0.8296,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-portugal-denmark",
+    "match": "Portugal - Denmark",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "1N",
+    "label": "Portugal ou nul",
+    "p": 0.8305,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-sweden-bosnia-herzegovina",
+    "match": "Sweden - Bosnia-Herzegovina",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "1N",
+    "label": "Sweden ou nul",
+    "p": 0.8366,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-northern-ireland-ukraine",
+    "match": "Northern Ireland - Ukraine",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "u35",
+    "label": "Moins de 3,5 buts",
+    "p": 0.8446,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261115-croatia-czechia",
+    "match": "Croatia - Czechia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T20:45:00+01:00",
+    "key": "1N",
+    "label": "Croatia ou nul",
+    "p": 0.8395,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261115-spain-england",
+    "match": "Spain - England",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Spain marque",
+    "p": 0.8555,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261115-france-t-rkiye",
+    "match": "France - Türkiye",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T20:45:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.865,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   }
+  ],
+  "p": 0.02055,
+  "odds": 48.66,
+  "result": null,
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "uid": "combo:f3d472d43f",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186773",
+    "match": "Elizabeth Mandlik - Laura Samson",
+    "league": "WTA · DIRECTV Open Presentado por Compesar",
+    "ko": "2026-11-13T16:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Laura Samson",
+    "p": 0.6159,
+    "odds": null,
+    "min_odds": 1.67,
+    "result": null
+   },
+   {
+    "match_id": "tn-186547",
+    "match": "Lorenzo Musetti - Taylor Fritz",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-13T17:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Lorenzo Musetti",
+    "p": 0.4994,
+    "odds": null,
+    "min_odds": 2.06,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-serbia-germany",
+    "match": "Serbia - Germany",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "2",
+    "label": "Victoire Germany",
+    "p": 0.728,
+    "odds": 1.263157894736842,
+    "min_odds": 1.41,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-liechtenstein-azerbaijan",
+    "match": "Liechtenstein - Azerbaijan",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "2",
+    "label": "Victoire Azerbaijan",
+    "p": 0.7276,
+    "odds": 1.2564102564102564,
+    "min_odds": 1.42,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-slovakia-faroe-islands",
+    "match": "Slovakia - Faroe Islands",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Slovakia",
+    "p": 0.6874,
+    "odds": 1.3448275862068966,
+    "min_odds": 1.5,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261113-netherlands-greece",
+    "match": "Netherlands - Greece",
+    "league": "Ligue des nations",
+    "ko": "2026-11-13T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Netherlands",
+    "p": 0.5904,
+    "odds": 1.5555555555555556,
+    "min_odds": 1.74,
+    "result": null
+   },
+   {
+    "match_id": "tn-187384",
+    "match": "Karolina Muchova - Mirra Andreeva",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-13T21:00:00+01:00",
+    "key": "s2",
+    "label": "Mirra Andreeva gagne au moins un set",
+    "p": 0.7326,
+    "odds": null,
+    "min_odds": 1.41,
+    "result": null
+   },
+   {
+    "match_id": "tn-187379",
+    "match": "Elina Svitolina - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-13T22:30:00+01:00",
+    "key": "s1",
+    "label": "Elina Svitolina gagne au moins un set",
+    "p": 0.5703,
+    "odds": null,
+    "min_odds": 1.81,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261114-argentina-uruguay",
+    "match": "Argentina - Uruguay",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-14T00:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Argentina",
+    "p": 0.5887,
+    "odds": 1.606060606060606,
+    "min_odds": 1.75,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261114-colombia-chile",
+    "match": "Colombia - Chile",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-14T01:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Colombia",
+    "p": 0.6638,
+    "odds": 1.4166666666666667,
+    "min_odds": 1.55,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261114-peru-bolivia",
+    "match": "Peru - Bolivia",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-14T02:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Peru",
+    "p": 0.5941,
+    "odds": 1.5714285714285714,
+    "min_odds": 1.73,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-portugal-denmark",
+    "match": "Portugal - Denmark",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Portugal",
+    "p": 0.6204,
+    "odds": 1.5,
+    "min_odds": 1.66,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-sweden-bosnia-herzegovina",
+    "match": "Sweden - Bosnia-Herzegovina",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Sweden",
+    "p": 0.617,
+    "odds": 1.5,
+    "min_odds": 1.67,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-austria-republic-of-ireland",
+    "match": "Austria - Republic of Ireland",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Austria",
+    "p": 0.5897,
+    "odds": 1.5555555555555556,
+    "min_odds": 1.75,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261115-croatia-czechia",
+    "match": "Croatia - Czechia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Croatia",
+    "p": 0.614,
+    "odds": 1.4878048780487805,
+    "min_odds": 1.68,
+    "result": null
+   }
+  ],
+  "p": 0.00089,
+  "odds": 1125.38,
+  "result": null,
+  "created": "2026-11-13T07:55:21.023082+01:00"
+ },
+ {
+  "uid": "coup:57780d476a",
+  "kind": "coup",
+  "name": "La grosse cote du jour",
+  "legs": [
+   {
+    "match_id": "tn-186547",
+    "match": "Lorenzo Musetti - Taylor Fritz",
+    "league": "ATP · Bybit Stockholm Open",
+    "ko": "2026-11-13T17:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Lorenzo Musetti",
+    "p": 0.4994,
+    "odds": null,
+    "min_odds": 2.06,
+    "result": null
+   },
+   {
+    "match_id": "tn-187384",
+    "match": "Karolina Muchova - Mirra Andreeva",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-13T21:00:00+01:00",
+    "key": "s2",
+    "label": "Mirra Andreeva gagne au moins un set",
+    "p": 0.7326,
+    "odds": null,
+    "min_odds": 1.41,
+    "result": null
+   },
+   {
+    "match_id": "tn-187379",
+    "match": "Elina Svitolina - Aryna Sabalenka",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-13T22:30:00+01:00",
+    "key": "s1",
+    "label": "Elina Svitolina gagne au moins un set",
+    "p": 0.5703,
+    "odds": null,
+    "min_odds": 1.81,
+    "result": null
+   }
+  ],
+  "p": 0.20863,
+  "odds": 5.24,
+  "result": null,
+  "created": "2026-11-13T07:55:21.023082+01:00"
  }
 ]
