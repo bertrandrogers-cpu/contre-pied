@@ -22793,7 +22793,7 @@
     "p": 0.8269,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261114-norway-wales",
@@ -23627,7 +23627,7 @@
     "p": 0.8269,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261114-norway-wales",
@@ -24268,7 +24268,7 @@
     "p": 0.8269,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261114-norway-wales",
@@ -25037,7 +25037,7 @@
     "p": 0.8282,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261114-norway-wales",
@@ -25925,7 +25925,7 @@
     "p": 0.8245,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E3-20261114-rochdale-york",
@@ -26403,7 +26403,7 @@
   "p": 0.8594,
   "odds": null,
   "min_odds": 1.2,
-  "result": null,
+  "result": "won",
   "uid": "solide:tn-186552:s2",
   "kind": "solide",
   "created": "2026-11-14T01:54:58.889516+01:00"
@@ -26418,7 +26418,7 @@
   "p": 0.8527,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:AMI-20261114-chinese-taipei-kyrgyz-republic:12",
   "kind": "solide",
   "created": "2026-11-14T01:54:58.889516+01:00"
@@ -26480,7 +26480,7 @@
     "p": 0.8594,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261114-chinese-taipei-kyrgyz-republic",
@@ -26492,7 +26492,7 @@
     "p": 0.8527,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.6404,
@@ -26598,7 +26598,7 @@
     "p": 0.8281,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261114-china-malaysia",
@@ -26610,7 +26610,7 @@
     "p": 0.8486,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261114-chinese-taipei-kyrgyz-republic",
@@ -26622,7 +26622,7 @@
     "p": 0.8527,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E3-20261114-rochdale-york",
@@ -26897,7 +26897,7 @@
     "p": 0.7401,
     "odds": null,
     "min_odds": 1.39,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261114-china-malaysia",
@@ -26909,7 +26909,7 @@
     "p": 0.6262,
     "odds": 1.4878048780487805,
     "min_odds": 1.64,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E2-20261114-stockport-reading",
@@ -26933,7 +26933,7 @@
     "p": 0.6898,
     "odds": 1.3571428571428572,
     "min_odds": 1.49,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SC1-20261114-livingston-morton",
@@ -27118,7 +27118,7 @@
   "p": 0.8716,
   "odds": null,
   "min_odds": 1.18,
-  "result": null,
+  "result": "won",
   "uid": "solide:AMI-20261114-chinese-taipei-kyrgyz-republic:o15",
   "kind": "solide",
   "created": "2026-11-14T12:35:39.691284+01:00"
@@ -27148,7 +27148,7 @@
   "p": 0.8443,
   "odds": null,
   "min_odds": 1.22,
-  "result": null,
+  "result": "won",
   "uid": "solide:AMI-20261114-palestine-iran:a_scores",
   "kind": "solide",
   "created": "2026-11-14T12:35:39.691284+01:00"
@@ -27163,7 +27163,7 @@
   "p": 0.8302,
   "odds": null,
   "min_odds": 1.24,
-  "result": null,
+  "result": "won",
   "uid": "solide:AMI-20261114-china-malaysia:1N",
   "kind": "solide",
   "created": "2026-11-14T12:35:39.691284+01:00"
@@ -27195,7 +27195,7 @@
     "p": 0.8716,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261114-northern-ireland-ukraine",
@@ -27230,7 +27230,7 @@
     "p": 0.8302,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261114-kosovo-israel",
@@ -27242,7 +27242,7 @@
     "p": 0.8239,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "E3-20261114-rochdale-york",
@@ -27314,7 +27314,7 @@
     "p": 0.8443,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SC1-20261114-livingston-morton",
@@ -27511,7 +27511,7 @@
   ],
   "p": 0.01475,
   "odds": 67.82,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-14T12:35:39.691284+01:00"
  },
  {
@@ -27529,7 +27529,7 @@
     "p": 0.7401,
     "odds": null,
     "min_odds": 1.39,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261114-china-malaysia",
@@ -27541,7 +27541,7 @@
     "p": 0.5936,
     "odds": 1.5714285714285714,
     "min_odds": 1.74,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E2-20261114-stockport-reading",
@@ -27577,7 +27577,7 @@
     "p": 0.6417,
     "odds": 1.4545454545454546,
     "min_odds": 1.61,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261114-norway-wales",
@@ -27751,5 +27751,796 @@
   "odds": 4.56,
   "result": null,
   "created": "2026-11-14T12:35:39.691284+01:00"
+ },
+ {
+  "match_id": "UNL-20261115-finland-san-marino",
+  "match": "Finland - San Marino",
+  "league": "Ligue des nations",
+  "ko": "2026-11-15T18:00:00+01:00",
+  "key": "o15",
+  "label": "Plus de 1,5 buts",
+  "p": 0.919,
+  "odds": null,
+  "min_odds": 1.12,
+  "result": null,
+  "uid": "solide:UNL-20261115-finland-san-marino:o15",
+  "kind": "solide",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "UNL-20261116-estonia-bulgaria",
+  "match": "Estonia - Bulgaria",
+  "league": "Ligue des nations",
+  "ko": "2026-11-16T18:00:00+01:00",
+  "key": "u35",
+  "label": "Moins de 3,5 buts",
+  "p": 0.8526,
+  "odds": null,
+  "min_odds": 1.21,
+  "result": null,
+  "uid": "solide:UNL-20261116-estonia-bulgaria:u35",
+  "kind": "solide",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "UNL-20261116-gibraltar-malta",
+  "match": "Gibraltar - Malta",
+  "league": "Ligue des nations",
+  "ko": "2026-11-16T20:45:00+01:00",
+  "key": "a_scores",
+  "label": "Malta marque",
+  "p": 0.8287,
+  "odds": null,
+  "min_odds": 1.24,
+  "result": null,
+  "uid": "solide:UNL-20261116-gibraltar-malta:a_scores",
+  "kind": "solide",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "UNL-20261114-austria-republic-of-ireland",
+  "match": "Austria - Republic of Ireland",
+  "league": "Ligue des nations",
+  "ko": "2026-11-14T20:45:00+01:00",
+  "key": "h_scores",
+  "label": "Austria marque",
+  "p": 0.8252,
+  "odds": null,
+  "min_odds": 1.25,
+  "result": null,
+  "uid": "solide:UNL-20261114-austria-republic-of-ireland:h_scores",
+  "kind": "solide",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "SP2-20261115-eibar-cadiz",
+  "match": "Eibar - Cadiz",
+  "league": "Liga 2",
+  "ko": "2026-11-15T18:30:00+01:00",
+  "key": "1N",
+  "label": "Eibar ou nul",
+  "p": 0.8237,
+  "odds": null,
+  "min_odds": 1.25,
+  "result": null,
+  "uid": "solide:SP2-20261115-eibar-cadiz:1N",
+  "kind": "solide",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "UNL-20261115-spain-england",
+  "match": "Spain - England",
+  "league": "Ligue des nations",
+  "ko": "2026-11-15T20:45:00+01:00",
+  "key": "o15",
+  "label": "Plus de 1,5 buts",
+  "p": 0.8178,
+  "odds": null,
+  "min_odds": 1.26,
+  "result": null,
+  "uid": "solide:UNL-20261115-spain-england:o15",
+  "kind": "solide",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "UNL-20261116-north-macedonia-slovenia",
+  "match": "North Macedonia - Slovenia",
+  "league": "Ligue des nations",
+  "ko": "2026-11-16T20:45:00+01:00",
+  "key": "a_scores",
+  "label": "Slovenia marque",
+  "p": 0.8176,
+  "odds": null,
+  "min_odds": 1.26,
+  "result": null,
+  "uid": "solide:UNL-20261116-north-macedonia-slovenia:a_scores",
+  "kind": "solide",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "SP2-20261115-tenerife-ceuta",
+  "match": "Tenerife - Ceuta",
+  "league": "Liga 2",
+  "ko": "2026-11-15T14:00:00+01:00",
+  "key": "cadres-:8.5",
+  "label": "Moins de 8,5 tirs cadrés",
+  "p": 0.6678,
+  "odds": null,
+  "min_odds": 1.54,
+  "result": null,
+  "uid": "stat:SP2-20261115-tenerife-ceuta:cadres-:8.5",
+  "kind": "stat",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "SP2-20261115-eibar-cadiz",
+  "match": "Eibar - Cadiz",
+  "league": "Liga 2",
+  "ko": "2026-11-15T18:30:00+01:00",
+  "key": "cadres+:6.5",
+  "label": "Plus de 6,5 tirs cadrés",
+  "p": 0.6671,
+  "odds": null,
+  "min_odds": 1.54,
+  "result": null,
+  "uid": "stat:SP2-20261115-eibar-cadiz:cadres+:6.5",
+  "kind": "stat",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "SP2-20261115-granada-las-palmas",
+  "match": "Granada - Las Palmas",
+  "league": "Liga 2",
+  "ko": "2026-11-15T16:15:00+01:00",
+  "key": "tirs-:25.5",
+  "label": "Moins de 25,5 tirs",
+  "p": 0.6583,
+  "odds": null,
+  "min_odds": 1.56,
+  "result": null,
+  "uid": "stat:SP2-20261115-granada-las-palmas:tirs-:25.5",
+  "kind": "stat",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "SP2-20261115-tenerife-ceuta",
+  "match": "Tenerife - Ceuta",
+  "league": "Liga 2",
+  "ko": "2026-11-15T14:00:00+01:00",
+  "key": "tirs-:24.5",
+  "label": "Moins de 24,5 tirs",
+  "p": 0.6573,
+  "odds": null,
+  "min_odds": 1.57,
+  "result": null,
+  "uid": "stat:SP2-20261115-tenerife-ceuta:tirs-:24.5",
+  "kind": "stat",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "SP2-20261115-granada-las-palmas",
+  "match": "Granada - Las Palmas",
+  "league": "Liga 2",
+  "ko": "2026-11-15T16:15:00+01:00",
+  "key": "cadres+:6.5",
+  "label": "Plus de 6,5 tirs cadrés",
+  "p": 0.6509,
+  "odds": null,
+  "min_odds": 1.58,
+  "result": null,
+  "uid": "stat:SP2-20261115-granada-las-palmas:cadres+:6.5",
+  "kind": "stat",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "SP2-20261115-eibar-cadiz",
+  "match": "Eibar - Cadiz",
+  "league": "Liga 2",
+  "ko": "2026-11-15T18:30:00+01:00",
+  "key": "tirs+:23.5",
+  "label": "Plus de 23,5 tirs",
+  "p": 0.6442,
+  "odds": null,
+  "min_odds": 1.6,
+  "result": null,
+  "uid": "stat:SP2-20261115-eibar-cadiz:tirs+:23.5",
+  "kind": "stat",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "tn-187441",
+  "match": "Mirra Andreeva - Jessica Pegula",
+  "league": "WTA · FAGE WTA Finals Indian Wells",
+  "ko": "2026-11-14T21:00:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6437,
+  "odds": null,
+  "min_odds": 1.6,
+  "result": null,
+  "uid": "stat:tn-187441:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "SP2-20261114-oviedo-girona",
+  "match": "Oviedo - Girona",
+  "league": "Liga 2",
+  "ko": "2026-11-14T21:00:00+01:00",
+  "key": "tirs-:28.5",
+  "label": "Moins de 28,5 tirs",
+  "p": 0.6339,
+  "odds": null,
+  "min_odds": 1.62,
+  "result": null,
+  "uid": "stat:SP2-20261114-oviedo-girona:tirs-:28.5",
+  "kind": "stat",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "SP2-20261116-albacete-celta-b",
+  "match": "Albacete - Celta B",
+  "league": "Liga 2",
+  "ko": "2026-11-16T20:30:00+01:00",
+  "key": "tirs-:29.5",
+  "label": "Moins de 29,5 tirs",
+  "p": 0.633,
+  "odds": null,
+  "min_odds": 1.63,
+  "result": null,
+  "uid": "stat:SP2-20261116-albacete-celta-b:tirs-:29.5",
+  "kind": "stat",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "match_id": "SP2-20261115-eldense-sabadell",
+  "match": "Eldense - Sabadell",
+  "league": "Liga 2",
+  "ko": "2026-11-15T18:30:00+01:00",
+  "key": "tirs-:25.5",
+  "label": "Moins de 25,5 tirs",
+  "p": 0.6248,
+  "odds": null,
+  "min_odds": 1.65,
+  "result": null,
+  "uid": "stat:SP2-20261115-eldense-sabadell:tirs-:25.5",
+  "kind": "stat",
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "uid": "combo:f73e58758c",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "UNL-20261115-finland-san-marino",
+    "match": "Finland - San Marino",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T18:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.919,
+    "odds": null,
+    "min_odds": 1.12,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-germany-netherlands",
+    "match": "Germany - Netherlands",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Germany marque",
+    "p": 0.8739,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-northern-ireland-ukraine",
+    "match": "Northern Ireland - Ukraine",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "u35",
+    "label": "Moins de 3,5 buts",
+    "p": 0.8665,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   }
+  ],
+  "p": 0.69589,
+  "odds": 1.57,
+  "result": null,
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "uid": "combo:2f56d791c6",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "SP2-20261115-tenerife-ceuta",
+    "match": "Tenerife - Ceuta",
+    "league": "Liga 2",
+    "ko": "2026-11-15T14:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.525,
+    "odds": null,
+    "min_odds": 1.96,
+    "result": null
+   },
+   {
+    "match_id": "tn-187440",
+    "match": "Elina Svitolina - Linda Noskova",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-14T22:30:00+01:00",
+    "key": "s2",
+    "label": "Linda Noskova gagne au moins un set",
+    "p": 0.6694,
+    "odds": null,
+    "min_odds": 1.54,
+    "result": null
+   },
+   {
+    "match_id": "tn-187441",
+    "match": "Mirra Andreeva - Jessica Pegula",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-14T21:00:00+01:00",
+    "key": "s1",
+    "label": "Mirra Andreeva gagne au moins un set",
+    "p": 0.6815,
+    "odds": null,
+    "min_odds": 1.51,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261116-albacete-celta-b",
+    "match": "Albacete - Celta B",
+    "league": "Liga 2",
+    "ko": "2026-11-16T20:30:00+01:00",
+    "key": "cadres+:7.5",
+    "label": "Plus de 7,5 tirs cadrés",
+    "p": 0.6985,
+    "odds": null,
+    "min_odds": 1.47,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261115-eldense-sabadell",
+    "match": "Eldense - Sabadell",
+    "league": "Liga 2",
+    "ko": "2026-11-15T18:30:00+01:00",
+    "key": "cadres+:5.5",
+    "label": "Plus de 5,5 tirs cadrés",
+    "p": 0.6763,
+    "odds": null,
+    "min_odds": 1.52,
+    "result": null
+   }
+  ],
+  "p": 0.11316,
+  "odds": 10.24,
+  "result": null,
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "uid": "combo:8d15c70ef8",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "UNL-20261114-austria-republic-of-ireland",
+    "match": "Austria - Republic of Ireland",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Austria marque",
+    "p": 0.8252,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-portugal-denmark",
+    "match": "Portugal - Denmark",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8384,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-sweden-bosnia-herzegovina",
+    "match": "Sweden - Bosnia-Herzegovina",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "1N",
+    "label": "Sweden ou nul",
+    "p": 0.8543,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-romania-poland",
+    "match": "Romania - Poland",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "a_scores",
+    "label": "Poland marque",
+    "p": 0.8587,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-northern-ireland-ukraine",
+    "match": "Northern Ireland - Ukraine",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "u35",
+    "label": "Moins de 3,5 buts",
+    "p": 0.8665,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261115-new-zealand-india",
+    "match": "New Zealand - India",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-15T04:10:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8615,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261115-finland-san-marino",
+    "match": "Finland - San Marino",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T18:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Finland",
+    "p": 0.903,
+    "odds": 1.025,
+    "min_odds": 1.14,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261115-eibar-cadiz",
+    "match": "Eibar - Cadiz",
+    "league": "Liga 2",
+    "ko": "2026-11-15T18:30:00+01:00",
+    "key": "1N",
+    "label": "Eibar ou nul",
+    "p": 0.8237,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261115-france-t-rkiye",
+    "match": "France - Türkiye",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T20:45:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8492,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261115-spain-england",
+    "match": "Spain - England",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Spain marque",
+    "p": 0.8502,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261115-croatia-czechia",
+    "match": "Croatia - Czechia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Croatia marque",
+    "p": 0.8592,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-lithuania-liechtenstein",
+    "match": "Lithuania - Liechtenstein",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Lithuania",
+    "p": 0.8401,
+    "odds": 1.0909090909090908,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-estonia-bulgaria",
+    "match": "Estonia - Bulgaria",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "u35",
+    "label": "Moins de 3,5 buts",
+    "p": 0.8526,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-iceland-luxembourg",
+    "match": "Iceland - Luxembourg",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "h_scores",
+    "label": "Iceland marque",
+    "p": 0.8841,
+    "odds": null,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261116-albacete-celta-b",
+    "match": "Albacete - Celta B",
+    "league": "Liga 2",
+    "ko": "2026-11-16T20:30:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8224,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-gibraltar-malta",
+    "match": "Gibraltar - Malta",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "a_scores",
+    "label": "Malta marque",
+    "p": 0.8287,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-north-macedonia-slovenia",
+    "match": "North Macedonia - Slovenia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "N2",
+    "label": "Slovenia ou nul",
+    "p": 0.8513,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-greece-serbia",
+    "match": "Greece - Serbia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "1N",
+    "label": "Greece ou nul",
+    "p": 0.8548,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-germany-netherlands",
+    "match": "Germany - Netherlands",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Germany marque",
+    "p": 0.8739,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   }
+  ],
+  "p": 0.04797,
+  "odds": 20.85,
+  "result": null,
+  "created": "2026-11-14T19:15:23.440620+01:00"
+ },
+ {
+  "uid": "combo:bbf9ae0032",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "UNL-20261114-sweden-bosnia-herzegovina",
+    "match": "Sweden - Bosnia-Herzegovina",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Sweden",
+    "p": 0.6371,
+    "odds": 1.4651162790697674,
+    "min_odds": 1.62,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-portugal-denmark",
+    "match": "Portugal - Denmark",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Portugal",
+    "p": 0.5949,
+    "odds": 1.5555555555555556,
+    "min_odds": 1.73,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-austria-republic-of-ireland",
+    "match": "Austria - Republic of Ireland",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Austria",
+    "p": 0.5825,
+    "odds": 1.5882352941176472,
+    "min_odds": 1.77,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261114-romania-poland",
+    "match": "Romania - Poland",
+    "league": "Ligue des nations",
+    "ko": "2026-11-14T20:45:00+01:00",
+    "key": "2",
+    "label": "Victoire Poland",
+    "p": 0.5773,
+    "odds": 1.606060606060606,
+    "min_odds": 1.78,
+    "result": null
+   },
+   {
+    "match_id": "tn-187441",
+    "match": "Mirra Andreeva - Jessica Pegula",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-14T21:00:00+01:00",
+    "key": "s1",
+    "label": "Mirra Andreeva gagne au moins un set",
+    "p": 0.6815,
+    "odds": null,
+    "min_odds": 1.51,
+    "result": null
+   },
+   {
+    "match_id": "tn-187440",
+    "match": "Elina Svitolina - Linda Noskova",
+    "league": "WTA · FAGE WTA Finals Indian Wells",
+    "ko": "2026-11-14T22:30:00+01:00",
+    "key": "s2",
+    "label": "Linda Noskova gagne au moins un set",
+    "p": 0.6694,
+    "odds": null,
+    "min_odds": 1.54,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261115-tenerife-ceuta",
+    "match": "Tenerife - Ceuta",
+    "league": "Liga 2",
+    "ko": "2026-11-15T14:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.525,
+    "odds": null,
+    "min_odds": 1.96,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261115-eibar-cadiz",
+    "match": "Eibar - Cadiz",
+    "league": "Liga 2",
+    "ko": "2026-11-15T18:30:00+01:00",
+    "key": "1",
+    "label": "Victoire Eibar",
+    "p": 0.5794,
+    "odds": 1.6,
+    "min_odds": 1.78,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261115-croatia-czechia",
+    "match": "Croatia - Czechia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-15T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Croatia",
+    "p": 0.5866,
+    "odds": 1.5714285714285714,
+    "min_odds": 1.76,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-iceland-luxembourg",
+    "match": "Iceland - Luxembourg",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Iceland",
+    "p": 0.7027,
+    "odds": 1.303030303030303,
+    "min_odds": 1.47,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-greece-serbia",
+    "match": "Greece - Serbia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Greece",
+    "p": 0.6365,
+    "odds": 1.434782608695652,
+    "min_odds": 1.62,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-gibraltar-malta",
+    "match": "Gibraltar - Malta",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "2",
+    "label": "Victoire Malta",
+    "p": 0.6348,
+    "odds": 1.434782608695652,
+    "min_odds": 1.62,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-north-macedonia-slovenia",
+    "match": "North Macedonia - Slovenia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "2",
+    "label": "Victoire Slovenia",
+    "p": 0.5978,
+    "odds": 1.5405405405405406,
+    "min_odds": 1.72,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-switzerland-scotland",
+    "match": "Switzerland - Scotland",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Switzerland",
+    "p": 0.5503,
+    "odds": 1.6666666666666665,
+    "min_odds": 1.87,
+    "result": null
+   }
+  ],
+  "p": 0.00097,
+  "odds": 1032.13,
+  "result": null,
+  "created": "2026-11-14T19:15:23.440620+01:00"
  }
 ]
