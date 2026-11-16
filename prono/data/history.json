@@ -24638,7 +24638,7 @@
   "p": 0.865,
   "odds": null,
   "min_odds": 1.19,
-  "result": null,
+  "result": "won",
   "uid": "solide:UNL-20261115-france-t-rkiye:12",
   "kind": "solide",
   "created": "2026-11-13T07:55:21.023082+01:00"
@@ -24775,7 +24775,7 @@
     "p": 0.865,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261113-andorra-gibraltar",
@@ -24792,7 +24792,7 @@
   ],
   "p": 0.66069,
   "odds": 1.65,
-  "result": null,
+  "result": "won",
   "created": "2026-11-13T07:55:21.023082+01:00"
  },
  {
@@ -27837,7 +27837,7 @@
   "p": 0.8178,
   "odds": null,
   "min_odds": 1.26,
-  "result": null,
+  "result": "won",
   "uid": "solide:UNL-20261115-spain-england:o15",
   "kind": "solide",
   "created": "2026-11-14T19:15:23.440620+01:00"
@@ -28236,7 +28236,7 @@
     "p": 0.8492,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-spain-england",
@@ -28248,7 +28248,7 @@
     "p": 0.8502,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-croatia-czechia",
@@ -28260,7 +28260,7 @@
     "p": 0.8592,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261116-lithuania-liechtenstein",
@@ -28660,7 +28660,7 @@
     "p": 0.8555,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261116-estonia-bulgaria",
@@ -28802,7 +28802,7 @@
     "p": 0.8472,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-france-t-rkiye",
@@ -28814,7 +28814,7 @@
     "p": 0.8555,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-croatia-czechia",
@@ -28826,7 +28826,7 @@
     "p": 0.8573,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261116-lithuania-liechtenstein",
@@ -29017,7 +29017,7 @@
     "p": 0.5861,
     "odds": 1.5714285714285714,
     "min_odds": 1.76,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-spain-england",
@@ -29029,7 +29029,7 @@
     "p": 0.5289,
     "odds": 1.7407407407407407,
     "min_odds": 1.95,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UNL-20261116-faroe-islands-moldova",
@@ -29142,7 +29142,7 @@
   ],
   "p": 0.00066,
   "odds": 1513.2,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-15T00:58:09.585585+01:00"
  },
  {
@@ -29235,7 +29235,7 @@
   "p": 0.6772,
   "odds": null,
   "min_odds": 1.52,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-187506:s1",
   "kind": "contre_pied",
   "created": "2026-11-15T07:45:40.097877+01:00"
@@ -29657,7 +29657,7 @@
     "p": 0.8658,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187511",
@@ -29846,7 +29846,7 @@
     "p": 0.8239,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-spain-england",
@@ -29858,7 +29858,7 @@
     "p": 0.8269,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-france-t-rkiye",
@@ -29870,7 +29870,7 @@
     "p": 0.8658,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187511",
@@ -30314,7 +30314,7 @@
     "p": 0.8665,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.65824,
@@ -30408,7 +30408,7 @@
     "p": 0.8271,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-croatia-czechia",
@@ -30420,7 +30420,7 @@
     "p": 0.8584,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-france-t-rkiye",
@@ -30432,7 +30432,7 @@
     "p": 0.8665,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187511",
@@ -31095,5 +31095,593 @@
   "odds": 9.19,
   "result": null,
   "created": "2026-11-15T22:05:41.614982+01:00"
+ },
+ {
+  "match_id": "tn-186792",
+  "match": "Diletta Cherubini - Rebeka Masarova",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-16T15:00:00+01:00",
+  "key": "w1",
+  "label": "Victoire Diletta Cherubini",
+  "p": 0.4377,
+  "odds": null,
+  "min_odds": 2.35,
+  "result": null,
+  "uid": "contre_pied:tn-186792:w1",
+  "kind": "contre_pied",
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "match_id": "tn-187504",
+  "match": "Arthur Fils - Alexander Zverev",
+  "league": "ATP · Nitto ATP Finals",
+  "ko": "2026-11-18T20:00:00+01:00",
+  "key": "s2",
+  "label": "Alexander Zverev gagne au moins un set",
+  "p": 0.8106,
+  "odds": null,
+  "min_odds": 1.27,
+  "result": null,
+  "uid": "solide:tn-187504:s2",
+  "kind": "solide",
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "match_id": "UNL-20261116-iceland-luxembourg",
+  "match": "Iceland - Luxembourg",
+  "league": "Ligue des nations",
+  "ko": "2026-11-16T18:00:00+01:00",
+  "key": "o15",
+  "label": "Plus de 1,5 buts",
+  "p": 0.8055,
+  "odds": null,
+  "min_odds": 1.28,
+  "result": null,
+  "uid": "solide:UNL-20261116-iceland-luxembourg:o15",
+  "kind": "solide",
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "match_id": "tn-186788",
+  "match": "Ariana Geerlings - Luisina Giovannini",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-16T23:00:00+01:00",
+  "key": "jeux-:25.5",
+  "label": "Moins de 25,5 jeux dans le match",
+  "p": 0.6457,
+  "odds": null,
+  "min_odds": 1.6,
+  "result": null,
+  "uid": "stat:tn-186788:jeux-:25.5",
+  "kind": "stat",
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "match_id": "tn-186783",
+  "match": "Anastasia Tikhonova - Valeriya Strakhova",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-16T22:00:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6349,
+  "odds": null,
+  "min_odds": 1.62,
+  "result": null,
+  "uid": "stat:tn-186783:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "match_id": "tn-186792",
+  "match": "Diletta Cherubini - Rebeka Masarova",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-16T15:00:00+01:00",
+  "key": "jeux+:19.5",
+  "label": "Plus de 19,5 jeux dans le match",
+  "p": 0.6347,
+  "odds": null,
+  "min_odds": 1.62,
+  "result": null,
+  "uid": "stat:tn-186792:jeux+:19.5",
+  "kind": "stat",
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "uid": "combo:19d2e18981",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "UNL-20261116-lithuania-liechtenstein",
+    "match": "Lithuania - Liechtenstein",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8693,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   },
+   {
+    "match_id": "tn-187511",
+    "match": "Frances Tiafoe - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-16T14:00:00+01:00",
+    "key": "s2",
+    "label": "Carlos Alcaraz gagne au moins un set",
+    "p": 0.8575,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-north-macedonia-slovenia",
+    "match": "North Macedonia - Slovenia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "a_scores",
+    "label": "Slovenia marque",
+    "p": 0.8238,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   }
+  ],
+  "p": 0.61406,
+  "odds": 1.78,
+  "result": null,
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "uid": "combo:cded8ba3bf",
+  "kind": "combo",
+  "name": "Petite chatte",
+  "legs": [
+   {
+    "match_id": "tn-187514",
+    "match": "Frances Tiafoe - Flavio Cobolli",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Frances Tiafoe",
+    "p": 0.6005,
+    "odds": null,
+    "min_odds": 1.72,
+    "result": null
+   },
+   {
+    "match_id": "tn-187503",
+    "match": "Ben Shelton - Alexander Zverev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-17T20:30:00+01:00",
+    "key": "s1",
+    "label": "Ben Shelton gagne au moins un set",
+    "p": 0.6167,
+    "odds": null,
+    "min_odds": 1.67,
+    "result": null
+   },
+   {
+    "match_id": "tn-187507",
+    "match": "Rafael Jodar - Ben Shelton",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-18T20:00:00+01:00",
+    "key": "s1",
+    "label": "Rafael Jodar gagne au moins un set",
+    "p": 0.6121,
+    "odds": null,
+    "min_odds": 1.68,
+    "result": null
+   }
+  ],
+  "p": 0.22669,
+  "odds": 4.82,
+  "result": null,
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "uid": "combo:d7f4f7d2b6",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-186791",
+    "match": "Varvara Lepchenko - Nadia Podoroska",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Varvara Lepchenko",
+    "p": 0.3801,
+    "odds": null,
+    "min_odds": 2.71,
+    "result": null
+   },
+   {
+    "match_id": "tn-186793",
+    "match": "Ipek Oz - Leyre Romero Gormaz",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Ipek Oz",
+    "p": 0.405,
+    "odds": null,
+    "min_odds": 2.54,
+    "result": null
+   },
+   {
+    "match_id": "tn-186785",
+    "match": "Alicia Herrero Linana - Lucia Bronzetti",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alicia Herrero Linana",
+    "p": 0.4306,
+    "odds": null,
+    "min_odds": 2.39,
+    "result": null
+   },
+   {
+    "match_id": "tn-186792",
+    "match": "Diletta Cherubini - Rebeka Masarova",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T15:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Diletta Cherubini",
+    "p": 0.4377,
+    "odds": null,
+    "min_odds": 2.35,
+    "result": null
+   },
+   {
+    "match_id": "tn-186784",
+    "match": "Carole Monnet - Victoria Jimenez Kasintseva",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Carole Monnet",
+    "p": 0.4657,
+    "odds": null,
+    "min_odds": 2.21,
+    "result": null
+   }
+  ],
+  "p": 0.01352,
+  "odds": 85.77,
+  "result": null,
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "uid": "combo:254930d3eb",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "tn-187511",
+    "match": "Frances Tiafoe - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-16T14:00:00+01:00",
+    "key": "s2",
+    "label": "Carlos Alcaraz gagne au moins un set",
+    "p": 0.8575,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-iceland-luxembourg",
+    "match": "Iceland - Luxembourg",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8313,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-lithuania-liechtenstein",
+    "match": "Lithuania - Liechtenstein",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Lithuania",
+    "p": 0.8383,
+    "odds": 1.1,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261116-andorra-azerbaijan",
+    "match": "Andorra - Azerbaijan",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-16T19:00:00+01:00",
+    "key": "u35",
+    "label": "Moins de 3,5 buts",
+    "p": 0.8546,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261116-albacete-celta-b",
+    "match": "Albacete - Celta B",
+    "league": "Liga 2",
+    "ko": "2026-11-16T20:30:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8224,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-north-macedonia-slovenia",
+    "match": "North Macedonia - Slovenia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "a_scores",
+    "label": "Slovenia marque",
+    "p": 0.8238,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-greece-serbia",
+    "match": "Greece - Serbia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "1N",
+    "label": "Greece ou nul",
+    "p": 0.8623,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-gibraltar-malta",
+    "match": "Gibraltar - Malta",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "N2",
+    "label": "Malta ou nul",
+    "p": 0.8747,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-germany-netherlands",
+    "match": "Germany - Netherlands",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Germany marque",
+    "p": 0.8831,
+    "odds": null,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261117-wales-portugal",
+    "match": "Wales - Portugal",
+    "league": "Ligue des nations",
+    "ko": "2026-11-17T20:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8399,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261117-israel-austria",
+    "match": "Israel - Austria",
+    "league": "Ligue des nations",
+    "ko": "2026-11-17T20:45:00+01:00",
+    "key": "a_scores",
+    "label": "Austria marque",
+    "p": 0.8407,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261117-denmark-norway",
+    "match": "Denmark - Norway",
+    "league": "Ligue des nations",
+    "ko": "2026-11-17T20:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8505,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-187509",
+    "match": "Daniil Medvedev - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-18T20:00:00+01:00",
+    "key": "s2",
+    "label": "Carlos Alcaraz gagne au moins un set",
+    "p": 0.8216,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "tn-187510",
+    "match": "Flavio Cobolli - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-18T20:00:00+01:00",
+    "key": "s2",
+    "label": "Carlos Alcaraz gagne au moins un set",
+    "p": 0.8924,
+    "odds": null,
+    "min_odds": 1.15,
+    "result": null
+   }
+  ],
+  "p": 0.10147,
+  "odds": 9.86,
+  "result": null,
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "uid": "combo:0534ea7daa",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-187511",
+    "match": "Frances Tiafoe - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-16T14:00:00+01:00",
+    "key": "s1",
+    "label": "Frances Tiafoe gagne au moins un set",
+    "p": 0.4768,
+    "odds": null,
+    "min_odds": 2.16,
+    "result": null
+   },
+   {
+    "match_id": "tn-186792",
+    "match": "Diletta Cherubini - Rebeka Masarova",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T15:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Diletta Cherubini",
+    "p": 0.4377,
+    "odds": null,
+    "min_odds": 2.35,
+    "result": null
+   },
+   {
+    "match_id": "tn-186793",
+    "match": "Ipek Oz - Leyre Romero Gormaz",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Ipek Oz",
+    "p": 0.405,
+    "odds": null,
+    "min_odds": 2.54,
+    "result": null
+   },
+   {
+    "match_id": "tn-186784",
+    "match": "Carole Monnet - Victoria Jimenez Kasintseva",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Carole Monnet",
+    "p": 0.4657,
+    "odds": null,
+    "min_odds": 2.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-187512",
+    "match": "Flavio Cobolli - Daniil Medvedev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-16T20:30:00+01:00",
+    "key": "w2",
+    "label": "Victoire Daniil Medvedev",
+    "p": 0.6331,
+    "odds": null,
+    "min_odds": 1.63,
+    "result": null
+   },
+   {
+    "match_id": "tn-186791",
+    "match": "Varvara Lepchenko - Nadia Podoroska",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Varvara Lepchenko",
+    "p": 0.3801,
+    "odds": null,
+    "min_odds": 2.71,
+    "result": null
+   },
+   {
+    "match_id": "tn-186785",
+    "match": "Alicia Herrero Linana - Lucia Bronzetti",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alicia Herrero Linana",
+    "p": 0.4306,
+    "odds": null,
+    "min_odds": 2.39,
+    "result": null
+   },
+   {
+    "match_id": "tn-186790",
+    "match": "Miriam Bulgaru - Polona Hercog",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Miriam Bulgaru",
+    "p": 0.4864,
+    "odds": null,
+    "min_odds": 2.12,
+    "result": null
+   },
+   {
+    "match_id": "tn-186782",
+    "match": "Veronika Erjavec - Maria Lourdes Carle",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Maria Lourdes Carle",
+    "p": 0.4955,
+    "odds": null,
+    "min_odds": 2.08,
+    "result": null
+   }
+  ],
+  "p": 0.00098,
+  "odds": 1016.99,
+  "result": null,
+  "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "uid": "coup:6b66b781ac",
+  "kind": "coup",
+  "name": "La grosse cote du jour",
+  "legs": [
+   {
+    "match_id": "tn-187512",
+    "match": "Flavio Cobolli - Daniil Medvedev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-16T20:30:00+01:00",
+    "key": "w2",
+    "label": "Victoire Daniil Medvedev",
+    "p": 0.6616,
+    "odds": null,
+    "min_odds": 1.56,
+    "result": null
+   },
+   {
+    "match_id": "tn-187511",
+    "match": "Frances Tiafoe - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-16T14:00:00+01:00",
+    "key": "s1",
+    "label": "Frances Tiafoe gagne au moins un set",
+    "p": 0.4768,
+    "odds": null,
+    "min_odds": 2.16,
+    "result": null
+   }
+  ],
+  "p": 0.31542,
+  "odds": 3.36,
+  "result": null,
+  "created": "2026-11-16T07:44:23.792728+01:00"
  }
 ]
