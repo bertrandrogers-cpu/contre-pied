@@ -25416,7 +25416,7 @@
   "p": 0.6062,
   "odds": null,
   "min_odds": 1.7,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:E2-20261114-stockport-reading:btts",
   "kind": "contre_pied",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25431,7 +25431,7 @@
   "p": 0.525,
   "odds": null,
   "min_odds": 1.96,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:SP2-20261115-tenerife-ceuta:btts",
   "kind": "contre_pied",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25476,7 +25476,7 @@
   "p": 0.8313,
   "odds": null,
   "min_odds": 1.24,
-  "result": null,
+  "result": "won",
   "uid": "solide:SP2-20261114-mallorca-cordoba:o15",
   "kind": "solide",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25491,7 +25491,7 @@
   "p": 0.7396,
   "odds": null,
   "min_odds": 1.39,
-  "result": null,
+  "result": "lost",
   "uid": "stat:SC1-20261114-partick-inverness-c:tirs-:19.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25506,7 +25506,7 @@
   "p": 0.7267,
   "odds": null,
   "min_odds": 1.42,
-  "result": null,
+  "result": "won",
   "uid": "stat:SC1-20261114-ayr-raith-rvs:tirs-:19.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25521,7 +25521,7 @@
   "p": 0.7197,
   "odds": null,
   "min_odds": 1.43,
-  "result": null,
+  "result": "won",
   "uid": "stat:E3-20261114-bristol-rvs-chesterfield:cadres-:9.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25536,7 +25536,7 @@
   "p": 0.7096,
   "odds": null,
   "min_odds": 1.45,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261114-valladolid-castellon:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25551,7 +25551,7 @@
   "p": 0.7011,
   "odds": null,
   "min_odds": 1.47,
-  "result": null,
+  "result": "lost",
   "uid": "stat:E2-20261114-stockport-reading:cadres-:10.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25581,7 +25581,7 @@
   "p": 0.68,
   "odds": null,
   "min_odds": 1.51,
-  "result": null,
+  "result": "won",
   "uid": "stat:SC1-20261114-stenhousemuir-queens-park:tirs-:19.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25596,7 +25596,7 @@
   "p": 0.6779,
   "odds": null,
   "min_odds": 1.52,
-  "result": null,
+  "result": "won",
   "uid": "stat:SC1-20261114-partick-inverness-c:cadres+:5.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25611,7 +25611,7 @@
   "p": 0.6761,
   "odds": null,
   "min_odds": 1.52,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261115-eldense-sabadell:cadres+:5.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25626,7 +25626,7 @@
   "p": 0.6729,
   "odds": null,
   "min_odds": 1.53,
-  "result": null,
+  "result": "won",
   "uid": "stat:E2-20261114-sheffield-weds-plymouth:tirs-:30.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25641,7 +25641,7 @@
   "p": 0.6724,
   "odds": null,
   "min_odds": 1.53,
-  "result": null,
+  "result": "won",
   "uid": "stat:SC1-20261114-ayr-raith-rvs:cadres+:5.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25656,7 +25656,7 @@
   "p": 0.6719,
   "odds": null,
   "min_odds": 1.53,
-  "result": null,
+  "result": "won",
   "uid": "stat:E3-20261114-port-vale-accrington:cadres+:5.5",
   "kind": "stat",
   "created": "2026-11-13T17:31:50.970309+01:00"
@@ -25735,7 +25735,7 @@
     "p": 0.6062,
     "odds": null,
     "min_odds": 1.7,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP2-20261115-tenerife-ceuta",
@@ -25747,12 +25747,12 @@
     "p": 0.525,
     "odds": null,
     "min_odds": 1.96,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.18147,
   "odds": 6.02,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-13T17:31:50.970309+01:00"
  },
  {
@@ -25770,7 +25770,7 @@
     "p": 0.525,
     "odds": null,
     "min_odds": 1.96,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187379",
@@ -25794,7 +25794,7 @@
     "p": 0.6062,
     "odds": null,
     "min_odds": 1.7,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187441",
@@ -25818,12 +25818,12 @@
     "p": 0.7396,
     "odds": null,
     "min_odds": 1.39,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.09021,
   "odds": 12.85,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-13T17:31:50.970309+01:00"
  },
  {
@@ -26448,7 +26448,7 @@
   "p": 0.8253,
   "odds": null,
   "min_odds": 1.25,
-  "result": null,
+  "result": "won",
   "uid": "solide:E3-20261114-salford-northampton:h_scores",
   "kind": "solide",
   "created": "2026-11-14T01:54:58.889516+01:00"
@@ -27822,7 +27822,7 @@
   "p": 0.8237,
   "odds": null,
   "min_odds": 1.25,
-  "result": null,
+  "result": "won",
   "uid": "solide:SP2-20261115-eibar-cadiz:1N",
   "kind": "solide",
   "created": "2026-11-14T19:15:23.440620+01:00"
@@ -27867,7 +27867,7 @@
   "p": 0.6678,
   "odds": null,
   "min_odds": 1.54,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261115-tenerife-ceuta:cadres-:8.5",
   "kind": "stat",
   "created": "2026-11-14T19:15:23.440620+01:00"
@@ -27882,7 +27882,7 @@
   "p": 0.6671,
   "odds": null,
   "min_odds": 1.54,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261115-eibar-cadiz:cadres+:6.5",
   "kind": "stat",
   "created": "2026-11-14T19:15:23.440620+01:00"
@@ -27897,7 +27897,7 @@
   "p": 0.6583,
   "odds": null,
   "min_odds": 1.56,
-  "result": null,
+  "result": "lost",
   "uid": "stat:SP2-20261115-granada-las-palmas:tirs-:25.5",
   "kind": "stat",
   "created": "2026-11-14T19:15:23.440620+01:00"
@@ -27912,7 +27912,7 @@
   "p": 0.6573,
   "odds": null,
   "min_odds": 1.57,
-  "result": null,
+  "result": "lost",
   "uid": "stat:SP2-20261115-tenerife-ceuta:tirs-:24.5",
   "kind": "stat",
   "created": "2026-11-14T19:15:23.440620+01:00"
@@ -27927,7 +27927,7 @@
   "p": 0.6509,
   "odds": null,
   "min_odds": 1.58,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261115-granada-las-palmas:cadres+:6.5",
   "kind": "stat",
   "created": "2026-11-14T19:15:23.440620+01:00"
@@ -27942,7 +27942,7 @@
   "p": 0.6442,
   "odds": null,
   "min_odds": 1.6,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261115-eibar-cadiz:tirs+:23.5",
   "kind": "stat",
   "created": "2026-11-14T19:15:23.440620+01:00"
@@ -27972,7 +27972,7 @@
   "p": 0.6339,
   "odds": null,
   "min_odds": 1.62,
-  "result": null,
+  "result": "lost",
   "uid": "stat:SP2-20261114-oviedo-girona:tirs-:28.5",
   "kind": "stat",
   "created": "2026-11-14T19:15:23.440620+01:00"
@@ -28002,7 +28002,7 @@
   "p": 0.6248,
   "odds": null,
   "min_odds": 1.65,
-  "result": null,
+  "result": "won",
   "uid": "stat:SP2-20261115-eldense-sabadell:tirs-:25.5",
   "kind": "stat",
   "created": "2026-11-14T19:15:23.440620+01:00"
@@ -28224,7 +28224,7 @@
     "p": 0.8237,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-france-t-rkiye",
@@ -28583,7 +28583,7 @@
   "p": 0.812,
   "odds": null,
   "min_odds": 1.27,
-  "result": null,
+  "result": "won",
   "uid": "solide:SP2-20261115-eldense-sabadell:u35",
   "kind": "solide",
   "created": "2026-11-15T00:58:09.585585+01:00"
@@ -28695,7 +28695,7 @@
     "p": 0.525,
     "odds": null,
     "min_odds": 1.96,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187442",
@@ -28719,7 +28719,7 @@
     "p": 0.6764,
     "odds": null,
     "min_odds": 1.52,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP2-20261115-eibar-cadiz",
@@ -28731,7 +28731,7 @@
     "p": 0.6671,
     "odds": null,
     "min_odds": 1.54,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "SP2-20261115-granada-las-palmas",
@@ -28743,12 +28743,12 @@
     "p": 0.6583,
     "odds": null,
     "min_odds": 1.56,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.10678,
   "odds": 10.86,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-15T00:58:09.585585+01:00"
  },
  {
@@ -28790,7 +28790,7 @@
     "p": 0.8237,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-spain-england",
@@ -29172,12 +29172,12 @@
     "p": 0.525,
     "odds": null,
     "min_odds": 1.96,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.3595,
   "odds": 2.95,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-15T00:58:09.585585+01:00"
  },
  {
@@ -29834,7 +29834,7 @@
     "p": 0.8237,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-croatia-czechia",
@@ -30061,7 +30061,7 @@
     "p": 0.525,
     "odds": null,
     "min_odds": 1.96,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187511",
@@ -30162,7 +30162,7 @@
   ],
   "p": 0.001,
   "odds": 1001.95,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-15T07:45:40.097877+01:00"
  },
  {
@@ -30396,7 +30396,7 @@
     "p": 0.8236,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261115-spain-england",
@@ -31683,5 +31683,641 @@
   "odds": 3.36,
   "result": null,
   "created": "2026-11-16T07:44:23.792728+01:00"
+ },
+ {
+  "match_id": "tn-186797",
+  "match": "Martina Trevisan - Guiomar Maristany Zuleta De Reales",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-16T16:30:00+01:00",
+  "key": "w2",
+  "label": "Victoire Guiomar Maristany Zuleta De Reales",
+  "p": 0.5766,
+  "odds": null,
+  "min_odds": 1.79,
+  "result": null,
+  "uid": "contre_pied:tn-186797:w2",
+  "kind": "contre_pied",
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "match_id": "AMI-20261118-uruguay-dominican-republic",
+  "match": "Uruguay - Dominican Republic",
+  "league": "Matchs amicaux internationaux",
+  "ko": "2026-11-18T00:30:00+01:00",
+  "key": "o15",
+  "label": "Plus de 1,5 buts",
+  "p": 0.8853,
+  "odds": null,
+  "min_odds": 1.16,
+  "result": null,
+  "uid": "solide:AMI-20261118-uruguay-dominican-republic:o15",
+  "kind": "solide",
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "match_id": "AMI-20261118-argentina-costa-rica",
+  "match": "Argentina - Costa Rica",
+  "league": "Matchs amicaux internationaux",
+  "ko": "2026-11-18T00:00:00+01:00",
+  "key": "o15",
+  "label": "Plus de 1,5 buts",
+  "p": 0.858,
+  "odds": null,
+  "min_odds": 1.2,
+  "result": null,
+  "uid": "solide:AMI-20261118-argentina-costa-rica:o15",
+  "kind": "solide",
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "match_id": "AMI-20261117-qatar-south-korea",
+  "match": "Qatar - South Korea",
+  "league": "Matchs amicaux internationaux",
+  "ko": "2026-11-17T15:00:00+01:00",
+  "key": "a_scores",
+  "label": "South Korea marque",
+  "p": 0.8468,
+  "odds": null,
+  "min_odds": 1.22,
+  "result": null,
+  "uid": "solide:AMI-20261117-qatar-south-korea:a_scores",
+  "kind": "solide",
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "match_id": "AMI-20261118-ecuador-bolivia",
+  "match": "Ecuador - Bolivia",
+  "league": "Matchs amicaux internationaux",
+  "ko": "2026-11-18T00:30:00+01:00",
+  "key": "o15",
+  "label": "Plus de 1,5 buts",
+  "p": 0.8229,
+  "odds": null,
+  "min_odds": 1.25,
+  "result": null,
+  "uid": "solide:AMI-20261118-ecuador-bolivia:o15",
+  "kind": "solide",
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "match_id": "tn-186797",
+  "match": "Martina Trevisan - Guiomar Maristany Zuleta De Reales",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-16T16:30:00+01:00",
+  "key": "jeux+:19.5",
+  "label": "Plus de 19,5 jeux dans le match",
+  "p": 0.6472,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:tn-186797:jeux+:19.5",
+  "kind": "stat",
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "uid": "combo:04278812e3",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "AMI-20261118-uruguay-dominican-republic",
+    "match": "Uruguay - Dominican Republic",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-18T00:30:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8853,
+    "odds": null,
+    "min_odds": 1.16,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-germany-netherlands",
+    "match": "Germany - Netherlands",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Germany marque",
+    "p": 0.8677,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-lithuania-liechtenstein",
+    "match": "Lithuania - Liechtenstein",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8673,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   }
+  ],
+  "p": 0.66616,
+  "odds": 1.64,
+  "result": null,
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "uid": "combo:e7eba7fd3a",
+  "kind": "combo",
+  "name": "Petite chatte",
+  "legs": [
+   {
+    "match_id": "tn-187514",
+    "match": "Frances Tiafoe - Flavio Cobolli",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-18T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Frances Tiafoe",
+    "p": 0.6013,
+    "odds": null,
+    "min_odds": 1.71,
+    "result": null
+   },
+   {
+    "match_id": "tn-187509",
+    "match": "Daniil Medvedev - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-18T20:00:00+01:00",
+    "key": "s1",
+    "label": "Daniil Medvedev gagne au moins un set",
+    "p": 0.5314,
+    "odds": null,
+    "min_odds": 1.94,
+    "result": null
+   },
+   {
+    "match_id": "tn-186782",
+    "match": "Veronika Erjavec - Maria Lourdes Carle",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Maria Lourdes Carle",
+    "p": 0.4954,
+    "odds": null,
+    "min_odds": 2.08,
+    "result": null
+   }
+  ],
+  "p": 0.1583,
+  "odds": 6.9,
+  "result": null,
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "uid": "combo:ed2d3d7a2d",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-186792",
+    "match": "Diletta Cherubini - Rebeka Masarova",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T15:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Diletta Cherubini",
+    "p": 0.3681,
+    "odds": null,
+    "min_odds": 2.8,
+    "result": null
+   },
+   {
+    "match_id": "tn-186791",
+    "match": "Varvara Lepchenko - Nadia Podoroska",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Varvara Lepchenko",
+    "p": 0.38,
+    "odds": null,
+    "min_odds": 2.71,
+    "result": null
+   },
+   {
+    "match_id": "tn-186793",
+    "match": "Ipek Oz - Leyre Romero Gormaz",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Ipek Oz",
+    "p": 0.4049,
+    "odds": null,
+    "min_odds": 2.54,
+    "result": null
+   },
+   {
+    "match_id": "tn-186785",
+    "match": "Alicia Herrero Linana - Lucia Bronzetti",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alicia Herrero Linana",
+    "p": 0.4305,
+    "odds": null,
+    "min_odds": 2.39,
+    "result": null
+   },
+   {
+    "match_id": "tn-186784",
+    "match": "Carole Monnet - Victoria Jimenez Kasintseva",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Carole Monnet",
+    "p": 0.4656,
+    "odds": null,
+    "min_odds": 2.21,
+    "result": null
+   }
+  ],
+  "p": 0.01135,
+  "odds": 102.11,
+  "result": null,
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "uid": "combo:ad03c4f2f3",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "UNL-20261116-iceland-luxembourg",
+    "match": "Iceland - Luxembourg",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8374,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-lithuania-liechtenstein",
+    "match": "Lithuania - Liechtenstein",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Lithuania",
+    "p": 0.84,
+    "odds": 1.0909090909090908,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261116-andorra-azerbaijan",
+    "match": "Andorra - Azerbaijan",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-16T19:00:00+01:00",
+    "key": "u35",
+    "label": "Moins de 3,5 buts",
+    "p": 0.8546,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "SP2-20261116-albacete-celta-b",
+    "match": "Albacete - Celta B",
+    "league": "Liga 2",
+    "ko": "2026-11-16T20:30:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8219,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-north-macedonia-slovenia",
+    "match": "North Macedonia - Slovenia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "a_scores",
+    "label": "Slovenia marque",
+    "p": 0.8223,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-greece-serbia",
+    "match": "Greece - Serbia",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "1N",
+    "label": "Greece ou nul",
+    "p": 0.8605,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-germany-netherlands",
+    "match": "Germany - Netherlands",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "h_scores",
+    "label": "Germany marque",
+    "p": 0.8677,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261116-gibraltar-malta",
+    "match": "Gibraltar - Malta",
+    "league": "Ligue des nations",
+    "ko": "2026-11-16T20:45:00+01:00",
+    "key": "N2",
+    "label": "Malta ou nul",
+    "p": 0.8737,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261117-singapore-brazil",
+    "match": "Singapore - Brazil",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-17T11:00:00+01:00",
+    "key": "o25",
+    "label": "Plus de 2,5 buts",
+    "p": 0.9057,
+    "odds": null,
+    "min_odds": 1.14,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261117-qatar-south-korea",
+    "match": "Qatar - South Korea",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-17T15:00:00+01:00",
+    "key": "a_scores",
+    "label": "South Korea marque",
+    "p": 0.8468,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261117-united-arab-emirates-syria",
+    "match": "United Arab Emirates - Syria",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-17T15:10:00+01:00",
+    "key": "h_scores",
+    "label": "United Arab Emirates marque",
+    "p": 0.8628,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261117-wales-portugal",
+    "match": "Wales - Portugal",
+    "league": "Ligue des nations",
+    "ko": "2026-11-17T20:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8402,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261117-israel-austria",
+    "match": "Israel - Austria",
+    "league": "Ligue des nations",
+    "ko": "2026-11-17T20:45:00+01:00",
+    "key": "a_scores",
+    "label": "Austria marque",
+    "p": 0.8407,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UNL-20261117-denmark-norway",
+    "match": "Denmark - Norway",
+    "league": "Ligue des nations",
+    "ko": "2026-11-17T20:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8533,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261118-argentina-costa-rica",
+    "match": "Argentina - Costa Rica",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-18T00:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.858,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261118-ecuador-bolivia",
+    "match": "Ecuador - Bolivia",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-18T00:30:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8229,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261118-uruguay-dominican-republic",
+    "match": "Uruguay - Dominican Republic",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-18T00:30:00+01:00",
+    "key": "1",
+    "label": "Victoire Uruguay",
+    "p": 0.8545,
+    "odds": 1.0833333333333333,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "tn-187509",
+    "match": "Daniil Medvedev - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-18T20:00:00+01:00",
+    "key": "s2",
+    "label": "Carlos Alcaraz gagne au moins un set",
+    "p": 0.8216,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "tn-187510",
+    "match": "Flavio Cobolli - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-18T20:00:00+01:00",
+    "key": "s2",
+    "label": "Carlos Alcaraz gagne au moins un set",
+    "p": 0.8924,
+    "odds": null,
+    "min_odds": 1.15,
+    "result": null
+   }
+  ],
+  "p": 0.04676,
+  "odds": 21.39,
+  "result": null,
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "uid": "combo:719d94031d",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186792",
+    "match": "Diletta Cherubini - Rebeka Masarova",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T15:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Diletta Cherubini",
+    "p": 0.3681,
+    "odds": null,
+    "min_odds": 2.8,
+    "result": null
+   },
+   {
+    "match_id": "tn-186793",
+    "match": "Ipek Oz - Leyre Romero Gormaz",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Ipek Oz",
+    "p": 0.4049,
+    "odds": null,
+    "min_odds": 2.54,
+    "result": null
+   },
+   {
+    "match_id": "tn-186784",
+    "match": "Carole Monnet - Victoria Jimenez Kasintseva",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T18:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Carole Monnet",
+    "p": 0.4656,
+    "odds": null,
+    "min_odds": 2.21,
+    "result": null
+   },
+   {
+    "match_id": "AMI-20261117-united-arab-emirates-syria",
+    "match": "United Arab Emirates - Syria",
+    "league": "Matchs amicaux internationaux",
+    "ko": "2026-11-17T15:10:00+01:00",
+    "key": "1",
+    "label": "Victoire United Arab Emirates",
+    "p": 0.6752,
+    "odds": 1.3773584905660377,
+    "min_odds": 1.53,
+    "result": null
+   },
+   {
+    "match_id": "tn-186791",
+    "match": "Varvara Lepchenko - Nadia Podoroska",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Varvara Lepchenko",
+    "p": 0.38,
+    "odds": null,
+    "min_odds": 2.71,
+    "result": null
+   },
+   {
+    "match_id": "tn-186785",
+    "match": "Alicia Herrero Linana - Lucia Bronzetti",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Alicia Herrero Linana",
+    "p": 0.4305,
+    "odds": null,
+    "min_odds": 2.39,
+    "result": null
+   },
+   {
+    "match_id": "tn-186790",
+    "match": "Miriam Bulgaru - Polona Hercog",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Miriam Bulgaru",
+    "p": 0.4863,
+    "odds": null,
+    "min_odds": 2.12,
+    "result": null
+   },
+   {
+    "match_id": "tn-186782",
+    "match": "Veronika Erjavec - Maria Lourdes Carle",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-17T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Maria Lourdes Carle",
+    "p": 0.4954,
+    "odds": null,
+    "min_odds": 2.08,
+    "result": null
+   },
+   {
+    "match_id": "tn-187509",
+    "match": "Daniil Medvedev - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-18T20:00:00+01:00",
+    "key": "s1",
+    "label": "Daniil Medvedev gagne au moins un set",
+    "p": 0.5314,
+    "odds": null,
+    "min_odds": 1.94,
+    "result": null
+   }
+  ],
+  "p": 0.00098,
+  "odds": 1018.95,
+  "result": null,
+  "created": "2026-11-16T14:10:56.176782+01:00"
+ },
+ {
+  "uid": "coup:f17f7b3a54",
+  "kind": "coup",
+  "name": "La grosse cote du jour",
+  "legs": [
+   {
+    "match_id": "tn-186792",
+    "match": "Diletta Cherubini - Rebeka Masarova",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-16T15:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Diletta Cherubini",
+    "p": 0.3681,
+    "odds": null,
+    "min_odds": 2.8,
+    "result": null
+   }
+  ],
+  "p": 0.36812,
+  "odds": 2.8,
+  "result": null,
+  "created": "2026-11-16T14:10:56.176782+01:00"
  }
 ]
