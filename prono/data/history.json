@@ -29325,7 +29325,7 @@
   "p": 0.5354,
   "odds": null,
   "min_odds": 1.92,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-187509:s1",
   "kind": "contre_pied",
   "created": "2026-11-15T07:45:40.097877+01:00"
@@ -29550,7 +29550,7 @@
   "p": 0.8216,
   "odds": null,
   "min_odds": 1.25,
-  "result": null,
+  "result": "won",
   "uid": "solide:tn-187509:s2",
   "kind": "solide",
   "created": "2026-11-15T07:45:40.097877+01:00"
@@ -29580,7 +29580,7 @@
   "p": 0.6483,
   "odds": null,
   "min_odds": 1.59,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-187509:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-15T07:45:40.097877+01:00"
@@ -32405,7 +32405,7 @@
   "p": 0.6332,
   "odds": null,
   "min_odds": 1.63,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186805:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-16T19:39:22.794726+01:00"
@@ -33323,7 +33323,7 @@
     "p": 0.8207,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187510",
@@ -33701,7 +33701,7 @@
     "p": 0.8207,
     "odds": null,
     "min_odds": 1.26,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187504",
@@ -33772,12 +33772,12 @@
     "p": 0.5299,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.17389,
   "odds": 6.28,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-18T00:33:31.025453+01:00"
  },
  {
@@ -33807,7 +33807,7 @@
     "p": 0.5299,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187504",
@@ -33848,7 +33848,7 @@
   ],
   "p": 0.04398,
   "odds": 26.36,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-18T00:33:31.025453+01:00"
  },
  {
@@ -33866,7 +33866,7 @@
     "p": 0.5299,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186805",
@@ -33878,7 +33878,7 @@
     "p": 0.5439,
     "odds": null,
     "min_odds": 1.89,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186803",
@@ -34003,7 +34003,7 @@
   ],
   "p": 0.00083,
   "odds": 1203.84,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-18T00:33:31.025453+01:00"
  },
  {
@@ -34021,7 +34021,7 @@
     "p": 0.5299,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187514",
@@ -34038,7 +34038,7 @@
   ],
   "p": 0.33865,
   "odds": 3.13,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-18T00:33:31.025453+01:00"
  },
  {
@@ -34071,7 +34071,7 @@
     "p": 0.5299,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187504",
@@ -34088,7 +34088,195 @@
   ],
   "p": 0.29068,
   "odds": 3.65,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-18T08:41:00.244172+01:00"
+ },
+ {
+  "uid": "combo:be672acbc3",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "tn-187504",
+    "match": "Arthur Fils - Alexander Zverev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T20:30:00+01:00",
+    "key": "s2",
+    "label": "Alexander Zverev gagne au moins un set",
+    "p": 0.8082,
+    "odds": null,
+    "min_odds": 1.27,
+    "result": null
+   },
+   {
+    "match_id": "tn-187510",
+    "match": "Flavio Cobolli - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Carlos Alcaraz",
+    "p": 0.8015,
+    "odds": null,
+    "min_odds": 1.29,
+    "result": null
+   }
+  ],
+  "p": 0.64777,
+  "odds": 1.64,
+  "result": null,
+  "created": "2026-11-18T18:20:09.745137+01:00"
+ },
+ {
+  "uid": "combo:ba824d2278",
+  "kind": "combo",
+  "name": "Petite chatte",
+  "legs": [
+   {
+    "match_id": "tn-187507",
+    "match": "Rafael Jodar - Ben Shelton",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T14:00:00+01:00",
+    "key": "s1",
+    "label": "Rafael Jodar gagne au moins un set",
+    "p": 0.5982,
+    "odds": null,
+    "min_odds": 1.72,
+    "result": null
+   },
+   {
+    "match_id": "tn-187504",
+    "match": "Arthur Fils - Alexander Zverev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T20:30:00+01:00",
+    "key": "s1",
+    "label": "Arthur Fils gagne au moins un set",
+    "p": 0.5486,
+    "odds": null,
+    "min_odds": 1.88,
+    "result": null
+   },
+   {
+    "match_id": "tn-187510",
+    "match": "Flavio Cobolli - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T20:00:00+01:00",
+    "key": "s1",
+    "label": "Flavio Cobolli gagne au moins un set",
+    "p": 0.3918,
+    "odds": null,
+    "min_odds": 2.63,
+    "result": null
+   }
+  ],
+  "p": 0.12859,
+  "odds": 8.5,
+  "result": null,
+  "created": "2026-11-18T18:20:09.745137+01:00"
+ },
+ {
+  "uid": "combo:79273ea5ee",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-187510",
+    "match": "Flavio Cobolli - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T20:00:00+01:00",
+    "key": "s1",
+    "label": "Flavio Cobolli gagne au moins un set",
+    "p": 0.3918,
+    "odds": null,
+    "min_odds": 2.63,
+    "result": null
+   },
+   {
+    "match_id": "tn-187504",
+    "match": "Arthur Fils - Alexander Zverev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T20:30:00+01:00",
+    "key": "s1",
+    "label": "Arthur Fils gagne au moins un set",
+    "p": 0.5486,
+    "odds": null,
+    "min_odds": 1.88,
+    "result": null
+   },
+   {
+    "match_id": "tn-187507",
+    "match": "Rafael Jodar - Ben Shelton",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T14:00:00+01:00",
+    "key": "s1",
+    "label": "Rafael Jodar gagne au moins un set",
+    "p": 0.5982,
+    "odds": null,
+    "min_odds": 1.72,
+    "result": null
+   },
+   {
+    "match_id": "tn-187514",
+    "match": "Frances Tiafoe - Flavio Cobolli",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-18T20:30:00+01:00",
+    "key": "s2",
+    "label": "Flavio Cobolli gagne au moins un set",
+    "p": 0.6391,
+    "odds": null,
+    "min_odds": 1.61,
+    "result": null
+   },
+   {
+    "match_id": "tn-187513",
+    "match": "Frances Tiafoe - Daniil Medvedev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T20:00:00+01:00",
+    "key": "s1",
+    "label": "Frances Tiafoe gagne au moins un set",
+    "p": 0.6491,
+    "odds": null,
+    "min_odds": 1.59,
+    "result": null
+   }
+  ],
+  "p": 0.05334,
+  "odds": 21.73,
+  "result": null,
+  "created": "2026-11-18T18:20:09.745137+01:00"
+ },
+ {
+  "uid": "coup:aab5a49f3a",
+  "kind": "coup",
+  "name": "La grosse cote du jour",
+  "legs": [
+   {
+    "match_id": "tn-187504",
+    "match": "Arthur Fils - Alexander Zverev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T20:30:00+01:00",
+    "key": "s1",
+    "label": "Arthur Fils gagne au moins un set",
+    "p": 0.5486,
+    "odds": null,
+    "min_odds": 1.88,
+    "result": null
+   },
+   {
+    "match_id": "tn-187507",
+    "match": "Rafael Jodar - Ben Shelton",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T14:00:00+01:00",
+    "key": "s1",
+    "label": "Rafael Jodar gagne au moins un set",
+    "p": 0.5982,
+    "odds": null,
+    "min_odds": 1.72,
+    "result": null
+   }
+  ],
+  "p": 0.32817,
+  "odds": 3.23,
+  "result": null,
+  "created": "2026-11-18T18:20:09.745137+01:00"
  }
 ]
