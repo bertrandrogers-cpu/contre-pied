@@ -30805,7 +30805,7 @@
   "p": 0.6359,
   "odds": null,
   "min_odds": 1.62,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-186794:jeux-:25.5",
   "kind": "stat",
   "created": "2026-11-15T22:05:41.614982+01:00"
@@ -31709,7 +31709,7 @@
   "p": 0.8853,
   "odds": null,
   "min_odds": 1.16,
-  "result": null,
+  "result": "won",
   "uid": "solide:AMI-20261118-uruguay-dominican-republic:o15",
   "kind": "solide",
   "created": "2026-11-16T14:10:56.176782+01:00"
@@ -31724,7 +31724,7 @@
   "p": 0.858,
   "odds": null,
   "min_odds": 1.2,
-  "result": null,
+  "result": "won",
   "uid": "solide:AMI-20261118-argentina-costa-rica:o15",
   "kind": "solide",
   "created": "2026-11-16T14:10:56.176782+01:00"
@@ -31754,7 +31754,7 @@
   "p": 0.8229,
   "odds": null,
   "min_odds": 1.25,
-  "result": null,
+  "result": "won",
   "uid": "solide:AMI-20261118-ecuador-bolivia:o15",
   "kind": "solide",
   "created": "2026-11-16T14:10:56.176782+01:00"
@@ -31789,7 +31789,7 @@
     "p": 0.8853,
     "odds": null,
     "min_odds": 1.16,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261116-germany-netherlands",
@@ -31818,7 +31818,7 @@
   ],
   "p": 0.66616,
   "odds": 1.64,
-  "result": null,
+  "result": "won",
   "created": "2026-11-16T14:10:56.176782+01:00"
  },
  {
@@ -32425,7 +32425,7 @@
     "p": 0.8853,
     "odds": null,
     "min_odds": 1.16,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261116-germany-netherlands",
@@ -32449,12 +32449,12 @@
     "p": 0.8597,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.67153,
   "odds": 1.63,
-  "result": null,
+  "result": "won",
   "created": "2026-11-16T19:39:22.794726+01:00"
  },
  {
@@ -32973,7 +32973,7 @@
   "p": 0.8623,
   "odds": 1.0909090909090908,
   "min_odds": 1.19,
-  "result": null,
+  "result": "won",
   "uid": "solide:AMI-20261118-uruguay-dominican-republic:1",
   "kind": "solide",
   "created": "2026-11-17T03:58:28.761338+01:00"
@@ -33038,7 +33038,7 @@
     "p": 0.8623,
     "odds": 1.0909090909090908,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261118-argentina-costa-rica",
@@ -33050,7 +33050,7 @@
     "p": 0.8566,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261117-qatar-south-korea",
@@ -33067,7 +33067,7 @@
   ],
   "p": 0.63011,
   "odds": 1.58,
-  "result": null,
+  "result": "won",
   "created": "2026-11-17T03:58:28.761338+01:00"
  },
  {
@@ -33287,7 +33287,7 @@
     "p": 0.8566,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261118-ecuador-bolivia",
@@ -33299,7 +33299,7 @@
     "p": 0.848,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261118-uruguay-dominican-republic",
@@ -33311,7 +33311,7 @@
     "p": 0.8623,
     "odds": 1.0909090909090908,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187509",
@@ -33549,7 +33549,7 @@
     "p": 0.8936,
     "odds": null,
     "min_odds": 1.15,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "AMI-20261118-argentina-costa-rica",
@@ -33561,7 +33561,7 @@
     "p": 0.866,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UNL-20261117-israel-austria",
@@ -33578,7 +33578,7 @@
   ],
   "p": 0.64849,
   "odds": 1.69,
-  "result": null,
+  "result": "won",
   "created": "2026-11-17T14:35:55.858521+01:00"
  },
  {
@@ -34040,5 +34040,55 @@
   "odds": 3.13,
   "result": null,
   "created": "2026-11-18T00:33:31.025453+01:00"
+ },
+ {
+  "match_id": "tn-186804",
+  "match": "Andrea Lazaro Garcia - Fernanda Labrana",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-19T20:00:00+01:00",
+  "key": "jeux+:19.5",
+  "label": "Plus de 19,5 jeux dans le match",
+  "p": 0.6344,
+  "odds": null,
+  "min_odds": 1.62,
+  "result": null,
+  "uid": "stat:tn-186804:jeux+:19.5",
+  "kind": "stat",
+  "created": "2026-11-18T08:41:00.244172+01:00"
+ },
+ {
+  "uid": "coup:1754109b6f",
+  "kind": "coup",
+  "name": "La grosse cote du jour",
+  "legs": [
+   {
+    "match_id": "tn-187509",
+    "match": "Daniil Medvedev - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-18T14:00:00+01:00",
+    "key": "s1",
+    "label": "Daniil Medvedev gagne au moins un set",
+    "p": 0.5299,
+    "odds": null,
+    "min_odds": 1.94,
+    "result": null
+   },
+   {
+    "match_id": "tn-187504",
+    "match": "Arthur Fils - Alexander Zverev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T20:30:00+01:00",
+    "key": "s1",
+    "label": "Arthur Fils gagne au moins un set",
+    "p": 0.5486,
+    "odds": null,
+    "min_odds": 1.88,
+    "result": null
+   }
+  ],
+  "p": 0.29068,
+  "odds": 3.65,
+  "result": null,
+  "created": "2026-11-18T08:41:00.244172+01:00"
  }
 ]
