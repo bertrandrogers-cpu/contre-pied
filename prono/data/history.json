@@ -29220,7 +29220,7 @@
   "p": 0.6005,
   "odds": null,
   "min_odds": 1.72,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-187514:w1",
   "kind": "contre_pied",
   "created": "2026-11-15T07:45:40.097877+01:00"
@@ -30240,7 +30240,7 @@
   "p": 0.6401,
   "odds": null,
   "min_odds": 1.61,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-187514:jeux+:20.5",
   "kind": "stat",
   "created": "2026-11-15T16:42:39.691347+01:00"
@@ -32943,7 +32943,7 @@
   "p": 0.6391,
   "odds": null,
   "min_odds": 1.61,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-187514:s2",
   "kind": "contre_pied",
   "created": "2026-11-17T03:58:28.761338+01:00"
@@ -33606,7 +33606,7 @@
   "p": 0.7931,
   "odds": null,
   "min_odds": 1.3,
-  "result": null,
+  "result": "won",
   "uid": "solide:tn-186803:s2",
   "kind": "solide",
   "created": "2026-11-18T00:33:31.025453+01:00"
@@ -33651,7 +33651,7 @@
   "p": 0.6439,
   "odds": null,
   "min_odds": 1.6,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-186807:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-18T00:33:31.025453+01:00"
@@ -33681,7 +33681,7 @@
   "p": 0.633,
   "odds": null,
   "min_odds": 1.63,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186802:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-18T00:33:31.025453+01:00"
@@ -34224,7 +34224,7 @@
     "p": 0.6391,
     "odds": null,
     "min_odds": 1.61,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187513",
@@ -34241,7 +34241,7 @@
   ],
   "p": 0.05334,
   "odds": 21.73,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-18T18:20:09.745137+01:00"
  },
  {
@@ -34278,5 +34278,114 @@
   "odds": 3.23,
   "result": null,
   "created": "2026-11-18T18:20:09.745137+01:00"
+ },
+ {
+  "match_id": "tn-186798",
+  "match": "Laura Samson - Rebeka Masarova",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-20T20:00:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6235,
+  "odds": null,
+  "min_odds": 1.65,
+  "result": null,
+  "uid": "stat:tn-186798:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-19T02:54:46.474374+01:00"
+ },
+ {
+  "uid": "combo:862767d81e",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-187510",
+    "match": "Flavio Cobolli - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T14:00:00+01:00",
+    "key": "s1",
+    "label": "Flavio Cobolli gagne au moins un set",
+    "p": 0.3848,
+    "odds": null,
+    "min_odds": 2.68,
+    "result": null
+   },
+   {
+    "match_id": "tn-187504",
+    "match": "Arthur Fils - Alexander Zverev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T20:30:00+01:00",
+    "key": "s1",
+    "label": "Arthur Fils gagne au moins un set",
+    "p": 0.5486,
+    "odds": null,
+    "min_odds": 1.88,
+    "result": null
+   },
+   {
+    "match_id": "tn-187507",
+    "match": "Rafael Jodar - Ben Shelton",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T14:00:00+01:00",
+    "key": "s1",
+    "label": "Rafael Jodar gagne au moins un set",
+    "p": 0.5982,
+    "odds": null,
+    "min_odds": 1.72,
+    "result": null
+   },
+   {
+    "match_id": "tn-187513",
+    "match": "Frances Tiafoe - Daniil Medvedev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T20:30:00+01:00",
+    "key": "s1",
+    "label": "Frances Tiafoe gagne au moins un set",
+    "p": 0.6551,
+    "odds": null,
+    "min_odds": 1.57,
+    "result": null
+   },
+   {
+    "match_id": "tn-186809",
+    "match": "Carole Monnet - Lucia Bronzetti",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-19T15:30:00+01:00",
+    "key": "jeux+:19.5",
+    "label": "Plus de 19,5 jeux dans le match",
+    "p": 0.6472,
+    "odds": null,
+    "min_odds": 1.59,
+    "result": null
+   }
+  ],
+  "p": 0.05354,
+  "odds": 21.65,
+  "result": null,
+  "created": "2026-11-19T02:54:46.474374+01:00"
+ },
+ {
+  "uid": "coup:75977b6a96",
+  "kind": "coup",
+  "name": "La grosse cote du jour",
+  "legs": [
+   {
+    "match_id": "tn-187510",
+    "match": "Flavio Cobolli - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T14:00:00+01:00",
+    "key": "s1",
+    "label": "Flavio Cobolli gagne au moins un set",
+    "p": 0.3848,
+    "odds": null,
+    "min_odds": 2.68,
+    "result": null
+   }
+  ],
+  "p": 0.38475,
+  "odds": 2.68,
+  "result": null,
+  "created": "2026-11-19T02:54:46.474374+01:00"
  }
 ]
