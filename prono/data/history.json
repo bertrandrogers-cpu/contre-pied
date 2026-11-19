@@ -34387,5 +34387,76 @@
   "odds": 2.68,
   "result": null,
   "created": "2026-11-19T02:54:46.474374+01:00"
+ },
+ {
+  "uid": "combo:09a2c49765",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-187510",
+    "match": "Flavio Cobolli - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T14:00:00+01:00",
+    "key": "s1",
+    "label": "Flavio Cobolli gagne au moins un set",
+    "p": 0.3848,
+    "odds": null,
+    "min_odds": 2.68,
+    "result": null
+   },
+   {
+    "match_id": "tn-187504",
+    "match": "Arthur Fils - Alexander Zverev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-19T20:30:00+01:00",
+    "key": "s1",
+    "label": "Arthur Fils gagne au moins un set",
+    "p": 0.5486,
+    "odds": null,
+    "min_odds": 1.88,
+    "result": null
+   },
+   {
+    "match_id": "tn-187513",
+    "match": "Frances Tiafoe - Daniil Medvedev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T20:30:00+01:00",
+    "key": "s1",
+    "label": "Frances Tiafoe gagne au moins un set",
+    "p": 0.6551,
+    "odds": null,
+    "min_odds": 1.57,
+    "result": null
+   },
+   {
+    "match_id": "tn-186809",
+    "match": "Carole Monnet - Lucia Bronzetti",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-19T15:30:00+01:00",
+    "key": "jeux+:19.5",
+    "label": "Plus de 19,5 jeux dans le match",
+    "p": 0.6472,
+    "odds": null,
+    "min_odds": 1.59,
+    "result": null
+   },
+   {
+    "match_id": "tn-186808",
+    "match": "Veronika Erjavec - Valeriya Strakhova",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-19T17:00:00+01:00",
+    "key": "jeux-:25.5",
+    "label": "Moins de 25,5 jeux dans le match",
+    "p": 0.6444,
+    "odds": null,
+    "min_odds": 1.6,
+    "result": null
+   }
+  ],
+  "p": 0.05767,
+  "odds": 20.1,
+  "result": null,
+  "created": "2026-11-19T14:26:42.299181+01:00"
  }
 ]
