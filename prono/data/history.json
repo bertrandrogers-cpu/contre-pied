@@ -29280,7 +29280,7 @@
   "p": 0.6351,
   "odds": null,
   "min_odds": 1.62,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-187507:s1",
   "kind": "contre_pied",
   "created": "2026-11-15T07:45:40.097877+01:00"
@@ -29310,7 +29310,7 @@
   "p": 0.5708,
   "odds": null,
   "min_odds": 1.8,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-187504:s1",
   "kind": "contre_pied",
   "created": "2026-11-15T07:45:40.097877+01:00"
@@ -30850,7 +30850,7 @@
   "p": 0.6343,
   "odds": null,
   "min_odds": 1.62,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-187507:jeux+:20.5",
   "kind": "stat",
   "created": "2026-11-15T22:05:41.614982+01:00"
@@ -31121,7 +31121,7 @@
   "p": 0.8106,
   "odds": null,
   "min_odds": 1.27,
-  "result": null,
+  "result": "won",
   "uid": "solide:tn-187504:s2",
   "kind": "solide",
   "created": "2026-11-16T07:44:23.792728+01:00"
@@ -33018,7 +33018,7 @@
   "p": 0.6315,
   "odds": null,
   "min_odds": 1.63,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-187504:jeux-:25.5",
   "kind": "stat",
   "created": "2026-11-17T03:58:28.761338+01:00"
@@ -33621,7 +33621,7 @@
   "p": 0.6472,
   "odds": null,
   "min_odds": 1.59,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186809:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-18T00:33:31.025453+01:00"
@@ -33636,7 +33636,7 @@
   "p": 0.6444,
   "odds": null,
   "min_odds": 1.6,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186808:jeux-:25.5",
   "kind": "stat",
   "created": "2026-11-18T00:33:31.025453+01:00"
@@ -33666,7 +33666,7 @@
   "p": 0.6423,
   "odds": null,
   "min_odds": 1.6,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186806:jeux-:25.5",
   "kind": "stat",
   "created": "2026-11-18T00:33:31.025453+01:00"
@@ -33713,7 +33713,7 @@
     "p": 0.8082,
     "odds": null,
     "min_odds": 1.27,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187510",
@@ -34106,7 +34106,7 @@
     "p": 0.8082,
     "odds": null,
     "min_odds": 1.27,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-187510",
@@ -34141,7 +34141,7 @@
     "p": 0.5982,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187504",
@@ -34153,7 +34153,7 @@
     "p": 0.5486,
     "odds": null,
     "min_odds": 1.88,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187510",
@@ -34170,7 +34170,7 @@
   ],
   "p": 0.12859,
   "odds": 8.5,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-18T18:20:09.745137+01:00"
  },
  {
@@ -34259,7 +34259,7 @@
     "p": 0.5486,
     "odds": null,
     "min_odds": 1.88,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187507",
@@ -34271,12 +34271,12 @@
     "p": 0.5982,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.32817,
   "odds": 3.23,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-18T18:20:09.745137+01:00"
  },
  {
@@ -34321,7 +34321,7 @@
     "p": 0.5486,
     "odds": null,
     "min_odds": 1.88,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187507",
@@ -34333,7 +34333,7 @@
     "p": 0.5982,
     "odds": null,
     "min_odds": 1.72,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187513",
@@ -34357,12 +34357,12 @@
     "p": 0.6472,
     "odds": null,
     "min_odds": 1.59,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.05354,
   "odds": 21.65,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-19T02:54:46.474374+01:00"
  },
  {
@@ -34415,7 +34415,7 @@
     "p": 0.5486,
     "odds": null,
     "min_odds": 1.88,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-187513",
@@ -34439,7 +34439,7 @@
     "p": 0.6472,
     "odds": null,
     "min_odds": 1.59,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186808",
@@ -34451,12 +34451,113 @@
     "p": 0.6444,
     "odds": null,
     "min_odds": 1.6,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.05767,
   "odds": 20.1,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-19T14:26:42.299181+01:00"
+ },
+ {
+  "match_id": "tn-186801",
+  "match": "Irene Burillo - Leyre Romero Gormaz",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-20T16:00:00+01:00",
+  "key": "jeux-:25.5",
+  "label": "Moins de 25,5 jeux dans le match",
+  "p": 0.6468,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:tn-186801:jeux-:25.5",
+  "kind": "stat",
+  "created": "2026-11-20T00:06:00.451361+01:00"
+ },
+ {
+  "match_id": "tn-186800",
+  "match": "Valeriya Strakhova - Lucia Bronzetti",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-20T17:30:00+01:00",
+  "key": "jeux-:25.5",
+  "label": "Moins de 25,5 jeux dans le match",
+  "p": 0.6293,
+  "odds": null,
+  "min_odds": 1.64,
+  "result": null,
+  "uid": "stat:tn-186800:jeux-:25.5",
+  "kind": "stat",
+  "created": "2026-11-20T00:06:00.451361+01:00"
+ },
+ {
+  "uid": "combo:34ecad42cd",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-187510",
+    "match": "Flavio Cobolli - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T14:00:00+01:00",
+    "key": "s1",
+    "label": "Flavio Cobolli gagne au moins un set",
+    "p": 0.3848,
+    "odds": null,
+    "min_odds": 2.68,
+    "result": null
+   },
+   {
+    "match_id": "tn-187513",
+    "match": "Frances Tiafoe - Daniil Medvedev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T20:30:00+01:00",
+    "key": "s1",
+    "label": "Frances Tiafoe gagne au moins un set",
+    "p": 0.6551,
+    "odds": null,
+    "min_odds": 1.57,
+    "result": null
+   },
+   {
+    "match_id": "tn-186801",
+    "match": "Irene Burillo - Leyre Romero Gormaz",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-20T16:00:00+01:00",
+    "key": "jeux-:25.5",
+    "label": "Moins de 25,5 jeux dans le match",
+    "p": 0.6468,
+    "odds": null,
+    "min_odds": 1.59,
+    "result": null
+   },
+   {
+    "match_id": "tn-186800",
+    "match": "Valeriya Strakhova - Lucia Bronzetti",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-20T17:30:00+01:00",
+    "key": "jeux-:25.5",
+    "label": "Moins de 25,5 jeux dans le match",
+    "p": 0.6293,
+    "odds": null,
+    "min_odds": 1.64,
+    "result": null
+   },
+   {
+    "match_id": "tn-186798",
+    "match": "Laura Samson - Rebeka Masarova",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-20T23:00:00+01:00",
+    "key": "jeux-:24.5",
+    "label": "Moins de 24,5 jeux dans le match",
+    "p": 0.6235,
+    "odds": null,
+    "min_odds": 1.65,
+    "result": null
+   }
+  ],
+  "p": 0.06397,
+  "odds": 18.12,
+  "result": null,
+  "created": "2026-11-20T00:06:00.451361+01:00"
  }
 ]
