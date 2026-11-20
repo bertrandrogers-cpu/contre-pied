@@ -34051,7 +34051,7 @@
   "p": 0.6344,
   "odds": null,
   "min_odds": 1.62,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186804:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-18T08:41:00.244172+01:00"
@@ -34559,5 +34559,91 @@
   "odds": 18.12,
   "result": null,
   "created": "2026-11-20T00:06:00.451361+01:00"
+ },
+ {
+  "match_id": "tn-186799",
+  "match": "Andrea Lazaro Garcia - Guiomar Maristany Zuleta De Reales",
+  "league": "WTA · LP Open by IND",
+  "ko": "2026-11-20T21:30:00+01:00",
+  "key": "jeux+:19.5",
+  "label": "Plus de 19,5 jeux dans le match",
+  "p": 0.6373,
+  "odds": null,
+  "min_odds": 1.62,
+  "result": null,
+  "uid": "stat:tn-186799:jeux+:19.5",
+  "kind": "stat",
+  "created": "2026-11-20T08:27:34.307619+01:00"
+ },
+ {
+  "uid": "combo:7bd4e9553c",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-187510",
+    "match": "Flavio Cobolli - Carlos Alcaraz",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T14:00:00+01:00",
+    "key": "s1",
+    "label": "Flavio Cobolli gagne au moins un set",
+    "p": 0.3848,
+    "odds": null,
+    "min_odds": 2.68,
+    "result": null
+   },
+   {
+    "match_id": "tn-187513",
+    "match": "Frances Tiafoe - Daniil Medvedev",
+    "league": "ATP · Nitto ATP Finals",
+    "ko": "2026-11-20T20:30:00+01:00",
+    "key": "s1",
+    "label": "Frances Tiafoe gagne au moins un set",
+    "p": 0.6551,
+    "odds": null,
+    "min_odds": 1.57,
+    "result": null
+   },
+   {
+    "match_id": "tn-186801",
+    "match": "Irene Burillo - Leyre Romero Gormaz",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-20T16:00:00+01:00",
+    "key": "jeux-:25.5",
+    "label": "Moins de 25,5 jeux dans le match",
+    "p": 0.6468,
+    "odds": null,
+    "min_odds": 1.59,
+    "result": null
+   },
+   {
+    "match_id": "tn-186799",
+    "match": "Andrea Lazaro Garcia - Guiomar Maristany Zuleta De Reales",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-20T21:30:00+01:00",
+    "key": "jeux+:19.5",
+    "label": "Plus de 19,5 jeux dans le match",
+    "p": 0.6373,
+    "odds": null,
+    "min_odds": 1.62,
+    "result": null
+   },
+   {
+    "match_id": "tn-186800",
+    "match": "Valeriya Strakhova - Lucia Bronzetti",
+    "league": "WTA · LP Open by IND",
+    "ko": "2026-11-20T17:30:00+01:00",
+    "key": "jeux-:25.5",
+    "label": "Moins de 25,5 jeux dans le match",
+    "p": 0.6293,
+    "odds": null,
+    "min_odds": 1.64,
+    "result": null
+   }
+  ],
+  "p": 0.06539,
+  "odds": 17.73,
+  "result": null,
+  "created": "2026-11-20T08:27:34.307619+01:00"
  }
 ]
