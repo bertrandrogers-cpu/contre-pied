@@ -36936,7 +36936,7 @@
   "p": 0.8529,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:UCL-20261124-slovan-bratislava-betis:12",
   "kind": "solide",
   "created": "2026-11-21T22:42:06.324469+01:00"
@@ -36951,7 +36951,7 @@
   "p": 0.8491,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "lost",
   "uid": "solide:UCL-20261124-man-city-napoli:12",
   "kind": "solide",
   "created": "2026-11-21T22:42:06.324469+01:00"
@@ -38296,7 +38296,7 @@
   "p": 0.8396,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UCL-20261124-como-aek:12",
   "kind": "solide",
   "created": "2026-11-22T17:22:55.628675+01:00"
@@ -39298,7 +39298,7 @@
   "p": 0.6467,
   "odds": null,
   "min_odds": 1.59,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186814:jeux-:25.5",
   "kind": "stat",
   "created": "2026-11-23T01:57:26.450796+01:00"
@@ -39624,7 +39624,7 @@
     "p": 0.8288,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186826",
@@ -39648,7 +39648,7 @@
     "p": 0.8219,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261124-real-madrid-psv-eindhoven",
@@ -39660,7 +39660,7 @@
     "p": 0.8343,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-slavia-prague-villarreal",
@@ -40120,7 +40120,7 @@
   "p": 0.5467,
   "odds": null,
   "min_odds": 1.88,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-186820:w2",
   "kind": "contre_pied",
   "created": "2026-11-23T15:52:16.941523+01:00"
@@ -40195,7 +40195,7 @@
   "p": 0.4649,
   "odds": null,
   "min_odds": 2.22,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-186827:w2",
   "kind": "contre_pied",
   "created": "2026-11-23T15:52:16.941523+01:00"
@@ -40210,7 +40210,7 @@
   "p": 0.4204,
   "odds": null,
   "min_odds": 2.45,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:tn-186818:w1",
   "kind": "contre_pied",
   "created": "2026-11-23T15:52:16.941523+01:00"
@@ -40225,7 +40225,7 @@
   "p": 0.6461,
   "odds": null,
   "min_odds": 1.59,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-186827:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-23T15:52:16.941523+01:00"
@@ -40240,7 +40240,7 @@
   "p": 0.6454,
   "odds": null,
   "min_odds": 1.6,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-186821:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-23T15:52:16.941523+01:00"
@@ -40305,7 +40305,7 @@
     "p": 0.4204,
     "odds": null,
     "min_odds": 2.45,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186827",
@@ -40317,7 +40317,7 @@
     "p": 0.4649,
     "odds": null,
     "min_odds": 2.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186828",
@@ -40412,7 +40412,7 @@
     "p": 0.8297,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186826",
@@ -40436,7 +40436,7 @@
     "p": 0.8219,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261124-real-madrid-psv-eindhoven",
@@ -40448,7 +40448,7 @@
     "p": 0.8346,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-slavia-prague-villarreal",
@@ -40854,12 +40854,12 @@
     "p": 0.4204,
     "odds": null,
     "min_odds": 2.45,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.15882,
   "odds": 6.88,
-  "result": null,
+  "result": "won",
   "created": "2026-11-23T15:52:16.941523+01:00"
  },
  {
@@ -40990,7 +40990,7 @@
     "p": 0.8297,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186826",
@@ -41014,7 +41014,7 @@
     "p": 0.8219,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261124-real-madrid-psv-eindhoven",
@@ -41026,7 +41026,7 @@
     "p": 0.8346,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-slavia-prague-villarreal",
@@ -41278,7 +41278,7 @@
   "p": 0.8347,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UCL-20261124-real-madrid-psv-eindhoven:o25",
   "kind": "solide",
   "created": "2026-11-24T03:56:34.089323+01:00"
@@ -41323,7 +41323,7 @@
   "p": 0.64,
   "odds": null,
   "min_odds": 1.61,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-186819:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-24T03:56:34.089323+01:00"
@@ -41338,7 +41338,7 @@
   "p": 0.6391,
   "odds": null,
   "min_odds": 1.61,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-186820:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-24T03:56:34.089323+01:00"
@@ -41353,7 +41353,7 @@
   "p": 0.6346,
   "odds": null,
   "min_odds": 1.62,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186818:jeux-:25.5",
   "kind": "stat",
   "created": "2026-11-24T03:56:34.089323+01:00"
@@ -41462,7 +41462,7 @@
     "p": 0.5467,
     "odds": null,
     "min_odds": 1.88,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186825",
@@ -41479,7 +41479,7 @@
   ],
   "p": 0.16248,
   "odds": 6.73,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-24T03:56:34.089323+01:00"
  },
  {
@@ -41497,7 +41497,7 @@
     "p": 0.825,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186826",
@@ -41521,7 +41521,7 @@
     "p": 0.8207,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UCL-20261124-rb-leipzig-lens",
@@ -41533,7 +41533,7 @@
     "p": 0.8255,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261124-real-madrid-psv-eindhoven",
@@ -41545,7 +41545,7 @@
     "p": 0.8347,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-slavia-prague-villarreal",
@@ -41778,7 +41778,7 @@
   ],
   "p": 0.01206,
   "odds": 82.92,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-24T03:56:34.089323+01:00"
  },
  {
@@ -41796,7 +41796,7 @@
     "p": 0.5467,
     "odds": null,
     "min_odds": 1.88,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186818",
@@ -41808,7 +41808,7 @@
     "p": 0.4204,
     "odds": null,
     "min_odds": 2.45,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186826",
@@ -41832,7 +41832,7 @@
     "p": 0.4649,
     "odds": null,
     "min_odds": 2.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186825",
@@ -41856,7 +41856,7 @@
     "p": 0.6839,
     "odds": 1.392156862745098,
     "min_odds": 1.51,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186828",
@@ -41945,7 +41945,7 @@
   ],
   "p": 0.00094,
   "odds": 1060.43,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-24T03:56:34.089323+01:00"
  },
  {
@@ -41963,7 +41963,7 @@
     "p": 0.4204,
     "odds": null,
     "min_odds": 2.45,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186827",
@@ -41975,12 +41975,12 @@
     "p": 0.4649,
     "odds": null,
     "min_odds": 2.22,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.19541,
   "odds": 5.43,
-  "result": null,
+  "result": "won",
   "created": "2026-11-24T03:56:34.089323+01:00"
  },
  {
@@ -42362,7 +42362,7 @@
     "p": 0.4204,
     "odds": null,
     "min_odds": 2.45,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186827",
@@ -42374,7 +42374,7 @@
     "p": 0.4649,
     "odds": null,
     "min_odds": 2.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E1-20261124-bristol-city-wrexham",
@@ -42433,7 +42433,7 @@
     "p": 0.83,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UCL-20261124-bodo-glimt-lask",
@@ -42445,7 +42445,7 @@
     "p": 0.835,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186826",
@@ -42541,7 +42541,7 @@
     "p": 0.8367,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-slavia-prague-villarreal",
@@ -42714,7 +42714,7 @@
   ],
   "p": 0.01184,
   "odds": 84.45,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-24T15:57:44.462636+01:00"
  },
  {
@@ -42732,7 +42732,7 @@
     "p": 0.4204,
     "odds": null,
     "min_odds": 2.45,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261124-bodo-glimt-lask",
@@ -42744,7 +42744,7 @@
     "p": 0.6985,
     "odds": 1.3703703703703702,
     "min_odds": 1.47,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186826",
@@ -42780,7 +42780,7 @@
     "p": 0.4649,
     "odds": null,
     "min_odds": 2.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186825",
@@ -42816,7 +42816,7 @@
     "p": 0.7425,
     "odds": 1.2777777777777777,
     "min_odds": 1.39,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E1-20261124-wolves-derby",
@@ -42935,12 +42935,750 @@
     "p": 0.4204,
     "odds": null,
     "min_odds": 2.45,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.14757,
   "odds": 7.4,
   "result": null,
   "created": "2026-11-24T15:57:44.462636+01:00"
+ },
+ {
+  "match_id": "UECL-20261126-inter-f-c-k-benhavn",
+  "match": "Inter - F.C. København",
+  "league": "Ligue Conférence",
+  "ko": "2026-11-26T21:00:00+01:00",
+  "key": "12",
+  "label": "Pas de match nul",
+  "p": 0.8352,
+  "odds": null,
+  "min_odds": 1.23,
+  "result": null,
+  "uid": "solide:UECL-20261126-inter-f-c-k-benhavn:12",
+  "kind": "solide",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "match_id": "UEL-20261126-nijmegen-rennes",
+  "match": "Nijmegen - Rennes",
+  "league": "Ligue Europa",
+  "ko": "2026-11-26T21:00:00+01:00",
+  "key": "a_scores",
+  "label": "Rennes marque",
+  "p": 0.8314,
+  "odds": null,
+  "min_odds": 1.24,
+  "result": null,
+  "uid": "solide:UEL-20261126-nijmegen-rennes:a_scores",
+  "kind": "solide",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "match_id": "UECL-20261126-brighton-csu-craiova",
+  "match": "Brighton - CSU Craiova",
+  "league": "Ligue Conférence",
+  "ko": "2026-11-26T18:45:00+01:00",
+  "key": "1",
+  "label": "Victoire Brighton",
+  "p": 0.8304,
+  "odds": 1.1428571428571428,
+  "min_odds": 1.24,
+  "result": null,
+  "uid": "solide:UECL-20261126-brighton-csu-craiova:1",
+  "kind": "solide",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "match_id": "UECL-20261126-sp-braga-kups",
+  "match": "Sp Braga - KuPS",
+  "league": "Ligue Conférence",
+  "ko": "2026-11-26T21:00:00+01:00",
+  "key": "1",
+  "label": "Victoire Sp Braga",
+  "p": 0.8302,
+  "odds": 1.1428571428571428,
+  "min_odds": 1.24,
+  "result": null,
+  "uid": "solide:UECL-20261126-sp-braga-kups:1",
+  "kind": "solide",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "match_id": "E2-20261126-doncaster-huddersfield",
+  "match": "Doncaster - Huddersfield",
+  "league": "League One",
+  "ko": "2026-11-26T21:00:00+01:00",
+  "key": "cadres-:9.5",
+  "label": "Moins de 9,5 tirs cadrés",
+  "p": 0.6482,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:E2-20261126-doncaster-huddersfield:cadres-:9.5",
+  "kind": "stat",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "match_id": "E1-20261125-burnley-birmingham",
+  "match": "Burnley - Birmingham",
+  "league": "Championship",
+  "ko": "2026-11-25T20:45:00+01:00",
+  "key": "tirs-:28.5",
+  "label": "Moins de 28,5 tirs",
+  "p": 0.6474,
+  "odds": null,
+  "min_odds": 1.59,
+  "result": null,
+  "uid": "stat:E1-20261125-burnley-birmingham:tirs-:28.5",
+  "kind": "stat",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "match_id": "I2-20261125-cremonese-avellino",
+  "match": "Cremonese - Avellino",
+  "league": "Serie B",
+  "ko": "2026-11-25T19:00:00+01:00",
+  "key": "tirs-:27.5",
+  "label": "Moins de 27,5 tirs",
+  "p": 0.6457,
+  "odds": null,
+  "min_odds": 1.6,
+  "result": null,
+  "uid": "stat:I2-20261125-cremonese-avellino:tirs-:27.5",
+  "kind": "stat",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "match_id": "I2-20261125-cremonese-avellino",
+  "match": "Cremonese - Avellino",
+  "league": "Serie B",
+  "ko": "2026-11-25T19:00:00+01:00",
+  "key": "cadres-:9.5",
+  "label": "Moins de 9,5 tirs cadrés",
+  "p": 0.643,
+  "odds": null,
+  "min_odds": 1.6,
+  "result": null,
+  "uid": "stat:I2-20261125-cremonese-avellino:cadres-:9.5",
+  "kind": "stat",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "match_id": "E1-20261125-stoke-millwall",
+  "match": "Stoke - Millwall",
+  "league": "Championship",
+  "ko": "2026-11-25T21:00:00+01:00",
+  "key": "tirs-:27.5",
+  "label": "Moins de 27,5 tirs",
+  "p": 0.6422,
+  "odds": null,
+  "min_odds": 1.6,
+  "result": null,
+  "uid": "stat:E1-20261125-stoke-millwall:tirs-:27.5",
+  "kind": "stat",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "match_id": "E1-20261125-watford-blackburn",
+  "match": "Watford - Blackburn",
+  "league": "Championship",
+  "ko": "2026-11-25T20:45:00+01:00",
+  "key": "cadres-:8.5",
+  "label": "Moins de 8,5 tirs cadrés",
+  "p": 0.6401,
+  "odds": null,
+  "min_odds": 1.61,
+  "result": null,
+  "uid": "stat:E1-20261125-watford-blackburn:cadres-:8.5",
+  "kind": "stat",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "match_id": "E2-20261126-doncaster-huddersfield",
+  "match": "Doncaster - Huddersfield",
+  "league": "League One",
+  "ko": "2026-11-26T21:00:00+01:00",
+  "key": "tirs+:22.5",
+  "label": "Plus de 22,5 tirs",
+  "p": 0.6395,
+  "odds": null,
+  "min_odds": 1.61,
+  "result": null,
+  "uid": "stat:E2-20261126-doncaster-huddersfield:tirs+:22.5",
+  "kind": "stat",
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "uid": "combo:15453ef7fe",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "tn-186828",
+    "match": "Maria Lourdes Carle - Sol Ailin Larraya Guidi",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-25T19:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Sol Ailin Larraya Guidi",
+    "p": 0.5164,
+    "odds": null,
+    "min_odds": 1.99,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-ofi-crete-anderlecht",
+    "match": "OFI Crete - Anderlecht",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5808,
+    "odds": null,
+    "min_odds": 1.77,
+    "result": null
+   },
+   {
+    "match_id": "I2-20261125-pisa-modena",
+    "match": "Pisa - Modena",
+    "league": "Serie B",
+    "ko": "2026-11-25T20:00:00+01:00",
+    "key": "cadres+:6.5",
+    "label": "Plus de 6,5 tirs cadrés",
+    "p": 0.6683,
+    "odds": null,
+    "min_odds": 1.54,
+    "result": null
+   },
+   {
+    "match_id": "E1-20261125-stoke-millwall",
+    "match": "Stoke - Millwall",
+    "league": "Championship",
+    "ko": "2026-11-25T21:00:00+01:00",
+    "key": "cadres-:8.5",
+    "label": "Moins de 8,5 tirs cadrés",
+    "p": 0.6595,
+    "odds": null,
+    "min_odds": 1.56,
+    "result": null
+   },
+   {
+    "match_id": "E1-20261125-bolton-west-brom",
+    "match": "Bolton - West Brom",
+    "league": "Championship",
+    "ko": "2026-11-25T20:45:00+01:00",
+    "key": "cadres-:9.5",
+    "label": "Moins de 9,5 tirs cadrés",
+    "p": 0.6539,
+    "odds": null,
+    "min_odds": 1.58,
+    "result": null
+   }
+  ],
+  "p": 0.08643,
+  "odds": 13.41,
+  "result": null,
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "uid": "combo:2b6346b575",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "UCL-20261125-slavia-prague-villarreal",
+    "match": "Slavia Prague - Villarreal",
+    "league": "Ligue des champions",
+    "ko": "2026-11-25T18:45:00+01:00",
+    "key": "a_scores",
+    "label": "Villarreal marque",
+    "p": 0.8401,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "I2-20261125-mantova-arezzo",
+    "match": "Mantova - Arezzo",
+    "league": "Serie B",
+    "ko": "2026-11-25T20:00:00+01:00",
+    "key": "h_scores",
+    "label": "Mantova marque",
+    "p": 0.8367,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UCL-20261125-inter-stuttgart",
+    "match": "Inter - Stuttgart",
+    "league": "Ligue des champions",
+    "ko": "2026-11-25T21:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8259,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UCL-20261125-sp-lisbon-man-united",
+    "match": "Sp Lisbon - Man United",
+    "league": "Ligue des champions",
+    "ko": "2026-11-25T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8466,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "tn-186840",
+    "match": "Carole Monnet - Solana Sierra",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-25T22:00:00+01:00",
+    "key": "s2",
+    "label": "Solana Sierra gagne au moins un set",
+    "p": 0.8276,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-st-gilloise-lech-poznan",
+    "match": "St. Gilloise - Lech Poznan",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8239,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-egnatia-lincoln",
+    "match": "Egnatia - Lincoln",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "1N",
+    "label": "Egnatia ou nul",
+    "p": 0.8255,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-brighton-csu-craiova",
+    "match": "Brighton - CSU Craiova",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Brighton",
+    "p": 0.8304,
+    "odds": 1.1428571428571428,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-brann-agf",
+    "match": "Brann - AGF",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "h_scores",
+    "label": "Brann marque",
+    "p": 0.8377,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-viktoria-plzen-benfica",
+    "match": "Viktoria Plzen - Benfica",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "N2",
+    "label": "Benfica ou nul",
+    "p": 0.8388,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-hearts-monaco",
+    "match": "Hearts - Monaco",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8388,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-hoffenheim-sturm-graz",
+    "match": "Hoffenheim - Sturm Graz",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8251,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-crystal-palace-sociedad",
+    "match": "Crystal Palace - Sociedad",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "h_scores",
+    "label": "Crystal Palace marque",
+    "p": 0.8282,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-borac-banja-luka-atalanta",
+    "match": "Borac Banja Luka - Atalanta",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8297,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-sp-braga-kups",
+    "match": "Sp Braga - KuPS",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Sp Braga",
+    "p": 0.8302,
+    "odds": 1.1428571428571428,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-nijmegen-rennes",
+    "match": "Nijmegen - Rennes",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "a_scores",
+    "label": "Rennes marque",
+    "p": 0.8314,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-inter-f-c-k-benhavn",
+    "match": "Inter - F.C. København",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8352,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-freiburg-twente",
+    "match": "Freiburg - Twente",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "h_scores",
+    "label": "Freiburg marque",
+    "p": 0.8367,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-sunderland-jagiellonia",
+    "match": "Sunderland - Jagiellonia",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8395,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-torreense-celtic",
+    "match": "Torreense - Celtic",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8399,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-ofi-crete-anderlecht",
+    "match": "OFI Crete - Anderlecht",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "a_scores",
+    "label": "Anderlecht marque",
+    "p": 0.8402,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "E2-20261126-doncaster-huddersfield",
+    "match": "Doncaster - Huddersfield",
+    "league": "League One",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "a_scores",
+    "label": "Huddersfield marque",
+    "p": 0.8441,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-ferencvaros-nk-celje",
+    "match": "Ferencvaros - NK Celje",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8447,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-cska-sofia-trabzonspor",
+    "match": "CSKA Sofia - Trabzonspor",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "a_scores",
+    "label": "Trabzonspor marque",
+    "p": 0.8447,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   }
+  ],
+  "p": 0.01321,
+  "odds": 75.69,
+  "result": null,
+  "created": "2026-11-25T01:51:30.014048+01:00"
+ },
+ {
+  "uid": "combo:d7ec7e29e3",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "tn-186828",
+    "match": "Maria Lourdes Carle - Sol Ailin Larraya Guidi",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-25T19:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Sol Ailin Larraya Guidi",
+    "p": 0.5164,
+    "odds": null,
+    "min_odds": 1.99,
+    "result": null
+   },
+   {
+    "match_id": "tn-186837",
+    "match": "Julia Riera - Ipek Oz",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-25T20:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Julia Riera",
+    "p": 0.663,
+    "odds": null,
+    "min_odds": 1.55,
+    "result": null
+   },
+   {
+    "match_id": "tn-186838",
+    "match": "Ariana Geerlings - Alicia Herrero Linana",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-25T20:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Ariana Geerlings",
+    "p": 0.6033,
+    "odds": null,
+    "min_odds": 1.71,
+    "result": null
+   },
+   {
+    "match_id": "UCL-20261125-inter-stuttgart",
+    "match": "Inter - Stuttgart",
+    "league": "Ligue des champions",
+    "ko": "2026-11-25T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Inter",
+    "p": 0.6695,
+    "odds": 1.4166666666666667,
+    "min_odds": 1.54,
+    "result": null
+   },
+   {
+    "match_id": "UCL-20261125-club-brugge-liverpool",
+    "match": "Club Brugge - Liverpool",
+    "league": "Ligue des champions",
+    "ko": "2026-11-25T21:00:00+01:00",
+    "key": "2",
+    "label": "Victoire Liverpool",
+    "p": 0.5814,
+    "odds": 1.6451612903225805,
+    "min_odds": 1.77,
+    "result": null
+   },
+   {
+    "match_id": "tn-186840",
+    "match": "Carole Monnet - Solana Sierra",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-25T22:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Solana Sierra",
+    "p": 0.6933,
+    "odds": null,
+    "min_odds": 1.49,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-iberia-1999-getafe",
+    "match": "Iberia 1999 - Getafe",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "2",
+    "label": "Victoire Getafe",
+    "p": 0.6407,
+    "odds": 1.4761904761904763,
+    "min_odds": 1.61,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-hearts-monaco",
+    "match": "Hearts - Monaco",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "2",
+    "label": "Victoire Monaco",
+    "p": 0.5913,
+    "odds": 1.606060606060606,
+    "min_odds": 1.74,
+    "result": null
+   },
+   {
+    "match_id": "tn-186836",
+    "match": "Nuria Brancaccio - Guiomar Maristany Zuleta De Reales",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-26T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Guiomar Maristany Zuleta De Reales",
+    "p": 0.6311,
+    "odds": null,
+    "min_odds": 1.63,
+    "result": null
+   },
+   {
+    "match_id": "tn-186833",
+    "match": "Laura Samson - Irene Burillo",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-26T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Laura Samson",
+    "p": 0.5816,
+    "odds": null,
+    "min_odds": 1.77,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-ofi-crete-anderlecht",
+    "match": "OFI Crete - Anderlecht",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5808,
+    "odds": null,
+    "min_odds": 1.77,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-inter-f-c-k-benhavn",
+    "match": "Inter - F.C. København",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "2",
+    "label": "Victoire F.C. København",
+    "p": 0.7493,
+    "odds": 1.263157894736842,
+    "min_odds": 1.37,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-hoffenheim-sturm-graz",
+    "match": "Hoffenheim - Sturm Graz",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Hoffenheim",
+    "p": 0.7036,
+    "odds": 1.3508771929824561,
+    "min_odds": 1.46,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-ferencvaros-nk-celje",
+    "match": "Ferencvaros - NK Celje",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Ferencvaros",
+    "p": 0.6936,
+    "odds": 1.3703703703703702,
+    "min_odds": 1.49,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-borac-banja-luka-atalanta",
+    "match": "Borac Banja Luka - Atalanta",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "2",
+    "label": "Victoire Atalanta",
+    "p": 0.6202,
+    "odds": 1.526315789473684,
+    "min_odds": 1.66,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-torreense-celtic",
+    "match": "Torreense - Celtic",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "2",
+    "label": "Victoire Celtic",
+    "p": 0.5715,
+    "odds": 1.6666666666666665,
+    "min_odds": 1.8,
+    "result": null
+   }
+  ],
+  "p": 0.00058,
+  "odds": 1713.66,
+  "result": null,
+  "created": "2026-11-25T01:51:30.014048+01:00"
  }
 ]
