@@ -36891,7 +36891,7 @@
   "p": 0.9001,
   "odds": null,
   "min_odds": 1.14,
-  "result": null,
+  "result": "won",
   "uid": "solide:UCL-20261125-ath-madrid-viking:12",
   "kind": "solide",
   "created": "2026-11-21T22:42:06.324469+01:00"
@@ -36906,7 +36906,7 @@
   "p": 0.8861,
   "odds": 1.0714285714285714,
   "min_odds": 1.16,
-  "result": null,
+  "result": "won",
   "uid": "solide:UCL-20261125-sabah-fk-barcelona:2",
   "kind": "solide",
   "created": "2026-11-21T22:42:06.324469+01:00"
@@ -37088,7 +37088,7 @@
     "p": 0.9001,
     "odds": null,
     "min_odds": 1.14,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-sabah-fk-barcelona",
@@ -37100,12 +37100,12 @@
     "p": 0.8861,
     "odds": 1.0714285714285714,
     "min_odds": 1.16,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.7198,
   "odds": 1.4,
-  "result": null,
+  "result": "won",
   "created": "2026-11-21T22:42:06.324469+01:00"
  },
  {
@@ -38326,7 +38326,7 @@
   "p": 0.8304,
   "odds": null,
   "min_odds": 1.24,
-  "result": null,
+  "result": "won",
   "uid": "solide:UCL-20261125-slavia-prague-villarreal:a_scores",
   "kind": "solide",
   "created": "2026-11-22T17:22:55.628675+01:00"
@@ -38481,7 +38481,7 @@
     "p": 0.9001,
     "odds": null,
     "min_odds": 1.14,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-sabah-fk-barcelona",
@@ -38493,7 +38493,7 @@
     "p": 0.8861,
     "odds": 1.0714285714285714,
     "min_odds": 1.16,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "ROU-20261122-fc-arges-fcsb",
@@ -38510,7 +38510,7 @@
   ],
   "p": 0.70068,
   "odds": 1.44,
-  "result": null,
+  "result": "won",
   "created": "2026-11-22T17:22:55.628675+01:00"
  },
  {
@@ -39403,7 +39403,7 @@
   "p": 0.6424,
   "odds": null,
   "min_odds": 1.6,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186828:jeux-:25.5",
   "kind": "stat",
   "created": "2026-11-23T01:57:26.450796+01:00"
@@ -39423,7 +39423,7 @@
     "p": 0.9027,
     "odds": null,
     "min_odds": 1.14,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-sabah-fk-barcelona",
@@ -39435,7 +39435,7 @@
     "p": 0.892,
     "odds": 1.0714285714285714,
     "min_odds": 1.15,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-brighton-csu-craiova",
@@ -39672,7 +39672,7 @@
     "p": 0.8307,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-paris-sg-roma",
@@ -39684,7 +39684,7 @@
     "p": 0.8247,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UCL-20261125-inter-stuttgart",
@@ -39696,7 +39696,7 @@
     "p": 0.8267,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-lille-bayern-munich",
@@ -39708,7 +39708,7 @@
     "p": 0.8364,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-brann-agf",
@@ -39869,7 +39869,7 @@
   ],
   "p": 0.01073,
   "odds": 93.18,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-23T01:57:26.450796+01:00"
  },
  {
@@ -40180,7 +40180,7 @@
   "p": 0.5164,
   "odds": null,
   "min_odds": 1.99,
-  "result": null,
+  "result": "lost",
   "uid": "contre_pied:tn-186828:w2",
   "kind": "contre_pied",
   "created": "2026-11-23T15:52:16.941523+01:00"
@@ -40270,7 +40270,7 @@
   "p": 0.6415,
   "odds": null,
   "min_odds": 1.61,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-186828:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-23T15:52:16.941523+01:00"
@@ -40329,7 +40329,7 @@
     "p": 0.5164,
     "odds": null,
     "min_odds": 1.99,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186826",
@@ -40358,7 +40358,7 @@
   ],
   "p": 0.02838,
   "odds": 40.85,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-23T15:52:16.941523+01:00"
  },
  {
@@ -40460,7 +40460,7 @@
     "p": 0.8338,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-inter-stuttgart",
@@ -40472,7 +40472,7 @@
     "p": 0.8267,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-lille-bayern-munich",
@@ -40484,7 +40484,7 @@
     "p": 0.8279,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-iberia-1999-getafe",
@@ -40872,7 +40872,7 @@
   "p": 0.8832,
   "odds": null,
   "min_odds": 1.17,
-  "result": null,
+  "result": "won",
   "uid": "solide:UCL-20261125-sabah-fk-barcelona:o25",
   "kind": "solide",
   "created": "2026-11-23T16:25:41.338902+01:00"
@@ -40907,7 +40907,7 @@
     "p": 0.9056,
     "odds": null,
     "min_odds": 1.14,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-sabah-fk-barcelona",
@@ -40919,7 +40919,7 @@
     "p": 0.8832,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-brighton-csu-craiova",
@@ -41038,7 +41038,7 @@
     "p": 0.8338,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-inter-stuttgart",
@@ -41050,7 +41050,7 @@
     "p": 0.8267,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-lille-bayern-munich",
@@ -41062,7 +41062,7 @@
     "p": 0.8279,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-iberia-1999-getafe",
@@ -41308,7 +41308,7 @@
   "p": 0.6407,
   "odds": null,
   "min_odds": 1.61,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186837:jeux+:19.5",
   "kind": "stat",
   "created": "2026-11-24T03:56:34.089323+01:00"
@@ -41403,7 +41403,7 @@
     "p": 0.9056,
     "odds": null,
     "min_odds": 1.14,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-sabah-fk-barcelona",
@@ -41415,7 +41415,7 @@
     "p": 0.8812,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-brighton-csu-craiova",
@@ -42268,7 +42268,7 @@
     "p": 0.9063,
     "odds": null,
     "min_odds": 1.14,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-sabah-fk-barcelona",
@@ -42280,7 +42280,7 @@
     "p": 0.8784,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-ajax-thun",
@@ -42398,7 +42398,7 @@
     "p": 0.5164,
     "odds": null,
     "min_odds": 1.99,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186826",
@@ -42415,7 +42415,7 @@
   ],
   "p": 0.02652,
   "odds": 43.71,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-24T15:57:44.462636+01:00"
  },
  {
@@ -42840,7 +42840,7 @@
     "p": 0.5164,
     "odds": null,
     "min_odds": 1.99,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-ofi-crete-anderlecht",
@@ -42893,7 +42893,7 @@
   ],
   "p": 0.00074,
   "odds": 1350.85,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-24T15:57:44.462636+01:00"
  },
  {
@@ -43123,7 +43123,7 @@
     "p": 0.5164,
     "odds": null,
     "min_odds": 1.99,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-ofi-crete-anderlecht",
@@ -43176,7 +43176,7 @@
   ],
   "p": 0.08643,
   "odds": 13.41,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-25T01:51:30.014048+01:00"
  },
  {
@@ -43194,7 +43194,7 @@
     "p": 0.8401,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "I2-20261125-mantova-arezzo",
@@ -43218,7 +43218,7 @@
     "p": 0.8259,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-sp-lisbon-man-united",
@@ -43230,7 +43230,7 @@
     "p": 0.8466,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186840",
@@ -43242,7 +43242,7 @@
     "p": 0.8276,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-st-gilloise-lech-poznan",
@@ -43475,7 +43475,7 @@
   ],
   "p": 0.01321,
   "odds": 75.69,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-25T01:51:30.014048+01:00"
  },
  {
@@ -43493,7 +43493,7 @@
     "p": 0.5164,
     "odds": null,
     "min_odds": 1.99,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186837",
@@ -43505,7 +43505,7 @@
     "p": 0.663,
     "odds": null,
     "min_odds": 1.55,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186838",
@@ -43517,7 +43517,7 @@
     "p": 0.6033,
     "odds": null,
     "min_odds": 1.71,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UCL-20261125-inter-stuttgart",
@@ -43529,7 +43529,7 @@
     "p": 0.6695,
     "odds": 1.4166666666666667,
     "min_odds": 1.54,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-club-brugge-liverpool",
@@ -43541,7 +43541,7 @@
     "p": 0.5814,
     "odds": 1.6451612903225805,
     "min_odds": 1.77,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186840",
@@ -43553,7 +43553,7 @@
     "p": 0.6933,
     "odds": null,
     "min_odds": 1.49,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-iberia-1999-getafe",
@@ -43678,7 +43678,7 @@
   ],
   "p": 0.00058,
   "odds": 1713.66,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-25T01:51:30.014048+01:00"
  },
  {
@@ -43726,7 +43726,7 @@
     "p": 0.9008,
     "odds": null,
     "min_odds": 1.14,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-ajax-thun",
@@ -43785,7 +43785,7 @@
     "p": 0.8233,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-paris-sg-roma",
@@ -43797,7 +43797,7 @@
     "p": 0.8236,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-lille-bayern-munich",
@@ -43809,7 +43809,7 @@
     "p": 0.8315,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186840",
@@ -43821,7 +43821,7 @@
     "p": 0.8276,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-hearts-monaco",
@@ -44054,7 +44054,7 @@
   ],
   "p": 0.01234,
   "odds": 81.02,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-25T15:32:47.234798+01:00"
  },
  {
@@ -44072,7 +44072,7 @@
     "p": 0.5164,
     "odds": null,
     "min_odds": 1.99,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "tn-186837",
@@ -44084,7 +44084,7 @@
     "p": 0.663,
     "odds": null,
     "min_odds": 1.55,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186838",
@@ -44096,7 +44096,7 @@
     "p": 0.6033,
     "odds": null,
     "min_odds": 1.71,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UCL-20261125-inter-stuttgart",
@@ -44108,7 +44108,7 @@
     "p": 0.6774,
     "odds": 1.4166666666666667,
     "min_odds": 1.52,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UCL-20261125-lille-bayern-munich",
@@ -44120,7 +44120,7 @@
     "p": 0.5966,
     "odds": 1.5882352941176472,
     "min_odds": 1.73,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UCL-20261125-club-brugge-liverpool",
@@ -44132,7 +44132,7 @@
     "p": 0.5861,
     "odds": 1.625,
     "min_odds": 1.76,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186840",
@@ -44144,7 +44144,7 @@
     "p": 0.6933,
     "odds": null,
     "min_odds": 1.49,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-iberia-1999-getafe",
@@ -44245,7 +44245,7 @@
   ],
   "p": 0.00088,
   "odds": 1135.71,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-25T15:32:47.234798+01:00"
  },
  {
@@ -44275,12 +44275,713 @@
     "p": 0.5164,
     "odds": null,
     "min_odds": 1.99,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.29992,
   "odds": 3.54,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-25T15:32:47.234798+01:00"
+ },
+ {
+  "match_id": "UECL-20261126-brann-agf",
+  "match": "Brann - AGF",
+  "league": "Ligue Conférence",
+  "ko": "2026-11-26T18:45:00+01:00",
+  "key": "h_scores",
+  "label": "Brann marque",
+  "p": 0.8347,
+  "odds": null,
+  "min_odds": 1.23,
+  "result": null,
+  "uid": "solide:UECL-20261126-brann-agf:h_scores",
+  "kind": "solide",
+  "created": "2026-11-26T01:29:57.581639+01:00"
+ },
+ {
+  "match_id": "tn-186832",
+  "match": "Veronika Erjavec - Carole Monnet",
+  "league": "WTA · IEB+ Argentina Open",
+  "ko": "2026-11-27T20:00:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6449,
+  "odds": null,
+  "min_odds": 1.6,
+  "result": null,
+  "uid": "stat:tn-186832:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-26T01:29:57.581639+01:00"
+ },
+ {
+  "match_id": "tn-186831",
+  "match": "Julia Riera - Alicia Herrero Linana",
+  "league": "WTA · IEB+ Argentina Open",
+  "ko": "2026-11-27T20:00:00+01:00",
+  "key": "jeux+:19.5",
+  "label": "Plus de 19,5 jeux dans le match",
+  "p": 0.6438,
+  "odds": null,
+  "min_odds": 1.6,
+  "result": null,
+  "uid": "stat:tn-186831:jeux+:19.5",
+  "kind": "stat",
+  "created": "2026-11-26T01:29:57.581639+01:00"
+ },
+ {
+  "match_id": "tn-186836",
+  "match": "Nuria Brancaccio - Guiomar Maristany Zuleta De Reales",
+  "league": "WTA · IEB+ Argentina Open",
+  "ko": "2026-11-26T19:00:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6384,
+  "odds": null,
+  "min_odds": 1.61,
+  "result": null,
+  "uid": "stat:tn-186836:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-26T01:29:57.581639+01:00"
+ },
+ {
+  "match_id": "tn-186834",
+  "match": "Varvara Lepchenko - Sofia Costoulas",
+  "league": "WTA · IEB+ Argentina Open",
+  "ko": "2026-11-26T19:00:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6377,
+  "odds": null,
+  "min_odds": 1.62,
+  "result": null,
+  "uid": "stat:tn-186834:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-26T01:29:57.581639+01:00"
+ },
+ {
+  "match_id": "tn-186833",
+  "match": "Laura Samson - Irene Burillo",
+  "league": "WTA · IEB+ Argentina Open",
+  "ko": "2026-11-26T20:30:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6247,
+  "odds": null,
+  "min_odds": 1.65,
+  "result": null,
+  "uid": "stat:tn-186833:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-26T01:29:57.581639+01:00"
+ },
+ {
+  "match_id": "tn-186835",
+  "match": "Nadia Podoroska - Maria Lourdes Carle",
+  "league": "WTA · IEB+ Argentina Open",
+  "ko": "2026-11-26T22:00:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6216,
+  "odds": null,
+  "min_odds": 1.66,
+  "result": null,
+  "uid": "stat:tn-186835:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-26T01:29:57.581639+01:00"
+ },
+ {
+  "uid": "combo:ebaec9aeb3",
+  "kind": "combo",
+  "name": "Le combiné béton",
+  "legs": [
+   {
+    "match_id": "UECL-20261126-ajax-thun",
+    "match": "Ajax - Thun",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8797,
+    "odds": null,
+    "min_odds": 1.17,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-iberia-1999-getafe",
+    "match": "Iberia 1999 - Getafe",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "N2",
+    "label": "Getafe ou nul",
+    "p": 0.8741,
+    "odds": null,
+    "min_odds": 1.18,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-besiktas-hapoel-be-er",
+    "match": "Besiktas - Hapoel Be'er",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8497,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   }
+  ],
+  "p": 0.65342,
+  "odds": 1.67,
+  "result": null,
+  "created": "2026-11-26T01:29:57.581639+01:00"
+ },
+ {
+  "uid": "combo:b7fe848f23",
+  "kind": "combo",
+  "name": "Grosse chatte",
+  "legs": [
+   {
+    "match_id": "UEL-20261126-ofi-crete-anderlecht",
+    "match": "OFI Crete - Anderlecht",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5808,
+    "odds": null,
+    "min_odds": 1.77,
+    "result": null
+   },
+   {
+    "match_id": "E2-20261126-doncaster-huddersfield",
+    "match": "Doncaster - Huddersfield",
+    "league": "League One",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "cadres-:9.5",
+    "label": "Moins de 9,5 tirs cadrés",
+    "p": 0.6482,
+    "odds": null,
+    "min_odds": 1.59,
+    "result": null
+   },
+   {
+    "match_id": "tn-186832",
+    "match": "Veronika Erjavec - Carole Monnet",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-27T20:00:00+01:00",
+    "key": "jeux-:24.5",
+    "label": "Moins de 24,5 jeux dans le match",
+    "p": 0.6449,
+    "odds": null,
+    "min_odds": 1.6,
+    "result": null
+   },
+   {
+    "match_id": "tn-186831",
+    "match": "Julia Riera - Alicia Herrero Linana",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-27T20:00:00+01:00",
+    "key": "jeux+:19.5",
+    "label": "Plus de 19,5 jeux dans le match",
+    "p": 0.6438,
+    "odds": null,
+    "min_odds": 1.6,
+    "result": null
+   },
+   {
+    "match_id": "tn-186836",
+    "match": "Nuria Brancaccio - Guiomar Maristany Zuleta De Reales",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-26T19:00:00+01:00",
+    "key": "jeux-:24.5",
+    "label": "Moins de 24,5 jeux dans le match",
+    "p": 0.6384,
+    "odds": null,
+    "min_odds": 1.61,
+    "result": null
+   }
+  ],
+  "p": 0.09979,
+  "odds": 11.62,
+  "result": null,
+  "created": "2026-11-26T01:29:57.581639+01:00"
+ },
+ {
+  "uid": "combo:e9df166b93",
+  "kind": "combo",
+  "name": "Le combiné de l'enfer",
+  "legs": [
+   {
+    "match_id": "UEL-20261126-marseille-levski-sofia",
+    "match": "Marseille - Levski Sofia",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.822,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-salzburg-ararat-armenia",
+    "match": "Salzburg - Ararat-Armenia",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Salzburg",
+    "p": 0.8231,
+    "odds": 1.1538461538461537,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-hearts-monaco",
+    "match": "Hearts - Monaco",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "N2",
+    "label": "Monaco ou nul",
+    "p": 0.8279,
+    "odds": null,
+    "min_odds": 1.24,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-brann-agf",
+    "match": "Brann - AGF",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "h_scores",
+    "label": "Brann marque",
+    "p": 0.8347,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-viktoria-plzen-benfica",
+    "match": "Viktoria Plzen - Benfica",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "N2",
+    "label": "Benfica ou nul",
+    "p": 0.8388,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-brighton-csu-craiova",
+    "match": "Brighton - CSU Craiova",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "1",
+    "label": "Victoire Brighton",
+    "p": 0.8462,
+    "odds": 1.125,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-besiktas-hapoel-be-er",
+    "match": "Besiktas - Hapoel Be'er",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8497,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-dinamo-zagreb-leverkusen",
+    "match": "Dinamo Zagreb - Leverkusen",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8555,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-st-gilloise-lech-poznan",
+    "match": "St. Gilloise - Lech Poznan",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8615,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-freiburg-twente",
+    "match": "Freiburg - Twente",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8253,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-hoffenheim-sturm-graz",
+    "match": "Hoffenheim - Sturm Graz",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8259,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-cska-sofia-trabzonspor",
+    "match": "CSKA Sofia - Trabzonspor",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.827,
+    "odds": null,
+    "min_odds": 1.25,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-sunderland-jagiellonia",
+    "match": "Sunderland - Jagiellonia",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8347,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-crystal-palace-sociedad",
+    "match": "Crystal Palace - Sociedad",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "h_scores",
+    "label": "Crystal Palace marque",
+    "p": 0.8348,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-sp-braga-kups",
+    "match": "Sp Braga - KuPS",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Sp Braga",
+    "p": 0.8383,
+    "odds": 1.1333333333333333,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-inter-f-c-k-benhavn",
+    "match": "Inter - F.C. København",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8391,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-nijmegen-rennes",
+    "match": "Nijmegen - Rennes",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "a_scores",
+    "label": "Rennes marque",
+    "p": 0.8398,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-ofi-crete-anderlecht",
+    "match": "OFI Crete - Anderlecht",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "a_scores",
+    "label": "Anderlecht marque",
+    "p": 0.8402,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-torreense-celtic",
+    "match": "Torreense - Celtic",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8403,
+    "odds": null,
+    "min_odds": 1.23,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-ferencvaros-nk-celje",
+    "match": "Ferencvaros - NK Celje",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "o15",
+    "label": "Plus de 1,5 buts",
+    "p": 0.8418,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "E2-20261126-doncaster-huddersfield",
+    "match": "Doncaster - Huddersfield",
+    "league": "League One",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "a_scores",
+    "label": "Huddersfield marque",
+    "p": 0.8441,
+    "odds": null,
+    "min_odds": 1.22,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-borac-banja-luka-atalanta",
+    "match": "Borac Banja Luka - Atalanta",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "N2",
+    "label": "Atalanta ou nul",
+    "p": 0.8492,
+    "odds": null,
+    "min_odds": 1.21,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-lyon-lillestrom",
+    "match": "Lyon - Lillestrom",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8573,
+    "odds": null,
+    "min_odds": 1.2,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-juventus-omonia-nicosia",
+    "match": "Juventus - Omonia Nicosia",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "12",
+    "label": "Pas de match nul",
+    "p": 0.8663,
+    "odds": null,
+    "min_odds": 1.19,
+    "result": null
+   }
+  ],
+  "p": 0.01526,
+  "odds": 65.53,
+  "result": null,
+  "created": "2026-11-26T01:29:57.581639+01:00"
+ },
+ {
+  "uid": "combo:d6833c7e93",
+  "kind": "combo",
+  "name": "Le ticket à 1000",
+  "legs": [
+   {
+    "match_id": "UECL-20261126-iberia-1999-getafe",
+    "match": "Iberia 1999 - Getafe",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "2",
+    "label": "Victoire Getafe",
+    "p": 0.6422,
+    "odds": 1.4651162790697674,
+    "min_odds": 1.6,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-hearts-monaco",
+    "match": "Hearts - Monaco",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T18:45:00+01:00",
+    "key": "2",
+    "label": "Victoire Monaco",
+    "p": 0.6132,
+    "odds": 1.5555555555555556,
+    "min_odds": 1.68,
+    "result": null
+   },
+   {
+    "match_id": "tn-186836",
+    "match": "Nuria Brancaccio - Guiomar Maristany Zuleta De Reales",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-26T19:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Guiomar Maristany Zuleta De Reales",
+    "p": 0.6311,
+    "odds": null,
+    "min_odds": 1.63,
+    "result": null
+   },
+   {
+    "match_id": "tn-186834",
+    "match": "Varvara Lepchenko - Sofia Costoulas",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-26T19:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Varvara Lepchenko",
+    "p": 0.5306,
+    "odds": null,
+    "min_odds": 1.94,
+    "result": null
+   },
+   {
+    "match_id": "tn-186833",
+    "match": "Laura Samson - Irene Burillo",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-26T20:30:00+01:00",
+    "key": "w1",
+    "label": "Victoire Laura Samson",
+    "p": 0.5816,
+    "odds": null,
+    "min_odds": 1.77,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-ofi-crete-anderlecht",
+    "match": "OFI Crete - Anderlecht",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "btts",
+    "label": "Les deux équipes marquent",
+    "p": 0.5808,
+    "odds": null,
+    "min_odds": 1.77,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-hoffenheim-sturm-graz",
+    "match": "Hoffenheim - Sturm Graz",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Hoffenheim",
+    "p": 0.704,
+    "odds": 1.3508771929824561,
+    "min_odds": 1.46,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-ferencvaros-nk-celje",
+    "match": "Ferencvaros - NK Celje",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "1",
+    "label": "Victoire Ferencvaros",
+    "p": 0.6933,
+    "odds": 1.3703703703703702,
+    "min_odds": 1.49,
+    "result": null
+   },
+   {
+    "match_id": "UECL-20261126-borac-banja-luka-atalanta",
+    "match": "Borac Banja Luka - Atalanta",
+    "league": "Ligue Conférence",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "2",
+    "label": "Victoire Atalanta",
+    "p": 0.6475,
+    "odds": 1.4545454545454546,
+    "min_odds": 1.59,
+    "result": null
+   },
+   {
+    "match_id": "UEL-20261126-torreense-celtic",
+    "match": "Torreense - Celtic",
+    "league": "Ligue Europa",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "2",
+    "label": "Victoire Celtic",
+    "p": 0.5757,
+    "odds": 1.6451612903225805,
+    "min_odds": 1.79,
+    "result": null
+   },
+   {
+    "match_id": "E2-20261126-doncaster-huddersfield",
+    "match": "Doncaster - Huddersfield",
+    "league": "League One",
+    "ko": "2026-11-26T21:00:00+01:00",
+    "key": "2",
+    "label": "Victoire Huddersfield",
+    "p": 0.5375,
+    "odds": 1.72,
+    "min_odds": 1.92,
+    "result": null
+   },
+   {
+    "match_id": "tn-186835",
+    "match": "Nadia Podoroska - Maria Lourdes Carle",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-26T22:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Maria Lourdes Carle",
+    "p": 0.507,
+    "odds": null,
+    "min_odds": 2.03,
+    "result": null
+   },
+   {
+    "match_id": "tn-186831",
+    "match": "Julia Riera - Alicia Herrero Linana",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-27T20:00:00+01:00",
+    "key": "w1",
+    "label": "Victoire Julia Riera",
+    "p": 0.5773,
+    "odds": null,
+    "min_odds": 1.78,
+    "result": null
+   },
+   {
+    "match_id": "tn-186832",
+    "match": "Veronika Erjavec - Carole Monnet",
+    "league": "WTA · IEB+ Argentina Open",
+    "ko": "2026-11-27T20:00:00+01:00",
+    "key": "w2",
+    "label": "Victoire Carole Monnet",
+    "p": 0.5272,
+    "odds": null,
+    "min_odds": 1.95,
+    "result": null
+   }
+  ],
+  "p": 0.00067,
+  "odds": 1487.86,
+  "result": null,
+  "created": "2026-11-26T01:29:57.581639+01:00"
  }
 ]
