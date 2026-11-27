@@ -39178,7 +39178,7 @@
   "p": 0.5546,
   "odds": null,
   "min_odds": 1.86,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:UEL-20261126-celta-bournemouth:btts",
   "kind": "contre_pied",
   "created": "2026-11-23T01:57:26.450796+01:00"
@@ -39223,7 +39223,7 @@
   "p": 0.8763,
   "odds": null,
   "min_odds": 1.18,
-  "result": null,
+  "result": "won",
   "uid": "solide:UECL-20261126-sp-braga-kups:12",
   "kind": "solide",
   "created": "2026-11-23T01:57:26.450796+01:00"
@@ -39238,7 +39238,7 @@
   "p": 0.8676,
   "odds": null,
   "min_odds": 1.19,
-  "result": null,
+  "result": "won",
   "uid": "solide:UECL-20261126-ajax-thun:12",
   "kind": "solide",
   "created": "2026-11-23T01:57:26.450796+01:00"
@@ -39253,7 +39253,7 @@
   "p": 0.8628,
   "odds": null,
   "min_odds": 1.19,
-  "result": null,
+  "result": "lost",
   "uid": "solide:UEL-20261126-lyon-lillestrom:12",
   "kind": "solide",
   "created": "2026-11-23T01:57:26.450796+01:00"
@@ -39268,7 +39268,7 @@
   "p": 0.8544,
   "odds": null,
   "min_odds": 1.21,
-  "result": null,
+  "result": "won",
   "uid": "solide:UEL-20261126-besiktas-hapoel-be-er:12",
   "kind": "solide",
   "created": "2026-11-23T01:57:26.450796+01:00"
@@ -39494,12 +39494,12 @@
     "p": 0.5546,
     "odds": null,
     "min_odds": 1.86,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.20955,
   "odds": 5.21,
-  "result": null,
+  "result": "won",
   "created": "2026-11-23T01:57:26.450796+01:00"
  },
  {
@@ -40496,7 +40496,7 @@
     "p": 0.826,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-brann-agf",
@@ -40508,7 +40508,7 @@
     "p": 0.8288,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-viktoria-plzen-benfica",
@@ -40520,7 +40520,7 @@
     "p": 0.8344,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-hearts-monaco",
@@ -40532,7 +40532,7 @@
     "p": 0.8377,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-sp-braga-kups",
@@ -40544,7 +40544,7 @@
     "p": 0.8223,
     "odds": 1.1428571428571428,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-hoffenheim-sturm-graz",
@@ -40556,7 +40556,7 @@
     "p": 0.8228,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-sunderland-jagiellonia",
@@ -40568,7 +40568,7 @@
     "p": 0.8231,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-inter-f-c-k-benhavn",
@@ -40580,7 +40580,7 @@
     "p": 0.8252,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-crystal-palace-sociedad",
@@ -40592,7 +40592,7 @@
     "p": 0.8259,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-borac-banja-luka-atalanta",
@@ -40604,7 +40604,7 @@
     "p": 0.8268,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-cska-sofia-trabzonspor",
@@ -40616,7 +40616,7 @@
     "p": 0.8301,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-nijmegen-rennes",
@@ -40628,7 +40628,7 @@
     "p": 0.8311,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-freiburg-twente",
@@ -40640,7 +40640,7 @@
     "p": 0.8367,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-torreense-celtic",
@@ -40652,12 +40652,12 @@
     "p": 0.8384,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.01109,
   "odds": 90.14,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-23T15:52:16.941523+01:00"
  },
  {
@@ -41074,7 +41074,7 @@
     "p": 0.826,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-viktoria-plzen-benfica",
@@ -41086,7 +41086,7 @@
     "p": 0.8344,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-brann-agf",
@@ -41098,7 +41098,7 @@
     "p": 0.836,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-hearts-monaco",
@@ -41110,7 +41110,7 @@
     "p": 0.8377,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-sp-braga-kups",
@@ -41122,7 +41122,7 @@
     "p": 0.8223,
     "odds": 1.1428571428571428,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-hoffenheim-sturm-graz",
@@ -41134,7 +41134,7 @@
     "p": 0.8228,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-sunderland-jagiellonia",
@@ -41146,7 +41146,7 @@
     "p": 0.8231,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-inter-f-c-k-benhavn",
@@ -41158,7 +41158,7 @@
     "p": 0.8252,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-crystal-palace-sociedad",
@@ -41170,7 +41170,7 @@
     "p": 0.8259,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-borac-banja-luka-atalanta",
@@ -41182,7 +41182,7 @@
     "p": 0.8268,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-cska-sofia-trabzonspor",
@@ -41194,7 +41194,7 @@
     "p": 0.8301,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-nijmegen-rennes",
@@ -41206,7 +41206,7 @@
     "p": 0.8311,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-freiburg-twente",
@@ -41218,7 +41218,7 @@
     "p": 0.8367,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-torreense-celtic",
@@ -41230,12 +41230,12 @@
     "p": 0.8384,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.01119,
   "odds": 89.37,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-23T16:25:41.338902+01:00"
  },
  {
@@ -41263,7 +41263,7 @@
   "p": 0.8419,
   "odds": null,
   "min_odds": 1.22,
-  "result": null,
+  "result": "lost",
   "uid": "solide:UECL-20261126-iberia-1999-getafe:a_scores",
   "kind": "solide",
   "created": "2026-11-24T03:56:34.089323+01:00"
@@ -41293,7 +41293,7 @@
   "p": 0.834,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UECL-20261126-freiburg-twente:h_scores",
   "kind": "solide",
   "created": "2026-11-24T03:56:34.089323+01:00"
@@ -42008,7 +42008,7 @@
   "p": 0.5808,
   "odds": null,
   "min_odds": 1.77,
-  "result": null,
+  "result": "won",
   "uid": "contre_pied:UEL-20261126-ofi-crete-anderlecht:btts",
   "kind": "contre_pied",
   "created": "2026-11-24T15:57:44.462636+01:00"
@@ -42038,7 +42038,7 @@
   "p": 0.8659,
   "odds": null,
   "min_odds": 1.19,
-  "result": null,
+  "result": "lost",
   "uid": "solide:UECL-20261126-iberia-1999-getafe:N2",
   "kind": "solide",
   "created": "2026-11-24T15:57:44.462636+01:00"
@@ -42068,7 +42068,7 @@
   "p": 0.8395,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UEL-20261126-sunderland-jagiellonia:o15",
   "kind": "solide",
   "created": "2026-11-24T15:57:44.462636+01:00"
@@ -42292,12 +42292,12 @@
     "p": 0.8733,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.69515,
   "odds": 1.57,
-  "result": null,
+  "result": "won",
   "created": "2026-11-24T15:57:44.462636+01:00"
  },
  {
@@ -42315,7 +42315,7 @@
     "p": 0.5808,
     "odds": null,
     "min_odds": 1.77,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E1-20261124-bristol-city-wrexham",
@@ -42953,7 +42953,7 @@
   "p": 0.8352,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UECL-20261126-inter-f-c-k-benhavn:12",
   "kind": "solide",
   "created": "2026-11-25T01:51:30.014048+01:00"
@@ -42968,7 +42968,7 @@
   "p": 0.8314,
   "odds": null,
   "min_odds": 1.24,
-  "result": null,
+  "result": "won",
   "uid": "solide:UEL-20261126-nijmegen-rennes:a_scores",
   "kind": "solide",
   "created": "2026-11-25T01:51:30.014048+01:00"
@@ -42998,7 +42998,7 @@
   "p": 0.8302,
   "odds": 1.1428571428571428,
   "min_odds": 1.24,
-  "result": null,
+  "result": "won",
   "uid": "solide:UECL-20261126-sp-braga-kups:1",
   "kind": "solide",
   "created": "2026-11-25T01:51:30.014048+01:00"
@@ -43691,7 +43691,7 @@
   "p": 0.8395,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UECL-20261126-inter-f-c-k-benhavn:o15",
   "kind": "solide",
   "created": "2026-11-25T15:32:47.234798+01:00"
@@ -43706,7 +43706,7 @@
   "p": 0.8348,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UEL-20261126-crystal-palace-sociedad:h_scores",
   "kind": "solide",
   "created": "2026-11-25T15:32:47.234798+01:00"
@@ -43738,7 +43738,7 @@
     "p": 0.8762,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-iberia-1999-getafe",
@@ -43750,12 +43750,12 @@
     "p": 0.8741,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "lost"
    }
   ],
   "p": 0.68987,
   "odds": 1.58,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-25T15:32:47.234798+01:00"
  },
  {
@@ -44293,7 +44293,7 @@
   "p": 0.8347,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UECL-20261126-brann-agf:h_scores",
   "kind": "solide",
   "created": "2026-11-26T01:29:57.581639+01:00"
@@ -44338,7 +44338,7 @@
   "p": 0.6384,
   "odds": null,
   "min_odds": 1.61,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186836:jeux-:24.5",
   "kind": "stat",
   "created": "2026-11-26T01:29:57.581639+01:00"
@@ -44353,7 +44353,7 @@
   "p": 0.6377,
   "odds": null,
   "min_odds": 1.62,
-  "result": null,
+  "result": "lost",
   "uid": "stat:tn-186834:jeux-:24.5",
   "kind": "stat",
   "created": "2026-11-26T01:29:57.581639+01:00"
@@ -44368,7 +44368,7 @@
   "p": 0.6247,
   "odds": null,
   "min_odds": 1.65,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186833:jeux-:24.5",
   "kind": "stat",
   "created": "2026-11-26T01:29:57.581639+01:00"
@@ -44383,7 +44383,7 @@
   "p": 0.6216,
   "odds": null,
   "min_odds": 1.66,
-  "result": null,
+  "result": "won",
   "uid": "stat:tn-186835:jeux-:24.5",
   "kind": "stat",
   "created": "2026-11-26T01:29:57.581639+01:00"
@@ -44403,7 +44403,7 @@
     "p": 0.8797,
     "odds": null,
     "min_odds": 1.17,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-iberia-1999-getafe",
@@ -44415,7 +44415,7 @@
     "p": 0.8741,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-besiktas-hapoel-be-er",
@@ -44427,12 +44427,12 @@
     "p": 0.8497,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.65342,
   "odds": 1.67,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-26T01:29:57.581639+01:00"
  },
  {
@@ -44450,7 +44450,7 @@
     "p": 0.5808,
     "odds": null,
     "min_odds": 1.77,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E2-20261126-doncaster-huddersfield",
@@ -44498,7 +44498,7 @@
     "p": 0.6384,
     "odds": null,
     "min_odds": 1.61,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.09979,
@@ -44521,7 +44521,7 @@
     "p": 0.822,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-salzburg-ararat-armenia",
@@ -44533,7 +44533,7 @@
     "p": 0.8231,
     "odds": 1.1538461538461537,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-hearts-monaco",
@@ -44545,7 +44545,7 @@
     "p": 0.8279,
     "odds": null,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-brann-agf",
@@ -44557,7 +44557,7 @@
     "p": 0.8347,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-viktoria-plzen-benfica",
@@ -44569,7 +44569,7 @@
     "p": 0.8388,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-brighton-csu-craiova",
@@ -44593,7 +44593,7 @@
     "p": 0.8497,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-dinamo-zagreb-leverkusen",
@@ -44605,7 +44605,7 @@
     "p": 0.8555,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-st-gilloise-lech-poznan",
@@ -44617,7 +44617,7 @@
     "p": 0.8615,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-freiburg-twente",
@@ -44629,7 +44629,7 @@
     "p": 0.8253,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-hoffenheim-sturm-graz",
@@ -44641,7 +44641,7 @@
     "p": 0.8259,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-cska-sofia-trabzonspor",
@@ -44653,7 +44653,7 @@
     "p": 0.827,
     "odds": null,
     "min_odds": 1.25,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-sunderland-jagiellonia",
@@ -44665,7 +44665,7 @@
     "p": 0.8347,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-crystal-palace-sociedad",
@@ -44677,7 +44677,7 @@
     "p": 0.8348,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-sp-braga-kups",
@@ -44689,7 +44689,7 @@
     "p": 0.8383,
     "odds": 1.1333333333333333,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-inter-f-c-k-benhavn",
@@ -44701,7 +44701,7 @@
     "p": 0.8391,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-nijmegen-rennes",
@@ -44713,7 +44713,7 @@
     "p": 0.8398,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-ofi-crete-anderlecht",
@@ -44725,7 +44725,7 @@
     "p": 0.8402,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-torreense-celtic",
@@ -44737,7 +44737,7 @@
     "p": 0.8403,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-ferencvaros-nk-celje",
@@ -44749,7 +44749,7 @@
     "p": 0.8418,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "E2-20261126-doncaster-huddersfield",
@@ -44773,7 +44773,7 @@
     "p": 0.8492,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-lyon-lillestrom",
@@ -44785,7 +44785,7 @@
     "p": 0.8573,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-juventus-omonia-nicosia",
@@ -44797,12 +44797,12 @@
     "p": 0.8663,
     "odds": null,
     "min_odds": 1.19,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.01526,
   "odds": 65.53,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-26T01:29:57.581639+01:00"
  },
  {
@@ -44820,7 +44820,7 @@
     "p": 0.6422,
     "odds": 1.4651162790697674,
     "min_odds": 1.6,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-hearts-monaco",
@@ -44832,7 +44832,7 @@
     "p": 0.6132,
     "odds": 1.5555555555555556,
     "min_odds": 1.68,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186836",
@@ -44844,7 +44844,7 @@
     "p": 0.6311,
     "odds": null,
     "min_odds": 1.63,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186834",
@@ -44856,7 +44856,7 @@
     "p": 0.5306,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186833",
@@ -44868,7 +44868,7 @@
     "p": 0.5816,
     "odds": null,
     "min_odds": 1.77,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-ofi-crete-anderlecht",
@@ -44880,7 +44880,7 @@
     "p": 0.5808,
     "odds": null,
     "min_odds": 1.77,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-hoffenheim-sturm-graz",
@@ -44892,7 +44892,7 @@
     "p": 0.704,
     "odds": 1.3508771929824561,
     "min_odds": 1.46,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-ferencvaros-nk-celje",
@@ -44904,7 +44904,7 @@
     "p": 0.6933,
     "odds": 1.3703703703703702,
     "min_odds": 1.49,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-borac-banja-luka-atalanta",
@@ -44916,7 +44916,7 @@
     "p": 0.6475,
     "odds": 1.4545454545454546,
     "min_odds": 1.59,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-torreense-celtic",
@@ -44928,7 +44928,7 @@
     "p": 0.5757,
     "odds": 1.6451612903225805,
     "min_odds": 1.79,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E2-20261126-doncaster-huddersfield",
@@ -44952,7 +44952,7 @@
     "p": 0.507,
     "odds": null,
     "min_odds": 2.03,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186831",
@@ -44981,7 +44981,7 @@
   ],
   "p": 0.00067,
   "odds": 1487.86,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-26T01:29:57.581639+01:00"
  },
  {
@@ -44994,7 +44994,7 @@
   "p": 0.8348,
   "odds": null,
   "min_odds": 1.23,
-  "result": null,
+  "result": "won",
   "uid": "solide:UEL-20261126-hoffenheim-sturm-graz:12",
   "kind": "solide",
   "created": "2026-11-26T14:59:40.099847+01:00"
@@ -45009,7 +45009,7 @@
   "p": 0.8328,
   "odds": 1.1428571428571428,
   "min_odds": 1.24,
-  "result": null,
+  "result": "won",
   "uid": "solide:UEL-20261126-salzburg-ararat-armenia:1",
   "kind": "solide",
   "created": "2026-11-26T14:59:40.099847+01:00"
@@ -45024,7 +45024,7 @@
   "p": 0.8167,
   "odds": null,
   "min_odds": 1.26,
-  "result": null,
+  "result": "lost",
   "uid": "solide:UEL-20261126-st-gilloise-lech-poznan:12",
   "kind": "solide",
   "created": "2026-11-26T14:59:40.099847+01:00"
@@ -45044,7 +45044,7 @@
     "p": 0.8744,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-besiktas-hapoel-be-er",
@@ -45056,7 +45056,7 @@
     "p": 0.8465,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-brighton-csu-craiova",
@@ -45073,7 +45073,7 @@
   ],
   "p": 0.62599,
   "odds": 1.61,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-26T14:59:40.099847+01:00"
  },
  {
@@ -45091,7 +45091,7 @@
     "p": 0.8328,
     "odds": 1.1428571428571428,
     "min_odds": 1.24,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-hearts-monaco",
@@ -45103,7 +45103,7 @@
     "p": 0.8352,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-brann-agf",
@@ -45115,7 +45115,7 @@
     "p": 0.8406,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-viktoria-plzen-benfica",
@@ -45127,7 +45127,7 @@
     "p": 0.845,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-brighton-csu-craiova",
@@ -45151,7 +45151,7 @@
     "p": 0.8458,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-besiktas-hapoel-be-er",
@@ -45163,7 +45163,7 @@
     "p": 0.8465,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-dinamo-zagreb-leverkusen",
@@ -45175,7 +45175,7 @@
     "p": 0.8553,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-egnatia-lincoln",
@@ -45187,7 +45187,7 @@
     "p": 0.8614,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-iberia-1999-getafe",
@@ -45199,7 +45199,7 @@
     "p": 0.8744,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-sunderland-jagiellonia",
@@ -45211,7 +45211,7 @@
     "p": 0.8343,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-hoffenheim-sturm-graz",
@@ -45223,7 +45223,7 @@
     "p": 0.8348,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-ofi-crete-anderlecht",
@@ -45235,7 +45235,7 @@
     "p": 0.8378,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-cska-sofia-trabzonspor",
@@ -45247,7 +45247,7 @@
     "p": 0.8385,
     "odds": null,
     "min_odds": 1.23,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E2-20261126-doncaster-huddersfield",
@@ -45271,7 +45271,7 @@
     "p": 0.8443,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-crystal-palace-sociedad",
@@ -45283,7 +45283,7 @@
     "p": 0.8443,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-freiburg-twente",
@@ -45295,7 +45295,7 @@
     "p": 0.8464,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-nijmegen-rennes",
@@ -45307,7 +45307,7 @@
     "p": 0.8474,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-sp-braga-kups",
@@ -45319,7 +45319,7 @@
     "p": 0.8477,
     "odds": null,
     "min_odds": 1.22,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-borac-banja-luka-atalanta",
@@ -45331,7 +45331,7 @@
     "p": 0.8501,
     "odds": null,
     "min_odds": 1.21,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-juventus-omonia-nicosia",
@@ -45343,7 +45343,7 @@
     "p": 0.8563,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-lyon-lillestrom",
@@ -45355,7 +45355,7 @@
     "p": 0.86,
     "odds": null,
     "min_odds": 1.2,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-torreense-celtic",
@@ -45367,12 +45367,12 @@
     "p": 0.8709,
     "odds": null,
     "min_odds": 1.18,
-    "result": null
+    "result": "won"
    }
   ],
   "p": 0.01881,
   "odds": 53.18,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-26T14:59:40.099847+01:00"
  },
  {
@@ -45390,7 +45390,7 @@
     "p": 0.6371,
     "odds": 1.4761904761904763,
     "min_odds": 1.62,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-hearts-monaco",
@@ -45402,7 +45402,7 @@
     "p": 0.6254,
     "odds": 1.526315789473684,
     "min_odds": 1.65,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186836",
@@ -45414,7 +45414,7 @@
     "p": 0.6311,
     "odds": null,
     "min_odds": 1.63,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186834",
@@ -45426,7 +45426,7 @@
     "p": 0.5306,
     "odds": null,
     "min_odds": 1.94,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186833",
@@ -45438,7 +45438,7 @@
     "p": 0.5816,
     "odds": null,
     "min_odds": 1.77,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-ofi-crete-anderlecht",
@@ -45450,7 +45450,7 @@
     "p": 0.5719,
     "odds": null,
     "min_odds": 1.8,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UECL-20261126-inter-f-c-k-benhavn",
@@ -45462,7 +45462,7 @@
     "p": 0.7371,
     "odds": 1.2857142857142856,
     "min_odds": 1.4,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UEL-20261126-hoffenheim-sturm-graz",
@@ -45474,7 +45474,7 @@
     "p": 0.7198,
     "odds": 1.3225806451612903,
     "min_odds": 1.43,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-ferencvaros-nk-celje",
@@ -45486,7 +45486,7 @@
     "p": 0.6889,
     "odds": 1.3773584905660377,
     "min_odds": 1.5,
-    "result": null
+    "result": "lost"
    },
    {
     "match_id": "UECL-20261126-borac-banja-luka-atalanta",
@@ -45498,7 +45498,7 @@
     "p": 0.6723,
     "odds": 1.4166666666666667,
     "min_odds": 1.53,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "UEL-20261126-torreense-celtic",
@@ -45510,7 +45510,7 @@
     "p": 0.5818,
     "odds": 1.6451612903225805,
     "min_odds": 1.77,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "E2-20261126-doncaster-huddersfield",
@@ -45534,7 +45534,7 @@
     "p": 0.507,
     "odds": null,
     "min_odds": 2.03,
-    "result": null
+    "result": "won"
    },
    {
     "match_id": "tn-186831",
@@ -45563,7 +45563,37 @@
   ],
   "p": 0.00053,
   "odds": 1899.41,
-  "result": null,
+  "result": "lost",
   "created": "2026-11-26T14:59:40.099847+01:00"
+ },
+ {
+  "match_id": "tn-186830",
+  "match": "Maria Lourdes Carle - Guiomar Maristany Zuleta De Reales",
+  "league": "WTA · IEB+ Argentina Open",
+  "ko": "2026-11-27T20:30:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6382,
+  "odds": null,
+  "min_odds": 1.61,
+  "result": null,
+  "uid": "stat:tn-186830:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-27T01:39:16.208339+01:00"
+ },
+ {
+  "match_id": "tn-186829",
+  "match": "Laura Samson - Varvara Lepchenko",
+  "league": "WTA · IEB+ Argentina Open",
+  "ko": "2026-11-27T19:00:00+01:00",
+  "key": "jeux-:24.5",
+  "label": "Moins de 24,5 jeux dans le match",
+  "p": 0.6337,
+  "odds": null,
+  "min_odds": 1.63,
+  "result": null,
+  "uid": "stat:tn-186829:jeux-:24.5",
+  "kind": "stat",
+  "created": "2026-11-27T01:39:16.208339+01:00"
  }
 ]
